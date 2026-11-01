@@ -160,5 +160,7 @@
   "定性研究": "C084",
   "research through design": "C085",
   "RtD": "C085",
-  "研究通过设计": "C085"
+  "研究通过设计": "C085",
+  "generated_from": "registry.json",
+  "updated": "2026-11-01"
 }

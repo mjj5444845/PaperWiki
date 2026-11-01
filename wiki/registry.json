@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 25,
-    "concepts": 85,
-    "bibliographic_citation_edges": 10,
+    "papers": 26,
+    "concepts": 86,
+    "bibliographic_citation_edges": 11,
     "concept_candidates": 122
   },
   "entities": [
@@ -656,7 +656,8 @@
       "appears_in_papers": [
         "P06",
         "P11",
-        "P21"
+        "P21",
+        "P365079753571"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -3026,7 +3027,8 @@
       "appears_in_papers": [
         "P16",
         "P17",
-        "P21"
+        "P21",
+        "P365079753571"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -4024,6 +4026,53 @@
         }
       ],
       "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C8bdeffb10c17",
+      "canonical_name": "局部忠实性",
+      "type": "概念",
+      "aliases": [
+        "local ﬁdelity"
+      ],
+      "appears_in_papers": [
+        "P365079753571"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C8bdeffb10c17.md",
+      "html_path": "concepts/C8bdeffb10c17.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Desired Characteristics for Explainers",
+          "quote": "it must at least be locally\nfaithful, i.e. it must correspond to how the model behaves in\nthe vicinity of the instance being predicted."
+        }
+      ],
+      "source_sha256": "365079753571d7d14180e9796cf5d8ae53c5ef157f0a585ef8030b2a126eeccb"
+    },
+    {
+      "id": "P365079753571",
+      "canonical_name": "“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer",
+      "type": "论文",
+      "aliases": [
+        "“我为什么应该信任你？”：解释任意分类器的预测"
+      ],
+      "appears_in_papers": [
+        "P365079753571"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P365079753571.md",
+      "html_path": "papers/P365079753571.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "“Why Should I Trust You?”\nExplaining the Predictions of Any Classiﬁer"
+        }
+      ],
+      "cites_papers": [
+        "P22"
+      ],
+      "source_sha256": "365079753571d7d14180e9796cf5d8ae53c5ef157f0a585ef8030b2a126eeccb"
     }
   ],
   "concept_candidates": [
