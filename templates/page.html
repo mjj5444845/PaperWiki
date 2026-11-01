@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN" data-base="{{ site.base }}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{ page.intro|default('论文百科：以来源为依据的论文与基础概念阅读库。') }}">
+<title>{{ page.title }} — {{ site.name }}</title>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('paperwiki-theme')||'auto'}catch(e){}</script>
+<link rel="stylesheet" href="{{ site.base }}assets/style.css">
+<link rel="stylesheet" href="{{ site.base }}assets/katex/katex.min.css">
+<script defer src="{{ site.base }}assets/katex/katex.min.js"></script>
+<script defer src="{{ site.base }}assets/katex/auto-render.min.js"></script>
+<script defer src="{{ site.base }}assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#article">跳到正文</a>
+<header class="topbar"><button id="menu-toggle" aria-label="展开导航" aria-expanded="false">☰</button><a class="brand" href="{{ site.base }}index.html"><span class="brand-mark" aria-hidden="true">文</span><span>{{ site.name }}<small>PaperWiki · 研究与概念</small></span></a>
+<form class="search" role="search" id="search-form"><label class="sr-only" for="search-input">搜索论文与概念</label><input id="search-input" type="search" placeholder="搜索论文、概念或英文名称" autocomplete="off" aria-controls="search-results"><button aria-label="搜索">搜索</button><div id="search-results" role="region" aria-label="搜索结果" aria-live="polite" hidden></div></form>
+<button id="theme-toggle" aria-label="切换深色模式" title="切换深色模式">◐ <span>外观</span></button></header>
+<div class="layout"><nav id="sidebar" aria-label="主导航"><strong>探索论文百科</strong><a href="{{ site.base }}index.html">首页</a><a href="{{ site.base }}all.html">全部页面</a><a href="{{ site.base }}papers.html">论文列表</a><a href="{{ site.base }}concepts.html">概念列表</a><button id="random-page">随机页面</button><a href="{{ site.base }}help.html">阅读帮助</a><hr><p>连接论文与知识<br>从概念出发，循引用阅读。</p><a href="{{ site.repo_url }}">项目仓库 ↗</a></nav>
+<main id="article"><div class="article-tabs"><span>{{ page.kind }}条目</span><a href="{{ site.base }}all.html">浏览全部页面</a></div><h1>{{ page.title }}</h1><p class="source-line">来自论文百科 · 个人研究阅读项目{% if page.kind == '论文' %} · 依据论文原文整理{% elif page.kind == '概念' %} · 基础概念与本站应用{% endif %}</p><p id="redirect-notice" hidden></p>
+{% if page.infobox %}<aside class="infobox" aria-label="论文信息"><h2>论文信息</h2><table>{% for label,value in page.infobox %}<tr><th scope="row">{{ label }}</th><td>{{ value|safe }}</td></tr>{% endfor %}</table></aside>{% endif %}
+{% if page.lead_content %}<div class="prose lead">{{ page.lead_content|safe }}</div>{% endif %}
+{% if page.toc and page.toc != '<div class="toc">\n<ul></ul>\n</div>' %}<details class="contents" open><summary>目录 <span>显示／隐藏</span></summary>{{ page.toc|safe }}</details>{% endif %}
+<article class="prose">{{ page.content|safe }}</article>
+{% if page.id %}<section class="backlinks"><h2>链入页面</h2>{% if page.backlinks %}<ul>{% for p in page.backlinks|sort(attribute='title') %}<li><a class="internal" data-page="{{ p.id }}" href="{{ site.base }}{{ p.path }}">{{ p.title }}</a></li>{% endfor %}</ul>{% else %}<p>尚无其他正文链接到本页，可从首页索引访问。</p>{% endif %}</section>{% endif %}
+<div class="categories">分类：<a href="{{ site.base }}{{ 'papers' if page.kind == '论文' else 'concepts' if page.kind == '概念' else 'all' }}.html">{{ page.kind }}</a><span>{{ page.field }}</span></div><footer><p>最后更新：{{ page.meta.updated|default('2026-11-01') }}</p><p>论文百科是个人项目，与维基百科及维基媒体基金会无隶属关系。论文版权归原作者及相应权利人；本站不托管原始论文。</p><a href="{{ site.base }}index.html">论文百科</a> · <a href="{{ site.repo_url }}">源代码与页面修订</a></footer></main></div>
+<div id="page-preview" role="tooltip" hidden></div>
+</body></html>

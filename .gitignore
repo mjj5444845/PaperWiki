@@ -1,0 +1,36 @@
+# Raw papers and research data (private local material)
+/papers/
+raw/
+extract/
+Top-25-CHICSCW-paper/
+GoodPaper/
+*.pdf
+sampling/
+analysis/
+planning/
+wiki-style-writer/
+wiki-style-writer.zip
+scripts/
+# Generated site
+site/
+wiki/build/
+# Credentials and local config
+.env
+.env.*
+*.key
+secrets/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Node
+node_modules/
+# System and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Temporary files
+*.log
+tmp/

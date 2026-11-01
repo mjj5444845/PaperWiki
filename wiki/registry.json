@@ -1,0 +1,7950 @@
+{
+  "schema_version": "1.0",
+  "status": "approved_by_user_content_authored",
+  "created_date": "2026-11-01",
+  "input_directory": "Top-25-CHICSCW-paper",
+  "source_of_truth": "extract/P01.json ... extract/P25.json; 1-based physical PDF pages",
+  "matching_policy": {
+    "body_links": "first occurrence only per entity per page; no self links",
+    "see_also": "3–6 related entities; navigation list exempt from prose-first-occurrence restriction",
+    "aliases": "exact canonical resolution, longest match first; no links inside existing links/code/URLs/citations; generic awareness requires collaborative-work context, not algorithm-awareness context",
+    "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
+  },
+  "counts": {
+    "papers": 25,
+    "concepts": 85,
+    "bibliographic_citation_edges": 10,
+    "concept_candidates": 122
+  },
+  "entities": [
+    {
+      "id": "P01",
+      "canonical_name": "Research Through Design as a Method for Interaction Design Research in HCI",
+      "type": "论文",
+      "aliases": [
+        "通过设计开展研究：人机交互中的交互设计研究方法"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "field": "设计研究与方法",
+      "markdown_path": "papers/P01.md",
+      "html_path": "papers/P01.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P02",
+      "canonical_name": "Awareness and Coordination in Shared Workspaces",
+      "type": "论文",
+      "aliases": [
+        "共享工作空间中的感知与协调",
+        "共享反馈",
+        "shared feedback"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "field": "协作系统与组织",
+      "markdown_path": "papers/P02.md",
+      "html_path": "papers/P02.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P03",
+      "canonical_name": "Learning from Notes: Organizational Issues in Groupware Implementation",
+      "type": "论文",
+      "aliases": [
+        "从Notes中学习：群件实施中的组织问题"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "field": "协作系统与组织",
+      "markdown_path": "papers/P03.md",
+      "html_path": "papers/P03.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P04",
+      "canonical_name": "Predicting Tie Strength With Social Media",
+      "type": "论文",
+      "aliases": [
+        "利用社交媒体预测关系强度"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "field": "社交计算",
+      "markdown_path": "papers/P04.md",
+      "html_path": "papers/P04.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P05",
+      "canonical_name": "User-Defined Gestures for Surface Computing",
+      "type": "论文",
+      "aliases": [
+        "用于交互桌面的用户自定义手势",
+        "手势一致度",
+        "agreement score"
+      ],
+      "appears_in_papers": [
+        "P05"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "papers/P05.md",
+      "html_path": "papers/P05.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P06",
+      "canonical_name": "Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design",
+      "type": "论文",
+      "aliases": [
+        "众包图形感知：利用Mechanical Turk评价可视化设计"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "field": "众包与人类计算",
+      "markdown_path": "papers/P06.md",
+      "html_path": "papers/P06.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P07",
+      "canonical_name": "Feminist HCI: Taking Stock and Outlining an Agenda for Design",
+      "type": "论文",
+      "aliases": [
+        "女性主义人机交互：研究现状与设计议程"
+      ],
+      "appears_in_papers": [
+        "P07",
+        "P10",
+        "P11",
+        "P18"
+      ],
+      "field": "设计伦理与社会参与",
+      "markdown_path": "papers/P07.md",
+      "html_path": "papers/P07.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P08",
+      "canonical_name": "Computers are Social Actors",
+      "type": "论文",
+      "aliases": [
+        "计算机是社会行动者"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "papers/P08.md",
+      "html_path": "papers/P08.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P09",
+      "canonical_name": "GroupLens: An Open Architecture for Collaborative Filtering of Netnews",
+      "type": "论文",
+      "aliases": [
+        "GroupLens：网络新闻协同过滤的开放架构",
+        "GroupLens"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P22"
+      ],
+      "field": "推荐与信息筛选",
+      "markdown_path": "papers/P09.md",
+      "html_path": "papers/P09.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P10",
+      "canonical_name": "Hollaback!: The Role of Collective Storytelling Online in a Social Movement Organization",
+      "type": "论文",
+      "aliases": [
+        "Hollaback!：社会运动组织中在线集体叙事的作用",
+        "Hollaback!",
+        "Hollaback!: the role of storytelling online in a social movement organization"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "field": "设计伦理与社会参与",
+      "markdown_path": "papers/P10.md",
+      "html_path": "papers/P10.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P07"
+      ]
+    },
+    {
+      "id": "P11",
+      "canonical_name": "Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk",
+      "type": "论文",
+      "aliases": [
+        "Turkopticon：打破Amazon Mechanical Turk中劳动者的不可见性",
+        "Turkopticon"
+      ],
+      "appears_in_papers": [
+        "P11",
+        "P20"
+      ],
+      "field": "众包与人类计算",
+      "markdown_path": "papers/P11.md",
+      "html_path": "papers/P11.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P07"
+      ]
+    },
+    {
+      "id": "P12",
+      "canonical_name": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+      "type": "论文",
+      "aliases": [
+        "有形比特：通向人与比特和原子之间的无缝界面",
+        "Tangible Bits",
+        "有形比特",
+        "metaDESK",
+        "ambientROOM",
+        "transBOARD"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "papers/P12.md",
+      "html_path": "papers/P12.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P13",
+      "canonical_name": "“I always assumed that I wasn’t really that close to [her]”: Reasoning about Invisible Algorithms in News Feeds",
+      "type": "论文",
+      "aliases": [
+        "“我一直以为自己和她并不亲近”：理解信息流中不可见的算法",
+        "FeedVis"
+      ],
+      "appears_in_papers": [
+        "P13",
+        "P17"
+      ],
+      "field": "社交计算",
+      "markdown_path": "papers/P13.md",
+      "html_path": "papers/P13.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P14",
+      "canonical_name": "The Dark (Patterns) Side of UX Design",
+      "type": "论文",
+      "aliases": [
+        "用户体验设计的暗黑（模式）面"
+      ],
+      "appears_in_papers": [
+        "P14",
+        "P19"
+      ],
+      "field": "设计伦理与社会参与",
+      "markdown_path": "papers/P14.md",
+      "html_path": "papers/P14.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P15",
+      "canonical_name": "Guidelines for Human-AI Interaction",
+      "type": "论文",
+      "aliases": [
+        "人机智能交互设计指南"
+      ],
+      "appears_in_papers": [
+        "P15"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P15.md",
+      "html_path": "papers/P15.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P22",
+        "P24"
+      ]
+    },
+    {
+      "id": "P16",
+      "canonical_name": "Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning",
+      "type": "论文",
+      "aliases": [
+        "解释可解释性：理解数据科学家如何使用机器学习可解释性工具"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P16.md",
+      "html_path": "papers/P16.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P17",
+      "canonical_name": "What is AI Literacy? Competencies and Design Considerations",
+      "type": "论文",
+      "aliases": [
+        "何为人工智能素养？能力与设计考量"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P17.md",
+      "html_path": "papers/P17.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P13"
+      ]
+    },
+    {
+      "id": "P18",
+      "canonical_name": "Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice",
+      "type": "论文",
+      "aliases": [
+        "质性研究中的信度与评定者间信度：CSCW和HCI实践规范及指南"
+      ],
+      "appears_in_papers": [
+        "P18",
+        "P20"
+      ],
+      "field": "设计研究与方法",
+      "markdown_path": "papers/P18.md",
+      "html_path": "papers/P18.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P07"
+      ]
+    },
+    {
+      "id": "P19",
+      "canonical_name": "Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites",
+      "type": "论文",
+      "aliases": [
+        "大规模暗黑模式研究：对1.1万家购物网站的抓取发现"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "field": "设计伦理与社会参与",
+      "markdown_path": "papers/P19.md",
+      "html_path": "papers/P19.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P14"
+      ]
+    },
+    {
+      "id": "P20",
+      "canonical_name": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+      "type": "论文",
+      "aliases": [
+        "“人人都想做模型，而不想做数据”：高风险人工智能中的数据级联",
+        "Data Cascades",
+        "data cascades",
+        "数据级联"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P20.md",
+      "html_path": "papers/P20.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P11",
+        "P18"
+      ]
+    },
+    {
+      "id": "P21",
+      "canonical_name": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+      "type": "论文",
+      "aliases": [
+        "信任还是思考：认知强制功能可减少AI辅助决策中的过度依赖"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P21.md",
+      "html_path": "papers/P21.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P22",
+      "canonical_name": "Explaining Collaborative Filtering Recommendations",
+      "type": "论文",
+      "aliases": [
+        "解释协同过滤推荐"
+      ],
+      "appears_in_papers": [
+        "P22",
+        "P15"
+      ],
+      "field": "推荐与信息筛选",
+      "markdown_path": "papers/P22.md",
+      "html_path": "papers/P22.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": [
+        "P09"
+      ]
+    },
+    {
+      "id": "P23",
+      "canonical_name": "Technology Probes: Inspiring Design for and with Families",
+      "type": "论文",
+      "aliases": [
+        "技术探针：启发为家庭及与家庭共同开展的设计",
+        "Technology Probes",
+        "技术探针",
+        "messageProbe",
+        "videoProbe",
+        "technology probes"
+      ],
+      "appears_in_papers": [
+        "P23"
+      ],
+      "field": "设计研究与方法",
+      "markdown_path": "papers/P23.md",
+      "html_path": "papers/P23.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P24",
+      "canonical_name": "Heuristic Evaluation of User Interfaces",
+      "type": "论文",
+      "aliases": [
+        "用户界面的启发式评估"
+      ],
+      "appears_in_papers": [
+        "P24",
+        "P15"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "papers/P24.md",
+      "html_path": "papers/P24.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "P25",
+      "canonical_name": "Labeling Images with a Computer Game",
+      "type": "论文",
+      "aliases": [
+        "利用计算机游戏标注图像",
+        "ESP game",
+        "ESP Game",
+        "ESP游戏"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "field": "众包与人类计算",
+      "markdown_path": "papers/P25.md",
+      "html_path": "papers/P25.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "section": "Title page / publication notice"
+        }
+      ],
+      "cites_papers": []
+    },
+    {
+      "id": "C001",
+      "canonical_name": "Amazon Mechanical Turk",
+      "type": "概念",
+      "aliases": [
+        "Mechanical Turk",
+        "MTurk"
+      ],
+      "appears_in_papers": [
+        "P06",
+        "P11",
+        "P21"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C001.md",
+      "html_path": "concepts/C001.html",
+      "occurrences": [
+        {
+          "paper_id": "P06",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "MTurk"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                8
+              ],
+              "section": "Procedure"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C002",
+      "canonical_name": "SHAP",
+      "type": "概念",
+      "aliases": [
+        "Shapley additive explanations"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P16的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C002.md",
+      "html_path": "concepts/C002.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "SHAP",
+          "proposed_zh": "SHAP",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Models"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C003",
+      "canonical_name": "三角互证",
+      "type": "概念",
+      "aliases": [
+        "triangulation"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C003.md",
+      "html_path": "concepts/C003.html",
+      "occurrences": [
+        {
+          "paper_id": "P18",
+          "original_term": "triangulation",
+          "proposed_zh": "三角互证",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                9
+              ],
+              "section": "Reliability"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C004",
+      "canonical_name": "主题分析",
+      "type": "概念",
+      "aliases": [
+        "thematic analysis"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C004.md",
+      "html_path": "concepts/C004.html",
+      "occurrences": [
+        {
+          "paper_id": "P18",
+          "original_term": "thematic analysis",
+          "proposed_zh": "主题分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                12
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C005",
+      "canonical_name": "交互设计",
+      "type": "概念",
+      "aliases": [
+        "interaction design"
+      ],
+      "appears_in_papers": [
+        "P01",
+        "P07"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C005.md",
+      "html_path": "concepts/C005.html",
+      "occurrences": [
+        {
+          "paper_id": "P01",
+          "original_term": "interaction design",
+          "proposed_zh": "交互设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definitions"
+            }
+          ]
+        },
+        {
+          "paper_id": "P07",
+          "original_term": "interaction design",
+          "proposed_zh": "交互设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                5
+              ],
+              "section": "Introduction / Qualities"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C006",
+      "canonical_name": "亲和图法",
+      "type": "概念",
+      "aliases": [
+        "affinity diagramming"
+      ],
+      "appears_in_papers": [
+        "P15"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P15的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C006.md",
+      "html_path": "concepts/C006.html",
+      "occurrences": [
+        {
+          "paper_id": "P15",
+          "original_term": "affinity diagramming",
+          "proposed_zh": "亲和图法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Phase 1"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C007",
+      "canonical_name": "人工智能素养",
+      "type": "概念",
+      "aliases": [
+        "AI literacy"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P17的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C007.md",
+      "html_path": "concepts/C007.html",
+      "occurrences": [
+        {
+          "paper_id": "P17",
+          "original_term": "AI literacy",
+          "proposed_zh": "人工智能素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C008",
+      "canonical_name": "人机智能交互",
+      "type": "概念",
+      "aliases": [
+        "human-AI interaction",
+        "人智交互"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P21"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C008.md",
+      "html_path": "concepts/C008.html",
+      "occurrences": [
+        {
+          "paper_id": "P15",
+          "original_term": "human-AI interaction",
+          "proposed_zh": "人机智能交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Guidelines"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "human-AI interaction",
+          "proposed_zh": "人机智能交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Contributions"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C009",
+      "canonical_name": "人类计算",
+      "type": "概念",
+      "aliases": [
+        "human computation"
+      ],
+      "appears_in_papers": [
+        "P11",
+        "P25"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C009.md",
+      "html_path": "concepts/C009.html",
+      "occurrences": [
+        {
+          "paper_id": "P11",
+          "original_term": "human computation",
+          "proposed_zh": "人类计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Related Work"
+            }
+          ]
+        },
+        {
+          "paper_id": "P25",
+          "original_term": "people playing on the Web",
+          "proposed_zh": "人类计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                8
+              ],
+              "section": "Editorial classification of human game-based computation; 原文用people playing on the Web"
+            }
+          ],
+          "mapping_note": "编辑归类为人类计算；不声称原文使用human computation术语。"
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C010",
+      "canonical_name": "以用户为中心的设计",
+      "type": "概念",
+      "aliases": [
+        "user-centered design"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P14"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C010.md",
+      "html_path": "concepts/C010.html",
+      "occurrences": [
+        {
+          "paper_id": "P05",
+          "original_term": "user-centered design",
+          "proposed_zh": "以用户为中心的设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Developing"
+            }
+          ]
+        },
+        {
+          "paper_id": "P14",
+          "original_term": "user-centered design",
+          "proposed_zh": "以用户为中心的设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "Dark Patterns / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C011",
+      "canonical_name": "价值敏感设计",
+      "type": "概念",
+      "aliases": [
+        "value-sensitive design"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P14的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C011.md",
+      "html_path": "concepts/C011.html",
+      "occurrences": [
+        {
+          "paper_id": "P14",
+          "original_term": "value-sensitive design",
+          "proposed_zh": "价值敏感设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Value-Sensitive Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C012",
+      "canonical_name": "众包",
+      "type": "概念",
+      "aliases": [
+        "crowdsourcing"
+      ],
+      "appears_in_papers": [
+        "P06",
+        "P11"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C012.md",
+      "html_path": "concepts/C012.html",
+      "occurrences": [
+        {
+          "paper_id": "P06",
+          "original_term": "crowdsourcing",
+          "proposed_zh": "众包",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction / MTurk"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "crowdsourcing",
+          "proposed_zh": "众包",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C013",
+      "canonical_name": "信息不对称",
+      "type": "概念",
+      "aliases": [
+        "information asymmetry"
+      ],
+      "appears_in_papers": [
+        "P11"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P11的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C013.md",
+      "html_path": "concepts/C013.html",
+      "occurrences": [
+        {
+          "paper_id": "P11",
+          "original_term": "information asymmetry",
+          "proposed_zh": "信息不对称",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Platform"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C014",
+      "canonical_name": "信息可视化",
+      "type": "概念",
+      "aliases": [
+        "information visualization"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P13的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C014.md",
+      "html_path": "concepts/C014.html",
+      "occurrences": [
+        {
+          "paper_id": "P13",
+          "original_term": "information visualization",
+          "proposed_zh": "信息可视化",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "FeedVis"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C015",
+      "canonical_name": "共享工作空间",
+      "type": "概念",
+      "aliases": [
+        "shared workspace"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P02的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C015.md",
+      "html_path": "concepts/C015.html",
+      "occurrences": [
+        {
+          "paper_id": "P02",
+          "original_term": "shared workspace",
+          "proposed_zh": "共享工作空间",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                7
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C016",
+      "canonical_name": "关系强度",
+      "type": "概念",
+      "aliases": [
+        "tie strength"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P04的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C016.md",
+      "html_path": "concepts/C016.html",
+      "occurrences": [
+        {
+          "paper_id": "P04",
+          "original_term": "tie strength",
+          "proposed_zh": "关系强度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Tie Strength"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C017",
+      "canonical_name": "冷启动",
+      "type": "概念",
+      "aliases": [
+        "start-up interval"
+      ],
+      "appears_in_papers": [
+        "P09"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P09的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C017.md",
+      "html_path": "concepts/C017.html",
+      "occurrences": [
+        {
+          "paper_id": "P09",
+          "original_term": "start-up interval",
+          "proposed_zh": "冷启动",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Predicting Scores"
+            }
+          ]
+        }
+      ],
+      "scope_note": "冷启动为编辑对应术语；P09原文称start-up interval。"
+    },
+    {
+      "id": "C018",
+      "canonical_name": "出声思考法",
+      "type": "概念",
+      "aliases": [
+        "think-aloud protocol",
+        "think-aloud method"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P24"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C018.md",
+      "html_path": "concepts/C018.html",
+      "occurrences": [
+        {
+          "paper_id": "P05",
+          "original_term": "think-aloud protocol",
+          "proposed_zh": "出声思考法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3,
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "think-aloud method",
+          "proposed_zh": "出声思考法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C019",
+      "canonical_name": "半结构访谈",
+      "type": "概念",
+      "aliases": [
+        "semi-structured interviews",
+        "半结构式访谈"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P20的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C019.md",
+      "html_path": "concepts/C019.html",
+      "occurrences": [
+        {
+          "paper_id": "P20",
+          "original_term": "semi-structured interviews",
+          "proposed_zh": "半结构访谈",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Methodology"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C020",
+      "canonical_name": "协作感知",
+      "type": "概念",
+      "aliases": [
+        "awareness"
+      ],
+      "appears_in_papers": [
+        "P02",
+        "P23"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C020.md",
+      "html_path": "concepts/C020.html",
+      "occurrences": [
+        {
+          "paper_id": "P02",
+          "original_term": "awareness",
+          "proposed_zh": "协作感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "awareness",
+          "proposed_zh": "协作感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / Design"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C021",
+      "canonical_name": "协同过滤",
+      "type": "概念",
+      "aliases": [
+        "collaborative filtering",
+        "ACF",
+        "自动协同过滤"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P22"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C021.md",
+      "html_path": "concepts/C021.html",
+      "occurrences": [
+        {
+          "paper_id": "P09",
+          "original_term": "collaborative filtering",
+          "proposed_zh": "协同过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Predicting Scores"
+            }
+          ]
+        },
+        {
+          "paper_id": "P22",
+          "original_term": "collaborative filtering",
+          "proposed_zh": "协同过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C022",
+      "canonical_name": "原型设计",
+      "type": "概念",
+      "aliases": [
+        "prototyping"
+      ],
+      "appears_in_papers": [
+        "P23",
+        "P24"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C022.md",
+      "html_path": "concepts/C022.html",
+      "occurrences": [
+        {
+          "paper_id": "P23",
+          "original_term": "prototyping",
+          "proposed_zh": "原型设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Features / Workshops"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "prototyping",
+          "proposed_zh": "原型设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C023",
+      "canonical_name": "参与式行动研究",
+      "type": "概念",
+      "aliases": [
+        "participatory action research"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P10的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C023.md",
+      "html_path": "concepts/C023.html",
+      "occurrences": [
+        {
+          "paper_id": "P10",
+          "original_term": "participatory action research",
+          "proposed_zh": "参与式行动研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C024",
+      "canonical_name": "参与式设计",
+      "type": "概念",
+      "aliases": [
+        "participatory design",
+        "co-design",
+        "协同设计"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P07",
+        "P23"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C024.md",
+      "html_path": "concepts/C024.html",
+      "occurrences": [
+        {
+          "paper_id": "P05",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Eliciting Input"
+            }
+          ]
+        },
+        {
+          "paper_id": "P07",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Participation"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C025",
+      "canonical_name": "双加工理论",
+      "type": "概念",
+      "aliases": [
+        "dual-process theory",
+        "dual process theory"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P19",
+        "P21"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C025.md",
+      "html_path": "concepts/C025.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "dual-process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Deliberative Reasoning"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "dual process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Related Work"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "dual-process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C026",
+      "canonical_name": "可用性",
+      "type": "概念",
+      "aliases": [
+        "usability"
+      ],
+      "appears_in_papers": [
+        "P24"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P24的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C026.md",
+      "html_path": "concepts/C026.html",
+      "occurrences": [
+        {
+          "paper_id": "P24",
+          "original_term": "usability",
+          "proposed_zh": "可用性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C027",
+      "canonical_name": "可用性测试",
+      "type": "概念",
+      "aliases": [
+        "usability testing"
+      ],
+      "appears_in_papers": [
+        "P08",
+        "P24"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C027.md",
+      "html_path": "concepts/C027.html",
+      "occurrences": [
+        {
+          "paper_id": "P08",
+          "original_term": "usability testing",
+          "proposed_zh": "可用性测试",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Design Implications"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "usability testing",
+          "proposed_zh": "可用性测试",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C028",
+      "canonical_name": "启发式评估",
+      "type": "概念",
+      "aliases": [
+        "heuristic evaluation",
+        "启发式评价"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P24"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C028.md",
+      "html_path": "concepts/C028.html",
+      "occurrences": [
+        {
+          "paper_id": "P15",
+          "original_term": "heuristic evaluation",
+          "proposed_zh": "启发式评估",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "section": "Phases 2–3"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "heuristic evaluation",
+          "proposed_zh": "启发式评估",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C029",
+      "canonical_name": "图像标注",
+      "type": "概念",
+      "aliases": [
+        "image labeling"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P25的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C029.md",
+      "html_path": "concepts/C029.html",
+      "occurrences": [
+        {
+          "paper_id": "P25",
+          "original_term": "image labeling",
+          "proposed_zh": "图像标注",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C030",
+      "canonical_name": "图形感知",
+      "type": "概念",
+      "aliases": [
+        "graphical perception"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P06的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C030.md",
+      "html_path": "concepts/C030.html",
+      "occurrences": [
+        {
+          "paper_id": "P06",
+          "original_term": "graphical perception",
+          "proposed_zh": "图形感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Graphical Perception"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C031",
+      "canonical_name": "基于内容的过滤",
+      "type": "概念",
+      "aliases": [
+        "content filters",
+        "content-based filtering"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P22"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C031.md",
+      "html_path": "concepts/C031.html",
+      "occurrences": [
+        {
+          "paper_id": "P09",
+          "original_term": "content filters",
+          "proposed_zh": "基于内容的过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                6
+              ],
+              "section": "Related Work / Predicting Scores"
+            }
+          ]
+        },
+        {
+          "paper_id": "P22",
+          "original_term": "content-based filtering",
+          "proposed_zh": "基于内容的过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C032",
+      "canonical_name": "增强现实",
+      "type": "概念",
+      "aliases": [
+        "augmented reality"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C032.md",
+      "html_path": "concepts/C032.html",
+      "occurrences": [
+        {
+          "paper_id": "P12",
+          "original_term": "augmented reality",
+          "proposed_zh": "增强现实",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Related Work"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C033",
+      "canonical_name": "声誉系统",
+      "type": "概念",
+      "aliases": [
+        "reputation systems"
+      ],
+      "appears_in_papers": [
+        "P11"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P11的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C033.md",
+      "html_path": "concepts/C033.html",
+      "occurrences": [
+        {
+          "paper_id": "P11",
+          "original_term": "reputation systems",
+          "proposed_zh": "声誉系统",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                6
+              ],
+              "section": "Related Work / Design"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C034",
+      "canonical_name": "女性主义人机交互",
+      "type": "概念",
+      "aliases": [
+        "feminist HCI"
+      ],
+      "appears_in_papers": [
+        "P07",
+        "P10",
+        "P11",
+        "P18"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C034.md",
+      "html_path": "concepts/C034.html",
+      "occurrences": [
+        {
+          "paper_id": "P07",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / State of the Art"
+            }
+          ]
+        },
+        {
+          "paper_id": "P10",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Design"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                14
+              ],
+              "section": "Critiques"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C035",
+      "canonical_name": "女性主义立场理论",
+      "type": "概念",
+      "aliases": [
+        "feminist standpoint theory"
+      ],
+      "appears_in_papers": [
+        "P07"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P07的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C035.md",
+      "html_path": "concepts/C035.html",
+      "occurrences": [
+        {
+          "paper_id": "P07",
+          "original_term": "feminist standpoint theory",
+          "proposed_zh": "女性主义立场理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Feminist Epistemologies"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C036",
+      "canonical_name": "广义可加模型",
+      "type": "概念",
+      "aliases": [
+        "generalized additive models"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P16的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C036.md",
+      "html_path": "concepts/C036.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "generalized additive models",
+          "proposed_zh": "广义可加模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Models"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C037",
+      "canonical_name": "开放编码",
+      "type": "概念",
+      "aliases": [
+        "open coding"
+      ],
+      "appears_in_papers": [
+        "P13",
+        "P14",
+        "P16",
+        "P18"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C037.md",
+      "html_path": "concepts/C037.html",
+      "occurrences": [
+        {
+          "paper_id": "P13",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P14",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P16",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                12,
+                15
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C038",
+      "canonical_name": "心智模型",
+      "type": "概念",
+      "aliases": [
+        "mental models",
+        "mental model",
+        "心理模型"
+      ],
+      "appears_in_papers": [
+        "P03",
+        "P05",
+        "P13",
+        "P16",
+        "P17"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C038.md",
+      "html_path": "concepts/C038.html",
+      "occurrences": [
+        {
+          "paper_id": "P03",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Cognitive Elements"
+            }
+          ]
+        },
+        {
+          "paper_id": "P05",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                8
+              ],
+              "section": "Introduction / Mental Model"
+            }
+          ]
+        },
+        {
+          "paper_id": "P13",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                6
+              ],
+              "section": "Background / RQ1"
+            }
+          ]
+        },
+        {
+          "paper_id": "P16",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                8,
+                9
+              ],
+              "section": "Mental Models"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "How AI Works"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C039",
+      "canonical_name": "情境调查",
+      "type": "概念",
+      "aliases": [
+        "contextual inquiry"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P16的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C039.md",
+      "html_path": "concepts/C039.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "contextual inquiry",
+          "proposed_zh": "情境调查",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Study 1"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C040",
+      "canonical_name": "手势引出",
+      "type": "概念",
+      "aliases": [
+        "gesture elicitation"
+      ],
+      "appears_in_papers": [
+        "P05"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P05的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C040.md",
+      "html_path": "concepts/C040.html",
+      "occurrences": [
+        {
+          "paper_id": "P05",
+          "original_term": "gesture elicitation",
+          "proposed_zh": "手势引出",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Method"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C041",
+      "canonical_name": "扎根理论",
+      "type": "概念",
+      "aliases": [
+        "grounded theory"
+      ],
+      "appears_in_papers": [
+        "P10",
+        "P18"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C041.md",
+      "html_path": "concepts/C041.html",
+      "occurrences": [
+        {
+          "paper_id": "P10",
+          "original_term": "grounded theory",
+          "proposed_zh": "扎根理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "grounded theory",
+          "proposed_zh": "扎根理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                15
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C042",
+      "canonical_name": "批判性设计",
+      "type": "概念",
+      "aliases": [
+        "critical design"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P14的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C042.md",
+      "html_path": "concepts/C042.html",
+      "occurrences": [
+        {
+          "paper_id": "P14",
+          "original_term": "critical design",
+          "proposed_zh": "批判性设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Critical Design"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C043",
+      "canonical_name": "技术债务",
+      "type": "概念",
+      "aliases": [
+        "technical debt"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P20的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C043.md",
+      "html_path": "concepts/C043.html",
+      "occurrences": [
+        {
+          "paper_id": "P20",
+          "original_term": "technical debt",
+          "proposed_zh": "技术债务",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C044",
+      "canonical_name": "技术框架",
+      "type": "概念",
+      "aliases": [
+        "technological frames"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P03的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C044.md",
+      "html_path": "concepts/C044.html",
+      "occurrences": [
+        {
+          "paper_id": "P03",
+          "original_term": "technological frames",
+          "proposed_zh": "技术框架",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Cognitive Elements"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C045",
+      "canonical_name": "拟人化",
+      "type": "概念",
+      "aliases": [
+        "anthropomorphism"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P08的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C045.md",
+      "html_path": "concepts/C045.html",
+      "occurrences": [
+        {
+          "paper_id": "P08",
+          "original_term": "anthropomorphism",
+          "proposed_zh": "拟人化",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Keywords"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C046",
+      "canonical_name": "持续比较法",
+      "type": "概念",
+      "aliases": [
+        "constant comparative method"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P14的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C046.md",
+      "html_path": "concepts/C046.html",
+      "occurrences": [
+        {
+          "paper_id": "P14",
+          "original_term": "constant comparative method",
+          "proposed_zh": "持续比较法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C047",
+      "canonical_name": "推荐系统",
+      "type": "概念",
+      "aliases": [
+        "recommender systems"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P22的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C047.md",
+      "html_path": "concepts/C047.html",
+      "occurrences": [
+        {
+          "paper_id": "P22",
+          "original_term": "recommender systems",
+          "proposed_zh": "推荐系统",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C048",
+      "canonical_name": "推荐解释",
+      "type": "概念",
+      "aliases": [],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P22的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C048.md",
+      "html_path": "concepts/C048.html",
+      "occurrences": [
+        {
+          "paper_id": "P22",
+          "original_term": "explanations",
+          "proposed_zh": "推荐解释",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C049",
+      "canonical_name": "数据素养",
+      "type": "概念",
+      "aliases": [
+        "data literacy"
+      ],
+      "appears_in_papers": [
+        "P17",
+        "P20"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C049.md",
+      "html_path": "concepts/C049.html",
+      "occurrences": [
+        {
+          "paper_id": "P17",
+          "original_term": "data literacy",
+          "proposed_zh": "数据素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                5,
+                6
+              ],
+              "section": "Definition / ML"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "data literacy",
+          "proposed_zh": "数据素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7,
+                9,
+                11
+              ],
+              "section": "Findings / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C050",
+      "canonical_name": "数据质量",
+      "type": "概念",
+      "aliases": [
+        "data quality"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P20的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C050.md",
+      "html_path": "concepts/C050.html",
+      "occurrences": [
+        {
+          "paper_id": "P20",
+          "original_term": "data quality",
+          "proposed_zh": "数据质量",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C051",
+      "canonical_name": "数据集文档",
+      "type": "概念",
+      "aliases": [
+        "dataset documentation"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P20的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C051.md",
+      "html_path": "concepts/C051.html",
+      "occurrences": [
+        {
+          "paper_id": "P20",
+          "original_term": "dataset documentation",
+          "proposed_zh": "数据集文档",
+          "evidence": [
+            {
+              "pdf_pages": [
+                9,
+                11,
+                12
+              ],
+              "section": "Findings / Discussion"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C052",
+      "canonical_name": "文化探针",
+      "type": "概念",
+      "aliases": [
+        "cultural probes"
+      ],
+      "appears_in_papers": [
+        "P23"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P23的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C052.md",
+      "html_path": "concepts/C052.html",
+      "occurrences": [
+        {
+          "paper_id": "P23",
+          "original_term": "cultural probes",
+          "proposed_zh": "文化探针",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C053",
+      "canonical_name": "无障碍",
+      "type": "概念",
+      "aliases": [
+        "accessibility"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P25的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C053.md",
+      "html_path": "concepts/C053.html",
+      "occurrences": [
+        {
+          "paper_id": "P25",
+          "original_term": "accessibility",
+          "proposed_zh": "无障碍",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                7
+              ],
+              "section": "Applications"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C054",
+      "canonical_name": "普通最小二乘回归",
+      "type": "概念",
+      "aliases": [
+        "ordinary least squares regression"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P04的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C054.md",
+      "html_path": "concepts/C054.html",
+      "occurrences": [
+        {
+          "paper_id": "P04",
+          "original_term": "ordinary least squares regression",
+          "proposed_zh": "普通最小二乘回归",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Statistical Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C055",
+      "canonical_name": "暗黑模式",
+      "type": "概念",
+      "aliases": [
+        "dark patterns",
+        "dark pattern",
+        "黑暗模式",
+        "欺骗性设计"
+      ],
+      "appears_in_papers": [
+        "P14",
+        "P19"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C055.md",
+      "html_path": "concepts/C055.html",
+      "occurrences": [
+        {
+          "paper_id": "P14",
+          "original_term": "dark patterns",
+          "proposed_zh": "暗黑模式",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "dark patterns",
+          "proposed_zh": "暗黑模式",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C056",
+      "canonical_name": "有形用户界面",
+      "type": "概念",
+      "aliases": [
+        "tangible user interface",
+        "TUI",
+        "实体用户界面"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C056.md",
+      "html_path": "concepts/C056.html",
+      "occurrences": [
+        {
+          "paper_id": "P12",
+          "original_term": "tangible user interface",
+          "proposed_zh": "有形用户界面",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C057",
+      "canonical_name": "机器学习",
+      "type": "概念",
+      "aliases": [
+        "machine learning"
+      ],
+      "appears_in_papers": [
+        "P17",
+        "P20",
+        "P25"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C057.md",
+      "html_path": "concepts/C057.html",
+      "occurrences": [
+        {
+          "paper_id": "P17",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "How AI Works"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P25",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C058",
+      "canonical_name": "棘手问题",
+      "type": "概念",
+      "aliases": [
+        "wicked problems"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P01的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C058.md",
+      "html_path": "concepts/C058.html",
+      "occurrences": [
+        {
+          "paper_id": "P01",
+          "original_term": "wicked problems",
+          "proposed_zh": "棘手问题",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                5
+              ],
+              "section": "Literature / Model"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C059",
+      "canonical_name": "概念模型",
+      "type": "概念",
+      "aliases": [
+        "conceptual model"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P22的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C059.md",
+      "html_path": "concepts/C059.html",
+      "occurrences": [
+        {
+          "paper_id": "P22",
+          "original_term": "conceptual model",
+          "proposed_zh": "概念模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                5
+              ],
+              "section": "Model"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C060",
+      "canonical_name": "模型可解释性",
+      "type": "概念",
+      "aliases": [
+        "interpretability",
+        "explainable AI",
+        "XAI",
+        "机器学习可解释性"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P17",
+        "P21"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C060.md",
+      "html_path": "concepts/C060.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "interpretability",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "explainable AI",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                8
+              ],
+              "section": "Explainability"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "explainable AI",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                7
+              ],
+              "section": "Background / Conditions"
+            }
+          ]
+        }
+      ],
+      "scope_note": "按本文用法组织可解释性与解释型AI；不声称不同学科对术语有统一定义。"
+    },
+    {
+      "id": "C061",
+      "canonical_name": "民族志",
+      "type": "概念",
+      "aliases": [
+        "ethnography"
+      ],
+      "appears_in_papers": [
+        "P18",
+        "P23"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C061.md",
+      "html_path": "concepts/C061.html",
+      "occurrences": [
+        {
+          "paper_id": "P18",
+          "original_term": "ethnography",
+          "proposed_zh": "民族志",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                14
+              ],
+              "section": "Methods"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "ethnography",
+          "proposed_zh": "民族志",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C062",
+      "canonical_name": "泛在计算",
+      "type": "概念",
+      "aliases": [
+        "ubiquitous computing"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C062.md",
+      "html_path": "concepts/C062.html",
+      "occurrences": [
+        {
+          "paper_id": "P12",
+          "original_term": "ubiquitous computing",
+          "proposed_zh": "泛在计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C063",
+      "canonical_name": "混合方法研究",
+      "type": "概念",
+      "aliases": [
+        "mixed methods"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P13的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C063.md",
+      "html_path": "concepts/C063.html",
+      "occurrences": [
+        {
+          "paper_id": "P13",
+          "original_term": "mixed methods",
+          "proposed_zh": "混合方法研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C064",
+      "canonical_name": "环境显示",
+      "type": "概念",
+      "aliases": [
+        "ambient media"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C064.md",
+      "html_path": "concepts/C064.html",
+      "occurrences": [
+        {
+          "paper_id": "P12",
+          "original_term": "ambient media",
+          "proposed_zh": "环境显示",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                5,
+                6
+              ],
+              "section": "Concepts / ambientROOM"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C065",
+      "canonical_name": "直接操纵",
+      "type": "概念",
+      "aliases": [
+        "direct manipulation"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C065.md",
+      "html_path": "concepts/C065.html",
+      "occurrences": [
+        {
+          "paper_id": "P12",
+          "original_term": "direct manipulation",
+          "proposed_zh": "直接操纵",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Related Work / metaDESK"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C066",
+      "canonical_name": "社会网络分析",
+      "type": "概念",
+      "aliases": [
+        "social network analysis"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P04的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C066.md",
+      "html_path": "concepts/C066.html",
+      "occurrences": [
+        {
+          "paper_id": "P04",
+          "original_term": "social network analysis",
+          "proposed_zh": "社会网络分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                9
+              ],
+              "section": "Theoretical Implications"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C067",
+      "canonical_name": "社会规范",
+      "type": "概念",
+      "aliases": [
+        "social norms"
+      ],
+      "appears_in_papers": [
+        "P08",
+        "P15"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C067.md",
+      "html_path": "concepts/C067.html",
+      "occurrences": [
+        {
+          "paper_id": "P08",
+          "original_term": "social norms",
+          "proposed_zh": "社会规范",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                6
+              ],
+              "section": "Study 1 / Implications"
+            }
+          ]
+        },
+        {
+          "paper_id": "P15",
+          "original_term": "social norms",
+          "proposed_zh": "社会规范",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "G5"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C068",
+      "canonical_name": "社会运动框架",
+      "type": "概念",
+      "aliases": [
+        "framing"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P10的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C068.md",
+      "html_path": "concepts/C068.html",
+      "occurrences": [
+        {
+          "paper_id": "P10",
+          "original_term": "framing",
+          "proposed_zh": "社会运动框架",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Social Movement Theory"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C069",
+      "canonical_name": "科学技术研究",
+      "type": "概念",
+      "aliases": [
+        "science and technology studies"
+      ],
+      "appears_in_papers": [
+        "P07"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P07的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C069.md",
+      "html_path": "concepts/C069.html",
+      "occurrences": [
+        {
+          "paper_id": "P07",
+          "original_term": "science and technology studies",
+          "proposed_zh": "科学技术研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Feminism in STS"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C070",
+      "canonical_name": "算法偏差",
+      "type": "概念",
+      "aliases": [
+        "algorithmic bias",
+        "算法偏见"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P17"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C070.md",
+      "html_path": "concepts/C070.html",
+      "occurrences": [
+        {
+          "paper_id": "P15",
+          "original_term": "algorithmic bias",
+          "proposed_zh": "算法偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "G6"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "algorithmic bias",
+          "proposed_zh": "算法偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "section": "Ethics"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C071",
+      "canonical_name": "算法觉察",
+      "type": "概念",
+      "aliases": [
+        "algorithm awareness"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P13的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C071.md",
+      "html_path": "concepts/C071.html",
+      "occurrences": [
+        {
+          "paper_id": "P13",
+          "original_term": "algorithm awareness",
+          "proposed_zh": "算法觉察",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / RQ1"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C072",
+      "canonical_name": "算法透明度",
+      "type": "概念",
+      "aliases": [
+        "algorithm transparency"
+      ],
+      "appears_in_papers": [
+        "P13",
+        "P15",
+        "P17"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C072.md",
+      "html_path": "concepts/C072.html",
+      "occurrences": [
+        {
+          "paper_id": "P13",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                9
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        },
+        {
+          "paper_id": "P15",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                9
+              ],
+              "section": "Related Work / Results"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7,
+                8
+              ],
+              "section": "Transparency"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C073",
+      "canonical_name": "群件",
+      "type": "概念",
+      "aliases": [
+        "groupware"
+      ],
+      "appears_in_papers": [
+        "P02",
+        "P03"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C073.md",
+      "html_path": "concepts/C073.html",
+      "occurrences": [
+        {
+          "paper_id": "P02",
+          "original_term": "groupware",
+          "proposed_zh": "群件",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Mechanisms"
+            }
+          ]
+        },
+        {
+          "paper_id": "P03",
+          "original_term": "groupware",
+          "proposed_zh": "群件",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C074",
+      "canonical_name": "聚类分析",
+      "type": "概念",
+      "aliases": [
+        "clustering"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P19的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C074.md",
+      "html_path": "concepts/C074.html",
+      "occurrences": [
+        {
+          "paper_id": "P19",
+          "original_term": "clustering",
+          "proposed_zh": "聚类分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Data Analysis"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C075",
+      "canonical_name": "自动化过度依赖",
+      "type": "概念",
+      "aliases": [
+        "overreliance"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P21的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C075.md",
+      "html_path": "concepts/C075.html",
+      "occurrences": [
+        {
+          "paper_id": "P21",
+          "original_term": "overreliance",
+          "proposed_zh": "自动化过度依赖",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                9
+              ],
+              "section": "Introduction / Measures"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C076",
+      "canonical_name": "范围综述",
+      "type": "概念",
+      "aliases": [
+        "scoping studies"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P17的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C076.md",
+      "html_path": "concepts/C076.html",
+      "occurrences": [
+        {
+          "paper_id": "P17",
+          "original_term": "scoping studies",
+          "proposed_zh": "范围综述",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Methodology"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C077",
+      "canonical_name": "计算机视觉",
+      "type": "概念",
+      "aliases": [
+        "computer vision"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P25的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C077.md",
+      "html_path": "concepts/C077.html",
+      "occurrences": [
+        {
+          "paper_id": "P25",
+          "original_term": "computer vision",
+          "proposed_zh": "计算机视觉",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C078",
+      "canonical_name": "认知偏差",
+      "type": "概念",
+      "aliases": [
+        "cognitive biases"
+      ],
+      "appears_in_papers": [
+        "P19",
+        "P21"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C078.md",
+      "html_path": "concepts/C078.html",
+      "occurrences": [
+        {
+          "paper_id": "P19",
+          "original_term": "cognitive biases",
+          "proposed_zh": "认知偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "Taxonomy"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "cognitive biases",
+          "proposed_zh": "认知偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C079",
+      "canonical_name": "认知强制功能",
+      "type": "概念",
+      "aliases": [
+        "cognitive forcing functions"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P21的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C079.md",
+      "html_path": "concepts/C079.html",
+      "occurrences": [
+        {
+          "paper_id": "P21",
+          "original_term": "cognitive forcing functions",
+          "proposed_zh": "认知强制功能",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                4
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C080",
+      "canonical_name": "认知负荷",
+      "type": "概念",
+      "aliases": [
+        "cognitive load"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P16的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C080.md",
+      "html_path": "concepts/C080.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "cognitive load",
+          "proposed_zh": "认知负荷",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Study 2"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C081",
+      "canonical_name": "认知需求",
+      "type": "概念",
+      "aliases": [
+        "Need for Cognition",
+        "NFC"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P21的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C081.md",
+      "html_path": "concepts/C081.html",
+      "occurrences": [
+        {
+          "paper_id": "P21",
+          "original_term": "Need for Cognition",
+          "proposed_zh": "认知需求",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                12
+              ],
+              "section": "Audit"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C082",
+      "canonical_name": "评定者间信度",
+      "type": "概念",
+      "aliases": [
+        "inter-rater reliability",
+        "IRR",
+        "编码者间信度"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "inclusion_criterion": "multiple_papers",
+      "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
+      "markdown_path": "concepts/C082.md",
+      "html_path": "concepts/C082.html",
+      "occurrences": [
+        {
+          "paper_id": "P16",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Methods"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                4
+              ],
+              "section": "Definition"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                11
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C083",
+      "canonical_name": "说服性技术",
+      "type": "概念",
+      "aliases": [
+        "persuasive technology"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P14的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C083.md",
+      "html_path": "concepts/C083.html",
+      "occurrences": [
+        {
+          "paper_id": "P14",
+          "original_term": "persuasive technology",
+          "proposed_zh": "说服性技术",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Persuasive Design"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C084",
+      "canonical_name": "质性研究",
+      "type": "概念",
+      "aliases": [
+        "qualitative research",
+        "定性研究"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C084.md",
+      "html_path": "concepts/C084.html",
+      "occurrences": [
+        {
+          "paper_id": "P18",
+          "original_term": "qualitative research",
+          "proposed_zh": "质性研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    },
+    {
+      "id": "C085",
+      "canonical_name": "通过设计开展研究",
+      "type": "概念",
+      "aliases": [
+        "research through design",
+        "RtD",
+        "研究通过设计"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "inclusion_criterion": "essential_prerequisite",
+      "inclusion_rationale": "理解P01的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
+      "markdown_path": "concepts/C085.md",
+      "html_path": "concepts/C085.html",
+      "occurrences": [
+        {
+          "paper_id": "P01",
+          "original_term": "research through design",
+          "proposed_zh": "通过设计开展研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                5
+              ],
+              "section": "Introduction / Model"
+            }
+          ]
+        }
+      ],
+      "scope_note": "名称与英文别名映射需以页面导言说明，不以字面匹配推出同义。"
+    }
+  ],
+  "concept_candidates": [
+    {
+      "canonical_name": "Amazon Mechanical Turk",
+      "original_terms": [
+        "Mechanical Turk"
+      ],
+      "appears_in_papers": [
+        "P06",
+        "P11",
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "MTurk"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "Mechanical Turk",
+          "proposed_zh": "Amazon Mechanical Turk",
+          "evidence": [
+            {
+              "pdf_pages": [
+                8
+              ],
+              "section": "Procedure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "SHAP",
+      "original_terms": [
+        "SHAP"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "SHAP",
+          "proposed_zh": "SHAP",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Models"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "三角互证",
+      "original_terms": [
+        "triangulation"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P18",
+          "original_term": "triangulation",
+          "proposed_zh": "三角互证",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                9
+              ],
+              "section": "Reliability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "主成分分析",
+      "original_terms": [
+        "principal component analysis"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P19",
+          "original_term": "principal component analysis",
+          "proposed_zh": "主成分分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Representation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "主题分析",
+      "original_terms": [
+        "thematic analysis"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P18",
+          "original_term": "thematic analysis",
+          "proposed_zh": "主题分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                12
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "交互设计",
+      "original_terms": [
+        "interaction design"
+      ],
+      "appears_in_papers": [
+        "P01",
+        "P07"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "interaction design",
+          "proposed_zh": "交互设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definitions"
+            }
+          ]
+        },
+        {
+          "paper_id": "P07",
+          "original_term": "interaction design",
+          "proposed_zh": "交互设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                5
+              ],
+              "section": "Introduction / Qualities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "亲和图法",
+      "original_terms": [
+        "affinity diagramming"
+      ],
+      "appears_in_papers": [
+        "P15"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P15",
+          "original_term": "affinity diagramming",
+          "proposed_zh": "亲和图法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Phase 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "人工智能素养",
+      "original_terms": [
+        "AI literacy"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P17",
+          "original_term": "AI literacy",
+          "proposed_zh": "人工智能素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "人机智能交互",
+      "original_terms": [
+        "human-AI interaction"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P15",
+          "original_term": "human-AI interaction",
+          "proposed_zh": "人机智能交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Guidelines"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "human-AI interaction",
+          "proposed_zh": "人机智能交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Contributions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "人类计算",
+      "original_terms": [
+        "human computation",
+        "people playing on the Web"
+      ],
+      "appears_in_papers": [
+        "P11",
+        "P25"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P11",
+          "original_term": "human computation",
+          "proposed_zh": "人类计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Related Work"
+            }
+          ]
+        },
+        {
+          "paper_id": "P25",
+          "original_term": "people playing on the Web",
+          "proposed_zh": "人类计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                8
+              ],
+              "section": "Editorial classification of human game-based computation; 原文用people playing on the Web"
+            }
+          ],
+          "mapping_note": "编辑归类为人类计算；不声称原文使用human computation术语。"
+        }
+      ]
+    },
+    {
+      "canonical_name": "以用户为中心的设计",
+      "original_terms": [
+        "user-centered design"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P14"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P05",
+          "original_term": "user-centered design",
+          "proposed_zh": "以用户为中心的设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Developing"
+            }
+          ]
+        },
+        {
+          "paper_id": "P14",
+          "original_term": "user-centered design",
+          "proposed_zh": "以用户为中心的设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "Dark Patterns / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "价值敏感设计",
+      "original_terms": [
+        "value-sensitive design"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P14",
+          "original_term": "value-sensitive design",
+          "proposed_zh": "价值敏感设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Value-Sensitive Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "众包",
+      "original_terms": [
+        "crowdsourcing"
+      ],
+      "appears_in_papers": [
+        "P06",
+        "P11"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "crowdsourcing",
+          "proposed_zh": "众包",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction / MTurk"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "crowdsourcing",
+          "proposed_zh": "众包",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "信息不对称",
+      "original_terms": [
+        "information asymmetry"
+      ],
+      "appears_in_papers": [
+        "P11"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P11",
+          "original_term": "information asymmetry",
+          "proposed_zh": "信息不对称",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Platform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "信息可视化",
+      "original_terms": [
+        "information visualization"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P13",
+          "original_term": "information visualization",
+          "proposed_zh": "信息可视化",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "FeedVis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "信息过载",
+      "original_terms": [
+        "information overload"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P22",
+          "original_term": "information overload",
+          "proposed_zh": "信息过载",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                5
+              ],
+              "section": "Research Questions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "假名机制",
+      "original_terms": [
+        "pseudonyms"
+      ],
+      "appears_in_papers": [
+        "P09"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P09",
+          "original_term": "pseudonyms",
+          "proposed_zh": "假名机制",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "共享反馈",
+      "original_terms": [
+        "shared feedback"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "decision": "redirect_to_paper",
+      "reason": "本次作为论文所提出的方法或指标，指向论文内说明。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "shared feedback",
+          "proposed_zh": "共享反馈",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                6
+              ],
+              "section": "Shared Feedback"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "共享工作空间",
+      "original_terms": [
+        "shared workspace"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "shared workspace",
+          "proposed_zh": "共享工作空间",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                7
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "关系强度",
+      "original_terms": [
+        "tie strength"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "tie strength",
+          "proposed_zh": "关系强度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Tie Strength"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "具身交互",
+      "original_terms": [
+        "embodied interaction"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P17",
+          "original_term": "embodied interaction",
+          "proposed_zh": "具身交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "Design Consideration 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "具身性",
+      "original_terms": [
+        "embodiment"
+      ],
+      "appears_in_papers": [
+        "P07"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P07",
+          "original_term": "embodiment",
+          "proposed_zh": "具身性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Embodiment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "内容分析",
+      "original_terms": [
+        "content analysis"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "content analysis",
+          "proposed_zh": "内容分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Intimacy Variables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "冷启动",
+      "original_terms": [
+        "start-up interval"
+      ],
+      "appears_in_papers": [
+        "P09"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P09",
+          "original_term": "start-up interval",
+          "proposed_zh": "冷启动",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Predicting Scores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "出声思考法",
+      "original_terms": [
+        "think-aloud protocol",
+        "think-aloud method"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P24"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P05",
+          "original_term": "think-aloud protocol",
+          "proposed_zh": "出声思考法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3,
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "think-aloud method",
+          "proposed_zh": "出声思考法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "半结构访谈",
+      "original_terms": [
+        "semi-structured interviews"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P20",
+          "original_term": "semi-structured interviews",
+          "proposed_zh": "半结构访谈",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Methodology"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "协作协调",
+      "original_terms": [
+        "coordination"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "coordination",
+          "proposed_zh": "协作协调",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "协作感知",
+      "original_terms": [
+        "awareness"
+      ],
+      "appears_in_papers": [
+        "P02",
+        "P23"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "awareness",
+          "proposed_zh": "协作感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "awareness",
+          "proposed_zh": "协作感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / Design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "协同过滤",
+      "original_terms": [
+        "collaborative filtering"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P22"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P09",
+          "original_term": "collaborative filtering",
+          "proposed_zh": "协同过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Predicting Scores"
+            }
+          ]
+        },
+        {
+          "paper_id": "P22",
+          "original_term": "collaborative filtering",
+          "proposed_zh": "协同过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "原型设计",
+      "original_terms": [
+        "prototyping"
+      ],
+      "appears_in_papers": [
+        "P23",
+        "P24"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P23",
+          "original_term": "prototyping",
+          "proposed_zh": "原型设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Features / Workshops"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "prototyping",
+          "proposed_zh": "原型设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "参与式行动研究",
+      "original_terms": [
+        "participatory action research"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P10",
+          "original_term": "participatory action research",
+          "proposed_zh": "参与式行动研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "参与式设计",
+      "original_terms": [
+        "participatory design"
+      ],
+      "appears_in_papers": [
+        "P05",
+        "P07",
+        "P23"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P05",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Eliciting Input"
+            }
+          ]
+        },
+        {
+          "paper_id": "P07",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Participation"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "participatory design",
+          "proposed_zh": "参与式设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "参与观察",
+      "original_terms": [
+        "participant observation"
+      ],
+      "appears_in_papers": [
+        "P11"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P11",
+          "original_term": "participant observation",
+          "proposed_zh": "参与观察",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "双加工理论",
+      "original_terms": [
+        "dual-process theory",
+        "dual process theory"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P19",
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "dual-process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Deliberative Reasoning"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "dual process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Related Work"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "dual-process theory",
+          "proposed_zh": "双加工理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "反思性实践",
+      "original_terms": [
+        "reflective practice"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "reflective practice",
+          "proposed_zh": "反思性实践",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Literature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "可用性",
+      "original_terms": [
+        "usability"
+      ],
+      "appears_in_papers": [
+        "P24"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P24",
+          "original_term": "usability",
+          "proposed_zh": "可用性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "可用性测试",
+      "original_terms": [
+        "usability testing"
+      ],
+      "appears_in_papers": [
+        "P08",
+        "P24"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "usability testing",
+          "proposed_zh": "可用性测试",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Design Implications"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "usability testing",
+          "proposed_zh": "可用性测试",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "同步协作",
+      "original_terms": [
+        "synchronous collaboration"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "synchronous collaboration",
+          "proposed_zh": "同步协作",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                7
+              ],
+              "section": "Introduction / Semi-Synchronous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "启发式评估",
+      "original_terms": [
+        "heuristic evaluation"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P24"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P15",
+          "original_term": "heuristic evaluation",
+          "proposed_zh": "启发式评估",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "section": "Phases 2–3"
+            }
+          ]
+        },
+        {
+          "paper_id": "P24",
+          "original_term": "heuristic evaluation",
+          "proposed_zh": "启发式评估",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "周边感知",
+      "original_terms": [
+        "peripheral awareness"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "peripheral awareness",
+          "proposed_zh": "周边感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "图像标注",
+      "original_terms": [
+        "image labeling"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P25",
+          "original_term": "image labeling",
+          "proposed_zh": "图像标注",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "图形感知",
+      "original_terms": [
+        "graphical perception"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "graphical perception",
+          "proposed_zh": "图形感知",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Graphical Perception"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "基于内容的过滤",
+      "original_terms": [
+        "content filters",
+        "content-based filtering"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P22"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P09",
+          "original_term": "content filters",
+          "proposed_zh": "基于内容的过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                6
+              ],
+              "section": "Related Work / Predicting Scores"
+            }
+          ]
+        },
+        {
+          "paper_id": "P22",
+          "original_term": "content-based filtering",
+          "proposed_zh": "基于内容的过滤",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "增强现实",
+      "original_terms": [
+        "augmented reality"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "augmented reality",
+          "proposed_zh": "增强现实",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "声誉系统",
+      "original_terms": [
+        "reputation systems"
+      ],
+      "appears_in_papers": [
+        "P11"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P11",
+          "original_term": "reputation systems",
+          "proposed_zh": "声誉系统",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                6
+              ],
+              "section": "Related Work / Design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "女性主义人机交互",
+      "original_terms": [
+        "feminist HCI"
+      ],
+      "appears_in_papers": [
+        "P07",
+        "P10",
+        "P11",
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P07",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / State of the Art"
+            }
+          ]
+        },
+        {
+          "paper_id": "P10",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P11",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Design"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "feminist HCI",
+          "proposed_zh": "女性主义人机交互",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                14
+              ],
+              "section": "Critiques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "女性主义立场理论",
+      "original_terms": [
+        "feminist standpoint theory"
+      ],
+      "appears_in_papers": [
+        "P07"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P07",
+          "original_term": "feminist standpoint theory",
+          "proposed_zh": "女性主义立场理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Feminist Epistemologies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "平均绝对误差",
+      "original_terms": [
+        "mean absolute error"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "mean absolute error",
+          "proposed_zh": "平均绝对误差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Results"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "广义可加模型",
+      "original_terms": [
+        "generalized additive models"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "generalized additive models",
+          "proposed_zh": "广义可加模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Models"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "开放编码",
+      "original_terms": [
+        "open coding"
+      ],
+      "appears_in_papers": [
+        "P13",
+        "P14",
+        "P16",
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P13",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P14",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P16",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                7
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "open coding",
+          "proposed_zh": "开放编码",
+          "evidence": [
+            {
+              "pdf_pages": [
+                12,
+                15
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "异步协作",
+      "original_terms": [
+        "asynchronous collaboration"
+      ],
+      "appears_in_papers": [
+        "P02"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "asynchronous collaboration",
+          "proposed_zh": "异步协作",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                7
+              ],
+              "section": "Systems / Semi-Synchronous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "心智模型",
+      "original_terms": [
+        "mental models"
+      ],
+      "appears_in_papers": [
+        "P03",
+        "P05",
+        "P13",
+        "P16",
+        "P17"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P03",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Cognitive Elements"
+            }
+          ]
+        },
+        {
+          "paper_id": "P05",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                8
+              ],
+              "section": "Introduction / Mental Model"
+            }
+          ]
+        },
+        {
+          "paper_id": "P13",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                6
+              ],
+              "section": "Background / RQ1"
+            }
+          ]
+        },
+        {
+          "paper_id": "P16",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                8,
+                9
+              ],
+              "section": "Mental Models"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "mental models",
+          "proposed_zh": "心智模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "How AI Works"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "性别刻板印象",
+      "original_terms": [
+        "gender stereotypes"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "gender stereotypes",
+          "proposed_zh": "性别刻板印象",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Study 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "情境调查",
+      "original_terms": [
+        "contextual inquiry"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "contextual inquiry",
+          "proposed_zh": "情境调查",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Study 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "成员核查",
+      "original_terms": [
+        "member checking"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P18",
+          "original_term": "member checking",
+          "proposed_zh": "成员核查",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Reliability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "手势一致度",
+      "original_terms": [
+        "agreement score"
+      ],
+      "appears_in_papers": [
+        "P05"
+      ],
+      "decision": "redirect_to_paper",
+      "reason": "本次作为论文所提出的方法或指标，指向论文内说明。",
+      "evidence": [
+        {
+          "paper_id": "P05",
+          "original_term": "agreement score",
+          "proposed_zh": "手势一致度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Agreement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "手势引出",
+      "original_terms": [
+        "gesture elicitation"
+      ],
+      "appears_in_papers": [
+        "P05"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P05",
+          "original_term": "gesture elicitation",
+          "proposed_zh": "手势引出",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "扎根理论",
+      "original_terms": [
+        "grounded theory"
+      ],
+      "appears_in_papers": [
+        "P10",
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P10",
+          "original_term": "grounded theory",
+          "proposed_zh": "扎根理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "grounded theory",
+          "proposed_zh": "扎根理论",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                15
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "批判性设计",
+      "original_terms": [
+        "critical design"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P14",
+          "original_term": "critical design",
+          "proposed_zh": "批判性设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Critical Design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "技术债务",
+      "original_terms": [
+        "technical debt"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P20",
+          "original_term": "technical debt",
+          "proposed_zh": "技术债务",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "技术探针",
+      "original_terms": [
+        "technology probes"
+      ],
+      "appears_in_papers": [
+        "P23"
+      ],
+      "decision": "redirect_to_paper",
+      "reason": "本次作为论文所提出的方法或指标，指向论文内说明。",
+      "evidence": [
+        {
+          "paper_id": "P23",
+          "original_term": "technology probes",
+          "proposed_zh": "技术探针",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "技术框架",
+      "original_terms": [
+        "technological frames"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P03",
+          "original_term": "technological frames",
+          "proposed_zh": "技术框架",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Cognitive Elements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "拟人化",
+      "original_terms": [
+        "anthropomorphism"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "anthropomorphism",
+          "proposed_zh": "拟人化",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Keywords"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "持续比较法",
+      "original_terms": [
+        "constant comparative method"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P14",
+          "original_term": "constant comparative method",
+          "proposed_zh": "持续比较法",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "推荐系统",
+      "original_terms": [
+        "recommender systems"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P22",
+          "original_term": "recommender systems",
+          "proposed_zh": "推荐系统",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "推荐解释",
+      "original_terms": [
+        "explanations"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P22",
+          "original_term": "explanations",
+          "proposed_zh": "推荐解释",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "数据素养",
+      "original_terms": [
+        "data literacy"
+      ],
+      "appears_in_papers": [
+        "P17",
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P17",
+          "original_term": "data literacy",
+          "proposed_zh": "数据素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                5,
+                6
+              ],
+              "section": "Definition / ML"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "data literacy",
+          "proposed_zh": "数据素养",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7,
+                9,
+                11
+              ],
+              "section": "Findings / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "数据质量",
+      "original_terms": [
+        "data quality"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P20",
+          "original_term": "data quality",
+          "proposed_zh": "数据质量",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "数据集文档",
+      "original_terms": [
+        "dataset documentation"
+      ],
+      "appears_in_papers": [
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P20",
+          "original_term": "dataset documentation",
+          "proposed_zh": "数据集文档",
+          "evidence": [
+            {
+              "pdf_pages": [
+                9,
+                11,
+                12
+              ],
+              "section": "Findings / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "文化探针",
+      "original_terms": [
+        "cultural probes"
+      ],
+      "appears_in_papers": [
+        "P23"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P23",
+          "original_term": "cultural probes",
+          "proposed_zh": "文化探针",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "无障碍",
+      "original_terms": [
+        "accessibility"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P25",
+          "original_term": "accessibility",
+          "proposed_zh": "无障碍",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                7
+              ],
+              "section": "Applications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "普通最小二乘回归",
+      "original_terms": [
+        "ordinary least squares regression"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "ordinary least squares regression",
+          "proposed_zh": "普通最小二乘回归",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Statistical Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "暗黑模式",
+      "original_terms": [
+        "dark patterns"
+      ],
+      "appears_in_papers": [
+        "P14",
+        "P19"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P14",
+          "original_term": "dark patterns",
+          "proposed_zh": "暗黑模式",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "dark patterns",
+          "proposed_zh": "暗黑模式",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "有形用户界面",
+      "original_terms": [
+        "tangible user interface"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "tangible user interface",
+          "proposed_zh": "有形用户界面",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "机器学习",
+      "original_terms": [
+        "machine learning"
+      ],
+      "appears_in_papers": [
+        "P17",
+        "P20",
+        "P25"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P17",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "How AI Works"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P25",
+          "original_term": "machine learning",
+          "proposed_zh": "机器学习",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "棘手问题",
+      "original_terms": [
+        "wicked problems"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "wicked problems",
+          "proposed_zh": "棘手问题",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                5
+              ],
+              "section": "Literature / Model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "概念模型",
+      "original_terms": [
+        "conceptual model"
+      ],
+      "appears_in_papers": [
+        "P22"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P22",
+          "original_term": "conceptual model",
+          "proposed_zh": "概念模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                5
+              ],
+              "section": "Model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "模型可解释性",
+      "original_terms": [
+        "interpretability",
+        "explainable AI"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P17",
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "interpretability",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "explainable AI",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                8
+              ],
+              "section": "Explainability"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "explainable AI",
+          "proposed_zh": "模型可解释性",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                7
+              ],
+              "section": "Background / Conditions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "民族志",
+      "original_terms": [
+        "ethnography"
+      ],
+      "appears_in_papers": [
+        "P18",
+        "P23"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P18",
+          "original_term": "ethnography",
+          "proposed_zh": "民族志",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                14
+              ],
+              "section": "Methods"
+            }
+          ]
+        },
+        {
+          "paper_id": "P23",
+          "original_term": "ethnography",
+          "proposed_zh": "民族志",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "泛在计算",
+      "original_terms": [
+        "ubiquitous computing"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "ubiquitous computing",
+          "proposed_zh": "泛在计算",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "混合主动系统",
+      "original_terms": [
+        "mixed-initiative systems"
+      ],
+      "appears_in_papers": [
+        "P15"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P15",
+          "original_term": "mixed-initiative systems",
+          "proposed_zh": "混合主动系统",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                4
+              ],
+              "section": "Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "混合方法研究",
+      "original_terms": [
+        "mixed methods"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P13",
+          "original_term": "mixed methods",
+          "proposed_zh": "混合方法研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "环境显示",
+      "original_terms": [
+        "ambient media"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "ambient media",
+          "proposed_zh": "环境显示",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                5,
+                6
+              ],
+              "section": "Concepts / ambientROOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "生态效度",
+      "original_terms": [
+        "ecological validity"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "ecological validity",
+          "proposed_zh": "生态效度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "田野研究",
+      "original_terms": [
+        "field study"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P03",
+          "original_term": "field study",
+          "proposed_zh": "田野研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "直接操纵",
+      "original_terms": [
+        "direct manipulation"
+      ],
+      "appears_in_papers": [
+        "P12"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P12",
+          "original_term": "direct manipulation",
+          "proposed_zh": "直接操纵",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Related Work / metaDESK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "相关系数",
+      "original_terms": [
+        "correlation coefficients"
+      ],
+      "appears_in_papers": [
+        "P09"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P09",
+          "original_term": "correlation coefficients",
+          "proposed_zh": "相关系数",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Predicting Scores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "知识共享",
+      "original_terms": [
+        "knowledge sharing"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P03",
+          "original_term": "knowledge sharing",
+          "proposed_zh": "知识共享",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "section": "Structural Elements / Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "研究复现",
+      "original_terms": [
+        "replication"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "replication",
+          "proposed_zh": "研究复现",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Goals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "社会网络分析",
+      "original_terms": [
+        "social network analysis"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "social network analysis",
+          "proposed_zh": "社会网络分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                9
+              ],
+              "section": "Theoretical Implications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "社会行动者",
+      "original_terms": [
+        "social actors"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "social actors",
+          "proposed_zh": "社会行动者",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Implications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "社会规范",
+      "original_terms": [
+        "social norms"
+      ],
+      "appears_in_papers": [
+        "P08",
+        "P15"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "social norms",
+          "proposed_zh": "社会规范",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                6
+              ],
+              "section": "Study 1 / Implications"
+            }
+          ]
+        },
+        {
+          "paper_id": "P15",
+          "original_term": "social norms",
+          "proposed_zh": "社会规范",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "G5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "社会运动框架",
+      "original_terms": [
+        "framing"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P10",
+          "original_term": "framing",
+          "proposed_zh": "社会运动框架",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Social Movement Theory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "科学技术研究",
+      "original_terms": [
+        "science and technology studies"
+      ],
+      "appears_in_papers": [
+        "P07"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P07",
+          "original_term": "science and technology studies",
+          "proposed_zh": "科学技术研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Feminism in STS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "算法偏差",
+      "original_terms": [
+        "algorithmic bias"
+      ],
+      "appears_in_papers": [
+        "P15",
+        "P17"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P15",
+          "original_term": "algorithmic bias",
+          "proposed_zh": "算法偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                9
+              ],
+              "section": "G6"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "algorithmic bias",
+          "proposed_zh": "算法偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "section": "Ethics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "算法觉察",
+      "original_terms": [
+        "algorithm awareness"
+      ],
+      "appears_in_papers": [
+        "P13"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P13",
+          "original_term": "algorithm awareness",
+          "proposed_zh": "算法觉察",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                4
+              ],
+              "section": "Introduction / RQ1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "算法透明度",
+      "original_terms": [
+        "algorithm transparency"
+      ],
+      "appears_in_papers": [
+        "P13",
+        "P15",
+        "P17"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P13",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                9
+              ],
+              "section": "Introduction / Discussion"
+            }
+          ]
+        },
+        {
+          "paper_id": "P15",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                9
+              ],
+              "section": "Related Work / Results"
+            }
+          ]
+        },
+        {
+          "paper_id": "P17",
+          "original_term": "algorithm transparency",
+          "proposed_zh": "算法透明度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7,
+                8
+              ],
+              "section": "Transparency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "精确率",
+      "original_terms": [
+        "precision"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P25",
+          "original_term": "precision",
+          "proposed_zh": "精确率",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5
+              ],
+              "section": "Search Precision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "组织文化",
+      "original_terms": [
+        "organizational culture"
+      ],
+      "appears_in_papers": [
+        "P03"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P03",
+          "original_term": "organizational culture",
+          "proposed_zh": "组织文化",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "Structural Elements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "组间设计",
+      "original_terms": [
+        "between-subjects design"
+      ],
+      "appears_in_papers": [
+        "P08"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P08",
+          "original_term": "between-subjects design",
+          "proposed_zh": "组间设计",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Studies 2–3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "网络化公共空间",
+      "original_terms": [
+        "networked publics"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P10",
+          "original_term": "networked publics",
+          "proposed_zh": "网络化公共空间",
+          "evidence": [
+            {
+              "pdf_pages": [
+                9,
+                10
+              ],
+              "section": "Discussion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "网络爬虫",
+      "original_terms": [
+        "web crawling"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P19",
+          "original_term": "web crawling",
+          "proposed_zh": "网络爬虫",
+          "evidence": [
+            {
+              "pdf_pages": [
+                6,
+                7,
+                9
+              ],
+              "section": "Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "置信区间",
+      "original_terms": [
+        "confidence interval"
+      ],
+      "appears_in_papers": [
+        "P06"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P06",
+          "original_term": "confidence interval",
+          "proposed_zh": "置信区间",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "section": "Results"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "群件",
+      "original_terms": [
+        "groupware"
+      ],
+      "appears_in_papers": [
+        "P02",
+        "P03"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P02",
+          "original_term": "groupware",
+          "proposed_zh": "群件",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3
+              ],
+              "section": "Mechanisms"
+            }
+          ]
+        },
+        {
+          "paper_id": "P03",
+          "original_term": "groupware",
+          "proposed_zh": "群件",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "聚类分析",
+      "original_terms": [
+        "clustering"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P19",
+          "original_term": "clustering",
+          "proposed_zh": "聚类分析",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Data Analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "自动化过度依赖",
+      "original_terms": [
+        "overreliance"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P21",
+          "original_term": "overreliance",
+          "proposed_zh": "自动化过度依赖",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                9
+              ],
+              "section": "Introduction / Measures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "范围综述",
+      "original_terms": [
+        "scoping studies"
+      ],
+      "appears_in_papers": [
+        "P17"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P17",
+          "original_term": "scoping studies",
+          "proposed_zh": "范围综述",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Methodology"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "计算机支持的协同工作",
+      "original_terms": [
+        "computer-supported cooperative work"
+      ],
+      "appears_in_papers": [
+        "P23"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P23",
+          "original_term": "computer-supported cooperative work",
+          "proposed_zh": "计算机支持的协同工作",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "计算机视觉",
+      "original_terms": [
+        "computer vision"
+      ],
+      "appears_in_papers": [
+        "P25"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P25",
+          "original_term": "computer vision",
+          "proposed_zh": "计算机视觉",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                6
+              ],
+              "section": "Introduction / Related Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "认知偏差",
+      "original_terms": [
+        "cognitive biases"
+      ],
+      "appears_in_papers": [
+        "P19",
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P19",
+          "original_term": "cognitive biases",
+          "proposed_zh": "认知偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "section": "Taxonomy"
+            }
+          ]
+        },
+        {
+          "paper_id": "P21",
+          "original_term": "cognitive biases",
+          "proposed_zh": "认知偏差",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "认知强制功能",
+      "original_terms": [
+        "cognitive forcing functions"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P21",
+          "original_term": "cognitive forcing functions",
+          "proposed_zh": "认知强制功能",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                4
+              ],
+              "section": "Background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "认知负荷",
+      "original_terms": [
+        "cognitive load"
+      ],
+      "appears_in_papers": [
+        "P16"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "cognitive load",
+          "proposed_zh": "认知负荷",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Study 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "认知需求",
+      "original_terms": [
+        "Need for Cognition"
+      ],
+      "appears_in_papers": [
+        "P21"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P21",
+          "original_term": "Need for Cognition",
+          "proposed_zh": "认知需求",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                12
+              ],
+              "section": "Audit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "设计思维",
+      "original_terms": [
+        "design thinking"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "design thinking",
+          "proposed_zh": "设计思维",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2
+              ],
+              "section": "Definitions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "设计模式",
+      "original_terms": [
+        "design patterns"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "design patterns",
+          "proposed_zh": "设计模式",
+          "evidence": [
+            {
+              "pdf_pages": [
+                3,
+                6
+              ],
+              "section": "Literature / Model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "评定者间信度",
+      "original_terms": [
+        "inter-rater reliability"
+      ],
+      "appears_in_papers": [
+        "P16",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P16",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                7
+              ],
+              "section": "Methods"
+            }
+          ]
+        },
+        {
+          "paper_id": "P18",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                4
+              ],
+              "section": "Definition"
+            }
+          ]
+        },
+        {
+          "paper_id": "P19",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                11
+              ],
+              "section": "Analysis"
+            }
+          ]
+        },
+        {
+          "paper_id": "P20",
+          "original_term": "inter-rater reliability",
+          "proposed_zh": "评定者间信度",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "词袋模型",
+      "original_terms": [
+        "bag of words"
+      ],
+      "appears_in_papers": [
+        "P19"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P19",
+          "original_term": "bag of words",
+          "proposed_zh": "词袋模型",
+          "evidence": [
+            {
+              "pdf_pages": [
+                10
+              ],
+              "section": "Representation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "词频—逆文档频率",
+      "original_terms": [
+        "TF-IDF"
+      ],
+      "appears_in_papers": [
+        "P04"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P04",
+          "original_term": "TF-IDF",
+          "proposed_zh": "词频—逆文档频率",
+          "evidence": [
+            {
+              "pdf_pages": [
+                4
+              ],
+              "section": "Structural Variables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "说服性技术",
+      "original_terms": [
+        "persuasive technology"
+      ],
+      "appears_in_papers": [
+        "P14"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P14",
+          "original_term": "persuasive technology",
+          "proposed_zh": "说服性技术",
+          "evidence": [
+            {
+              "pdf_pages": [
+                2,
+                3
+              ],
+              "section": "Persuasive Design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "质性研究",
+      "original_terms": [
+        "qualitative research"
+      ],
+      "appears_in_papers": [
+        "P18"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P18",
+          "original_term": "qualitative research",
+          "proposed_zh": "质性研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                3
+              ],
+              "section": "Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "通过设计开展研究",
+      "original_terms": [
+        "research through design"
+      ],
+      "appears_in_papers": [
+        "P01"
+      ],
+      "decision": "build_concept_page",
+      "reason": "已筛选为跨文献概念或必要前置。",
+      "evidence": [
+        {
+          "paper_id": "P01",
+          "original_term": "research through design",
+          "proposed_zh": "通过设计开展研究",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1,
+                5
+              ],
+              "section": "Introduction / Model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_name": "集体叙事",
+      "original_terms": [
+        "collective storytelling"
+      ],
+      "appears_in_papers": [
+        "P10"
+      ],
+      "decision": "explain_inline_or_revisit",
+      "reason": "虽可稳定定义，但在本次明确摘录中仅为次要细节；先在论文中解释，后续新增论文可重审。",
+      "evidence": [
+        {
+          "paper_id": "P10",
+          "original_term": "collective storytelling",
+          "proposed_zh": "集体叙事",
+          "evidence": [
+            {
+              "pdf_pages": [
+                1
+              ],
+              "section": "Title / Introduction"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alias_collisions": {},
+  "approval_note": "2026-11-01 用户批准注册表并继续撰写全部页面；Amazon Mechanical Turk与SHAP保留原名。"
+}
