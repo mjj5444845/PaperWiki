@@ -1,3 +1,4 @@
 -r requirements.txt
 pypdf==6.21.4
 jsonschema==4.25.1
+fonttools>=4.50,<5

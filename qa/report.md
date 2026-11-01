@@ -2,7 +2,7 @@
 
 状态：构建与结构检查；线上部署验收记录见 deployment.md。
 
-- 论文页：25；概念页：85；页面间有向链接：678（按页面对去重）。
+- 论文页：27；概念页：87；页面间有向链接：701（按页面对去重）。
 - 死链／资源错误／锚点错误：0；孤立条目：0。
 - 条目正文的未创建目标：0；阅读帮助另有1个明确标注的红链示例，落地页存在。
 - 正文重复实体链接：0；参见数量异常：0。
@@ -35,12 +35,12 @@
 | P19 | Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites | 5 | 6 |
 | P20 | “Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI | 7 | 10 |
 | P21 | To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making | 8 | 8 |
-| P22 | Explaining Collaborative Filtering Recommendations | 6 | 6 |
+| P22 | Explaining Collaborative Filtering Recommendations | 7 | 7 |
 | P23 | Technology Probes: Inspiring Design for and with Families | 5 | 5 |
 | P24 | Heuristic Evaluation of User Interfaces | 6 | 5 |
 | P25 | Labeling Images with a Computer Game | 5 | 5 |
-| C001 | Amazon Mechanical Turk | 7 | 6 |
-| C002 | SHAP | 7 | 7 |
+| C001 | Amazon Mechanical Turk | 11 | 10 |
+| C002 | SHAP | 10 | 8 |
 | C003 | 三角互证 | 9 | 6 |
 | C004 | 主题分析 | 9 | 6 |
 | C005 | 交互设计 | 8 | 7 |
@@ -95,10 +95,10 @@
 | C054 | 普通最小二乘回归 | 1 | 3 |
 | C055 | 暗黑模式 | 12 | 6 |
 | C056 | 有形用户界面 | 7 | 6 |
-| C057 | 机器学习 | 9 | 8 |
+| C057 | 机器学习 | 11 | 8 |
 | C058 | 棘手问题 | 6 | 7 |
 | C059 | 概念模型 | 6 | 9 |
-| C060 | 模型可解释性 | 10 | 8 |
+| C060 | 模型可解释性 | 12 | 9 |
 | C061 | 民族志 | 3 | 6 |
 | C062 | 泛在计算 | 7 | 6 |
 | C063 | 混合方法研究 | 1 | 6 |
@@ -124,6 +124,10 @@
 | C083 | 说服性技术 | 7 | 6 |
 | C084 | 质性研究 | 3 | 7 |
 | C085 | 通过设计开展研究 | 6 | 7 |
+| C8bdeffb10c17 | 局部忠实性 | 1 | 3 |
+| P365079753571 | “Why Should I Trust You?” Explaining the Predictions of Any Classifier | 5 | 6 |
+| Cbc9d66a9b988 | 夏普利值 | 1 | 3 |
+| P01c7aa8f7d9e | A Unified Approach to Interpreting Model Predictions | 4 | 4 |
 
 ## 未链接实体候选
 

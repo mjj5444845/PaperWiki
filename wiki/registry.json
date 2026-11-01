@@ -4034,7 +4034,7 @@
       "canonical_name": "局部忠实性",
       "type": "概念",
       "aliases": [
-        "local ﬁdelity"
+        "local fidelity"
       ],
       "appears_in_papers": [
         "P365079753571"
@@ -4053,10 +4053,12 @@
     },
     {
       "id": "P365079753571",
-      "canonical_name": "“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer",
+      "canonical_name": "“Why Should I Trust You?” Explaining the Predictions of Any Classifier",
       "type": "论文",
       "aliases": [
-        "“我为什么应该信任你？”：解释任意分类器的预测"
+        "“我为什么应该信任你？”：解释任意分类器的预测",
+        "LIME",
+        "SP-LIME"
       ],
       "appears_in_papers": [
         "P365079753571"
@@ -4106,10 +4108,13 @@
     },
     {
       "id": "P01c7aa8f7d9e",
-      "canonical_name": "A Uniﬁed Approach to Interpreting Model Predictions",
+      "canonical_name": "A Unified Approach to Interpreting Model Predictions",
       "type": "论文",
       "aliases": [
-        "解释模型预测的统一方法"
+        "解释模型预测的统一方法",
+        "Kernel SHAP",
+        "Max SHAP",
+        "Deep SHAP"
       ],
       "appears_in_papers": [
         "P01c7aa8f7d9e"
