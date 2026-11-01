@@ -15,8 +15,8 @@ infobox:
   年份: '2017'
   发表场所: 31st Conference on Neural Information Processing Systems (NIPS 2017)
   领域: 人机智能交互
-  arXiv: 1705.07874v2
-  代码: https://github.com/slundberg/shap
+  arXiv: '[1705.07874v2](https://arxiv.org/abs/1705.07874v2)'
+  代码: '[https://github.com/slundberg/shap](https://github.com/slundberg/shap)'
 ---
 
 《解释模型预测的统一方法》是2017年发表于31st Conference on Neural Information Processing Systems (NIPS 2017)的研究论文。[^identity]
@@ -91,6 +91,8 @@ Kernel SHAP 使用由 Shapley 性质确定的加权线性回归联合估计各�
 
 ## 参考文献
 
+[^identity]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第1页，标题 / 会议标识。
+
 [^auto1]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第1页，Abstract。
 
 [^auto2]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第1、4、8页，Abstract / 3 Simple Properties Uniquely Determine Additive Feature Attributions / 5 Computational and User Study Experiments。
@@ -136,5 +138,3 @@ Kernel SHAP 使用由 Shapley 性质确定的加权线性回归联合估计各�
 [^auto22]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第9页，6 Conclusion。
 
 [^auto23]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第10页，References。
-
-[^identity]: Scott M. Lundberg、Su-In Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)。PDF 第1页，标题 / 会议标识。

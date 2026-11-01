@@ -103,4 +103,11 @@ class InboxTests(unittest.TestCase):
         updated=json.loads((wiki/'registry.json').read_text());new=next(e for e in updated['entities'] if e['canonical_name']=='示例概念');self.assertEqual(set(new['appears_in_papers']),{'Pold',paper['id']})
         self.assertIn('[[Old paper]]',(wiki/new['markdown_path']).read_text())
 
+    def test_numeric_substring_is_not_evidence(self):
+        q={'page':1,'section':'Example','quote':'42'};fact={'text':'测得 4 个。','evidence':[q]}
+        metadata={k:{'value':'','evidence':[]} for k in ['title','title_zh','authors','year','venue','doi','arxiv','code']};metadata['title']={'value':'42','evidence':[q]}
+        data=dict(metadata=metadata,field='测试',lead=[fact],background=[],method=[fact],contributions=[fact]*3,datasets=[],results=[],limitations=[],concepts=[],cites_existing=[],introduced_methods=[],review=[],publishable=True,checklist=[dict(item=i,status='pass',reason='synthetic test') for i in range(1,13)])
+        with self.assertRaisesRegex(ValueError,'数字未出现'):content.validate(data,[{'text':'42'}])
+        fact['text']='测得 42 个。';content.validate(data,[{'text':'42'}])
+
 if __name__=='__main__':unittest.main()

@@ -23,6 +23,6 @@ updated: '2026-11-01'
 
 ## 参考文献
 
-[^auto1]: Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)。PDF 第3页，3.3 Sampling for Local Exploration。
-
 [^auto2]: Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)。PDF 第3页，Desired Characteristics for Explainers。
+
+[^auto1]: Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)。PDF 第3页，3.3 Sampling for Local Exploration。

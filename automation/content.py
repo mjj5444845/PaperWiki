@@ -22,7 +22,12 @@ def validate(data,pages):
         val=data['metadata'][key]['value']
         if any(x in val for x in ['\n','[[',']]','<script','javascript:']):raise ValueError('元数据含非法标记')
     for k,m in data['metadata'].items():
-        if m['value']:validate_evidence(m['evidence'],pages)
+        if m['value']:
+            validate_evidence(m['evidence'],pages)
+            source=' '.join(e['quote'] for e in m['evidence'])
+            key=lambda text:re.sub(r'[^\w]','',norm(text))
+            if k not in ['title_zh','authors'] and key(m['value']) not in key(source):raise ValueError('元数据值不在所引证据中：'+k)
+            if k=='authors' and any(key(author) not in key(source) for author in m['value'].split('、')):raise ValueError('作者姓名不在所引证据中')
     if not data['metadata']['title']['value'] or not data['lead'] or not data['method']:raise ValueError('缺少标题、导言或方法')
     if not 3<=len(data['contributions'])<=5:raise ValueError('主要贡献应为 3–5 条')
     for section in ['lead','background','method','contributions','datasets','results','limitations']:
@@ -30,9 +35,9 @@ def validate(data,pages):
             validate_evidence(f['evidence'],pages)
             if '[来源请求]' in f['text'] or re.search(r'革命性|突破性|最伟大|卓越',f['text']):raise ValueError('存在待查证或宣传性陈述')
             # Reject introduced numeric values. Do not infer units, percentages or denominators.
-            supplied=norm(' '.join(e['quote'] for e in f['evidence']))
+            supplied=unicodedata.normalize('NFKC',' '.join(e['quote'] for e in f['evidence']))
             for number in re.findall(r'\d+(?:[.,]\d+)*',f['text']):
-                if not re.search(r'(?<![\d.])'+re.escape(number.replace(',',''))+r'(?![\d.])',supplied.replace(',','')):raise ValueError('数字未出现在就近证据中：'+number)
+                if not re.search(r'(?<![\d.])'+re.escape(number.replace(',',''))+r'(?!\d|\.\d)',supplied.replace(',','')):raise ValueError('数字未出现在就近证据中：'+number)
     if {c['item'] for c in data['checklist']}!=set(range(1,13)):raise ValueError('风格自评未覆盖 12 项')
     if any(c['status']=='review' for c in data['checklist']):raise ValueError('风格自评存在必须修订项')
     for c in data['concepts']:
@@ -156,15 +161,19 @@ def generate(work,data,pages,digest,review,histories=()):
     body+='理解本论文涉及'+ '、'.join('[['+e['canonical_name']+']]' for e in chosen)+'。\n\n## 参见\n\n'+'\n'.join('- [['+e['canonical_name']+']]' for e in chosen[:6])+'\n\n## 参考文献\n\n'+'\n\n'.join(refs.lines)
     infobox={'作者':m['authors']['value'],'年份':m['year']['value'],'发表场所':m['venue']['value'],'领域':data['field']}
     for key,label in [('doi','DOI'),('arxiv','arXiv'),('code','代码')]:
-        if m[key]['value']:infobox[label]=m[key]['value']
+        if m[key]['value']:
+            value=m[key]['value'];url='https://doi.org/'+value if key=='doi' else 'https://arxiv.org/abs/'+value if key=='arxiv' else value
+            if not url.startswith('https://'):raise ValueError('外部链接必须为 HTTPS')
+            infobox[label]='['+value+']('+url+')'
     meta=dict(id=pid,title=title,aliases=aliases,type='论文',field=data['field'],created=today,updated=today,infobox={k:v for k,v in infobox.items() if v})
     write(root/'wiki'/paper['markdown_path'],front(meta,relink(body,entities,pid)))
     changed=[]
     for e in chosen:
         c=applications[e['id']];path=root/'wiki'/e['markdown_path'];cr=References(m)
+        definition=cr.cite(c['definition']) if e in created else ''
         app='- [['+title+']]：'+cr.cite(c['application'])
         if e in created:
-            definition=cr.cite(c['definition']);eng=c['original_term']
+            eng=c['original_term']
             historical_apps=[];historical_refs=[]
             for h in histories:
                 for oldc in h['concepts']:

@@ -236,7 +236,7 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
                     if old['status'] in ['published','cleaned'] and cached.exists():histories.append(json.loads(content.read(cached)))
                 paper,concepts,changed=content.generate(work,data,pages,digest,self.review,histories)
                 self.check(work)
-                r['page_path']='wiki/'+paper['markdown_path'];r['page_url']=self.config['base_url']+paper['html_path'];r['new_concepts']=concepts;r['modified_pages']=changed
+                r['title']=paper['canonical_name'];r['page_path']='wiki/'+paper['markdown_path'];r['page_url']=self.config['base_url']+paper['html_path'];r['new_concepts']=concepts;r['modified_pages']=changed
                 self.save();self.publish(work,r,baseline)
                 self.summary['concepts'].extend(concepts);self.summary['modified'].extend(changed)
                 extract=self.root/'extract'/('inbox-'+digest+'.json');content.dump(extract,{'sha256':digest,'paper_id':paper['id'],**data})
