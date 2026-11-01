@@ -77,7 +77,7 @@ git status
 
 首次启用时，仓库 **Settings → Pages → Build and deployment → Source → GitHub Actions**。确认Actions可运行，首次部署时如有环境审批则批准`github-pages`环境。部署工作流使用官方`upload-pages-artifact`和`deploy-pages`，只发布`site/`，不会占用账号根站点。
 
-预期项目地址：<https://mjj5444845.github.io/PaperWiki/>。推送前需得到仓库所有者对提交文件清单的确认；未经实际成功部署和在线检查，不把这个地址标为已上线。
+已上线：<https://mjj5444845.github.io/PaperWiki/>。本仓库已将 Pages Source 配置为 GitHub Actions。首次推送文件清单经仓库所有者确认；部署验收见 `qa/deployment.md`。
 
 ## 页面解析与检查
 
