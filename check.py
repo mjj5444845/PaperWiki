@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Inspect a built site and Markdown sources; write a human-readable QA report."""
 import collections,html,json,pathlib,re,sys
 from html.parser import HTMLParser
