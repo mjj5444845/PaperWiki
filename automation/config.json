@@ -1,0 +1,17 @@
+{
+  "repository": "mjj5444845/PaperWiki",
+  "branch": "main",
+  "base_url": "https://mjj5444845.github.io/PaperWiki/",
+  "workflow": "deploy.yml",
+  "settle_seconds": 600,
+  "lock_seconds": 21600,
+  "cleanup_hours": 72,
+  "trash_days": 14,
+  "max_attempts": 3,
+  "worker_timeout_seconds": 3600,
+  "max_run_seconds": 19800,
+  "deployment_wait_seconds": 600,
+  "max_pdf_megabytes": 100,
+  "skill_path": "~/.codex/skills/wiki-style-writer",
+  "codex_command": "codex"
+}

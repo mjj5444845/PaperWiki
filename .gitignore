@@ -34,3 +34,10 @@ Thumbs.db
 # Temporary files
 *.log
 tmp/
+# Local paper inbox and authoritative runtime ledger
+/inbox/
+/state/*
+!/state/.gitkeep
+/reports/*
+!/reports/.gitkeep
+# manifest.json is local by default; export only a reviewed copy if needed.
