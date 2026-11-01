@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 26,
-    "concepts": 86,
-    "bibliographic_citation_edges": 11,
+    "papers": 27,
+    "concepts": 87,
+    "bibliographic_citation_edges": 12,
     "concept_candidates": 122
   },
   "entities": [
@@ -657,7 +657,8 @@
         "P06",
         "P11",
         "P21",
-        "P365079753571"
+        "P365079753571",
+        "P01c7aa8f7d9e"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -714,7 +715,8 @@
         "Shapley additive explanations"
       ],
       "appears_in_papers": [
-        "P16"
+        "P16",
+        "P01c7aa8f7d9e"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P16的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -4073,6 +4075,59 @@
         "P22"
       ],
       "source_sha256": "365079753571d7d14180e9796cf5d8ae53c5ef157f0a585ef8030b2a126eeccb"
+    },
+    {
+      "id": "Cbc9d66a9b988",
+      "canonical_name": "夏普利值",
+      "type": "概念",
+      "aliases": [
+        "Shapley values",
+        "Shapley 值"
+      ],
+      "appears_in_papers": [
+        "P01c7aa8f7d9e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Cbc9d66a9b988.md",
+      "html_path": "concepts/Cbc9d66a9b988.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.4 Classic Shapley Value Estimation",
+          "quote": "Since the effect of withholding a feature depends on other features\nin the model, the preceding differences are computed for all possible subsets S⊆ F\\{i}. The\nShapley values are then computed and used as feature attributions. They are a weighted average of all\npossible differences:"
+        },
+        {
+          "page": 4,
+          "section": "3 Simple Properties Uniquely Determine Additive Feature Attributions",
+          "quote": "Theorem 1 follows from combined cooperative game theory results, where the valuesφi are known\nas Shapley values [6]."
+        }
+      ],
+      "source_sha256": "01c7aa8f7d9edcf0cd185bf02e82363f743e441fcaf05b99e6054bfb470bf8ae"
+    },
+    {
+      "id": "P01c7aa8f7d9e",
+      "canonical_name": "A Uniﬁed Approach to Interpreting Model Predictions",
+      "type": "论文",
+      "aliases": [
+        "解释模型预测的统一方法"
+      ],
+      "appears_in_papers": [
+        "P01c7aa8f7d9e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P01c7aa8f7d9e.md",
+      "html_path": "papers/P01c7aa8f7d9e.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "A Uniﬁed Approach to Interpreting Model\nPredictions"
+        }
+      ],
+      "cites_papers": [
+        "P365079753571"
+      ],
+      "source_sha256": "01c7aa8f7d9edcf0cd185bf02e82363f743e441fcaf05b99e6054bfb470bf8ae"
     }
   ],
   "concept_candidates": [
