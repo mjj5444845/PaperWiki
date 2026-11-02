@@ -4,14 +4,14 @@ title: A Taxonomy to Structure and Analyze Human–Robot Interaction
 aliases:
 - 用于组织与分析人类—机器人交互的分类体系
 type: 论文
-field: 交互技术与评估
+field: 人类与机器人交互
 created: '2026-11-01'
 updated: '2026-11-01'
 infobox:
   作者: Linda Onnasch、Eileen Roesler
   年份: '2021'
   发表场所: International Journal of Social Robotics
-  领域: 交互技术与评估
+  领域: 人类与机器人交互
   DOI: '[10.1007/s12369-020-00666-5](https://doi.org/10.1007/s12369-020-00666-5)'
 ---
 

@@ -27,7 +27,34 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(len(pages),len(json.loads((ROOT/'wiki/registry.json').read_text())['entities']))
                 self.assertTrue(all(p['backlinks'] for p in pages.values()))
                 self.assertIn(base+'assets/style.css',(builder.OUT/'index.html').read_text())
+                home=(builder.OUT/'index.html').read_text()
+                self.assertNotIn('最近新增',home)
+                self.assertNotIn('[[',home)
+                self.assertIn('这里收录人机交互及相关领域的论文介绍',home)
+                featured=home.split('<h2>本批新增论文</h2>',1)[1].split('</ul>',1)[0]
+                latest=builder.read_page(ROOT/'wiki/index.md')[0]['latest_papers']
+                self.assertIn('class="page-list"',featured)
+                for pid in latest:
+                    self.assertIn('href="'+base+pages[pid]['path']+'"',featured)
+                    self.assertIn('<p>',featured)
+                    self.assertEqual(pages[pid]['field'],'人类与机器人交互')
                 redirects=json.loads((builder.OUT/'redirects.json').read_text());self.assertEqual(redirects['MTurk']['target'],'C001')
+    def test_home_batch_rotates_only_on_new_publication(self):
+        from automation.content import update_home_batch, split
+        with tempfile.TemporaryDirectory() as tmp:
+            root=pathlib.Path(tmp)
+            (root/'wiki').mkdir()
+            path=root/'wiki/index.md'
+            path.write_text("---\nlatest_batch: old\nlatest_papers: [P01]\n---\n首页介绍\n")
+            update_home_batch(root,'P02','run-a')
+            update_home_batch(root,'P03','run-a')
+            update_home_batch(root,'P02','run-a')
+            self.assertEqual(split(path.read_text())[0]['latest_papers'],['P02','P03'])
+            update_home_batch(root,'P04','run-b')
+            meta,body=split(path.read_text())
+            self.assertEqual(meta['latest_papers'],['P04'])
+            self.assertEqual(body.strip(),'首页介绍')
+
     def test_repo_inference(self):
         with patch.dict(os.environ,{'GITHUB_REPOSITORY':'someone/AnotherWiki'},clear=True):self.assertEqual(builder.base_url(),'/AnotherWiki/')
     def test_linker_does_not_corrupt_code_or_anchors(self):

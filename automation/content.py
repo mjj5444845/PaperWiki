@@ -9,6 +9,18 @@ def norm(s):return re.sub(r'\s+', '', unicodedata.normalize('NFKC',s)).casefold(
 def read(path):return path.read_text(encoding='utf-8')
 def write(path,text):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8')
 def dump(path,data):write(path,json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+def update_home_batch(root, paper_id, batch_id):
+    """Replace the featured batch on the first publication, then accumulate this run."""
+    path=root/'wiki/index.md'
+    meta,body=split(read(path))
+    if meta.get('latest_batch')!=batch_id:
+        meta['latest_batch']=batch_id
+        meta['latest_papers']=[]
+    if paper_id not in meta['latest_papers']:
+        meta['latest_papers'].append(paper_id)
+    meta['updated']=datetime.date.today().isoformat()
+    write(path,front(meta,body))
+
 def evidence_norm(text):
     # Only join alphabetic words split by a physical PDF line break. Keep minus
     # signs, decimal points, ranges and ordinary within-line hyphens intact.

@@ -136,10 +136,15 @@ def build():
     for p in allpages:
         if p['kind']=='论文':groups[p['field']].append(p)
     meta,indexbody=read_page(R/'wiki/index.md')
-    home=markdown.markdown(indexbody,extensions=['tables'])
+    home=linker.render(markdown.markdown(indexbody,extensions=['tables']),{'id':''},record=False)
+    latest=[]
+    for pid in meta.get('latest_papers',[]):
+        if pid not in pages or pages[pid]['kind']!='论文':
+            raise ValueError('Invalid latest paper: '+pid)
+        latest.append(pages[pid])
+    if latest:home+=listing('本批新增论文',latest)
     home+='<div class="stats"><span><b>'+str(site['papers'])+'</b> 篇论文</span><span><b>'+str(site['concepts'])+'</b> 个基础概念</span><span><b>'+str(len(groups))+'</b> 个领域</span></div>'
     for field,items in groups.items():home+=listing(field,items)
-    home+=listing('最近新增页面',sorted(allpages,key=lambda p:p['meta'].get('created',''),reverse=True)[:6])
     for path,title,body in [('index.html','论文百科',home),('all.html','全部页面',listing('页面索引',allpages)),('papers.html','论文列表',listing('论文',[p for p in allpages if p['kind']=='论文'])),('concepts.html','概念列表',listing('基础概念',[p for p in allpages if p['kind']=='概念'])),('help.html','阅读帮助','<h2>链接与阅读</h2><p>蓝色链接指向已有条目，红色链接表示尚无独立页面。例如：<a class="redlink" title="页面尚未创建" href="'+base+'missing.html?title='+quote('尚未建立的主题')+'">尚未建立的主题</a>。这个示例用于说明链接状态。</p><p>正文上标编号跳到参考文献，向上箭头返回引用处。将焦点或鼠标停留在条目链接上可查看导言。</p><p>按页面别名查找，例如 <a href="'+base+'resolve.html?title=MTurk">MTurk</a>，会转到规范页面并保留重定向提示。</p>'),('missing.html','页面尚未创建','<p id="missing-title">这个主题暂时没有独立页面。</p><p>可通过顶部搜索查找相关论文与概念。</p>'),('resolve.html','查找页面','<p id="resolve-status">正在根据页面名或别名查找……</p>'),('404.html','未找到页面','<p>这个地址没有对应页面。请使用搜索或首页索引继续阅读。</p>')]:
         write(path,dict(id='',title=title,content=body,kind='导航',meta={'updated':'2026-11-01'},backlinks=[],field='站点导航',toc=''))
     search=[dict(id=p['id'],title=p['title'],aliases=p['aliases'],intro=p['intro'],url=base+p['path'],kind=p['kind'],field=p['field']) for p in allpages]

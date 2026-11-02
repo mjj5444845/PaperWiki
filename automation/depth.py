@@ -290,7 +290,7 @@ class Pipeline:
                   'grades': grades, 'audit': audit, 'external_sources': draft['sources'],
                   'review': prepared['review']+draft['review']+audit['review']}
         packet['artifact_hashes']=dict(packet['page_hashes'])
-        for path in ['registry.json','redirects.json']:
+        for path in ['registry.json','redirects.json','index.md']:
             target=Path(work)/'wiki'/path
             if target.exists():packet['artifact_hashes'][path]=hashlib.sha256(target.read_bytes()).hexdigest()
         content.dump(self.job/'depth-qa.json', packet)

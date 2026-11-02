@@ -308,6 +308,7 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
                 before={p.relative_to(work/'wiki').as_posix():content.read(p) for p in (work/'wiki').rglob('*.md')}
                 paper,concepts,changed=content.generate(work,data,pages,digest,self.review,histories)
                 self.archive_source(digest,paper,pages,path)
+                content.update_home_batch(work,paper['id'],self.run_id)
                 packet=pipeline.run(work,paper,pages,prepared,data,before)
                 r['depth_qa_path']=(job/'depth/depth-qa.json').relative_to(self.root).as_posix();r['quiz_score']=packet['score'];r['needs_review']=False
                 self.check(work)

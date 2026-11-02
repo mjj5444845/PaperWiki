@@ -5,14 +5,14 @@ title: Maximizing the Benefits of Participatory Design for Human–Robot Interac
 aliases:
 - 充分发挥参与式设计在老年人与机器人交互研究中的益处
 type: 论文
-field: 设计研究与方法
+field: 人类与机器人交互
 created: '2026-11-01'
 updated: '2026-11-01'
 infobox:
   作者: Wendy A. Rogers、Travis Kadylak、Megan A. Bayles
   年份: '2022'
   发表场所: Human Factors
-  领域: 设计研究与方法
+  领域: 人类与机器人交互
   DOI: '[10.1177/00187208211037465](https://doi.org/10.1177/00187208211037465)'
 ---
 
