@@ -150,9 +150,36 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
     def check(self,work):
         for script in ['build.py','check.py']:command([sys.executable,script],cwd=work,timeout=180)
         report=json.loads(content.read(work/'site/link-report.json'))
-        if any(p['redlinks'] for p in report['pages']):raise ValueError('生成了未创建的正文链接')
+        unresolved={(p['id'], name) for p in report['pages'] for name in p['redlinks']}
+        added=unresolved-self.existing_redlinks()
+        if added:raise ValueError('生成了新的未创建正文链接：'+str(sorted(added)))
         structure=json.loads(content.read(work/'qa/structure.json'))
         if any(structure[k] for k in ['errors','orphans','unlinked','repeats','see_also_errors']):raise ValueError('增量页面未通过完整链接检查')
+    def existing_redlinks(self):
+        # Resolve the current source through the same HTML-aware linker used by builds.
+        # Existing explicit redlinks are allowed only on their original entity page.
+        import markdown
+        from build import Linker, read_page
+        reg=json.loads(content.read(self.root/'wiki/registry.json'))
+        pages={};lookup={};bodies={}
+        for e in reg['entities']:
+            meta,body=read_page(self.root/'wiki'/e['markdown_path'])
+            title=meta.get('title',e['canonical_name']);bodies[e['id']]=body
+            pages[e['id']]=dict(id=e['id'],title=title,path=e['html_path'],outlinks=set(),redlinks=set())
+            for name in [title,e['canonical_name']]+e['aliases']:lookup[name.casefold()]=e['id']
+        linker=Linker(pages,lookup,'/')
+        for pid,page in pages.items():
+            linker.render(markdown.markdown(bodies[pid],extensions=['extra','footnotes']),page)
+        return {(pid,name) for pid,page in pages.items() for name in page['redlinks']}
+
+    def archive_source(self,digest,paper,pages,path):
+        # Private, content-addressed original text remains usable after verified cleanup.
+        target=self.root/'extract/sources'/(paper['id']+'.json')
+        if target.exists() and json.loads(content.read(target)).get('sha256')!=digest:
+            raise ValueError('原文缓存ID与内容哈希冲突')
+        atomic(target,dict(paper_id=paper['id'],sha256=digest,file=str(path),
+                           pages=[dict(pdf_page=p['page'],text=p['text']) for p in pages]))
+
     def remote_tip(self):
         line=git('ls-remote','--exit-code','origin','refs/heads/'+self.config['branch'],cwd=self.root)
         if not line:raise ValueError('远端 main 不存在')
@@ -277,6 +304,7 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
                     if old['status'] in ['published','cleaned'] and cached.exists():histories.append(json.loads(content.read(cached)))
                 before={p.relative_to(work/'wiki').as_posix():content.read(p) for p in (work/'wiki').rglob('*.md')}
                 paper,concepts,changed=content.generate(work,data,pages,digest,self.review,histories)
+                self.archive_source(digest,paper,pages,path)
                 packet=pipeline.run(work,paper,pages,prepared,data,before)
                 r['depth_qa_path']=(job/'depth/depth-qa.json').relative_to(self.root).as_posix();r['quiz_score']=packet['score'];r['needs_review']=False
                 self.check(work)

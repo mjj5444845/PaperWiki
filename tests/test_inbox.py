@@ -14,6 +14,37 @@ class InboxTests(unittest.TestCase):
     def published(self,path):
         digest=sha(path);self.r.data['papers'][digest]=dict(sha256=digest,filename=path.name,files=[path.name],title='Title',status='published',attempts=1,commit_sha='a'*40,page_url=self.config['base_url']+'papers/Ptest.html')
         return digest,self.r.data['papers'][digest]
+    def test_existing_redlinks_are_page_scoped_and_ignore_code(self):
+        (self.root/'wiki').mkdir()
+        entities=[dict(id='P1',canonical_name='First',aliases=[],markdown_path='first.md',html_path='first.html')]
+        content.dump(self.root/'wiki/registry.json',{'entities':entities})
+        content.write(self.root/'wiki/first.md','[[Missing]] `[[CodeExample]]`')
+        self.assertEqual(self.r.existing_redlinks(),{('P1','Missing')})
+        # Adding an entity turns the same name into a real link without a whitelist.
+        entities.append(dict(id='P2',canonical_name='Missing',aliases=[],markdown_path='second.md',html_path='second.html'))
+        content.dump(self.root/'wiki/registry.json',{'entities':entities})
+        content.write(self.root/'wiki/second.md','Second')
+        self.assertEqual(self.r.existing_redlinks(),set())
+
+    def test_baseline_redlink_cannot_leak_to_new_page(self):
+        work=self.root/'candidate';(work/'site').mkdir(parents=True);(work/'qa').mkdir()
+        content.dump(work/'qa/structure.json',{k:[] for k in ['errors','orphans','unlinked','repeats','see_also_errors']})
+        content.dump(work/'site/link-report.json',{'pages':[{'id':'P1','redlinks':['Missing']}]})
+        with patch('automation.inbox.command'),patch.object(self.r,'existing_redlinks',return_value={('P1','Missing')}):
+            self.r.check(work)
+            content.dump(work/'site/link-report.json',{'pages':[{'id':'P1','redlinks':['Missing']},{'id':'P2','redlinks':['Missing']}]})
+            with self.assertRaisesRegex(ValueError,'新的未创建'):self.r.check(work)
+
+    def test_original_text_survives_pdf_cleanup_for_later_review(self):
+        p=self.pdf('source.pdf');digest=sha(p)
+        self.r.archive_source(digest,{'id':'Pnew'},[{'page':1,'text':'Original evidence 42'}],p)
+        p.rename(self.r.inbox/'.trash/source.pdf')
+        cached=json.loads(content.read(self.root/'extract/sources/Pnew.json'))
+        self.assertEqual(cached['sha256'],digest)
+        content.validate_evidence([{'page':1,'quote':'Original evidence 42','section':'Results'}],cached['pages'])
+        with self.assertRaisesRegex(ValueError,'哈希冲突'):
+            self.r.archive_source('different',{'id':'Pnew'},[{'page':1,'text':'Other'}],p)
+
     def test_hash_duplicates_and_partial_files(self):
         a=self.pdf('a.pdf');b=self.pdf('renamed.pdf');self.pdf('different.pdf',b'different');fresh=self.r.inbox/'fresh.pdf';fresh.write_bytes(b'fresh');self.pdf('~$temp.pdf');self.pdf('incomplete.pdf.part')
         found=self.r.scan();self.assertEqual(len(found),2);self.assertEqual(len(found[sha(a)]),2)
