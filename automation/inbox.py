@@ -100,6 +100,8 @@ class Runner:
         pages=[{'page':i+1,'text':p.extract_text() or ''} for i,p in enumerate(reader.pages)]
         if not pages or sum(len(p['text'].strip()) for p in pages)<100:raise ValueError('PDF 无足够可提取文字（扫描件需先 OCR）')
         if any(len(p['text'].strip())<20 for p in pages):self.review.append(path.name+'：存在文字很少的页面，图表或扫描内容需复核')
+        from .ocr import supplement_pdf
+        pages=supplement_pdf(path,pages,job)
         content.dump(job/'source.json',pages)
         return pages
     def render_source_pages(self,path,job):
@@ -178,7 +180,7 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
         if target.exists() and json.loads(content.read(target)).get('sha256')!=digest:
             raise ValueError('原文缓存ID与内容哈希冲突')
         atomic(target,dict(paper_id=paper['id'],sha256=digest,file=str(path),
-                           pages=[dict(pdf_page=p['page'],text=p['text']) for p in pages]))
+                           pages=[dict(p,pdf_page=p['page']) for p in pages]))
 
     def remote_tip(self):
         line=git('ls-remote','--exit-code','origin','refs/heads/'+self.config['branch'],cwd=self.root)

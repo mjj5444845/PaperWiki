@@ -35,6 +35,26 @@ class InboxTests(unittest.TestCase):
             content.dump(work/'site/link-report.json',{'pages':[{'id':'P1','redlinks':['Missing']},{'id':'P2','redlinks':['Missing']}]})
             with self.assertRaisesRegex(ValueError,'新的未创建'):self.r.check(work)
 
+    def test_bitmap_ocr_keeps_original_text_and_labels_machine_output(self):
+        from automation.ocr import supplement_pdf
+        import fitz,base64
+        from types import SimpleNamespace
+        source=self.root/'figure.pdf'
+        with fitz.open() as doc:
+            page=doc.new_page()
+            page.insert_image(fitz.Rect(20,20,80,80),stream=base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII='))
+            doc.save(str(source))
+        pages=[{'page':1,'text':'PDF body without bitmap labels'}]
+        quote={'page':1,'quote':'Articles included N=19','section':'Figure 1'}
+        with self.assertRaises(ValueError):content.validate_evidence([quote],pages)
+        def machine(args,**kwargs):
+            return SimpleNamespace(returncode=0,stdout=json.dumps({args[-1]:[{'text':'Articles included N=19','confidence':0.99}]}))
+        with patch('automation.ocr.platform.system',return_value='Darwin'),patch('automation.ocr.shutil.which',return_value='/usr/bin/swift'),patch('automation.ocr.subprocess.run',side_effect=machine):
+            result=supplement_pdf(source,pages,self.root)
+        self.assertEqual(result[0]['pdf_text'],'PDF body without bitmap labels')
+        self.assertIn('Machine OCR',result[0]['text'])
+        content.validate_evidence([quote],result)
+
     def test_original_text_survives_pdf_cleanup_for_later_review(self):
         p=self.pdf('source.pdf');digest=sha(p)
         self.r.archive_source(digest,{'id':'Pnew'},[{'page':1,'text':'Original evidence 42'}],p)
