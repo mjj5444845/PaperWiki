@@ -49,6 +49,20 @@ class DepthGateTests(unittest.TestCase):
             self.assertEqual(result['questions'][0]['evidence'][0]['quote'], 'literal original text')
             self.assertTrue((pipeline.job/'original-invalid-locators.json').exists())
 
+    def test_unresolved_locator_is_held_for_human_review(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline=object.__new__(Pipeline);pipeline.job=Path(tmp);pipeline.rules=''
+            prepared={'notes':[{'page':1,'section':'Method','note':'note','quote':'literal'}],
+                      'questions':[{'id':i,'question':'Frozen question','expected':'Frozen answer','evidence':[{'page':1,'section':'Method','quote':'missing words'}]} for i in range(1,11)],
+                      'omitted_sections':[],'review':[]}
+            def stage(name,schema,instruction,payload,web=False):
+                if name=='full-reading':return prepared
+                return {'anchor_'+str(x['index']):-1 for x in payload['invalid']}
+            pipeline.stage=stage
+            with self.assertRaisesRegex(NeedsReview,'人工核对'):pipeline.prepare([{'page':1,'text':'literal original'}])
+            self.assertEqual(prepared['questions'][0]['question'],'Frozen question')
+            self.assertEqual(prepared['questions'][0]['expected'],'Frozen answer')
+
     def evidence(self):
         return ({'answers':[{'id':i,'answer':'页面中有依据'} for i in range(1,11)]},
                 {'grades':[{'id':i,'correct':i<=8,'reason':'与冻结要点一致'} for i in range(1,11)]},

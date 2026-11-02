@@ -204,7 +204,8 @@ class Pipeline:
             for item in invalid:
                 anchor, page = anchors[item['index']]
                 choice = repaired['anchor_'+str(item['index'])]
-                quote = item['choices'][choice] if choice >= 0 else ''
+                if choice < 0:raise NeedsReview('逐字定位仍无法确认：PDF第'+str(page)+'页，需人工核对')
+                quote = item['choices'][choice]
                 content.validate_evidence([{'page': page, 'section': '', 'quote': quote}], pages)
                 anchor['quote'] = quote
         return result
@@ -221,7 +222,7 @@ class Pipeline:
             '按完整skill基于全文精读写连贯百科文章。candidates是注册表/导航草架，里面的字段转写正文必须重写。'
             '每个新论文/新概念完整解释机制，背景和影响必须实际检索阅读外部可靠来源。逐条检查prepared的10题所有expected要点确实可从正文回答；核心案例/构件不能只讲结论，不把题目或检查过程写进正文。'
             '已有页只作有据的增量修改，保留原有来源，概念应用必须具体到模块。'
-            '返回所有候选path及完整Markdown正文（不含YAML）；保留原参考文献或合并，参见3–6个。'
+            '返回所有候选path及完整Markdown正文（不含YAML和一级标题，页面标题由模板提供）；保留原参考文献或合并，参见3–6个。'
             '所有新外部来源sources记录真实打开网址、标题、定位、短逐字引文、支撑论点、一二手类型。'
             '正文关键论断脚注注明PDF物理页/节，研究外部来源正文须有同网址脚注；不得虚构。'
             '无把握核心事实或外部资料无法访问就列review，不伪造完成。',
@@ -237,7 +238,7 @@ class Pipeline:
             path = Path(work)/'wiki'/row['path']
             if row['path'] not in candidates or path.is_symlink(): raise NeedsReview('非法候选路径')
             meta, _ = content.split(candidates[row['path']])
-            body = row['body']
+            body = content.remove_duplicate_title(meta,row['body'])
             if body.lstrip().startswith('---') or '[来源请求]' in body: raise NeedsReview('页面含待查证内容或非正文格式')
             content.write(path, content.front(meta, content.relink(body, reg['entities'], meta['id'])))
         final = {p: content.read(Path(work)/'wiki'/p) for p in paths}

@@ -35,6 +35,28 @@ class InboxTests(unittest.TestCase):
             content.dump(work/'site/link-report.json',{'pages':[{'id':'P1','redlinks':['Missing']},{'id':'P2','redlinks':['Missing']}]})
             with self.assertRaisesRegex(ValueError,'新的未创建'):self.r.check(work)
 
+    def test_numeric_evidence_accepts_equivalent_not_invented_values(self):
+        def check(text,quote):
+            e={'page':1,'section':'Results','quote':quote};fact={'text':text,'evidence':[e]}
+            data={'metadata':{k:{'value':'','evidence':[]} for k in ['title','title_zh','authors','year','venue','doi','arxiv','code']},
+                  'field':'Test','introduced_methods':[],'lead':[fact],'background':[],'method':[fact],
+                  'contributions':[fact,fact,fact],'datasets':[],'results':[],'limitations':[],
+                  'concepts':[],'cites_existing':[],'review':[],
+                  'checklist':[{'item':i,'status':'pass','reason':'index evidence only'} for i in range(1,13)],'publishable':True}
+            data['metadata']['title']={'value':'Title','evidence':[dict(e,quote='Title')]}
+            content.validate(data,[{'page':1,'text':'Title\n'+quote}])
+        for text,quote in [('纳入3项研究','Three studies were included.'),('日期2025年7月29日','July 29, 2025'),('P<.01','P<.01'),('P=0.84','P=.84'),('P=.84','P=0.84'),('21项','twenty-one studies')]:
+            with self.subTest(text=text):check(text,quote)
+        for text,quote in [('2项','Three studies were included.'),('3项','thirty studies'),('5项','This may improve results.'),('1项','one hundred studies'),('20项','twenty-one studies')]:
+            with self.subTest(text=text):
+                with self.assertRaisesRegex(ValueError,'数字未出现'):check(text,quote)
+
+    def test_duplicate_article_title_removed_before_independent_review(self):
+        meta={'title':'Original Title','aliases':['中文译名']}
+        self.assertEqual(content.remove_duplicate_title(meta,'# 中文译名\n\n导言'),'导言')
+        self.assertEqual(content.remove_duplicate_title(meta,'## 背景\n正文'),'## 背景\n正文')
+        with self.assertRaisesRegex(ValueError,'不匹配'):content.remove_duplicate_title(meta,'# Other topic\n正文')
+
     def test_bitmap_ocr_keeps_original_text_and_labels_machine_output(self):
         from automation.ocr import supplement_pdf
         import fitz,base64

@@ -14,6 +14,24 @@ def validate_evidence(items,pages):
     for e in items:
         if e['page']>len(pages) or not e['quote'].strip() or norm(e['quote']) not in norm(pages[e['page']-1]['text']):
             raise ValueError('引文不能在指定 PDF 页定位：第 '+str(e['page'])+' 页')
+def numeric_source(text):
+    """Recognize explicit English number words and calendar month dates, not inferred values."""
+    values=[]
+    small=dict(zip('zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split(),range(20)))
+    tens=dict(zip('twenty thirty forty fifty sixty seventy eighty ninety'.split(),range(20,100,10)))
+    words='|'.join(list(tens)+list(small))
+    pattern=r'(?<![\w-])('+words+r')(?:[ -]+(one|two|three|four|five|six|seven|eight|nine))?(?![\w-])'
+    for m in re.finditer(pattern,text,re.I):
+        first=m.group(1).lower();second=m.group(2)
+        if re.match(r'\s+(hundred|thousand|million|billion|point|quarters|halves)\b',text[m.end():],re.I) or re.search(r'\b(hundred|thousand|million|billion|point)(?:\s+and)?\s*$',text[:m.start()],re.I):continue
+        if second and first not in tens:continue
+        values.append(str(tens[first]+small[second.lower()] if second else (tens.get(first) if first in tens else small[first])))
+    months='January February March April May June July August September October November December'.split()
+    for number,name in enumerate(months,1):
+        # Avoid reading modal "may" as a month; require a real day/year date context.
+        if re.search(r'\b'+name+r'\s+\d{1,2}(?:,?\s+\d{4})?\b',text,re.I) or re.search(r'\b\d{1,2}\s+'+name+r'\s+\d{4}\b',text,re.I):values.append(str(number))
+    return text+'\n'+' '.join(values)
+
 def validate(data,pages):
     import jsonschema
     jsonschema.validate(data,SCHEMA)
@@ -35,8 +53,10 @@ def validate(data,pages):
             validate_evidence(f['evidence'],pages)
             if '[来源请求]' in f['text'] or re.search(r'革命性|突破性|最伟大|卓越',f['text']):raise ValueError('存在待查证或宣传性陈述')
             # Reject introduced numeric values. Do not infer units, percentages or denominators.
-            supplied=unicodedata.normalize('NFKC',' '.join(e['quote'] for e in f['evidence']))
-            for number in re.findall(r'\d+(?:[.,]\d+)*',f['text']):
+            supplied=numeric_source(unicodedata.normalize('NFKC',' '.join(e['quote'] for e in f['evidence'])))
+            supplied=re.sub(r'(?<![\w.])\.(?=\d)', '0.', supplied)
+            for number in re.findall(r'\.\d+|\d+(?:[.,]\d+)*',f['text']):
+                if number.startswith('.'):number='0'+number
                 if not re.search(r'(?<![\d.])'+re.escape(number.replace(',',''))+r'(?!\d|\.\d)',supplied.replace(',','')):raise ValueError('数字未出现在就近证据中：'+number)
     if {c['item'] for c in data['checklist']}!=set(range(1,13)):raise ValueError('风格自评未覆盖 12 项')
     if any(c['status']=='review' for c in data['checklist']):raise ValueError('风格自评存在必须修订项')
@@ -48,6 +68,16 @@ def validate(data,pages):
     for method in data.get('introduced_methods',[]):
         validate_evidence(method['evidence'],pages)
         if norm(method['value']) not in norm(' '.join(e['quote'] for e in method['evidence'])):raise ValueError('方法别名未在命名证据出现')
+
+def remove_duplicate_title(meta,body):
+    """The template owns h1; only remove a leading title that matches a registered name."""
+    lines=body.lstrip().splitlines()
+    if lines and lines[0].startswith('# '):
+        title=lines[0][2:].strip()
+        if title not in [meta.get('title','')]+meta.get('aliases',[]):
+            raise ValueError('正文一级标题与注册标题不匹配')
+        return '\n'.join(lines[1:]).lstrip()
+    return body
 
 def front(meta,body):return '---\n'+yaml.safe_dump(meta,allow_unicode=True,sort_keys=False)+'---\n\n'+body.strip()+'\n'
 def split(text):
