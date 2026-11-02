@@ -112,7 +112,8 @@ def build():
         converted=md.convert(safe_body)
         for token,tex in maths.items():converted=converted.replace(token,tex)
         p['content']=linker.render(converted,p)
-        p['toc']=md.toc
+        # TOC anchors contain heading text; remove wiki markup without nesting links.
+        p['toc']=re.sub(r'\[\[([^]\n]+)\]\]', lambda m:html.escape(html.unescape(m.group(1)).split('|')[-1]), md.toc)
         split=p['content'].find('<h2')
         p['lead_content']=p['content'][:split] if split>=0 else ''
         p['content']=p['content'][split:] if split>=0 else p['content']
