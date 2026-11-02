@@ -1,0 +1,365 @@
+{
+  "id": "P12",
+  "page_sha256": "0687b3ff76a813505bbfbe4ae896f9ad57a57d0890c2809c90737c6ec9b6f2eb",
+  "questions_sha256": "804ebca92cb44b93d419b572099780a4c2e63ab3cdfdd9611767e6f16716571c",
+  "score": 10,
+  "passed": false,
+  "error": "12项风格检查未通过或未完整记录",
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "据导言、“背景：从桌面隐喻回到物体与空间”及“局限与后续发展”，Tangible Bits试图连接数字信息与物理物体、空间及身体感知，并使注意力前景与背景之间平滑转换。论文将贡献定位为界面观点、一组可研究的机制与设计问题，以三个原型探索，而非证明其普遍优于图形界面的性能实验。"
+      },
+      {
+        "id": 2,
+        "answer": "据“三个组成方向与注意力转换”，三个核心组成是交互表面、比特与原子耦合、环境媒体：分别让桌墙等表面交换信息、让可拿取物体关联数字内容、让声音光线气流水流在知觉边缘呈现后台信息。它们共同支持物体与表面的前景操作，以及后台变化被察觉后进入注意中心的平滑转换；页面不声称人能同时准确处理任意多条信息。"
+      },
+      {
+        "id": 3,
+        "answer": "据“背景：从桌面隐喻回到物体与空间”，Tangible Bits与泛在计算共享计算进入日常环境的目标，但作者认为Tabs、Pads、Boards仍大量沿用图形界面隐喻，因而转向已有物体的形状、位置、可操作性和环境本身。它与增强现实有关，但重点不只是在视野中叠加数字图像，还包括可抓取输入与环境媒体的组合。"
+      },
+      {
+        "id": 4,
+        "answer": "据“三个组成方向与注意力转换”及“metaDESK：设备与表示”，metaDESK研究注意中心的地图操作，ambientROOM研究注意边缘的后台感知，transBOARD研究日常白板活动的记录与分享。metaDESK由近水平背投桌面、机械臂上的液晶屏activeLENS、由桌面投影激活的透明passiveLENS和物理图标phicons组成，以光学、机械及电磁场传感器检测物件，系统基于VisionMaker；物件提供位置和方向输入，桌面与透镜提供关联图形反馈。"
+      },
+      {
+        "id": 5,
+        "answer": "据“metaDESK：设备与表示”及“一个完整的操作过程”，放下大圆顶phicon后，地图出现并将对应地标与模型位置对齐；移动或旋转模型会变换二维地图及关联三维视图。加入Media Lab模型后，两模型的位置关系共同控制地图平移、旋转和缩放，拉大间距会使地图相应缩放。activeLENS显示空间对应的三维校园视图，移动屏幕可查看不同位置；passiveLENS用于探索卫星图像、过去或未来的叠加视图等表示。"
+      },
+      {
+        "id": 6,
+        "answer": "据“metaDESK：为什么需要物理约束”，两个模型位置固定却各向不同方向旋转时，会产生地图应服从哪个方向的冲突。作者当时忽略冲突信息，也考虑地图变形等解释，但未全部实现。作者设计了由滑杆连接的两个圆柱，使两端不能独立旋转，将缩放和旋转限制为较明确的轴向动作；它解决的是这一特定映射冲突。"
+      },
+      {
+        "id": 7,
+        "answer": "据“ambientROOM：空间与信息源”及“从雨声到水波”，原型以6×8英尺的Steelcase Personal Harbor空间为基础，加入MIDI控制设施，探索光、影、声音、气流和水流；实际试作使用被动phicon、MIDI红外接近传感器和录制雨声。玩具汽车模型代表产品网页这一信息源，移近扬声器这个信息汇便建立映射，访问越多雨滴声越密。突然安静可提示进一步检查访问下降或故障；需要详细分析时，将模型带到metaDESK查看交互图形，实现后台察觉向前景分析的转换。"
+      },
+      {
+        "id": 8,
+        "answer": "据“ambientROOM：从雨声到水波”，试用发现雨声有时分散注意，作者于是另建薄水箱，以电磁驱动浮子产生水波，上方光线经水面反射，将波纹投到天花板。参观实验室的艺术家和商业支持者反应积极，但没有代表性样本、长期部署数据或与雨声的受控比较。因此只能支持发现干扰并尝试替代媒介的设计过程，不能证明水波普遍比声音更有效。"
+      },
+      {
+        "id": 9,
+        "answer": "据“transBOARD：笔迹怎样进入一张纸卡”，系统基于SoftBoard，以扫描红外激光跟踪带标记的笔和板擦，数字笔画存入stroke server，远端通过Java applet观看实时或录制过程。带磁性背面的条码纸卡hyperCARD在会话开始由条码笔识别，使会话记录与卡片关联；之后可在另一台计算机凭卡调出服务器记录，同标识卡也可用于远端直播。卡片保存的是关联标识，并不存储笔画。局限包括条码读取繁琐、RFID替代仍在设计中，以及白板只能吸收笔迹而不能把任意数字内容显示回表面；增加activeLENS和将书写转成环境声音均属计划或潜在扩展。"
+      },
+      {
+        "id": 10,
+        "answer": "据“设计依据：继承什么，改变什么”，光学隐喻包括activeLENS借鉴珠宝匠放大镜，以位置选择局部数字视图；passiveLENS通过透明有机玻璃和桌面背投形成移动窗口；ambientROOM使用照明与水波表达活动。transBOARD因数字输出受限，光学隐喻较弱，计划增加activeLENS。“数字影子”显示物体相关信息；语义手电筒设想让建筑影子按出版物、研究经费等非物理属性变化。设计价值在于利用人们对透镜、手电筒和影子的已有预期，使映射较易理解；校园地图控制已经实现，语义手电筒仍在探索，光学外观本身不保证直观。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "准确指出数字与物理、前景与背景两类隔阂，并将贡献定位为愿景、原型与研究问题。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "完整说明三个核心组成及其作用，正确联系前景操控、背景感知和注意力平滑转换。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "准确区分终端上的GUI移植与物理环境的计算增强，也指出相对视觉叠加式AR的可抓握输入及环境媒体重点。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "正确交代三个平台的研究角色，并说明metaDESK主要显示部件、phicons、传感器及输入反馈关系。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "准确说明单模型定位与变换、双模型约束地图变换，以及两种透镜分别提供的三维和叠加视图。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "正确描述独立旋转造成的冲突、当前忽略冲突的处理，以及滑杆连接双圆柱所提供的机械约束。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "空间尺寸、MIDI设施和试作设备均正确，清楚说明汽车信息源、扬声器信息汇及转入metaDESK详细查看的过程。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "正确说明雨声干扰、水波与天花板光影的生成机制及访客反馈，并合理限定为非正式原型观察。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "准确覆盖笔画采集、远程分发、纸卡关联服务器记录，以及条码读取和单向显示局限，正确区分计划功能。"
+      },
+      {
+        "id": 10,
+        "correct": true,
+        "reason": "准确说明三个平台中的光学隐喻、数字阴影和语义光设想，并区分设计依据、已有实现与探索或计划阶段。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P12.md",
+        "claim": "作者、1997年、CHI及DOI 10.1145/258549.258715。",
+        "source": "原PDF第1页（印刷页234）；提供的Crossref publisher_metadata",
+        "verdict": "supported",
+        "reason": "作者及题名与首页一致；Crossref确认年份、会议、DOI及234–241页。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "论文提出三个组成方向，并用三个研究原型探索前景与背景交互。",
+        "source": "原PDF第1–2、4页（234–235、237），Abstract、Goals、图3及图7",
+        "verdict": "supported",
+        "reason": "交互表面、比特与原子耦合、环境媒体均完整解释；三个原型的定位及表格中的交换机制与原文相符。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "历史仪器与算盘启发作者；其路线区别于沿用GUI隐喻的Tabs、Pads、Boards及纯视觉增强。",
+        "source": "原PDF第1–3、8页（234–236、241），Introduction、Ubiquitous Computing、Augmented Reality、Conclusions",
+        "verdict": "supported",
+        "reason": "这些是作者明确陈述的启发与比较，页面保留了观点归属，没有改写成独立性能结论。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "metaDESK使用背投桌面、activeLENS、passiveLENS、phicons及多类传感器，以VisionMaker为基础。",
+        "source": "原PDF第4页（237），metaDESK；图8–10",
+        "verdict": "supported",
+        "reason": "设备形态、传感方式及平台名称逐项对应原文，图示也确认透镜与物理图标的区别。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "Tangible Geospace将两个建筑模型绑定到地图地标，支持二维和三维视图、旋转缩放平移及双手或双人操作。",
+        "source": "原PDF第4–5页（237–238），Tangible Geospace；图10–12",
+        "verdict": "supported",
+        "reason": "页面走通单模型到双模型的完整过程；三个空间、两个控制位置与协作方式均有原文依据。移远模型引起缩放是已述对齐机制的直接解释。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "passiveLENS可探索卫星影像、过去或未来叠加视图。",
+        "source": "原PDF第5页（238），Tangible Geospace",
+        "verdict": "supported",
+        "reason": "原文以may描述这些交互可能性；页面使用“探索”，未声称这些叠加内容都已完成或经过评估。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "独立旋转的冲突当时被忽略；两圆柱与滑杆的机械约束解决特定歧义。",
+        "source": "原PDF第5页（238），图12及其右侧段落",
+        "verdict": "supported",
+        "reason": "冲突处理现状、地图变形的备选设想、禁止独立旋转的结构及特定适用范围均准确。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "ambientROOM为6×8英尺的Personal Harbor空间，加入MIDI控制设施。",
+        "source": "原PDF第5页（238），ambientROOM；图13",
+        "verdict": "supported",
+        "reason": "尺寸、单位、产品名与控制方式一致，未将原型尺寸推广为设计标准。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "汽车phicon将样例网页活动映射到雨声，异常变化可引导前景分析；实际原型使用红外接近传感器与录音。",
+        "source": "原PDF第6页（239），ambientROOM；图14",
+        "verdict": "supported",
+        "reason": "区分了设想情境、样例活动水平和已制作组件；未把无雨声写成确定的故障诊断，也未捏造商业部署指标。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "雨声有时干扰注意，作者另建电磁驱动浮子的水箱，把波纹光影投到天花板。",
+        "source": "原PDF第6页（239），ambientROOM；图15",
+        "verdict": "supported",
+        "reason": "干扰观察、替代装置及光影呈现与文字、图片相符；积极反应准确归属于实验室访客，未冒充受控比较结果。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "transBOARD基于SoftBoard，扫描红外激光跟踪笔和板擦，Java支持实时与录制观看。",
+        "source": "原PDF第6页（239），transBOARD；图16",
+        "verdict": "supported",
+        "reason": "产品、输入检测及网络观看机制对应原文，环境声音输出也正确标为潜在扩展。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "hyperCARD是磁背条码纸卡，笔画实际存于服务器，条码识别繁琐，RFID仍是计划。",
+        "source": "原PDF第6–7页（239–240），transBOARD",
+        "verdict": "supported",
+        "reason": "清楚区分纸卡的信息关联与实体存储；会话开始使用条码笔及拟议被动无线RFID版本均准确。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "transBOARD为单向吸收信息的表面，metaDESK为双向表面；白板activeLENS尚属计划。",
+        "source": "原PDF第7页（240），transBOARD",
+        "verdict": "supported",
+        "reason": "输入输出差别及实现阶段没有混淆。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "Bricks、弹珠答录机、Live Wire与异地长椅是设计前驱。",
+        "source": "原PDF第3–4页（236–237），Related Works；图5–6",
+        "verdict": "supported",
+        "reason": "物理把手、留言播放、网络绳运动及热与声音提示均与原文对应，未将前驱作品作为本文实验结果。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "光学隐喻包含透镜、数字影子与探索中的语义手电筒。",
+        "source": "原PDF第7页（240），Discussions: Optical Metaphors",
+        "verdict": "supported",
+        "reason": "透明有机玻璃、珠宝匠透镜及非物理属性影子的设想均有依据；原文称手电筒已开始实现，页面概括为探索阶段没有提升完成度。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "三个原型没有参与者之间的任务速度、错误率或学习效果比较。",
+        "source": "原PDF第1–8页（234–241），全文",
+        "verdict": "error",
+        "reason": "全文只能确认没有报告这些比较，不能据此断言研究过程中没有进行。应保留“未报告”的证据边界；这也违反所给深度标准明确要求。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "Hornecker介绍了跨学科背景、表示与控制统一、Urp及有形交互范围的扩大。",
+        "source": "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction",
+        "verdict": "supported",
+        "reason": "实际打开并阅读第45.1–45.5节；相关机制、Urp日照风场以及身体、空间和社会行动的扩展均可对应。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "Hornecker认为有形交互的优势与学习适用条件仍需分情境研究。",
+        "source": "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction",
+        "verdict": "supported",
+        "reason": "第45.5节明确要求厘清优势、适用领域及支持学习的具体类型；页面没有将可触摸性写成效果保证。"
+      },
+      {
+        "path": "papers/P12.md",
+        "claim": "Radical Atoms针对刚性物体与流动数字状态的差距，转向可驱动变形输出，并于2012年发表愿景。",
+        "source": "https://tangible.media.mit.edu/project/radical-atoms/",
+        "verdict": "supported",
+        "reason": "实际打开官方项目页；正文明确说明前驱局限、驱动式物体及动态材料愿景，并记录2009年首次报告和2012年1月全文发表。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句交代题名、作者、年份、论文类别及物理化数字信息的特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言涵盖核心机制、三个原型和证据性质，主要内容均在正文展开。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "背景、三方向、三个系统、设计依据和后续均有内容；主要框架完整。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "按机制与操作组织段落，1997年实现和后续发展区分明确。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "设计判断归作者，领域判断归Hornecker，材料局限归团队自评。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "1997年、2012年及6×8英尺口径准确，术语与产品名一致。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "“没有参与者之间的比较”超出全文能支持的“未报告比较”；其余关键事实有可核来源。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "页码、DOI及两项外部文献真实，引注支持范围基本准确。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "信息框作者、年份、会议和DOI与正文及书目缓存一致。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "将未报告比较写成不存在比较，形成无依据推断；未发现宣传结尾或大段复制。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用设计愿景论文的机制和原型结构，没有套用不适用的量化实验目录。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面已说明若干证据限制，但对是否进行比较的剩余未知没有保留，反而作出确定否定。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三个方向逐项解释，三个原型均展开输入、操作和输出。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "围绕信息映射与注意转换组织，非字段逐项改写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "设备名与前驱作品均说明实际作用，未堆砌名单。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "空间尺寸、二维三维视图和双物体控制均有对象及条件。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "泛在计算、增强现实与后续项目均解释具体关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代桌面GUI、历史仪器及已有研究路线。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "积极反馈有主体限定，没有无数据的普遍性能赞誉。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P12.md",
+        "sections": [
+          "元数据与导言",
+          "背景：从桌面隐喻回到物体与空间",
+          "三个组成方向与注意力转换及三行原型表格",
+          "metaDESK：设备与表示、完整操作过程、物理约束",
+          "ambientROOM：空间与信息源、雨声与水波",
+          "transBOARD及hyperCARD存储和识别机制",
+          "设计依据、前驱作品与光学隐喻",
+          "局限与后续发展",
+          "参考文献与外部引文",
+          "原PDF第1–8页对应印刷页234–241；图1–16已对照，原文无公式或实验数值表"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "需修订后复核：局限节把未报告比较写成没有比较，超出证据。",
+      "原文覆盖仍有两项可具体补足：ClearBoard对主动建筑表面的启发，以及被动物理道具与本文输入输出整合路线的区别。其余主要框架、原型流程及已述局限覆盖充分。",
+      "两项新增外部来源均已实际打开阅读；未使用搜索摘要替代文献核对。"
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "ids": [
+    "C083"
+  ],
+  "page_hashes": {
+    "concepts/C083.md": "7892f138fd81245a88732b522f40daf290012a745bcf51fc5259fa124f15f002"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C083.md",
+        "claim": "说服性技术是有意影响态度或行为的交互技术。",
+        "source": "https://ceur-ws.org/Vol-2154/paper4.pdf，物理PDF第1–2页；P14物理PDF第2–3页",
+        "verdict": "error",
+        "reason": "概括了意图与对象，但作为无条件定义过宽。Fogg传统定义排除强迫和欺骗；后续研究才明确提出扩大范围。页面依赖Fogg又讨论暗黑模式，须交代定义边界及不同立场，不能仅用是否服务用户利益代替这一概念区别。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "B=MAP表示动机、能力与提示同时汇合，不是直接计算行为概率的方程。",
+        "source": "https://www.behaviormodel.org/home",
+        "verdict": "supported",
+        "reason": "作者页面明确给出三个要素与同时发生的解释；页面未将字母乘积误作定量概率模型。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Fogg在2017年末将trigger改称prompt。",
+        "source": "https://www.behaviormodel.org/prompts",
+        "verdict": "supported",
+        "reason": "作者明确记录改名时间，页面也保留历史术语。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "召回邮件通过登录、寻找联系人及后续社交回应形成参与链。",
+        "source": "https://www.behaviormodel.org/prompts",
+        "verdict": "supported",
+        "reason": "与作者Facebook演示账户案例的步骤一致；页面使用可能性措辞，没有冒充独立效果实验。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "简化降低任务复杂度，引导路径提供流程内说服机会，个性化调整相关信息。",
+        "source": "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-152.html，可访问的原则预览",
+        "verdict": "supported",
+        "reason": "三项机制与原著预览一致；表内实例明确标为自拟。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "建议、自我监测、监督和条件作用分别涉及适时介入、自动追踪、公开观察与行为强化。",
+        "source": "https://homes.cs.washington.edu/~jfogarty/publications/persuasive2007.pdf，物理PDF第4页表1、第5、8页",
+        "verdict": "supported",
+        "reason": "四项释义及相互区别有正文支持，表内示例没有被当成实证结果。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "七种策略足以代表本文所介绍的说服性技术机制范围。",
+        "source": "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-152.html，原著目录与原则预览",
+        "verdict": "error",
+        "reason": "页面虽未明说穷尽，却没有解释这七项属于计算机作为工具的策略。原著另有作为媒介、作为社会行动者的角色；概念页以七策略作为主体而不限定范围，遗漏重要组成。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "依靠知道被观察来改变行为的监督必须公开，秘密记录不通过该机制说服。",
+        "source": "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-42.html，可访问正文",
+        "verdict": "supported",
+        "reason": "原著直接区分公开观察与秘密监控；页面正确限定了所讨论的机制。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "策略可以组合，建议可同时提供行为资料及完成目标后的反馈。",
+        "source": "https://homes.cs.washington.edu/~jfogarty/publications/persuasive2007.pdf，物理PDF第5、8页",
+        "verdict": "supported",
+        "reason": "正文讨论策略重叠与反馈时机，支持组合示例。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "说服策略不是固定道德分类，同类机制可以服务不同利益。",
+        "source": "P14物理PDF第8–9页",
+        "verdict": "supported",
+        "reason": "原文明确讨论策略可用于善或恶及用户价值与股东价值的取舍；但这不能消除传统定义排除强迫和欺骗的边界。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Gray等以用户利益、欺骗操纵、行动结果与情境变化讨论暗黑模式。",
+        "source": "P14物理PDF第1、3、8–9页",
+        "verdict": "supported",
+        "reason": "与论文定义及开放问题一致；转化率例子忠实概括了股东导向评价可能遗漏受阻流程的讨论。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "论文回顾双向隐私、披露、准确性和黄金原则，并未验证为普遍有效检查表。",
+        "source": "P14物理PDF第2–3、9页",
+        "verdict": "supported",
+        "reason": "四项原则确属相关工作；论文也拒绝把自身策略当作伦理检查表。页面对知情、准确性与利益的解释属于概括，不能替代各原则的正式定义。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Gray等不以既有说服技术框架主导研究，而以实践案例归纳问题。",
+        "source": "P14物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "准确区分了理论背景与实际分析方法；实际编码先使用Brignull分类，再开放编码，没有采用Fogg七策略作为编码框架。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "两名具有UX与计算机科学背景的研究者用了两个月迭代收集案例。",
+        "source": "P14物理PDF第3–4页",
+        "verdict": "error",
+        "reason": "时间和人数正确，但中文容易表示两人都具有两种背景。原文明确是一名来自UX背景、一名来自计算机科学背景，借此结合内部与外部视角。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "五类暗黑模式与Fogg策略的关系仅概括为比较视角。",
+        "source": "P14物理PDF第5、9页",
+        "verdict": "error",
+        "reason": "关系类型判断基本准确，但应用解释不完整。第9页具体比较了引导路径／简化与强迫行动／阻碍、个性化／建议与界面干预、条件作用与暗中实施／骚扰。页面仅列五类并泛谈用户目标，遗漏了概念在该论文中实际承担的具体比较工作；这些对应也应明确归属作者，不能当成已验证映射。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "案例存在不能推算全体用户受害比例，机制、效果与伦理需要不同证据。",
+        "source": "P14物理PDF第3–4、8–10页",
+        "verdict": "supported",
+        "reason": "研究是实践材料的定性分析，没有总体抽样或受害比例估计；该边界与研究设计相符。证据类型的区分是合理的方法说明。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "参考文献中的作者、标题、年份与Gray论文DOI真实。",
+        "source": "所提供Crossref缓存：https://api.crossref.org/works/10.1145%2F3173574.3174108；P14物理PDF第1页",
+        "verdict": "supported",
+        "reason": "五名作者、CHI 2018、标题和DOI一致，论文共14页。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "正文已覆盖概念的发展与变体。",
+        "source": "https://ceur-ws.org/Vol-2154/paper4.pdf，物理PDF第1–2页；https://www.behaviormodel.org/prompts",
+        "verdict": "error",
+        "reason": "只介绍提示术语改名，缺少概念定义范围的演变；特别遗漏传统排除强迫欺骗与后来扩大定义的区别，直接影响与暗黑模式关系的解释。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "首句有名称、类别和意图特征，但未限定计算技术及传统定义的非强迫、非欺骗边界。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括行为机制与伦理问题，与正文主题一致，没有额外效果数字。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "章节均有实质内容，但工具策略的范围、其他功能角色和定义演变不足。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "各段分别解释模型、行为链、策略或伦理关系；没有将案例先后关系直接写成实验因果。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "Fogg与Gray的观点多有归属，但定义边界未呈现，使不同研究立场看似一致。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "术语改名日期与两个月口径准确；研究者背景的合并表述未保留一人一种背景的关系。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "主要陈述有可打开的真实来源，但无条件定义及其边界不能由现有引注充分支持。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "外部链接、Gray书目及主要物理页码可核对；策略来源区分原著预览与机构公开稿，未假装读到付费全文。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；元数据未加入未经证实的效果或历史字段。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "无宣传结论或大段复制，自拟例子明确标注，没有写成来源实验。"
+      },
+      {
+        "item": 11,
+        "pass": false,
+        "reason": "采用概念结构并解释机制，但发展变体不足，本站应用缺少原文具体策略对应。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未虚称优良条目或验收通过，但也未标出定义范围及内容覆盖的实际缺口。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "七项工具策略逐项解释充分，但整体框架范围未限定，其他功能角色与定义变体遗漏，站内比较关系也过于概括。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕行为机制与伦理关系组织，不是把研究字段逐项改写成句。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "策略表均有运作解释和例子，正文进一步区分机制，没有堆砌未解释名词。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "七策略、五分类及两个月均有对象；未加入没有分母或比较条件的效果数据。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "站内应用虽正确定位为比较视角，但以服务用户目标的泛论代替原文具体对应，工作关系分析不够完整。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景通过模型与策略说明展开，没有仅用问题句替代实际内容。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未使用革命性或效果显著等无来源赞誉，也未照搬作者官网的宣传性评价。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C083.md",
+        "sections": [
+          "导言：定义、改变行为的方式与伦理范围",
+          "行为如何受到影响：B=MAP、提示、术语变更与Facebook行为链",
+          "七种说服策略：全部七项机制、自拟例子、策略区别及组合",
+          "与暗黑模式的关系：用户利益、操纵、评价指标与伦理原则",
+          "在本站论文中的应用：P14研究取向、案例收集、五分类及说服策略比较",
+          "设计评价的边界：机制、效果、伦理证据与总体推断限制",
+          "参见",
+          "参考文献：原著预览、机构公开稿、作者官网、P14与Crossref缓存"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已独立阅读所提供P14全文及书目缓存，并搜索、打开作者官网、原著可访问预览、Andrew等机构公开稿及定义变体研究；未把搜索摘要作为全文证据。",
+      "本页需修订后复核：补明传统定义与扩展定义的区别，限定七策略属于工具角色，补足发展与变体，并保留研究者背景的分别关系。",
+      "本站仅涉及P14：说服性技术在其中是相关工作与讨论中的比较参照，未被实施为干预，也未作为Fogg七类编码框架。应补出作者第9页的具体对应并保持其解释性地位。",
+      "未发现需要保留为未核实的具体页面论断；已确认的问题按error记录。内容遗漏属于完整性问题，不冒充来源访问缺口。"
+    ]
+  }
+}

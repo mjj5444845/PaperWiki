@@ -1,0 +1,390 @@
+{
+  "id": "P01",
+  "protocol": "source-only-examiner-v3-with-visual-factcheck",
+  "page_sha256": "996d4e0e1231d9cb9b2cbae17e23178e5d3482fd25d157e125de5ea9fe62b25b",
+  "questions_sha256": "8564cc65ee640667d65f09a6b916bb9b04e1a4943c59bdf731dc352e7e2ff877",
+  "score": 10,
+  "passed": true,
+  "error": null,
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "本文针对的缺口是：HCI研究群体缺乏对设计者知识贡献的共同理解，常把设计限制为技术方案确定后的表层美化，未充分利用设计者整合约束、理解用户和重构问题的能力。两类主要贡献是：提出通过设计开展交互设计研究的模型，说明知识输入、制作过程及研究与实践之间的交流；提出过程、发明、相关性和可扩展性四个评价视角。依据：“背景：设计怎样成为研究，而不只是服务研究”“模型的输入、过程与输出”“四个评价视角”。"
+      },
+      {
+        "id": 2,
+        "answer": "设计研究以产生能够向研究与实践群体分享的知识为目标，区别于服务某个商业产品的前期调研；区别主要在研究意图及结果的说明和传播，而非是否使用访谈、观察或原型。页面将设计思维描述为在制作中不断重新界定问题的活动，包括调查并获得不同视角的grounding、产生多种可能性的ideation、提高方案具体程度并反复改动的iteration，以及回看选择与后果的reflection。四者相互关联，不是固定流水线。依据：“背景：设计怎样成为研究，而不只是服务研究”“核心思想：在制作中重新界定问题”。"
+      },
+      {
+        "id": 3,
+        "answer": "模型形成包括文献回顾、2004年维也纳CHI工作坊、访谈，以及初稿后的大型讨论和4次一对一模型讨论。工作坊有22名学界及产业参与者，背景包括计算机科学、行为科学和设计。主要访谈包括9名资深HCI学者，每人由一名研究生陪同，另有6名交互设计者，其中学界、产业各3名；不能把9加6当作包含研究生的受访总人数。后续4次一对一讨论对象分别是1名资深HCI从业者、1名HCI设计研究者和2名产业界HCI研究者。大型讨论人数未提供。依据：“模型是怎样形成的”。"
+      },
+      {
+        "id": 4,
+        "answer": "居家养老涉及相互冲突的价值：成年子女可能优先考虑安全，老人则重视家、独立生活和身份认同；将安全设为唯一目标会预先排除其他价值，而方案本身也会改变各方对问题的理解，因此难以转化为固定技术指标。模型综合行为科学关于人的理论与模型（the true）、工程研究的技术可能性（the how），以及人类学和前期调查提供的现实情境（the real），通过构想、迭代和反思形成明确的问题框定、经论证的偏好状态、模型、原型、产品及过程文档。依据：“核心思想：在制作中重新界定问题”“模型的输入、过程与输出—三类知识怎样汇合”。"
+      },
+      {
+        "id": 5,
+        "answer": "给定页面未展示图1本身，只提供模型及其知识流动的文字说明。按这些说明，制品把理论、技术、用户需要和情境取舍具体化，使研究者和实践者能够理解设计理由；范例与过程记录帮助抽象知识进入实践，相关制品的积累还可能形成通向设计模式的“前模式”。反馈方面，制品揭示新的技术机会，向工程研究提出值得构建的方向；实际使用中的意外行为则暴露行为理论的解释空缺，提出新的行为科学问题。页面没有证明这种知识传播的长期效果。依据：“核心思想：在制作中重新界定问题”“模型的输入、过程与输出—知识怎样流回研究与实践”。"
+      },
+      {
+        "id": 6,
+        "answer": "两条标准是：进入项目时以产生公共知识为目的，而非仅以商业产品成功为目标；结果体现理论、技术、用户需要和情境之间具有实质性的新整合，而非对已知产品的小幅修饰。仅有原型不足以满足这些要求，还需说明研究意图、问题框定、偏好状态的理由、整合贡献，并通过过程文档等形式让他人理解和继续使用知识。依据：“研究与实践的边界”“模型的输入、过程与输出”“四个评价视角”。"
+      },
+      {
+        "id": 7,
+        "answer": "过程要求说明方法选择、实施方式和关键决定，使过程可被重做或检视；发明要求通过文献综述定位实质性的新整合及技术机会；相关性要求说明现实状态、希望实现的改变及其对相关群体和研究共同体的价值；可扩展性要求交代过程如何复用、制品体现何种知识，以及文档是否支持理解、改用和后续研究。过程可重现不意味着结果必须相同：不同设计者面对同一问题框定，也可能产生不同制品，重点是方法与选择能够被理解、讨论和继续使用。四个视角没有合成统一分数。依据：“四个评价视角”。"
+      },
+      {
+        "id": 8,
+        "answer": "Xerox案例把问题从帮助持有钥匙的专门操作员维护机器，重构为让普通办公室职员直接使用机器并处理卡纸。具体线索包括：绿色标示复制按钮和玻璃边缘等进入点，蓝色指示与纸张交互的位置，不同深浅表达使用频率，纹理提示可触碰位置，并在需要处提供说明。页面把认知知识与办公角色变化的新整合联系到发明和相关性，把设计语言、理由文档及机器本身联系到知识传播和可扩展性；理由文档也为过程检视提供材料，但页面未完整交代该案例的方法选择和实施过程，不能据此认定四项均已充分验证。页面亦未提供任务时间、错误率或改善百分比。依据：“三个案例怎样展示模型—Xerox：从专门操作员转向普通办公室职员”“四个评价视角”。"
+      },
+      {
+        "id": 9,
+        "answer": "Philips的Vision of the Future探索个人、家庭、公共和移动生活中的产品与服务方向，页面以花瓶形移动通信装置说明技术进入社会生活的不同形式。相关性体现在联系非工作生活情境，并明确表达技术如何改变生活及何种生活值得追求；可扩展性体现在过程整理成书，组织方式可供后来设计教育参照和模仿。它不能证明销量成功、实际生活改善的效应量、构想的通用效果，或四项评价标准已获统计验证。依据：“三个案例怎样展示模型—Philips：用未来生活方案表达偏好状态”。"
+      },
+      {
+        "id": 10,
+        "answer": "Apple Guides原为帮助用户在多媒体数据库中导航，却发现历史装束、历史情境中的黑白人物图像，使用户把内容理解为导览人物的意见，而非中立百科的声音。这说明设计制品的意外使用和解释能够产生原先未预料的研究问题，并反馈到具身代理的工程研究及代理影响用户的行为研究。证据边界是：页面未提供该评价的样本量、导航改善数值或效应量；三个案例均为回溯性说明，模型形成中的讨论与访谈不是代表整个HCI共同体的随机调查，也没有与其他方法随机比较。作者仍计划继续评价和修订模型，不能声称已证明四个视角适用于所有设计研究或保证知识迁移。依据：“三个案例怎样展示模型—Apple Guides：设计中的意外发现成为新问题”“模型是怎样形成的”“研究与实践的边界”。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "准确指出HCI对设计知识贡献缺乏共同理解，并完整列出研究模型与评价标准两项主要贡献。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "正确区分知识生产与商业产品前期调研，完整解释grounding、ideation、iteration和reflection。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "涵盖文献回顾、工作坊、访谈与迭代讨论，准确区分各组人数、身份及研究生陪同情况。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "说明老人居家认同与子女安全诉求的冲突，正确对应三类知识，并列出问题框定、偏好状态、制品和过程文档等输出。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "准确解释制品作为知识转移范例及前模式的作用，也说明向工程反馈技术机会、向行为科学反馈理论缺口和意外效应的机制。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "完整指出知识生产意图与显著创新整合两条标准，并解释仅有原型不能自动构成研究贡献。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "四个评价视角的要求均准确，明确区分过程可重现与制品结果相同，未将相关性简化为个人偏好。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "准确描述问题重构、颜色与纹理等设计线索，并将理由文档、认知研究、办公角色变化及知识传播对应到评价视角。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "正确列出四个生活领域，以社会生活整合解释相关性，以教育模仿解释可扩展性，并合理限定效果与验证方面的结论。"
+      },
+      {
+        "id": 10,
+        "correct": true,
+        "reason": "准确说明内容被理解为向导个人意见的意外发现及其研究反馈，且正确界定历史案例和定性建模的证据边界。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      },
+      {
+        "path": "papers/P01.md",
+        "claim": "papers/P01.md",
+        "source": "papers/P01.md",
+        "verdict": "supported",
+        "reason": "papers/P01.md"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "papers/P01.md"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P01.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P01.md"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P01.md",
+        "sections": [
+          "papers/P01.md"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "papers/P01.md"
+    ]
+  }
+}

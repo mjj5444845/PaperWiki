@@ -1,0 +1,366 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C031",
+    "C032",
+    "C033"
+  ],
+  "page_hashes": {
+    "concepts/C031.md": "2255964105586065f44b61cb18424ac873013fdafad722d962c35a2f061f4b2d",
+    "concepts/C032.md": "4ee9471a43a7062104fa87d21c8e1e6d0cd5a1702688c540cdb0a1cc8301c71f",
+    "concepts/C033.md": "807725419b195e2904a48fcbbcf5e6efa75bf7e37f9bfec326a11e26a8f002af"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C031.md",
+        "claim": "基于内容的过滤比较项目特征与用户偏好，可与协同过滤组合。",
+        "source": "P09物理PDF第2、6页；P22物理PDF第1页；https://developers.google.com/machine-learning/recommendation/content-based/basics",
+        "verdict": "supported",
+        "reason": "定义与证据来源的区别准确，混合关系有原文明确支持。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "关键词、布尔规则、加权画像和相关性反馈是内容过滤的不同实现。",
+        "source": "P09物理PDF第2页",
+        "verdict": "supported",
+        "reason": "原文逐项讨论这些机制；页面没有将相关工作中的全部技术误写为GroupLens已实现模块。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "点击能否代表喜欢，需要由模型界定。",
+        "source": "P22物理PDF第2、4页",
+        "verdict": "supported",
+        "reason": "误访网页例子说明访问行为可能产生错误偏好数据；页面此处引注仅指P09，宜补P22定位。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "共同特征空间中的二元向量内积计算共有特征数，示例得分为2、1、0。",
+        "source": "https://developers.google.com/machine-learning/recommendation/content-based/basics",
+        "verdict": "supported",
+        "reason": "已打开教材正文核对公式；两维简化例计算正确，且明确不是实验数据。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "s(u,i)=Σk u_k x_ik是内容过滤的一般写法。",
+        "source": "https://developers.google.com/machine-learning/recommendation/content-based/basics；P09物理PDF第2页",
+        "verdict": "error",
+        "reason": "该式是所选内积评分模型，不能概括所有内容过滤；页面自身列出的布尔规则也不必采用此式。应限定为采用内积时的评分形式，并说明求和覆盖的特征集合。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "内容特征可能无法充分表达含义或质量，GroupLens式协同过滤受评分稀疏和新用户、新项目影响。",
+        "source": "P09物理PDF第2、6—7页；P22物理PDF第2页",
+        "verdict": "supported",
+        "reason": "比较对象明确限定为GroupLens式方法；对语义困难和启动问题的描述有据，没有宣称任一方法绝对优越。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "有内容特征的新项目可以与已有用户画像比较，但新用户仍需要偏好信息。",
+        "source": "https://developers.google.com/machine-learning/recommendation/content-based/basics；P22物理PDF第2页",
+        "verdict": "supported",
+        "reason": "属于所述输入与匹配机制的直接适用条件；页面保留了已有画像这一必要前提。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "GroupLens将内容过滤作为既有路线，核心预测来自其他读者评分。",
+        "source": "P09物理PDF第2、6—8、10—11页",
+        "verdict": "supported",
+        "reason": "关系归属正确；混合评分在该文中属于未来方法建议，页面未冒称已实施。"
+      },
+      {
+        "path": "concepts/C031.md",
+        "claim": "解释研究中喜欢的演员解释均值4.92、标准差1.73，相似电影解释可来自内容或评分相关。",
+        "source": "P22物理PDF第6页表1、第7页解释5—6",
+        "verdict": "supported",
+        "reason": "数字与作者分析相符；测量的是七点观看意愿，页面正确区分解释证据与预测器实现、预测准确率。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "Azuma的AR定义包括真实与虚拟结合、实时交互和三维配准，不限于头戴设备。",
+        "source": "https://ronaldazuma.com/papers/ARpresence.pdf，物理PDF第2—3页",
+        "verdict": "supported",
+        "reason": "已打开定义原文；页面对电影和普通二维叠加的边界处理准确。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "配准需要随视点或对象运动更新，追踪位置还需通过标定参数转换用于绘制。",
+        "source": "https://ronaldazuma.com/papers/ARpresence.pdf，物理PDF第19—22页",
+        "verdict": "supported",
+        "reason": "原文讨论追踪到眼睛的平移、方向偏移、视场和观察矩阵；静止对准不保证多视点对准的解释正确。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "端到端延迟会在运动时产生动态配准误差，可通过降低延迟、同步时间流或预测位置应对。",
+        "source": "https://ronaldazuma.com/papers/ARpresence.pdf，物理PDF第22—24页",
+        "verdict": "supported",
+        "reason": "延迟定义、组成和运动条件均吻合；页面没有把静态误差与动态误差混为一谈。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "1990年代中期至2007年为工具和应用探索期，2007年后为商业应用期；2003、2004年出现相应手持和手机AR。",
+        "source": "所提供Billinghurst等官方URL原文缓存，物理PDF第25、28—34页",
+        "verdict": "supported",
+        "reason": "历史分期与案例年份均有原文支持；2009年转折与2007年分期属于不同层次，不构成年份矛盾。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "图像合成方式与设备位置是不同分类维度，投影受表面、光照和遮挡限制。",
+        "source": "所提供Billinghurst等官方URL原文缓存，物理PDF第58—74页",
+        "verdict": "supported",
+        "reason": "两套分类轴及投影限制有直接依据；列举三种方式并未声称穷尽全部类型。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "Tangible Bits以AR为相关研究和设计启发，强调实体输入与环境媒体。",
+        "source": "P12物理PDF第2—3页",
+        "verdict": "supported",
+        "reason": "原文明确说明受AR启发，并比较视觉叠加与可抓握对象输入。页面没有断言全部原型符合Azuma的严格定义。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "metaDESK通过建筑实体模型、感测、二维地图及activeLENS形成空间交互回路。",
+        "source": "P12物理PDF第4—5页",
+        "verdict": "supported",
+        "reason": "部件、地图出现、移动映射与双对象约束均可核对；应用段确实解释概念与具体设计的关系。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "metaDESK涉及多对象约束和歧义处理，但原型展示不能直接证明效率提高。",
+        "source": "P12物理PDF第5页及全文",
+        "verdict": "supported",
+        "reason": "原文讨论独立旋转冲突及机械约束工具，没有报告相应任务效率对照实验。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "有形用户界面与AR不完全重合，ambientROOM关注注意力外围。",
+        "source": "P12物理PDF第2—3、5—6页；https://ronaldazuma.com/papers/ARpresence.pdf，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "依据两种定义进行边界比较成立；ambientROOM的光、声音等机制确为背景感知设计。"
+      },
+      {
+        "path": "concepts/C032.md",
+        "claim": "Billinghurst综述卷期标年2014，版权与大学书目记录为2015。",
+        "source": "页面脚注later；所提供缓存未含版权页或大学书目；https://www.nowpublishers.com/article/Details/HCI-049",
+        "verdict": "unverified",
+        "reason": "缓存正文能确认作者写作时使用2015，但不能单独验证卷期、版权和未具名大学书目三项元数据；出版社页面本次返回403。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "声誉系统收集、分发和汇总过往行为反馈，帮助陌生人参考公共历史作选择。",
+        "source": "https://presnick.people.si.umich.edu/papers/cacm00/reputations.pdf，物理PDF第1—3页",
+        "verdict": "supported",
+        "reason": "已打开作者全文核对定义、未来互动机制及运行三条件。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "2000年已有净分、平均分及多维评分变体，简单摘要会遗漏交易与评价者背景。",
+        "source": "https://presnick.people.si.umich.edu/papers/cacm00/reputations.pdf，物理PDF第1—2、5页",
+        "verdict": "supported",
+        "reason": "历史口径明确，变体与遗漏信息均有原文支持，没有将历史平台规则写成现行规则。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "三次评分5、4、3加入2分后均值为3.5，多维评分能保留总体分压缩掉的差异。",
+        "source": "页面自拟例算；Resnick等作者版物理PDF第2、5页",
+        "verdict": "supported",
+        "reason": "算术正确，反馈到后续选择的流程完整，明确区分例算与实测结果及成功概率。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "Turkopticon通过雇主ID关联评论，在工作界面展示四维平均分和完整评论入口；0表示无数据。",
+        "source": "P11物理PDF第6页",
+        "verdict": "supported",
+        "reason": "嵌入机制、四个问题、文字评论要求及0的语义均准确。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "DoloresLabs付费征集300条初始评价，使新用户先使用已有内容。",
+        "source": "P11物理PDF第7页",
+        "verdict": "supported",
+        "reason": "数量、实施主体和启动作用吻合，没有写成300名劳动者或消除了劳动风险。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "遮蔽邮箱、评论历史与可选屏幕名平衡匿名性和评价者信誉。",
+        "source": "P11物理PDF第7页",
+        "verdict": "supported",
+        "reason": "属于实际实施的身份安排，页面也保留不能保证消除报复和造假的边界。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "运行两年后加入标记审核，隐藏评论需要审核者第二次标记，审核依靠社区知识。",
+        "source": "P11物理PDF第7—8页",
+        "verdict": "supported",
+        "reason": "程序、审核者选择与反操纵理由有直接支持，没有误写为纯多数投票。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "战术性量化是受约束的快速线索，报酬评价受处境影响；工具成功可能同时维持AMT。",
+        "source": "P11物理PDF第8—9页",
+        "verdict": "supported",
+        "reason": "准确归属作者反思，并保留劳动经验被压缩、维护负担和平台依赖等限制。"
+      },
+      {
+        "path": "concepts/C033.md",
+        "claim": "Turkopticon实际采用声誉机制干预信息不对称，证据来自建设、参与观察和维护。",
+        "source": "P11物理PDF第1—2、6—9页",
+        "verdict": "supported",
+        "reason": "本站应用说明了具体资料、界面和制度如何使用概念，且没有虚构随机实验的劳动改善比例。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三页首句均交代名称、英文和类别；AR紧接给出三条件定义。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括各页的机制与应用方向，没有新增影响或优越性结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖定义、机制、例子、变体、边界和本站关系；没有空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落分别展开反馈、配准、身份或审核等中心，历史与因果大体清楚。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "质量判断、演员偏好分析和战术性量化均归属具体作者，没有泛化为公认定论。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "数字和历史范围整体准确，但C032关于2014卷期与2015版权、大学书目的组合说明尚未充分核实。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "多数关键论断可核验；C031把内积形式写成一般形式超出来源范围，C032部分书目阶段说明仍待证。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "主要物理页码准确且Crossref缓存支持四篇本站论文书目；C031点击语义段仅引P09，直接依据应补P22第2、4页，C032大学书目未给出处。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未设信息框；不存在信息框与正文数字冲突，此项按不适用通过。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见长段复制或宣传结尾；自拟例算明确标示。部分非实验说明略重复，但有助于区分证据类型。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用适合技术概念的结构，没有套入无关领域惯例或虚构实验章节。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面未宣称优良资格，但没有标明本次发现的公式范围问题和书目待核项，仍需在审核记录中保留。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "三页机制总体完整，但C031将一种内积模型泛称一般形式，核心形式化说明需要限定适用范围。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕匹配、空间更新和反馈传播组织论证，不是研究字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "表格中的系统部件、评价维度和比较项都有上下文说明，没有堆积未解释名称。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "4.92与1.73说明量表及含义，300条解释启动用途，两个例算均说明口径和非实验性质。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用具体解释比较路线、解释证据、设计启发和实际声誉干预，未以参见链接代替工作关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景包含新闻过滤方式、AR设备演进和劳动者信息缺口，未缩成抽象问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未使用无依据的革命性或显著改善等赞誉，原型可行与效果提升也有明确区分。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C031.md",
+        "sections": [
+          "导言与定义",
+          "内容与偏好怎样对应",
+          "一个特征匹配的例子",
+          "与协同过滤的区别",
+          "冷启动、表达能力与混合",
+          "在本站论文中的应用：GroupLens",
+          "在本站论文中的应用：Explaining Collaborative Filtering Recommendations",
+          "参考文献与引注范围"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C032.md",
+        "sections": [
+          "导言与三条件定义",
+          "增强与配准",
+          "感测、更新与动态误差",
+          "从专用原型到移动设备",
+          "与实体交互的结合",
+          "技术边界与设计取向",
+          "局限与评价",
+          "在本站论文中的应用：Tangible Bits",
+          "参考文献与引注范围"
+        ],
+        "unverified": [
+          "Billinghurst综述卷期标年2014、版权为2015及大学书目记录为2015的组合书目说明。"
+        ]
+      },
+      {
+        "path": "concepts/C033.md",
+        "sections": [
+          "导言与定义",
+          "从个人经历到共同信息",
+          "汇总方式与评价维度",
+          "一次反馈怎样进入后来的选择",
+          "Turkopticon的评价维度",
+          "记录怎样变得可用",
+          "维护、争议与量化局限",
+          "在本站论文中的应用：Turkopticon",
+          "参考文献与引注范围"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "审校依据为提供的四篇论文全文、Crossref原始书目缓存、Billinghurst原文缓存，以及实际搜索并打开的Google教材、Azuma综述和Resnick声誉系统全文。",
+      "C031有一项形式化范围错误；C032有一项书目说明待核；C033未发现实质事实错误。",
+      "三页对本站关系的区分总体准确：GroupLens中的内容过滤是比较路线及混合建议，P22中的内容特征用于解释证据，Tangible Bits以AR为启发与比较参照，Turkopticon实际实施声誉机制。",
+      "未修改正文；错误应修订并复核，待核书目应补直接出处或删去无法证实的阶段说明。"
+    ]
+  }
+}

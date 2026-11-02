@@ -1,0 +1,316 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C081",
+    "C082"
+  ],
+  "page_hashes": {
+    "concepts/C081.md": "3c65ca93af5061044ab1068b7d062d0251f7f14abfcc539ebf7174693d013b61",
+    "concepts/C082.md": "2e733163a2b9b0aeb6afd53cf1dc730c7c4e888b9cadcf068faeb6c2c9c2ffea"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C081.md",
+        "claim": "认知需求指参与并享受付力思考的倾向，不能直接充当智力指标。",
+        "source": "P21，PDF第12–14页；https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/ ，定义与量表背景",
+        "verdict": "supported",
+        "reason": "定义准确；来源虽指出它与智力相关，但未将二者视为同一构念。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "高低NFC反映连续倾向上的相对位置，高分者较常深入处理信息。",
+        "source": "P21，PDF第13–14页；https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/",
+        "verdict": "supported",
+        "reason": "与人格倾向及信息处理描述相符，没有把中位数分组写成天然类型。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "量表由1982年34题、1984年18题发展至Coelho等人的六题版本。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/ ，Need for Cognition Scale",
+        "verdict": "supported",
+        "reason": "年份、作者及题数均与打开的正文一致；这是量表发展史，并未声称概念始于1982年。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "六题研究包含美英三个样本共1596人，并检验结构、测量一致性及外部关联。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/ ，摘要及研究设置",
+        "verdict": "supported",
+        "reason": "样本总数与验证内容相符；六题工具与P21采用的四题子集明确区分。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "五级回答反向计分采用6−x；示意回答4、2转换后平均4、总和8。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/ ，Material及附录；页面所列算式",
+        "verdict": "supported",
+        "reason": "计分方向和算术正确，且明确说明改写题目与两题演示不是正式量表。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "NFC自身未被随机操纵，分组表现差异不能单独证明人格导致结果。",
+        "source": "P21，PDF第8–9、12、14页",
+        "verdict": "supported",
+        "reason": "随机分配的是界面条件，NFC通过问卷测量；因果边界表述合理。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "先独立决定再查看建议等交互旨在促进分析，NFC是可能影响干预收益的人类因素。",
+        "source": "P21，PDF第2–3、7、16–17页",
+        "verdict": "supported",
+        "reason": "准确呈现作者理论动机；没有声称实验直接观测或证实了内部思考机制。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "P21用四题短量表和样本中位数分组，比较SXAI与CFF合并类别。",
+        "source": "P21，PDF第7–9、14页",
+        "verdict": "supported",
+        "reason": "量表、分组及三种强制设计均准确。应用说明交代了NFC如何进入审计，而非仅概括论文。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "错误预测时高NFC完整决定均值由0.02升至0.11且显著，低NFC由0.03升至0.06且不显著。",
+        "source": "P21，PDF第14页表4、第15页解释",
+        "verdict": "supported",
+        "reason": "数字、比较方向与显著性正确；页面也如实保留表5低NFC值为0.07的原文差异。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "上述数值为混合效应模型边际均值；低NFC碳水来源识别仍由0.09升至0.26，p=.003。",
+        "source": "P21，PDF第9–10页分析方法、第14页表4–5",
+        "verdict": "supported",
+        "reason": "没有误写为直接计数或全试次准确率，也没有把不显著等同于零收益。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "作者把收益分化讨论为可能的干预生成不平等。",
+        "source": "P21，PDF第12、17–18页",
+        "verdict": "supported",
+        "reason": "保留可能性及作者归属；额外成本由谁承担属于评估建议，没有写成已实施分析。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "CFF心智要求与SXAI相近，但系统复杂程度有差异；结论受单一任务和模拟AI限制。",
+        "source": "P21，PDF第7、12页表3（附图188:12）、第17页",
+        "verdict": "supported",
+        "reason": "表3心智要求为2.84与2.86、同括号；复杂程度2.95与2.64且显著。75%指识别最高碳水食材的模拟准确率，页面语境基本清楚。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "IRR衡量多个评定者对同一材料评定的一致程度，是否使用取决于分析目标。",
+        "source": "P18，PDF第2–5、13–16页",
+        "verdict": "supported",
+        "reason": "符合本站方法论文的广义术语用法；没有把IRR强加于所有质性研究。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "Cohen κ=(po−pe)/(1−pe)，pe按两位评定者边际比例计算。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3402032/ ，公式4；提供的官方全文缓存第159–168行",
+        "verdict": "supported",
+        "reason": "公式、符号和偶然模型均准确。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "100份教学表得到po=.80、pe=.50、κ=.60；pe=1时κ未定义。",
+        "source": "页面教学列联表；Hallgren公式4",
+        "verdict": "supported",
+        "reason": "行列和与代入计算正确；分母为零的例外避免了把完全一致一概写成κ=1。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "κ不等于分类正确率，并存在盛行率、偏差及加权变体问题。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3402032/ ，Common kappa variants；提供缓存第197–207行",
+        "verdict": "supported",
+        "reason": "变体区分忠实于所引教程，未混淆一致与效度。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "多评定者、不同测量层次或缺失判断可能需要Fleiss κ、Krippendorff α等其他统计量。",
+        "source": "Hallgren教程；https://discovery.ucl.ac.uk/id/eprint/10091273/1/1609406919899220.pdf",
+        "verdict": "supported",
+        "reason": "作为候选工具概述成立；若用于实际选型，还应展开评定者分配设计和连续评分ICC，不能仅据人数选择Fleiss κ。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "独立编码的一致性与讨论后达成共识是不同证据。",
+        "source": "P18，PDF第4–5页；https://discovery.ucl.ac.uk/id/eprint/10091273/1/1609406919899220.pdf ，实践流程",
+        "verdict": "supported",
+        "reason": "实施顺序及规则修订阶段的报告要求准确。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "P16在12%开放回答上由两名作者编码，Cohen κ=1；预注册不等于预定演绎代码表。",
+        "source": "P16，PDF第7页Preregistration与Methods",
+        "verdict": "supported",
+        "reason": "原文明确为开放、轴心及归纳编码；页面正确限定了系数对应的怀疑变量。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "P18先编码30篇达到100%一致，再在70篇上报告κ=.849、α=.85。",
+        "source": "P18，PDF第7页§3.1",
+        "verdict": "supported",
+        "reason": "数字和用途正确；“共同编码”宜明确成“两人分别编码同一批”，以免与协商编码混淆。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "P19从1768候选簇抽查200簇，报告κ=.74，解决分歧后由一人检查其余簇。",
+        "source": "P19，PDF第11页§4.3.3；附图81:11",
+        "verdict": "supported",
+        "reason": "图文一致；页面正确区分簇的抽样范围和片段判断，没有宣称所有实例双人复核。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "Data Cascades不计算IRR，八个初始分析方向经讨论形成三个顶层与18个嵌套类别。",
+        "source": "P20，PDF第4页Analysis and coding、第14页参考文献80",
+        "verdict": "supported",
+        "reason": "类别数量、分析过程及引用P18的关系准确，明确属于不采用IRR的方法选择。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "固定标签计数与持续解释编码对IRR的需求不同，系数不能替研究整体质量背书。",
+        "source": "P18，PDF第5–6、13–18页；https://discovery.ucl.ac.uk/id/eprint/10091273/1/1609406919899220.pdf ，第3–5页",
+        "verdict": "supported",
+        "reason": "方法论分歧有明确归属，未把不使用IRR等同于缺乏严谨性。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "概念范围涵盖一般IRR，但变体说明基本限于分类κ。",
+        "source": "candidate_pages concepts/C082.md；Hallgren教程§ICCs for Ordinal, Interval, or Ratio Variables",
+        "verdict": "error",
+        "reason": "存在范围与深度不匹配：缺少连续或等级评分中重要的ICC路径，以及一致性和绝对一致的区别。应补充简要选型边界，或明确条目重点为分类编码信度。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均给出名称、英文和核心类别；C082可将“统计方法”细化为性质及其统计测量。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言涵盖定义和主要研究用途，没有额外的效果或历史主张。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "C081章节充分；C082以一般IRR为题却未交代ICC及连续评分这一主要分支。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落分别围绕计分、机制、应用及边界展开，随机分配与人格差异没有混成因果关系。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "不平等判断归于Buçinca等人，质性方法分歧归于具体作者，未制造统一共识。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "量表在线与卷期年份区分清楚；均值、比例、题数和抽样单位有交代。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、公式、数字及应用均有可定位来源；教学例子明确标识。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "所列论文作者、DOI及页码与全文和Crossref缓存一致；C081表4、表5差异也有说明。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "两页未使用信息框；元数据标题及别名与正文一致。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见长段复制或宣传结论；例算属于既有公式演示，没有据此提出新研究结论。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念定义、机制、例子、变体、应用和局限结构，没有硬套论文实验模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未夸称优良条目或验收通过，但C082未明确其分类编码侧重，遗漏的一般IRR范围仍需补足。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C081核心测量及应用完整；C082缺少ICC和一致性类型，广义IRR核心分支覆盖不足。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "两页均围绕读者问题组织解释，不是研究字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "量表长度、编码步骤和研究名称均有作用说明，表格后提供比较解释。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "NFC表格限定错误预测试次和边际均值；κ应用限定共同样本及统计对象。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "应用关系具体到问卷分组、标签一致性抽查或明确不采用IRR，没有以参见链接冒充分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代量表缩短的验证需求及质性方法分歧，并非只有问题句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "显著性附具体指标和比较条件，没有空泛赞誉或以系数排名研究质量。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C081.md",
+        "sections": [
+          "导言：定义与概念区分",
+          "含义与测量：信息处理倾向、量表发展、六题验证、反向计分例算、因果边界",
+          "AI辅助决策中的作用机制：交互顺序与食材任务",
+          "在本站论文中的应用：四题测量、中位数分组、表4–5结果、干预生成不平等",
+          "使用边界：认知负荷区分、主观指标、任务推广",
+          "参见",
+          "参考文献与书目元数据"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C082.md",
+        "sections": [
+          "导言：IRR定义及方法适用性",
+          "一致如何被测量：原始一致率、κ公式、列联表示例、退化边界、变体",
+          "实施过程与解释边界：独立编码、共识、信度与效度",
+          "在本站论文中的应用：P16、P18、P19的实际采用与P20明确不采用",
+          "方法论差异：固定代码、解释过程、单人研究、透明报告",
+          "参见",
+          "参考文献与书目元数据"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "C081关键事实、例算与应用通过核对；C082具体事实基本准确，但一般IRR范围的覆盖不完整。",
+      "已搜索并实际打开NFC量表全文、Hallgren官方页面及O’Connor与Joffe机构库全文；SAGE全文访问超时后采用机构库版本。",
+      "附图按物理页对应核对：P19第11页，以及P21第10–13页；表3支持负担与复杂度的区分，图2–3未被误作因果证据。",
+      "建议C082补充ICC选型边界，并把P18“共同编码70篇”明确为两人分别编码同一批材料。没有修改正文。"
+    ]
+  }
+}

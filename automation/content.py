@@ -72,7 +72,7 @@ def relink(body,entities,self_id):
             term=m.group('term')
             if not term:return m.group()
             # Short generic English words are ambiguous; explicit model links remain allowed.
-            if term.casefold() in {'awareness','explanations','precision','replication','acf','nfc','irr','xai','rtd'}:return term
+            if term.casefold() in {'awareness','explanations','precision','replication','acf','nfc','irr','xai','rtd','framing'}:return term
             if term.isascii() and ((m.start() and segment[m.start()-1].isalnum()) or (m.end()<len(segment) and segment[m.end()].isalnum())):return term
             e=lookup[term.casefold()]
             if e['id']==self_id or e['id'] in seen:return term

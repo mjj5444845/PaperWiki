@@ -1,0 +1,436 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C027",
+    "C028",
+    "C029",
+    "C030"
+  ],
+  "page_hashes": {
+    "concepts/C027.md": "84851ae288f26cd8f71e666ecdbd5d9f1a3784e4fe720e51839f9cc1454d6d31",
+    "concepts/C028.md": "962dda31afa2a8bb56e5f905a327f93d9e59e041b3fdb6706d5674b4d6f370b0",
+    "concepts/C029.md": "0de8118c8a1f066056732950185a15f17f5d8b46b646e032a7c2668cdacb83d6",
+    "concepts/C030.md": "8f39dfc605d824fb692fde36df4ff985330982deed5f17e3cd68502b447db87d"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C027.md",
+        "claim": "可用性测试通过参与者执行任务、研究者观察行为并听取反馈来发现设计问题。",
+        "source": "https://www.nngroup.com/articles/usability-testing-101/，定义及Elements of Usability Testing",
+        "verdict": "supported",
+        "reason": "实际打开的原文支持任务、观察、反馈及改进目的；页面没有将意见调查等同于任务测试。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "测试可分现场与远程、主持与自行完成，以及定性与定量安排。",
+        "source": "https://www.nngroup.com/articles/usability-testing-101/，Types of Usability Testing",
+        "verdict": "supported",
+        "reason": "分类及完成率、耗时等指标与来源一致；页面也保留了任务和样本条件。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "主持人应避免提示操作路径，出声思考可补充行为观察。",
+        "source": "https://www.nngroup.com/articles/usability-testing-101/，Facilitator、Tasks；P24物理PDF第6页",
+        "verdict": "supported",
+        "reason": "外部指南要求避免影响行为；1990年论文明确建议以出声思考补充启发式评估。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "更换查询条件后仍沿用旧结果的事件是说明性例子。",
+        "source": "候选页“从观察到问题报告”；P24物理PDF第3、6页",
+        "verdict": "supported",
+        "reason": "页面明确声明并非论文事件，没有伪造实验实例；任务、状态、行为与后果的联系适合作为方法说明。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "CASA同机评价更积极且变异更小，换机与纸笔条件没有显著差异。",
+        "source": "P08物理PDF第3页，Study 1 Results",
+        "verdict": "supported",
+        "reason": "原文分别报告友好度、能力评价和回答变异的差异，并支持设备身份而非单纯媒介形式的解释。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "CASA研究提供可用性评价的设计启示，其五项实验不是特定产品的任务可用性测试。",
+        "source": "P08物理PDF第1—6页，General Method、Studies 1–5、Design Implications",
+        "verdict": "supported",
+        "reason": "页面准确区分社会反应实验与可用性测试应用建议，没有将研究关系写成直接实施该方法。"
+      },
+      {
+        "path": "concepts/C027.md",
+        "claim": "1990年启发式评估研究没有用传统用户测试验证全部问题清单，并建议组合方法。",
+        "source": "P24物理PDF第3—4、6页",
+        "verdict": "supported",
+        "reason": "原文明确承认未开展这种验证，讨论潜在问题随真实使用情境变化，并建议实际测试作为争议仲裁。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "启发式评估依据一般原则检查潜在问题，1990年版本包含九项原则。",
+        "source": "P24物理PDF第1—2页，Heuristic Evaluation、表1",
+        "verdict": "supported",
+        "reason": "定义及表中九个名称均与原文相符，未将后来十项倒写为1990年内容。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "评估报告与作者问题清单匹配，清单在阅读报告后补充修订。",
+        "source": "P24物理PDF第2页，Empirical Test",
+        "verdict": "supported",
+        "reason": "原文明确记载作者遗漏的问题由评估者补充，页面没有把清单当作固定完整真值。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "Mantel覆盖电话号码、Teledata的UNKNOWN IP及Transport层级切换是原研究实例。",
+        "source": "P24物理PDF第3页，The Usability Problems",
+        "verdict": "supported",
+        "reason": "实例及其涉及的记忆负担、用户语言、反馈和导航关系成立；原则归类属于明确的解释性整理。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "四项研究的人员条件和个人发现比例为37名、77份投稿、同一批34名，以及51%、38%、26%、20%。",
+        "source": "P24物理PDF第2—4页，实验描述及Evaluation Results",
+        "verdict": "supported",
+        "reason": "人数、投稿单位、培训差异和比例次序正确；页面保留已知问题集合这一分母，没有推广为专家一般发现率。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "多人覆盖曲线来自报告的模拟组合，理想汇总未经真实团队实验验证。",
+        "source": "P24物理PDF第6—7页，Aggregated Evaluations",
+        "verdict": "supported",
+        "reason": "原文采用随机抽取的假想组合和Monte Carlo计算，并明确承认汇总权威假设未经实证检验。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "独立检查后汇总及3—5人是作者提出的实践建议。",
+        "source": "P24物理PDF第7页，Conclusions",
+        "verdict": "supported",
+        "reason": "页面正确标为建议，没有误称独立与合作检查已做随机对照，也没有许诺固定发现率。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "语音消息缺乏持续可见性会妨碍检查，误报比例未被正式量化。",
+        "source": "P24物理PDF第5—6页",
+        "verdict": "supported",
+        "reason": "原文讨论低持续性及未正式分析误报；页面没有把作者认为误报较少改写成量化结果。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "后来的十项原则包含帮助文档、错误恢复等内容。",
+        "source": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+        "verdict": "supported",
+        "reason": "实际打开的官方页面列出相应十项；其发表于1994年并有后续修订，候选页以“后来公布的版本”表述合适。"
+      },
+      {
+        "path": "concepts/C028.md",
+        "claim": "Human-AI指南研究实际改造并采用启发式评估，收集应用与违反实例以修订指南。",
+        "source": "P15物理PDF第4—5、10—11页，Phases 2–4",
+        "verdict": "supported",
+        "reason": "研究目标是评价指南的相关性与清晰性；页面准确说明这一改造，没有误称直接照搬传统九项或十项。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "图像级标签、边界框及像素分割具有不同输出粒度。",
+        "source": "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-task-types.html；https://docs.aws.amazon.com/sagemaker/latest/dg/sms-bounding-box.html；所供TensorFlow官方全文缓存",
+        "verdict": "supported",
+        "reason": "已打开的AWS文档支持类别及框位置，TensorFlow原文明确区别整图分类与逐像素类别。猫的例子没有被冒称实验结果。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "AWS自动标注以人工样本训练和验证模型，高置信预测自动接受，低置信样本交回人工后迭代。",
+        "source": "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html，How it works步骤1—9",
+        "verdict": "supported",
+        "reason": "实际打开的官方流程支持该描述，并要求验证推断准确性；页面没有将其混同ESP的预录重放。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "ESP随机配对、隐藏猜词，以同图显示期间曾出现的相同词形成匹配。",
+        "source": "P25物理PDF第2页，General Description及图1文字",
+        "verdict": "supported",
+        "reason": "匹配不要求同步输入；purse与handbag示例保留原文顺序，未将未匹配猜词直接算成标签。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "良好标签阈值X决定接受门槛，原型X=1，最多显示六个禁用词。",
+        "source": "P25物理PDF第2—3页，Taboo Words、Labels and Good Label Threshold、Implementation",
+        "verdict": "supported",
+        "reason": "阈值对象是达成一致的配对数量；接受后成为标签及禁用词，单复数和包含禁用词的短语限制也有原文依据。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "预录搭档既能确认旧标签，也能使原先未匹配的猜词成为新标签。",
+        "source": "P25物理PDF第3页，Pre-Recorded Game Play",
+        "verdict": "supported",
+        "reason": "原文记录猜词及时间并明确说明两种用途；候选页没有把bot误写为视觉识别模型。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "主题房间和儿童版本是扩展建议，原型使用预先收集的35万张图片。",
+        "source": "P25物理PDF第3—4页，Implementation、Selecting the Images、扩展章节",
+        "verdict": "supported",
+        "reason": "实现范围与建议方案分开，未将计划推广到全网写成已完成部署。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "两组各15人的独立检查得到至少五词覆盖、前三常见词覆盖及5.105和0.105词的均值。",
+        "source": "P25物理PDF第5—6页，三项标签质量评价",
+        "verdict": "supported",
+        "reason": "数字及两组不重叠关系正确，页面也保留20张图片、已有较多标签和20—25岁评价者的抽样边界。"
+      },
+      {
+        "path": "concepts/C029.md",
+        "claim": "关键词标签不足以完整替代依网页功能和语境编写的替代文本。",
+        "source": "P25物理PDF第7页，Using Our Labels；https://www.w3.org/WAI/tutorials/images/decision-tree/",
+        "verdict": "supported",
+        "reason": "论文区分关键词与解释句；已打开的W3C指南区分功能图、信息图、复杂图及装饰图，支持页面的边界说明。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "1984年研究将数量提取分解为基本感知任务，并将准确性排序用于图表设计。",
+        "source": "所附Cleveland与McGill扫描图：物理PDF第2—3页，对应印刷531—532页",
+        "verdict": "supported",
+        "reason": "摘要和正文明确说明两部分理论与设计用途，同时声明数量提取准确性不是完整图形理解理论。页码对应正确。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "基本感知任务的组成及适用边界已充分解释。",
+        "source": "所附Cleveland与McGill物理PDF第3页，印刷532页，图1及相邻正文",
+        "verdict": "error",
+        "reason": "作为概念解释仍不完整：只展开少数空间编码，未说明图1的十类任务，还遗漏任务并非完全独立、清单非穷尽，以及颜色色相和纹理因缺少单一数量排序而被排除的关键边界。正文主要成为2010年实验介绍。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "2023年综述按任务及设计条件整理图形感知证据。",
+        "source": "https://homes.cs.washington.edu/~leibatt/static/papers/zeng2023review.pdf，摘要及综述组织",
+        "verdict": "supported",
+        "reason": "实际打开的研究综述59篇论文和十类分析任务，支持按任务理解编码结论的背景陈述。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "实验1的对数误差公式、教学例算及midmean汇总正确。",
+        "source": "P06物理PDF第3—5页，实验1A与1B",
+        "verdict": "supported",
+        "reason": "公式中的百分比采用0—100数值；10个百分点代入得约3.34，零误差得−3。页面明确是教学例算，并正确区分逐图midmean与按判断类型的均值和bootstrap区间。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "实验2记录alpha，实验3记录差值估计绝对误差，不能与实验1指标混用。",
+        "source": "P06物理PDF第5—7页，实验2与3的方法",
+        "verdict": "supported",
+        "reason": "三类测量对象和单位区分准确；实验3的0—100量程、较小值识别和较大减较小操作均有依据。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "位置优于长度，面积差于角度，而角度差于长度的预期未获支持。",
+        "source": "P06物理PDF第3—4页，实验1A Results",
+        "verdict": "supported",
+        "reason": "与论文结果文字一致，也正确说明旧研究任务格式不同，不能拼成严格单一阶梯。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "两个正方形的面积比较误差最大，独立矩形与树图未发现显著差异。",
+        "source": "P06物理PDF第4—5页，实验1B方法及结果",
+        "verdict": "supported",
+        "reason": "宽高比范围和展示条件正确；借边长判断面积保留为作者假设，没有改写成确定机制。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "网格实验的浅色任务测量辅助线是否刚好能够察觉。",
+        "source": "P06物理PDF第5页，实验2任务L原始说明",
+        "verdict": "error",
+        "reason": "任务L要求尽可能浅但仍可用地被感知，并非测量纯粹的刚可察觉阈限。将其称为刚可察觉会改变任务的操作定义。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "密度p=0.015、背景强度p=0.779，alpha约0.2是该条件下的建议。",
+        "source": "P06物理PDF第6页，实验2 Results",
+        "verdict": "supported",
+        "reason": "数值及显著性解释正确，未把背景不显著说成完全无影响，也未将默认值写成普遍常数。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "40像素条件较差，80像素后趋于平台；至少8像素网格间距属于设计建议。",
+        "source": "P06物理PDF第7页，实验3 Results",
+        "verdict": "supported",
+        "reason": "页面保留0—100量程及事后比较条件，并正确区分数据单位间距和像素间距。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "线上显示条件未统一，资格任务和可验证问题帮助质量控制，提高报酬未稳定提高准确性。",
+        "source": "P06物理PDF第1、8—10页",
+        "verdict": "supported",
+        "reason": "研究支持这些限制和建议；页面未抹去高报酬条件准确性略降的可能性，也未将报酬结果推广为劳动伦理结论。"
+      },
+      {
+        "path": "concepts/C030.md",
+        "claim": "本站2010年论文实际将图形感知用于复现实验及扩展显示条件。",
+        "source": "P06物理PDF第1、3—7、9页",
+        "verdict": "supported",
+        "reason": "编码与alpha实验用于复现，矩形及图高、网格实验用于扩展，应用关系明确且具体。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "四页首句均给出概念、英文名、类别与关键活动，能够独立识别主题。"
+      },
+      {
+        "item": 2,
+        "pass": false,
+        "reason": "C027—C029导言覆盖主要方面；C030导言偏向2010年检验，未概括正文重要的历史框架、任务条件和测量边界。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "各页章节有实质资料，但C030未充分展开基本感知任务组成，概念广度与2010年实验细节的篇幅失衡。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落大多围绕机制、例子或证据边界展开；模拟组合与实际团队、扩展建议与实现均有明确区分。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "作者建议、实验发现及机制推测均有主体；没有将单项实验结论写成普遍定律。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "人数、投稿数、配对阈值、百分比与像素等口径基本一致；1984年扫描版物理页与印刷页对应正确。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "多数关键论断可核验，但C030将任务L写成刚可察觉阈限，引用不能支持这一更强的操作定义。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "已给Crossref缓存支持五篇本站论文的作者、年份和DOI；正文定位整体落在相应章节，虽有重复及过宽页码可进一步精简。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "四页未使用信息框，没有空字段或信息框与正文冲突。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见大段复制或宣传总结；说明性事件和公式例算明确标识，未冒充原研究发现。"
+      },
+      {
+        "item": 11,
+        "pass": false,
+        "reason": "C027—C029组织适合各自概念；C030较接近单篇实验论文解说，尚未完整满足概念页的组成与变体说明。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "页面持续标明抽样、测量和实现范围，没有自称已通过独立验收或达到优良条目资格。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C030基本任务框架只列少数编码，遗漏十类组成及非独立、非穷尽的边界；其余三页核心流程较完整。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "四页通过任务、机制、实例与限制组织内容，未机械转写研究字段。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "人员、系统名及数字均有任务和作用解释，表格服务于比较，没有成为未解释的笔记清单。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "发现比例附分母和人员条件，ESP评价附抽样范围，图形实验附量程、单位及比较对象。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用指出具体研究模块和使用方式；CASA的评价启示与启发式评估论文的补充建议没有伪装成直接采用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代了评价资源不足、网页文字索引问题和图表比较研究路线，并非仅提出问题。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性或无比较依据的显著效果赞誉，重要判断均与具体研究结果联系。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C027.md",
+        "sections": [
+          "导言：定义、形式与条件",
+          "任务、参与者与观察",
+          "从观察到问题报告及证据表",
+          "测试形式与一个任务流程",
+          "与其他评价方式的区别",
+          "测试结果的边界",
+          "在本站论文中的应用：CASA设计启示、启发式评估的补充建议",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C028.md",
+        "sections": [
+          "导言：定义及版本区别",
+          "检查怎样进行",
+          "1990年的九项原则及实例",
+          "独立检查与合并：人员、比例、模拟与建议",
+          "后来的原则与领域适配",
+          "局限与证据",
+          "在本站论文中的应用：1990年研究、Human-AI指南研究",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C029.md",
+        "sections": [
+          "导言：定义与标注粒度",
+          "标注形式与生成方式",
+          "图像怎样成为可检索的信息",
+          "ESP的一致性机制及阈值",
+          "预录搭档与单人运行",
+          "质量、作弊与语境",
+          "共识标签怎样接受检查",
+          "在本站论文中的应用：实际机制与建议扩展",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C030.md",
+        "sections": [
+          "导言：图形感知定义",
+          "从图表比较到基本感知任务",
+          "编码怎样影响判断",
+          "实验怎样量化感知误差及例算",
+          "空间编码的比较结果",
+          "从空间编码到显示细节",
+          "线上测量与质量控制",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "C027—C029所核关键事实和应用关系有来源支持；C030存在一处操作定义错误及一项核心框架覆盖不足，应修订后复核。",
+      "已实际搜索并打开NN/g、AWS、W3C官方资料及2023年综述原文；TensorFlow定义另按所供官方原始全文缓存核对。未用搜索摘要代替原文证据。",
+      "已直接检查所附1984年印刷531—532页：图1展示十类基本任务，正文明确其并非完全独立且非穷尽；这一视觉证据构成C030完整性判断的依据。",
+      "五篇本站论文按所供全文及物理PDF页码核对，书目按Crossref缓存核对；没有把未重跑实验或未访问目标文件列为事实缺口。"
+    ]
+  }
+}

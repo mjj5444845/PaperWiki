@@ -1,0 +1,229 @@
+{
+  "id": "P12",
+  "protocol": "source-only-examiner-v3-with-visual-factcheck",
+  "page_sha256": "3a64cbe381dcd2b1dd8ffa93fb280867827634b648420e8edb796f1b4758d886",
+  "questions_sha256": "804ebca92cb44b93d419b572099780a4c2e63ab3cdfdd9611767e6f16716571c",
+  "score": 10,
+  "passed": true,
+  "error": null,
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "Tangible Bits试图弥合人与数字信息、比特与原子、屏幕中的信息与日常物体及空间之间的隔阂，并支持信息在注意力前景与背景间平滑转换。论文将贡献定位为界面观点、一组可研究的机制与设计问题，以三个原型探索实现；并非证明其普遍优于图形界面的性能实验。依据：导言、《三个组成方向与注意力转换》《局限与后续发展》。"
+      },
+      {
+        "id": 2,
+        "answer": "三个核心组成是：交互表面，让桌面、墙、门窗成为物理与数字交换信息的界面；比特与原子耦合，让卡片、书本、模型关联数字内容；环境媒体，以声音、光、气流和水的变化传达后台信息。它们分别处理信息的呈现位置、物体关联和注意层级，使信息可留在知觉边缘，在异常或兴趣触发时进入注意中心；页面不支持人能同时准确处理任意多条信息的结论。依据：《三个组成方向与注意力转换》。"
+      },
+      {
+        "id": 3,
+        "answer": "它与普适计算共享计算融入日常环境的目标，但认为Tabs、Pads、Boards仍大量沿用图形界面隐喻，转而利用已有物体的形状、位置和可操作性，让环境承担界面功能。它也关联增强现实，但重点不止于在视野中叠加数字图像，还包括可抓取输入与环境媒体的组合。依据：《背景：从桌面隐喻回到物体与空间》。"
+      },
+      {
+        "id": 4,
+        "answer": "metaDESK研究注意中心的地图操作；ambientROOM研究注意边缘的后台活动；transBOARD研究日常白板活动的记录与分享。三者是研究平台，并非同一受试者实验的三个条件。metaDESK由近水平背投桌面、机械臂上的液晶屏activeLENS、由桌面投影激活的透明passiveLENS及物理图标phicons组成，使用光学、机械和电磁场传感器检测物件，系统基于VisionMaker，让物理控制与图形显示共同工作。依据：《三个组成方向与注意力转换》《metaDESK：把校园地图变成可操作的物体关系—设备与表示》。"
+      },
+      {
+        "id": 5,
+        "answer": "放下大圆顶模型后，校园地图出现并使对应地标与模型位置对齐；移动或旋转模型，二维地图及activeLENS中的三维视图随之变换。加入Media Lab模型后，两地标分别与两个模型对齐，两模型的关系共同控制地图平移、旋转和缩放；拉开间距会使地图相应缩放，可由双手或两人操作。activeLENS显示空间对应的三维校园视图，移动其机械臂屏幕可查看不同位置；passiveLENS用于探索卫星图像、过去或未来的叠加视图等表示。依据：《metaDESK：把校园地图变成可操作的物体关系—设备与表示、一个完整的操作过程》。"
+      },
+      {
+        "id": 6,
+        "answer": "两个模型位置固定却分别向不同方向旋转时，会产生地图应服从哪个方向的歧义。作者当时忽略这类冲突信息，也考虑过地图变形等解释，但未全部实现。为解决这一具体冲突，作者设计了两个圆柱由滑杆连接的工具，使两端不能独立旋转，将缩放与旋转约束为较明确的轴向动作；它并未消除所有映射歧义。依据：《metaDESK：把校园地图变成可操作的物体关系—为什么需要物理约束》。"
+      },
+      {
+        "id": 7,
+        "answer": "ambientROOM基于Steelcase Personal Harbor独立空间，尺寸6×8英尺，加入MIDI可控设施，探索光、影、声音、气流和水流传达后台信息。玩具车模型代表产品网页这一信息源，移近作为信息接收端的扬声器后，网页访问活动映射为雨滴声密度；突然安静可能引起对访问下降或服务器故障的注意，但不能直接诊断故障。需要细查时，可把同一汽车模型带到metaDESK查看详细交互图形，实现从后台察觉到前景分析。依据：《ambientROOM：让后台活动被察觉—空间与信息源》。"
+      },
+      {
+        "id": 8,
+        "answer": "实际试作使用被动phicon、基于MIDI的红外接近传感器、录制雨声和样例网页活动水平；试用发现雨声有时分散注意。随后制作薄水箱，以电磁驱动浮子产生水波，再由上方光线经水面反射将波纹投至天花板。参观实验室的艺术家和商业支持者反应积极，但没有代表性样本、长期部署数据或与雨声的受控比较。因此只能支持发现干扰并尝试替代媒介的设计过程，不能推出水波普遍比声音有效。依据：《ambientROOM：让后台活动被察觉—从雨声到水波》。"
+      },
+      {
+        "id": 9,
+        "answer": "transBOARD基于SoftBoard，以扫描红外激光跟踪带标记的笔和板擦，stroke server保存数字笔画，远端通过Java applet观看实时或录制过程。背面带磁性的条码纸卡hyperCARD在会议开始用条码笔识别后，与会话笔画关联；会后可在另一台计算机凭卡调出记录，同标识卡也可供远端观看直播。纸卡保存的是服务器记录的标识，并非笔画本身。条码读取较繁琐，被动RFID版本仍是改进计划；白板只能将物理笔迹输入为数字信息，不能把任意数字内容投回表面，属于单向过滤。增加activeLENS及将书写转成环境声音均属计划或潜在扩展。依据：《transBOARD：笔迹怎样进入一张纸卡》。"
+      },
+      {
+        "id": 10,
+        "answer": "光学隐喻包括：activeLENS借鉴珠宝匠放大镜，以位置选择局部数字视图；passiveLENS借透明有机玻璃与背投形成移动窗口；物体旁的“数字影子”表达相关信息，光照与水波兼具真实媒介和信息隐喻。transBOARD因数字输出受限，光学隐喻较弱，计划用activeLENS补足。页面所述语义手电筒设想，是让建筑影子随出版物、研究经费等非物理属性变化，但没有进一步交代数字阴影或“语义光”的完整实现机制。设计价值在于利用人对镜片、手电筒和影子的既有预期约束映射，不保证任何光学外观都直观。校园地图控制已经实现，语义手电筒仍处探索阶段。依据：《设计依据：继承什么，改变什么》。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "涵盖数字空间与物理环境、前景与背景两类隔阂，并准确说明论文贡献是愿景、原型与研究问题，而非通用性能证明。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "正确列出交互表面、比特与原子耦合、环境媒体，并说明背景感知与注意中心之间的转换。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "准确区分GUI终端扩展路线与物体、空间的计算增强，也指出相对于视觉叠加式AR的可抓握输入和环境媒体重点。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "正确说明三个平台的研究角色，列出metaDESK主要显示、实体部件及三类传感器，交代物理输入与图形输出的结合。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "完整说明单模型定位与变换、双模型约束及协作操作，并正确区分activeLENS三维视图与passiveLENS叠加视图。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "准确描述独立旋转造成的冲突、当前忽略冲突的处理，以及滑杆连接双圆柱所提供的机械约束。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "说明房间尺寸与MIDI设施，并完整解释汽车信息源、扬声器信息汇、雨声映射及移至metaDESK进行前景分析的过程。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "正确报告雨声干扰、水波生成与天花板反射机制，以及访客积极反馈；对非正式观察的证据强度判断恰当。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "准确说明红外采集、服务器与Java分发、纸卡标识找回机制，并区分条码操作局限、单向显示限制及计划中的改进。"
+      },
+      {
+        "id": 10,
+        "correct": true,
+        "reason": "涵盖三个平台的光学隐喻、数字阴影与非物理参数驱动的语义光设想，正确说明熟悉光学约束的设计价值及尚在探索的实现边界。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P12.md",
+        "claim": "papers/P12.md",
+        "source": "papers/P12.md",
+        "verdict": "supported",
+        "reason": "papers/P12.md"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "papers/P12.md"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P12.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P12.md"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P12.md",
+        "sections": [
+          "papers/P12.md"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "papers/P12.md"
+    ]
+  }
+}

@@ -65,7 +65,7 @@ class InboxTests(unittest.TestCase):
             if args[:2]==('rev-parse','HEAD'):return 'baseline'
             if args[:2]==('pull','--rebase'):raise RuntimeError('conflict')
             return ''
-        with patch.object(self.r,'clean_git'),patch.object(inbox,'git',side_effect=fake_git):
+        with patch.object(self.r,'clean_git'),patch.object(self.r,'verify_depth'),patch.object(inbox,'git',side_effect=fake_git):
             with self.assertRaises(ValueError):self.r.publish(self.root,{'title':'Paper'},'baseline')
         self.assertFalse(any(c[0]=='commit' for c in calls));self.assertFalse(any(c[0]=='add' for c in calls))
     def test_recover_interrupted_trash_move(self):

@@ -7,6 +7,7 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlsplit
 from . import content
 from .schema import SCHEMA
+from .depth import Pipeline, NeedsReview
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
 
@@ -101,8 +102,19 @@ class Runner:
         if any(len(p['text'].strip())<20 for p in pages):self.review.append(path.name+'：存在文字很少的页面，图表或扫描内容需复核')
         content.dump(job/'source.json',pages)
         return pages
+    def render_source_pages(self,path,job):
+        import fitz
+        directory=job/'page-images';directory.mkdir()
+        images=[]
+        with fitz.open(path) as doc:
+            for i,page in enumerate(doc):
+                target=directory/('page-%03d.png'%(i+1))
+                page.get_pixmap(matrix=fitz.Matrix(1200/page.rect.width,1200/page.rect.width)).save(str(target))
+                images.append(target)
+        return images
     def worker(self,pages,job):
-        skill=Path(self.config['skill_path']).expanduser()
+        bundled=self.root/'skills/wiki-style-writer'
+        skill=bundled if (bundled/'SKILL.md').exists() else Path(self.config['skill_path']).expanduser()
         paths=[skill/'SKILL.md']+sorted((skill/'references').glob('*.md'))+sorted((skill/'examples').glob('*.md'))
         if not (skill/'SKILL.md').exists() or len(list((skill/'references').glob('*.md')))<4:raise ValueError('完整 wiki-style-writer skill 不存在')
         rules='\n\n'.join(p.name+'\n'+content.read(p) for p in paths)
@@ -155,7 +167,30 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
         if git('branch','--show-current',cwd=self.root)!=self.config['branch']:raise ValueError('当前分支不是 main，停止自动提交')
         if git('status','--porcelain','--untracked-files=normal',cwd=self.root):raise ValueError('工作区存在未提交改动，停止自动发布以保护手动工作')
         if (self.root/'.git/rebase-merge').exists() or (self.root/'.git/rebase-apply').exists():raise ValueError('已有 rebase 未完成')
+    def verify_depth(self,work,record):
+        rel=record.get('depth_qa_path','')
+        packet_path=(self.root/rel).resolve()
+        if not rel or not packet_path.is_relative_to((self.state/'logs').resolve()) or not packet_path.is_file():
+            raise NeedsReview('缺少本篇独立深度验收记录，拒绝发布')
+        packet=json.loads(content.read(packet_path))
+        if packet.get('score',0)<8 or not packet.get('page_hashes'):
+            raise NeedsReview('深度验收未通过')
+        from .depth import evaluate
+        evaluate(packet['answers'],packet['grades'],packet['audit'],packet['page_hashes'])
+        artifacts=packet.get('artifact_hashes',packet['page_hashes'])
+        if Path(work).resolve()!=self.root.resolve():
+            for candidate in (Path(work)/'wiki').rglob('*'):
+                if not candidate.is_file() or candidate.suffix not in ['.md','.json']:continue
+                rel=candidate.relative_to(Path(work)/'wiki').as_posix();old=self.root/'wiki'/rel
+                if (not old.exists() or candidate.read_bytes()!=old.read_bytes()) and rel not in artifacts:
+                    raise NeedsReview('存在未纳入验收的修改文件：'+rel)
+        for path,expected in artifacts.items():
+            candidate=Path(work)/'wiki'/path
+            if not candidate.resolve().is_relative_to((Path(work)/'wiki').resolve()) or sha(candidate)!=expected:
+                raise NeedsReview('验收后候选内容变化，必须重新核对：'+path)
+
     def publish(self,work,record,baseline):
+        self.verify_depth(work,record)
         self.clean_git()
         if git('rev-parse','HEAD',cwd=self.root)!=baseline:raise ValueError('生成期间本地提交变化，下次重做')
         # Pull before copying candidate files or committing. A conflict cannot create a content commit.
@@ -213,10 +248,11 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
         raise ValueError('部署验证待下次重试：'+last)
     def process(self,digest,files):
         r=self.data['papers'][digest]
-        if r['status'] in ['published','cleaned'] or r['attempts']>=self.config['max_attempts']:return
+        if r['status'] in ['published','cleaned'] or r.get('needs_review') or r['attempts']>=self.config['max_attempts']:return
         r['status']='processing';r['attempts']+=1;r['error']=None;self.save()
         try:
             if r.get('commit_sha'):
+                self.verify_depth(self.root,r)
                 # A crash or push failure after commit resumes publishing, never regenerates the paper.
                 if not self.remote_has(r['commit_sha']):
                     self.clean_git();git('pull','--rebase','origin',self.config['branch'],cwd=self.root)
@@ -228,13 +264,21 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
                 job=self.state/'logs'/self.run_id/digest;job.mkdir(parents=True,exist_ok=True)
                 path=self.source(files[0]);pages=self.extract_pdf(path,job)
                 if sha(path)!=digest:raise ValueError('读取 PDF 时文件已被替换')
+                pipeline=Pipeline(self,job/'depth',images=self.render_source_pages(path,job));prepared=pipeline.prepare(pages)
+                private_notes=self.root/'notes'/('inbox-'+digest);private_notes.mkdir(parents=True,exist_ok=True)
+                content.dump(private_notes/'reading.json',prepared)
+                content.write(private_notes/'notes.md','\n\n'.join('## PDF第'+str(n['page'])+'页 '+n['section']+'\n\n'+n['note'] for n in prepared['notes']))
+                content.write(private_notes/'questions.md','\n'.join(str(q['id'])+'. '+q['question'] for q in prepared['questions']))
                 data=self.worker(pages,job);self.review.extend(data['review']);r['title']=data['metadata']['title']['value'];self.save()
                 work=self.make_work(job)
                 histories=[]
                 for old in self.data['papers'].values():
                     cached=self.root/'extract'/('inbox-'+old['sha256']+'.json')
                     if old['status'] in ['published','cleaned'] and cached.exists():histories.append(json.loads(content.read(cached)))
+                before={p.relative_to(work/'wiki').as_posix():content.read(p) for p in (work/'wiki').rglob('*.md')}
                 paper,concepts,changed=content.generate(work,data,pages,digest,self.review,histories)
+                packet=pipeline.run(work,paper,pages,prepared,data,before)
+                r['depth_qa_path']=(job/'depth/depth-qa.json').relative_to(self.root).as_posix();r['quiz_score']=packet['score'];r['needs_review']=False
                 self.check(work)
                 r['title']=paper['canonical_name'];r['page_path']='wiki/'+paper['markdown_path'];r['page_url']=self.config['base_url']+paper['html_path'];r['new_concepts']=concepts;r['modified_pages']=changed
                 self.save();self.publish(work,r,baseline)
@@ -245,6 +289,8 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
             try:r['deployment_url']=self.wait_deployed(r);r['verified_at']=stamp();self.save();self.note('部署与线上标题验证通过：'+r['title'])
             except Exception as e:self.note(str(e));self.review.append(r['title']+'：'+str(e))
         except Exception as e:
+            if isinstance(e,NeedsReview):
+                r['needs_review']=True;self.review.append(r.get('title',r['filename'])+'：'+str(e))
             r.update(status='failed',error=str(e).replace(str(self.root),'<project>'));self.save();self.summary['failed'].append(r['filename']+'：'+r['error']);self.note('失败：'+r['filename']+'：'+r['error'])
     def cleanup(self,hours=None):
         interval=self.config['cleanup_hours'] if hours is None else hours
@@ -308,6 +354,8 @@ review 记录所有不确定点，不在正文猜测。checklist 对完整 skill
         lines+=['','## 待复核','']+(['- '+x for x in dict.fromkeys(self.review)] or ['无。'])
         exhausted=[r['filename'] for r in self.data['papers'].values() if r['status']=='failed' and r['attempts']>=self.config['max_attempts']]
         lines+=['','## 已停止自动重试','']+(['- '+x for x in exhausted] or ['无。'])
+        held=[r['filename'] for r in self.data['papers'].values() if r.get('needs_review')]
+        lines+=['','## 待人工复核（暂停本篇重试）','']+(['- '+x for x in held] or ['无。'])
         lines+=['','## 运行记录','']+['- '+x for x in self.events]
         atomic(self.reports/(self.run_id+'.md'),'\n'.join(lines)+'\n')
     def run(self,cleanup_hours=None,cleanup_only=False):
@@ -333,7 +381,7 @@ def main():
         with Lock(runner.state/'run.lock',runner.config['lock_seconds']):
             r=runner.data['papers'][args.reset_failed]
             if r['status']!='failed':raise ValueError('只允许重置 failed')
-            r['attempts']=0;r['status']='pending';r['error']=None;runner.save()
+            r['attempts']=0;r['status']='pending';r['error']=None;r['needs_review']=False;runner.save()
         return 0
     return runner.run(args.cleanup_hours,args.cleanup_only)
 if __name__=='__main__':sys.exit(main())

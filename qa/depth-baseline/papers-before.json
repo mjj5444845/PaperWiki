@@ -1,0 +1,411 @@
+[
+  {
+    "title": "Research Through Design as a Method for Interaction Design Research in HCI",
+    "words": 445,
+    "han": 415,
+    "sections": 8,
+    "numbers": 10,
+    "tables": 1,
+    "citations": 13,
+    "references": 13,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704"
+    ],
+    "id": "P01"
+  },
+  {
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "words": 1434,
+    "han": 1344,
+    "sections": 9,
+    "numbers": 21,
+    "tables": 1,
+    "citations": 24,
+    "references": 24,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://github.com/slundberg/shap"
+    ],
+    "id": "P01c7aa8f7d9e"
+  },
+  {
+    "title": "Awareness and Coordination in Shared Workspaces",
+    "words": 474,
+    "han": 449,
+    "sections": 8,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 13,
+    "references": 13,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143468"
+    ],
+    "id": "P02"
+  },
+  {
+    "title": "Learning from Notes: Organizational Issues in Groupware Implementation",
+    "words": 429,
+    "han": 408,
+    "sections": 8,
+    "numbers": 10,
+    "tables": 1,
+    "citations": 11,
+    "references": 11,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549"
+    ],
+    "id": "P03"
+  },
+  {
+    "title": "Predicting Tie Strength With Social Media",
+    "words": 498,
+    "han": 465,
+    "sections": 8,
+    "numbers": 14,
+    "tables": 1,
+    "citations": 15,
+    "references": 15,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "P04"
+  },
+  {
+    "title": "User-Defined Gestures for Surface Computing",
+    "words": 525,
+    "han": 493,
+    "sections": 8,
+    "numbers": 21,
+    "tables": 1,
+    "citations": 15,
+    "references": 15,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866"
+    ],
+    "id": "P05"
+  },
+  {
+    "title": "Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design",
+    "words": 617,
+    "han": 575,
+    "sections": 8,
+    "numbers": 24,
+    "tables": 1,
+    "citations": 17,
+    "references": 17,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357"
+    ],
+    "id": "P06"
+  },
+  {
+    "title": "Feminist HCI: Taking Stock and Outlining an Agenda for Design",
+    "words": 454,
+    "han": 434,
+    "sections": 8,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 12,
+    "references": 12,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521"
+    ],
+    "id": "P07"
+  },
+  {
+    "title": "Computers are Social Actors",
+    "words": 524,
+    "han": 480,
+    "sections": 8,
+    "numbers": 24,
+    "tables": 1,
+    "citations": 13,
+    "references": 13,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703"
+    ],
+    "id": "P08"
+  },
+  {
+    "title": "GroupLens: An Open Architecture for Collaborative Filtering of Netnews",
+    "words": 470,
+    "han": 439,
+    "sections": 8,
+    "numbers": 11,
+    "tables": 1,
+    "citations": 14,
+    "references": 14,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905"
+    ],
+    "id": "P09"
+  },
+  {
+    "title": "Hollaback!: The Role of Collective Storytelling Online in a Social Movement Organization",
+    "words": 470,
+    "han": 433,
+    "sections": 8,
+    "numbers": 12,
+    "tables": 1,
+    "citations": 14,
+    "references": 14,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831"
+    ],
+    "id": "P10"
+  },
+  {
+    "title": "Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk",
+    "words": 470,
+    "han": 438,
+    "sections": 8,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 15,
+    "references": 15,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742"
+    ],
+    "id": "P11"
+  },
+  {
+    "title": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+    "words": 431,
+    "han": 404,
+    "sections": 8,
+    "numbers": 5,
+    "tables": 1,
+    "citations": 13,
+    "references": 13,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "P12"
+  },
+  {
+    "title": "“I always assumed that I wasn’t really that close to [her]”: Reasoning about Invisible Algorithms in News Feeds",
+    "words": 493,
+    "han": 456,
+    "sections": 8,
+    "numbers": 16,
+    "tables": 1,
+    "citations": 14,
+    "references": 14,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556"
+    ],
+    "id": "P13"
+  },
+  {
+    "title": "The Dark (Patterns) Side of UX Design",
+    "words": 458,
+    "han": 429,
+    "sections": 8,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 12,
+    "references": 12,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "P14"
+  },
+  {
+    "title": "Guidelines for Human-AI Interaction",
+    "words": 500,
+    "han": 449,
+    "sections": 8,
+    "numbers": 28,
+    "tables": 1,
+    "citations": 16,
+    "references": 16,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233"
+    ],
+    "id": "P15"
+  },
+  {
+    "title": "Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning",
+    "words": 578,
+    "han": 527,
+    "sections": 8,
+    "numbers": 19,
+    "tables": 1,
+    "citations": 16,
+    "references": 16,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "P16"
+  },
+  {
+    "title": "What is AI Literacy? Competencies and Design Considerations",
+    "words": 432,
+    "han": 383,
+    "sections": 8,
+    "numbers": 13,
+    "tables": 1,
+    "citations": 12,
+    "references": 12,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "P17"
+  },
+  {
+    "title": "Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice",
+    "words": 504,
+    "han": 425,
+    "sections": 8,
+    "numbers": 29,
+    "tables": 1,
+    "citations": 15,
+    "references": 15,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "P18"
+  },
+  {
+    "title": "Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites",
+    "words": 541,
+    "han": 487,
+    "sections": 8,
+    "numbers": 26,
+    "tables": 1,
+    "citations": 16,
+    "references": 16,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3359183",
+      "https://github.com/aruneshmathur/dark-patterns"
+    ],
+    "id": "P19"
+  },
+  {
+    "title": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+    "words": 554,
+    "han": 490,
+    "sections": 8,
+    "numbers": 25,
+    "tables": 1,
+    "citations": 16,
+    "references": 16,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "P20"
+  },
+  {
+    "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+    "words": 683,
+    "han": 599,
+    "sections": 8,
+    "numbers": 16,
+    "tables": 1,
+    "citations": 14,
+    "references": 14,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "P21"
+  },
+  {
+    "title": "Explaining Collaborative Filtering Recommendations",
+    "words": 500,
+    "han": 448,
+    "sections": 8,
+    "numbers": 20,
+    "tables": 1,
+    "citations": 16,
+    "references": 16,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "P22"
+  },
+  {
+    "title": "Technology Probes: Inspiring Design for and with Families",
+    "words": 496,
+    "han": 475,
+    "sections": 8,
+    "numbers": 8,
+    "tables": 1,
+    "citations": 14,
+    "references": 14,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "P23"
+  },
+  {
+    "title": "Heuristic Evaluation of User Interfaces",
+    "words": 529,
+    "han": 497,
+    "sections": 8,
+    "numbers": 19,
+    "tables": 1,
+    "citations": 13,
+    "references": 13,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "P24"
+  },
+  {
+    "title": "Labeling Images with a Computer Game",
+    "words": 567,
+    "han": 525,
+    "sections": 8,
+    "numbers": 27,
+    "tables": 1,
+    "citations": 15,
+    "references": 15,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "P25"
+  },
+  {
+    "title": "“Why Should I Trust You?” Explaining the Predictions of Any Classifier",
+    "words": 1722,
+    "han": 1594,
+    "sections": 9,
+    "numbers": 51,
+    "tables": 1,
+    "citations": 29,
+    "references": 29,
+    "external_sources": 3,
+    "url_list": [
+      "https://arxiv.org/abs/1602.04938v3",
+      "https://doi.org/10.1145/2939672.2939778",
+      "https://github.com/marcotcr/lime-experiments"
+    ],
+    "id": "P365079753571"
+  }
+]

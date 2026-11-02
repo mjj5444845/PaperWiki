@@ -1,0 +1,529 @@
+{
+  "ids": [
+    "C048",
+    "C049",
+    "C050",
+    "C051",
+    "C052",
+    "C053",
+    "C054"
+  ],
+  "page_hashes": {
+    "concepts/C048.md": "45bbb5748c8c41add60c666e598e75032b3ec78ca26ac6dc3ab8edfc29dc53a6",
+    "concepts/C049.md": "e185879be1a3627a9bd90942dc9af4ed1678744efa858310f7641422ce7f5c0b",
+    "concepts/C050.md": "4b8c413d298ce100faf79aa556a6366a35740b971a85bbf083286721b14f3397",
+    "concepts/C051.md": "ab1b80b3577018c29805d4bf21057fa930fac1d71e46bb1734e47d371fb961ee",
+    "concepts/C052.md": "c457226352d71928b3134e94106e17881515373c2ea26867df129fcb7702f717",
+    "concepts/C053.md": "d42215c9eb9464a37e379a4e64a105896d97c5f5cb98b8d3143c6bb3b34b7425",
+    "concepts/C054.md": "73f2b8a500bf502d0342692a1bf23b0d7c799b35ba4b7c779c0151513fbb94b5"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C048.md",
+        "claim": "推荐解释可服务于理解、接受和识别不合适推荐等不同目标。",
+        "source": "P22，物理PDF第2–5、10页",
+        "verdict": "supported",
+        "reason": "原文区分解释的教育、论证、接受及过滤决策用途，并讨论说服性与信息性解释。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "用户档案、寻找邻居、合并评分构成三步概念模型，各步可分别解释过程与数据。",
+        "source": "P22，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "三步与两类解释内容均与原文一致。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "Jane通过五名邻居的评分与档案识别艺术电影偏好，决定信任推荐。",
+        "source": "P22，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "人数、评分分歧及判断过程准确，并正确标明为作者说明例。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "78名用户比较21种界面；分组直方图5.25，两种基线4.53与4.51，复杂统计版本4.08与3.94。",
+        "source": "P22，物理PDF第6–7页，表1",
+        "verdict": "supported",
+        "reason": "数值、随机呈现、同一隐藏片名推荐及观影意愿口径准确。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "实验刺激声称系统过去80%的预测在一个星级以内。",
+        "source": "P22，物理PDF第7页及脚注2",
+        "verdict": "error",
+        "reason": "原文仅称过去80%的预测正确，没有定义为误差在一个星级以内。该数值为经验外推而非实际数据的说明则准确。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "257次解释影响判断的记录中，213次认为解释有用，约83%。",
+        "source": "P22，物理PDF第8页",
+        "verdict": "error",
+        "reason": "257次指MovieLens影响观影决定；213次指推荐并非选择电影的唯一原因。两者均不是解释影响或解释有用的计数。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "研究没有发现所测过滤表现的显著组间差异。",
+        "source": "P22，物理PDF第8–10页",
+        "verdict": "supported",
+        "reason": "原文报告ANOVA无显著差异，结论是不足以证实或否定改善过滤表现。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "2017年综述按解释目标、响应方式、内容和呈现分类，并指出呈现与评价问题。",
+        "source": "https://arxiv.org/abs/2006.08672",
+        "verdict": "supported",
+        "reason": "实际打开的作者摘要直接支持这些概括；期刊年份2017与上传年份2020也得到确认。"
+      },
+      {
+        "path": "concepts/C048.md",
+        "claim": "本站论文将推荐解释用于模型推导、界面比较与实际使用研究。",
+        "source": "P22，物理PDF第3–9页",
+        "verdict": "supported",
+        "reason": "应用说明具体呈现概念在研究中的作用，但83%口径错误影响该节所依赖的结果解释。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "数据素养包括读取、处理、分析、论证及批判评估来源。",
+        "source": "P17，物理PDF第2、5–6页",
+        "verdict": "supported",
+        "reason": "定义及来源评估、训练数据情境等扩展均有依据。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "数据思维兼具创造性和批判性，包含遗漏对象、收集利益与定性材料。",
+        "source": "https://public.imaginingamerica.org/journalcontent/2017/4/2/236/index.html",
+        "verdict": "supported",
+        "reason": "实际打开Data Mindset及相邻段落，支持正文的问题框架和文本也属于数据的说明。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "能力11、12、13分别是数据素养、从数据学习和批判性解释数据。",
+        "source": "P17，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "编号和内容准确；不要求所有学习者会编程也符合第2页。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "低维、杂乱、生活相关数据与数据传记是教学建议，而非本文教学实验结果。",
+        "source": "P17，物理PDF第2–3、6页",
+        "verdict": "supported",
+        "reason": "正确说明建议内容与探索性综述的证据性质；图像分类教学例也明确为据框架组织的说明。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "GPS记录从每5分钟变为每小时；25%–30%的医疗记录短于10分钟。",
+        "source": "P20，物理PDF第9页",
+        "verdict": "supported",
+        "reason": "两个访谈案例的频率、比例、时长与用途不匹配问题均准确。"
+      },
+      {
+        "path": "concepts/C049.md",
+        "claim": "培训、反馈、报酬与持续合作共同影响数据实践，不能只归责一线素养。",
+        "source": "P20，物理PDF第9、11页",
+        "verdict": "supported",
+        "reason": "保留了组织因素和自述改善的边界；本站两篇论文的教育框架与专业协作用途也得到具体区分。"
+      },
+      {
+        "path": "concepts/C050.md",
+        "claim": "数据质量是适合特定用途，并有六个质量维度及用途依赖性。",
+        "source": "https://www.gov.uk/government/news/what-is-data-quality",
+        "verdict": "supported",
+        "reason": "实际打开的官方正文支持定义、完整性等六维度以及不存在通用质量标准的说明。"
+      },
+      {
+        "path": "concepts/C050.md",
+        "claim": "油滴、失焦、相机移动、环境与规则变化会造成质量及部署问题。",
+        "source": "P20，物理PDF第7–9页",
+        "verdict": "supported",
+        "reason": "这些均为访谈报告；页面正确避免写成作者独立验证的临床实验。"
+      },
+      {
+        "path": "concepts/C050.md",
+        "claim": "清洗工具之外还需关注上游创建、下游实时输入与生命周期管理。",
+        "source": "P20，物理PDF第3、7、11–12页",
+        "verdict": "supported",
+        "reason": "工具回顾、监测需求和跨组织问题均有对应依据。"
+      },
+      {
+        "path": "concepts/C050.md",
+        "claim": "53名从业者的访谈中，92%报告级联经历；研究区分四类触发条件。",
+        "source": "P20，物理PDF第4–5、7–9页",
+        "verdict": "supported",
+        "reason": "人数、样本口径和四类条件准确；页面明确没有外推为系统错误率。"
+      },
+      {
+        "path": "concepts/C050.md",
+        "claim": "数据质量概念连接技术检查、劳动协作与机构奖励。",
+        "source": "P20，物理PDF第5–11页",
+        "verdict": "supported",
+        "reason": "本站应用解释了研究如何追踪问题、传递与成本，超出了泛泛提及概念。"
+      },
+      {
+        "path": "concepts/C051.md",
+        "claim": "数据集文档记录来源、构成、采集、处理、用途与维护。",
+        "source": "https://arxiv.org/html/1803.09010v8，第1、3节",
+        "verdict": "supported",
+        "reason": "实际打开原文支持定义和生命周期问题表；不适用问题可以略过，未知答案可以明确记录。"
+      },
+      {
+        "path": "concepts/C051.md",
+        "claim": "发电厂时间戳错配与医疗机器人四个月资料损失说明文档缺失的影响。",
+        "source": "P20，物理PDF第9–10页",
+        "verdict": "supported",
+        "reason": "案例内容准确，但发电厂引文跨至第10页，n2仅标第9页不够完整。"
+      },
+      {
+        "path": "concepts/C051.md",
+        "claim": "Datasheets借鉴电子元件说明书，促进创建者反思和使用者判断。",
+        "source": "https://arxiv.org/html/1803.09010v8，第1.1、3节",
+        "verdict": "supported",
+        "reason": "目的与方法准确，也没有把提案误称为全面采用的标准。"
+      },
+      {
+        "path": "concepts/C051.md",
+        "claim": "跨组织文档不足是四类核心触发条件之一，报告比例20.8%。",
+        "source": "P20，物理PDF第8页表2、第9页",
+        "verdict": "supported",
+        "reason": "比例和类别准确；正文还具体解释元数据、结构变更及重采的作用链条。"
+      },
+      {
+        "path": "concepts/C051.md",
+        "claim": "持续记录、现场反馈、伙伴关系与奖励共同支撑文档维护。",
+        "source": "P20，物理PDF第10–12页",
+        "verdict": "supported",
+        "reason": "与原文建议一致；医疗信号链条明确标为示意，没有冒充固定流程。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "文化探针用地图、明信片、相机等引发老年社区的启发性回应和片段资料。",
+        "source": "https://arl.human.cornell.edu/linked%20docs/Cultural%20Probes_Gaver.pdf，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "实际打开原始论文，支持材料、群体、开放目的与离场后返回资料的机制。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "技术探针增加真实使用、日志、现场工程检验与部署反思。",
+        "source": "P23，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "对照符合作者定义，且页面明确这不是对所有文化探针项目的普遍分类。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "interLiving结合参与式设计、民族志、文化探针和技术探针。",
+        "source": "P23，物理PDF第1–3页",
+        "verdict": "supported",
+        "reason": "项目方法来源与让家庭提前参与设计的理由准确。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "messageProbe与videoProbe体现文化探针对生活化活动的具体启发。",
+        "source": "P23，物理PDF第2–6页",
+        "verdict": "unverified",
+        "reason": "论文支持方法层面的相似与继承，但两个系统的具体设计来源分别包括白板、远程感知、缩放界面和媒体空间；没有展示某项文化探针活动如何转化为两个系统设计。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "探针资料不能直接估计总体偏好，技术介入也会改变行为。",
+        "source": "P23，物理PDF第2页；Cultural Probes，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "片段性与干预性支持此边界；页面没有把启发材料写成代表性验证。"
+      },
+      {
+        "path": "concepts/C052.md",
+        "claim": "原始文化探针参考页码为第22–24页。",
+        "source": "https://arl.human.cornell.edu/linked%20docs/Cultural%20Probes_Gaver.pdf",
+        "verdict": "error",
+        "reason": "这是期刊印刷页码，对应物理PDF第2–4页；不符合本轮统一使用物理PDF页码的要求。"
+      },
+      {
+        "path": "concepts/C053.md",
+        "claim": "网页无障碍涵盖多类残障及内容、用户代理、辅助技术与开发工具的配合。",
+        "source": "https://www.w3.org/WAI/fundamentals/accessibility-intro/；https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+        "verdict": "supported",
+        "reason": "实际打开W3C正文支持定义、能力范围与组件依赖。"
+      },
+      {
+        "path": "concepts/C053.md",
+        "claim": "可感知、可操作、可理解和稳健性组织网页无障碍要求。",
+        "source": "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+        "verdict": "supported",
+        "reason": "原则及表格对应准确；文字替代需传达图片功能而非只提供对象名称，也得到支持。"
+      },
+      {
+        "path": "concepts/C053.md",
+        "claim": "ESP Game通过独立玩家匹配词语产生标签，无障碍是潜在输出用途。",
+        "source": "P25，物理PDF第1–3、7页",
+        "verdict": "supported",
+        "reason": "机制与用途准确；页面没有把生成标签误称为整站达标。"
+      },
+      {
+        "path": "concepts/C053.md",
+        "claim": "15名独立评价者评估20张图的六个标签，均值5.105和0.105，约85%与1.7%。",
+        "source": "P25，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "样本、任务、数值和分母正确，并与前一项标签生成评估区分。"
+      },
+      {
+        "path": "concepts/C053.md",
+        "claim": "该评估没有证明视觉障碍用户实际浏览效果或标签足以替代完整描述。",
+        "source": "P25，物理PDF第6–7页",
+        "verdict": "supported",
+        "reason": "实验任务仅评估词语，原文也明确指出句子更适合无障碍且需要进一步测试；本站应用边界充分。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "OLS最小化残差平方和，线性指参数线性，也可包含平方与交互项。",
+        "source": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+        "verdict": "supported",
+        "reason": "定义、公式、符号和两组残差例算正确，例算明确不属于实验数据。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "关系模型使用67项单项变量、13项高完成率变量的交互及七项网络描述。",
+        "source": "P04，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "数量、完成率阈值和七项统计量均符合原文。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "强度初始化为零，用上一轮预测计算网络项，九轮达到0.001平均相对变化阈值。",
+        "source": "P04，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "迭代机制完整，且正确说明九轮不是一般OLS的固有要求。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "调整后R²为0.534、MAE为0.0994，预测截于0–1，并近似减半自由度。",
+        "source": "P04，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "数值和处理准确，没有误称分类正确率；不独立观测与特殊时间值的限制也得到保留。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "页面已完整说明该研究OLS的实际输入与处理条件。",
+        "source": "P04，物理PDF第3、5页",
+        "verdict": "error",
+        "reason": "应用部分漏掉原文所有变量均作对数变换的关键处理，也未说明最初识别74项候选变量与模型67项单项变量的口径区别。"
+      },
+      {
+        "path": "concepts/C054.md",
+        "claim": "已交代普通OLS的适用条件。",
+        "source": "concepts/C054.md，平方误差怎样决定拟合、结果与解释边界",
+        "verdict": "error",
+        "reason": "列出异常点和外推风险，但未区分系数求解、无偏估计与统计推断各自条件；至少需要解释识别所需的设计矩阵秩及误差假设，不能以泛称模型与资料条件替代。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均识别概念、类别及主要特征，英文术语位置适当。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、用途或主要研究联系，没有额外宏大影响结论。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "C054缺少OLS适用假设与实际对数变换；C052本站应用缺少具体文化探针活动到设计的证据。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落通常围绕机制、案例或边界展开；未将时间先后直接写成历史因果。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "多数访谈与作者建议归属清楚，但C048把MovieLens影响决定误归为解释影响，并误述213次回答含义。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "C048的80%新增星级误差定义、83%含义错误；C052印刷页码与本轮物理页码要求不一致。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "关键论断普遍有来源，但C048两项具体说法与来源冲突，C052系统设计继承表述未获具体证据。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "C051发电厂案例跨物理第9–10页却仅标第9页；C052页码口径错误；C048引注不能支持误述的统计含义。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框，不存在信息框与正文不一致问题。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "没有长引文或宣传结尾，但C048的“本站引用该文时，应保留”等编辑指令及多页“读者应”式审核提醒混入百科正文。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "章节随概念组织；无障碍采用原则，OLS采用公式，文化探针采用材料与方法比较，未强套实验模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面未标出已发现的事实和深度缺口；不能作为事实审校已通过的成稿。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C054适用条件及实际变换不完整；C052没有走通一次文化探针材料、回应、解释到设计启发的具体实例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕问题和机制组织，没有按抽取字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名、人数和变量均有用途解释，表格也有正文承接。"
+      },
+      {
+        "item": 4,
+        "pass": false,
+        "reason": "C048虽给出分母，却错误解释83%的对象；有数字语境的形式仍不能弥补口径错误。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站关系多数说明概念实际作用，例如文档传递背景、数据素养教学能力与OLS网络迭代，而非仅作导航链接。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "各页交代实际障碍和方法背景，没有以问句替代背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性等空泛赞誉；研究效果通常保留样本、任务及局限。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C048.md",
+        "sections": [
+          "导言",
+          "解释可以回答哪些问题",
+          "以一条推荐为例",
+          "呈现方式与实验结果",
+          "评价目标与局限",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C049.md",
+        "sections": [
+          "导言",
+          "从读取数值到判断证据",
+          "在人工智能教育中的位置",
+          "数据工作的协作条件",
+          "适用范围与局限",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C050.md",
+        "sections": [
+          "导言",
+          "质量与用途的关系",
+          "从清洗到生命周期管理",
+          "组织与协作机制",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C051.md",
+        "sections": [
+          "导言",
+          "为什么需要记录背景",
+          "需要说明哪些内容",
+          "从一次交付到持续维护",
+          "文档方法与局限",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C052.md",
+        "sections": [
+          "导言",
+          "材料怎样启发回应",
+          "与其他探针的区别",
+          "在家庭设计研究中的作用",
+          "解释与适用边界",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": [
+          "文化探针的具体生活化活动如何直接启发messageProbe与videoProbe的设计；现有来源只确认方法层面的继承与相似。"
+        ]
+      },
+      {
+        "path": "concepts/C053.md",
+        "sections": [
+          "导言",
+          "障碍怎样产生",
+          "可感知、可操作、可理解与兼容",
+          "图像标签与文字替代",
+          "标签质量研究说明了什么",
+          "在本站论文中的应用与局限",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C054.md",
+        "sections": [
+          "导言",
+          "平方误差怎样决定拟合",
+          "线性不等于只能画直线",
+          "在本站研究中的迭代用法",
+          "结果与解释边界",
+          "参见",
+          "参考文献",
+          "原有参考资料"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "审校结论：不通过。优先修正C048的83%统计含义与80%星级限定；补足C054适用条件和对数变换；收窄C052具体设计继承说法并统一物理PDF页码。",
+      "已依据提供的论文全文核对本站应用，实际搜索并打开外部原文；综述仅用于其摘要明确支持的分类与研究范围，没有把摘要当全文。",
+      "C049、C050、C051与C053的核心定义、机制和应用基本得到支持；C051还需补齐跨页引注。",
+      "未修改正文；已确定的错误与内容缺漏列为error，真正缺少证据的页面论断列为unverified。"
+    ]
+  }
+}

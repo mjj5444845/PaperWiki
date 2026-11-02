@@ -1,0 +1,550 @@
+{
+  "ids": [
+    "C067",
+    "C068",
+    "C069",
+    "C070",
+    "C071",
+    "C072",
+    "C073"
+  ],
+  "page_hashes": {
+    "concepts/C067.md": "3f01118bdb3af7e66760831e9399f923de6d6998cc4edaca99b359441ed5b71e",
+    "concepts/C068.md": "87f8ea9b2e80b8a886d52749e3dff7f48104aecc4cb836b3fec3ed4ab953d631",
+    "concepts/C069.md": "09ee45576097e556ceda537be7be96bfb4abe6e7b4f98463f2a982b245c3828a",
+    "concepts/C070.md": "d4357de30e8a8eac8b5ef115d2ba2c3a8974d117919d983576de2a6561ee523c",
+    "concepts/C071.md": "011cd2d1f5d3bee52bf2dfdefba4c2582b60b52fb3083b372e15266047d82789",
+    "concepts/C072.md": "f47596cdd204f6478af142bf5ee64bb08d3e181c3601d3154d5c651ce3957b8d",
+    "concepts/C073.md": "af8a80b4d70bc53993f1692db984002f3d378abf5f8774d234610df90c1821dc"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C067.md",
+        "claim": "社会规范不能仅凭行为频繁出现确认；经验期待与规范期待不同。",
+        "source": "https://plato.stanford.edu/entries/social-norms/ ，§1、§5",
+        "verdict": "supported",
+        "reason": "实际打开的综述明确区分两类期待，并以早晨刷牙说明行为规律不足以识别社会规范；页面也保留了理论多样性。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "Study 1以33名参与者比较原计算机、另一台计算机及纸笔三种评价位置。",
+        "source": "P08，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "人数、三种条件及操纵变量准确；辅导、测试和计算机评价流程相同，之后改变问卷收集位置。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "原计算机条件评分更正面、组内回答差异更小；另一台计算机与纸笔条件没有显著差异。",
+        "source": "P08，物理PDF第3页，Study 1 Results",
+        "verdict": "supported",
+        "reason": "原文报告友好、胜任评分及回答变异的相应差异，并据另一计算机条件排除单纯媒介解释。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "社会反应不等于明确相信计算机是人，作者将其解释为简单社会线索触发的反应。",
+        "source": "P08，物理PDF第1、3、6页",
+        "verdict": "supported",
+        "reason": "事后陈述、作者理论解释与页面归属一致；页面没有把该实验说成对全部规范理论的检验。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "G5要求符合社会文化情境；开会时站立提醒及僵硬提醒命令句式是违反实例。",
+        "source": "P15，物理PDF第3、15页",
+        "verdict": "supported",
+        "reason": "两项例子均出现在G5附录，页面正确注明其为参与者报告的具体产品实例。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "G5与G6分开，符合既有期待并不意味着应复制不公平刻板印象。",
+        "source": "P15，物理PDF第3、9、12、15页",
+        "verdict": "supported",
+        "reason": "指南定义和默认女性助手的参与者评价支持该区分；页面没有把评价冒充普遍实验结果。"
+      },
+      {
+        "path": "concepts/C067.md",
+        "claim": "四层检查表是依据论文整理的观察条件，不是经验证量表；两篇本站应用分别涉及实验解释与设计检查。",
+        "source": "P08，物理PDF第1、3–5页；P15，物理PDF第3、15页",
+        "verdict": "supported",
+        "reason": "表格可追溯至评价角色及社会文化情境要求，应用段具体交代了概念如何进入操纵和评估。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "集体行动框架是经协商形成、面向行动的意义结构；诊断、方案和动机是三类核心任务。",
+        "source": "P10，物理PDF第3–4页；https://fbaum.unc.edu/teaching/articles/AnnRevSoc-2000-Benford.pdf ，物理PDF第4–6页",
+        "verdict": "supported",
+        "reason": "定义与三类任务符合原文；页面正确区分形成共识与动员行动，并将自拟分析例子与研究设置分开。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "Hollaback论文介绍四种框架对齐过程。",
+        "source": "P10，物理PDF第3–4页；https://fbaum.unc.edu/teaching/articles/AnnRevSoc-2000-Benford.pdf ，物理PDF第14–15页",
+        "verdict": "error",
+        "reason": "四类是Benford与Snow综述中的分类；Hollaback正文明确聚焦转化与延伸，没有逐项介绍桥接和放大。表格基本定义可由外部综述支持，但当前归属及脚注s1不准确。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "桥接、放大、延伸与转化描述不同连接方式，并非必须依次完成的阶段。",
+        "source": "https://fbaum.unc.edu/teaching/articles/AnnRevSoc-2000-Benford.pdf ，物理PDF第14–15页",
+        "verdict": "supported",
+        "reason": "综述将其列为不同对齐过程，而非阶段序列；页面延伸定义略简化了吸纳潜在支持者关切这一组织策略维度。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "温尼伯受访者原把某种评论视为赞美，阅读叙事后改变解释。",
+        "source": "P10，物理PDF第5、10页",
+        "verdict": "error",
+        "reason": "原文是温尼伯站点负责人讲述男子先征求同意再赞美头发的故事，没有该受访者阅读后改变旧解释的情节；13名受访者名单也没有温尼伯。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "13名女性受访者中6人与组织有内部关系、7人为外部参与者。",
+        "source": "P10，物理PDF第5页",
+        "verdict": "error",
+        "reason": "6与7指第一、第二作者分别进行的访谈数量；不能转换成受访者组织身份。13人、全为女性及电话或即时通信访谈则准确。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "动员结构、机会结构与框架分别涉及组织联系、资源环境与意义形成。",
+        "source": "P10，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "与论文三个理论部分相符，页面没有以技术设施直接替代意义分析。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "Hollaback与视频数字故事在技能门槛、匿名表达、公开分享和组织回应方面不同。",
+        "source": "P10，物理PDF第3、10页",
+        "verdict": "supported",
+        "reason": "这些比较确见原文，但页面脚注s2仅列第3–5页，未覆盖承载具体比较的第10页。"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "本站应用用框架解释私人经历如何连接集体身份与行动。",
+        "source": "P10，物理PDF第6–10页",
+        "verdict": "error",
+        "reason": "总体作用正确，但概念应用展开不完整：误造转化实例，且未走通原文延伸至女性公共空间权利的实例；核心发现主要在第6–10页，s2的第3–5页不足以支持。"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "STS研究科技与社会的双向关系，关注价值与性别假设进入科技实践。",
+        "source": "P07，物理PDF第1、3页",
+        "verdict": "supported",
+        "reason": "符合Feminism in STS的直接定义和代表性、数字鸿沟及通用设计讨论。"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "STS跨越多学科，4S成立于1975年，并支持会议、期刊和手册。",
+        "source": "https://4sonline.org/what_is_4s.php",
+        "verdict": "supported",
+        "reason": "实际打开的官方页列明成立年份、领域名称、成员学科及出版活动；页面正确区分学会成立与领域起源。"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "生产参与、使用者假设、物品表达与社会后果可作为分析入口；微波炉和建筑案例属于相关设计传统。",
+        "source": "P07，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "表格是可追溯的解释性整理；正文也明确这些相关传统不全属于同一种方法。"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "多元性、参与、倡议、生态、具身性和自我揭示是Bardzell提出的HCI品质，而非STS六条原则。",
+        "source": "P07，物理PDF第5–8页",
+        "verdict": "supported",
+        "reason": "框架归属准确；STS在该文充当相关领域背景，页面没有混淆领域与论文议程。"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "Learning from Notes作为本站STS应用，分析技术框架和组织结构。",
+        "source": "P03，物理PDF第1–8页",
+        "verdict": "error",
+        "reason": "对Notes研究内容的概括准确，且正文谨慎称其为问题层面互补；但论文没有明确采用STS框架，放在“本站论文中的应用”下仍将相关性当作概念实际使用。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "算法偏差须区分统计系统误差与社会不公平，不能局限于训练数据。",
+        "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf ，物理PDF第12–19页",
+        "verdict": "supported",
+        "reason": "NIST分别讨论统计、社会及认知情境，并强调开发、使用和社会系统中的相互作用。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "NIST将偏差分为制度性、统计与计算性、人类三类。",
+        "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf ，物理PDF第15–17页",
+        "verdict": "supported",
+        "reason": "三类名称和机制基本准确；制度性是systemic的较窄译法，但页面解释仍覆盖机构惯例及社会条件。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "总体准确率不能单独证明公平；职业图像多样性与默认女性助手体现不同问题。",
+        "source": "P15，物理PDF第3、9、15页；NIST SP 1270，物理PDF第18–19页",
+        "verdict": "supported",
+        "reason": "页面准确区分表现、默认角色与受影响群体，没有将参与者实例写成普遍因果结论。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "AI素养涉及训练数据来源、缺失、人的选择，以及脏数据和数据背景化教学。",
+        "source": "P17，物理PDF第5–7页",
+        "verdict": "supported",
+        "reason": "对应能力9–13、16及设计考量3；本站应用明确说明偏差如何连接系统形成和伦理理解。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "NIST §3.1、物理PDF第21–22页支持部署后持续监测和重新评估。",
+        "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf ，目录及物理PDF第21–24、51–52页",
+        "verdict": "error",
+        "reason": "论点有原文支持，但引注定位错误：§3.1从物理第24页开始，部署监测明确见§3.4.1、物理第51页起；第21–22页主要是生命周期说明和图。"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "人工确认不能自动消除偏差；算法偏差、自动化偏误和透明度是不同目标。",
+        "source": "NIST SP 1270，物理PDF第14、19页；https://iis.seas.harvard.edu/papers/bucinca21trust.pdf ，物理PDF第1–4页",
+        "verdict": "supported",
+        "reason": "人类判断也是偏差来源，过度依赖则关注接受错误AI建议；页面的概念区分成立。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "算法觉察是意识到处理存在，不能等同于掌握规则或获得控制。",
+        "source": "P13，物理PDF第1–4、9页",
+        "verdict": "supported",
+        "reason": "研究先识别筛选存在的认识，再展示结果和征询重排偏好；方法没有测量内部排序规则的完整知识。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "40名参与者中25人、即62.5%不知道筛选存在。",
+        "source": "P13，物理PDF第3–4、8页",
+        "verdict": "supported",
+        "reason": "人数和比例正确，页面保留样本分母及非普遍推断边界；判断来自多种行为、知识与态度问题。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "觉察可来自页面比较、反馈与管理统计或网络规模推理。",
+        "source": "P13，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "这些路径符合原文；观察不一致与推论筛选存在均不保证具体规则解释正确。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "FeedVis提供内容、朋友和两种重排视图，其API资料不是完整候选集或评分规则。",
+        "source": "P13，物理PDF第3–4、8–9页",
+        "verdict": "supported",
+        "reason": "四视图及帖子标识修正准确，页面还正确保留已显示不等于用户实际看过的资料边界。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "主动参与特征与觉察相关；7名页面或群组管理者全部知情，被动特征未见明显组间差异。",
+        "source": "P13，物理PDF第5–6页及表1",
+        "verdict": "supported",
+        "reason": "特征分组和7人数字准确；页面恰当避免把观察关联写成多登录必然产生觉察。"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "15名不知情者对长度差异惊讶，11人发现对朋友发帖的认识有误；作者讨论外部工具与日常反馈两种方向。",
+        "source": "P13，物理PDF第6、9页",
+        "verdict": "supported",
+        "reason": "反应人数、解释对象和设计方向准确；本站应用具体交代觉察如何作为研究问题进入比较、访谈与建议。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "透明度涉及向特定读者披露存在、行为、依据或限制，披露不等于理解。",
+        "source": "P13，物理PDF第9页；P17，物理PDF第1、7–8页",
+        "verdict": "supported",
+        "reason": "作为跨来源综合定义成立，页面没有声称这是某篇论文的统一操作化指标。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "FeedVis以结果对照揭示筛选，没有公开Facebook排序代码或还原逐条评分。",
+        "source": "P13，物理PDF第3–4、8–9页",
+        "verdict": "supported",
+        "reason": "机制和限制均准确；应用段说明透明来自哪些可观察差异。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "G1–G2、G11及G15–G18把能力、表现、解释、反馈、控制和变化信息纳入交互过程。",
+        "source": "P15，物理PDF第3、14、17–19页",
+        "verdict": "supported",
+        "reason": "表格综合符合各项指南，纠正与否定渠道也由G8–G9支持；未虚构统一信任或效率效应量。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "Long与Magerko将透明性与学习前提、数据背景和渐进揭示联系。",
+        "source": "P17，物理PDF第2、5–8页",
+        "verdict": "supported",
+        "reason": "设计考量4明确包括文档、解释、数据来源和创作者意图，设计考量5处理认知负荷；页面应用方向准确。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "Kaur等观察解释工具过度信任，并通过调换特征名称检验语义合理性对评价的影响。",
+        "source": "https://harmanpk.github.io/Papers/CHI2020_Interpretability.pdf ，物理PDF第1、6–9页",
+        "verdict": "supported",
+        "reason": "实际打开论文确认访查与调查，以及随机呈现特征名重排的操纵；页面没有把图形存在直接等同理解。"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "Buçinca等分别分析主观信任、偏好和错误预测条件下的客观表现。",
+        "source": "https://iis.seas.harvard.edu/papers/bucinca21trust.pdf ，物理PDF第10–12页",
+        "verdict": "supported",
+        "reason": "对应结果表与主客观关联分析，支持信任不能单独证明可靠的限定。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "群件支持多人共同工作，协作功能不保证形成预期协作实践。",
+        "source": "P02，物理PDF第1–3页；P03，物理PDF第1–2页；https://www.microsoft.com/en-us/research/publication/groupware-social-dynamics/",
+        "verdict": "supported",
+        "reason": "定义、用途及技术与实际协作的区分符合这些来源。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "感知为个人活动提供他人工作的情境；信息提供、角色限制和共享反馈是不同协调安排。",
+        "source": "P02，物理PDF第1–3、6–8页",
+        "verdict": "supported",
+        "reason": "机制、成本、相关性与接收者访问问题均有直接依据，示例解释了成员如何据反馈调整工作。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "Quilt、PREP、GROVE比较与ShrEdit录像支持对灵活协调的分析。",
+        "source": "P02，物理PDF第2–7页",
+        "verdict": "supported",
+        "reason": "系统与证据类型准确；原文分析四个三人组，页面没有编造效率指标或取消全部限制的结论。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "Notes案例中认知框架、培训、奖励、晋升和计费制度共同影响共享。",
+        "source": "P03，物理PDF第1、3–7页",
+        "verdict": "supported",
+        "reason": "具体机制准确。Notes部分功能需由采用组织开发，页面用“可支持”表述，未将所有功能说成内置。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "Notes研究只覆盖一个办公室五个月的引入及早期使用，不能证明长期必然失败。",
+        "source": "P03，物理PDF第2、7–8页",
+        "verdict": "supported",
+        "reason": "观察范围与原作者谨慎限定一致，部署与工作实践改变被清楚分开。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "Grudin列举多种群件，并区分为群体设计与实际被群体使用。",
+        "source": "https://www.microsoft.com/en-us/research/publication/groupware-social-dynamics/ ；https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/groupware-and-social-dynamics.pdf",
+        "verdict": "supported",
+        "reason": "实际打开的官方介绍和论文开篇支持用途清单、社会要求及定义边界；页面没有把八项挑战倒写成两篇1992年论文的框架。"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "两篇本站应用分别说明群件如何支持活动协调，以及如何受组织条件制约。",
+        "source": "P02，物理PDF第3–7页；P03，物理PDF第3–8页",
+        "verdict": "supported",
+        "reason": "应用段交代系统功能进入协作过程和采用机制的不同作用，超出了论文名称罗列。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均交代概念类别及区分特征，并提供英文名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括各页主要机制和应用范围，没有额外声称普遍效果或历史地位。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "多数章节有实质内容；C068核心实例错误且未充分解释原研究的框架延伸，C069将问题互补放入实际应用章节。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清楚，关联研究与实验操纵分开；C071尤其保留主动参与关联的因果边界。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "多数评价有主体；C068把外部综述的四类过程归给Hollaback，并将站点负责人故事改成受访者转化，归属失准。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "大多数年份、比例和术语一致，但C068将6次与7次访谈误写为受访者内部与外部身份数量。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "关键陈述普遍有真实来源，但C068的温尼伯转化情节和受访者身份分组不受所引全文支持。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "书目主体可核实；C068发现与案例的脚注页码不足，C070生命周期脚注的节号及物理页码定位错误。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "没有信息框；正文表格未与主要人数或指南编号冲突。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "无长篇复制和宣传结尾，但C068含来源没有的经历重构；多页反复解释未进行何种研究，也增加了编辑说明色彩。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "总体按概念的原理、例子、边界和应用组织，没有硬套训练实验或公式模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面呈现多项外推限制且没有宣称优良条目资格，但上述具体证据和归属缺口没有标为待查证。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C068虽列任务与过程，但关键转化例子失实，原研究的延伸实例未走通；C069的Notes段也未证明STS实际使用。其余页核心机制较完整。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文以机制及条件推进，没有逐字段转写研究问题、贡献和数据。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名称和数字通常附有用途、机制或比较；表格服务于解释，没有退化为笔记串联。"
+      },
+      {
+        "item": 4,
+        "pass": false,
+        "reason": "C071的40人、25人及反应人数均有口径；但C068的6与7虽附身份解释，该解释实际上错置了原始数字对象。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "多数应用说明了工作关系；C069的Notes条目仅证明社会技术问题互补，没有建立STS概念在该文实际承担的分析作用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "各页背景均提供已有实践、具体情境或研究对象，没有仅以问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性、意义重大等空泛赞誉，效果陈述通常保留研究对象和证据限制。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C067.md",
+        "sections": [
+          "导言与定义",
+          "规则、期待与行为的关系",
+          "人机互动中的礼貌例子",
+          "情境怎样改变适用规则及检查表",
+          "描述规范与评价规范",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C068.md",
+        "sections": [
+          "导言与集体行动框架定义",
+          "从个人经历到集体解释",
+          "框架承担的不同任务",
+          "个人与组织怎样形成联系及四过程表",
+          "与组织资源及技术的关系",
+          "研究边界与相近概念",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "温尼伯人物因阅读叙事而从赞美解释转化的情节不获原文支持，已判error。",
+          "6名内部、7名外部受访者的身份分组不获原文支持，已判error。",
+          "Hollaback逐项介绍四种对齐过程的归属不成立，已判error。"
+        ]
+      },
+      {
+        "path": "concepts/C069.md",
+        "sections": [
+          "导言与STS定义",
+          "研究对象与问题",
+          "如何分析一项技术及分析入口表",
+          "女性主义研究与设计的联系",
+          "学术组织与领域范围",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "Notes论文实际采用STS概念或程序的关系未建立；其事实内容可核实，但作为本站应用的分类已判error。"
+        ]
+      },
+      {
+        "path": "concepts/C070.md",
+        "sections": [
+          "导言与统计、社会偏差区分",
+          "偏差怎样进入系统及三类风险表",
+          "总体准确率为何不够",
+          "发现与缓解的不同环节",
+          "与相关概念的区别",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C071.md",
+        "sections": [
+          "导言与算法觉察定义",
+          "看见结果与意识到处理过程",
+          "研究中怎样识别觉察",
+          "FeedVis如何让筛选成为可观察对象及工具边界表",
+          "主动参与与被动接触",
+          "觉察之后的反应",
+          "与透明度和可解释性的关系",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C072.md",
+        "sections": [
+          "导言与透明度定义",
+          "透明的对象与读者",
+          "通过结果对照揭示过程",
+          "在交互中交代能力、状态与理由及信息表",
+          "理解的前提与解释的局限",
+          "与相近目标的区别",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C073.md",
+        "sections": [
+          "导言与群件定义",
+          "从个人操作到相互依赖",
+          "支持协作的不同机制及比较表",
+          "Notes案例：能力为何没有直接变成采用",
+          "群件与组织环境",
+          "分析和评估的层次",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "依据用户提供的全部相关论文正文与附录核对，并实际搜索、打开SEP、4S、NIST、框架综述、Grudin及两篇解释研究来源；未将搜索摘要当作全文证据。",
+      "C068存在三项明确事实或归属错误，并有核心实例与引用范围问题，不能通过事实验收。",
+      "C069需区分STS实际应用与相关研究的问题互补；C070需修正生命周期脚注定位。",
+      "C067、C071、C072、C073所核关键定义、机制、例子和本站应用获得支持。",
+      "这些概念不要求统一数学公式；已有定性机制和案例可承担解释功能。发展史与变体覆盖仍偏重本站案例，尤其觉察、透明度和STS页面的领域范围较窄，但不据此虚构缺失事实。",
+      "本报告仅审校，未修改正文；发现的error须修正后再复核。"
+    ]
+  }
+}

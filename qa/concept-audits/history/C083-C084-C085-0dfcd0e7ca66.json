@@ -1,0 +1,367 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C083",
+    "C084",
+    "C085"
+  ],
+  "page_hashes": {
+    "concepts/C083.md": "7cfb5dec6fbec3dd31d79ab1b86b824b841cd5d380752d2d07abd257d02f2f77",
+    "concepts/C084.md": "8897eb28d0f88deb5db1a0d0f26a5e0d09947ad5f72759a2092852641f0df9f1",
+    "concepts/C085.md": "9730aae887a63f01cc3aa06b10e855779b95a65294921cc2c2273d8ae2a9b7a7"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C083.md",
+        "claim": "传统定义强调改变态度或行为的设计意图，并排除强迫和欺骗。",
+        "source": "https://ceur-ws.org/Vol-2154/paper4.pdf，物理PDF第1–2页",
+        "verdict": "supported",
+        "reason": "原文分别引述Fogg及Oinas-Kukkonen与Harjumaa的定义，支持页面对传统范围的限定。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Kampik等提出涵盖违背用户利益、强迫和欺骗的信息系统定义。",
+        "source": "https://ceur-ws.org/Vol-2154/paper4.pdf，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "扩展立场及意图可以来自开发者、用户或系统自身均有明确依据；页面正确保留提议者归属。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "定义范围与发展完整交代了Kampik等扩展定义的区分条件。",
+        "source": "https://ceur-ws.org/Vol-2154/paper4.pdf，物理PDF第5页",
+        "verdict": "error",
+        "reason": "介绍遗漏三个重要边界：必须实际影响行为、技术须在说服中发挥不可由非技术方式替代的关键作用、主动性须达到一定自主或自动化程度。该定义也收紧部分条件，并非仅扩大伦理范围。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "B=MAP表示动机、能力和提示同时汇合，并非行为概率计算公式。",
+        "source": "https://www.behaviormodel.org/home",
+        "verdict": "supported",
+        "reason": "作者网站明确给出三要素及同时发生条件；页面没有将助记表达误写为可直接计算的乘法模型。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "2017年末trigger改称prompt；Facebook邮件通过登录、寻找朋友及后续回应形成参与链。",
+        "source": "https://www.behaviormodel.org/prompts",
+        "verdict": "supported",
+        "reason": "作者页面明确记录术语变更和四步行为链，候选页保留了示例中的预期性质。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "功能三角包括工具、媒介和社会行动者，同一系统可以兼具这些角色。",
+        "source": "https://mari.usc.edu/wesrac/wired/bldg-7_file/Persuasive_Computers.pdf，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "角色定义、社会线索及角色混合均与原文一致。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "七策略分别通过简化、路径引导、定制、适时建议、自我追踪、公开观察和强化影响行为。",
+        "source": "https://homes.cs.washington.edu/~jfogarty/publications/persuasive2007.pdf，物理PDF第4–5页；提供的Fogg原著网页缓存",
+        "verdict": "supported",
+        "reason": "七项名称和基本机制均对应表1；自拟例子标识清楚，没有冒充实验。公开监督与秘密记录的机制区别亦有原著缓存支持。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Gray等将说服性技术作为伦理背景及讨论参照，没有采用七策略作为案例编码框架。",
+        "source": "P14，物理PDF第2–4、9页",
+        "verdict": "supported",
+        "reason": "原文明确拒绝用说服技术路径统摄研究；编码先采用Brignull分类，再开展开放编码。页面正确区分背景参照与实际方法。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "两名不同背景研究者用两个月收集案例，最终五类暗黑模式与说服策略只有解释性对应。",
+        "source": "P14，物理PDF第3–5、9页",
+        "verdict": "supported",
+        "reason": "人员背景、时长、五分类和讨论中的类比均准确；没有把类比写成实验验证的一一映射。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "伦理原则只是相关工作；案例研究不能直接推出行为效果或总体受害比例。",
+        "source": "P14，物理PDF第2–3、8–10页",
+        "verdict": "supported",
+        "reason": "页面准确区分伦理讨论、案例机制分析和效果证据，也没有声称相关原则已经在专业实践中得到验证。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "质性研究涉及意义、经历和社会行动，资料形式不能单独决定方法论。",
+        "source": "P18，物理PDF第2–6页",
+        "verdict": "supported",
+        "reason": "原文区分资料、分析程序和知识论，列举的五种传统及其交叠也准确。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "编码既可能应用预定代码，也可能参与解释生成；主题不必对应最高频代码。",
+        "source": "P18，物理PDF第3、13–16页",
+        "verdict": "supported",
+        "reason": "页面解释了相同术语在不同取向中的不同作用，没有将频数等同于重要性。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "Braun与Clarke区分编码信度、代码表和反思性三种主题分析路径。",
+        "source": "https://www.thematicanalysis.net/faqs/，提供的官方全文缓存",
+        "verdict": "supported",
+        "reason": "三路径、共同意义与中心组织概念、研究者解释作用以及反对机械程序主义均有直接依据。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "IRR适用性取决于分析目的；稳定分类不等于解释有效，多研究者讨论也可保留差异。",
+        "source": "P18，物理PDF第4–6、13–18页；https://www.thematicanalysis.net/faqs/",
+        "verdict": "supported",
+        "reason": "准确区分可靠性、效度、协商一致与统计测量，并保留不同知识论立场。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "P18抽取650篇、纳入261篇，其中251篇描述分析方法；初轮筛选报告κ=0.849和α=0.85。",
+        "source": "P18，物理PDF第6–8页",
+        "verdict": "supported",
+        "reason": "数字及任务归属准确。系数来自另外70篇共同编码论文，而非全部650篇或后续内容分析。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "P18后续整理方法实践时未将所有分析活动都按IRR模式处理。",
+        "source": "P18，物理PDF第8、15页",
+        "verdict": "supported",
+        "reason": "原文明确说明后续二元识别任务解释需求低，因此没有计算IRR；页面概括正确，但可更具体说明这一理由。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "Data Cascades通过53人访谈、迭代阅读和讨论形成三个顶层类别、18个嵌套类别，明确不使用IRR。",
+        "source": "P20，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "研究人数、分析步骤、分类数量和不使用IRR的理由均对应原文；百分比被正确限定为受访者自报经历。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "混合方法要求有意整合质性和量化证据，而非仅并列引文与表格。",
+        "source": "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf，物理PDF第6–8页",
+        "verdict": "supported",
+        "reason": "NIH文件明确说明有意整合，并区分合并、连接和嵌入；页面引用页码覆盖论点。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "RtD通过设计活动和人工物生成并传达知识，与为具体产品提供资料的研究有所区分。",
+        "source": "P01，物理PDF第1–2、5–7页；https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+        "verdict": "supported",
+        "reason": "定义及知识共享要求有依据，页面也承认两类活动可以交错。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Frayling于1993年提出相关思路，2007年模型将其具体化为HCI研究贡献方案。",
+        "source": "P01，物理PDF第1、5、10页；上述Stappers与Giaccardi章节41.1.10",
+        "verdict": "supported",
+        "reason": "承接关系和日期准确，没有将2007年误写为概念起点。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "模型整合行为科学、工程机会与现实情境，通过反复构造、批评及重构问题指向优选状态。",
+        "source": "P01，物理PDF第5–7页",
+        "verdict": "supported",
+        "reason": "对知识来源、设计循环和输出的解释忠实于模型；所述循环是解释性概括，没有伪称统一操作协议。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "四个评价视角为过程、发明、相关性和可延展性；过程可复现不意味着结果相同。",
+        "source": "P01，物理PDF第7–8页",
+        "verdict": "supported",
+        "reason": "四项均逐项解释，相关性中的优选状态论证及可延展性的知识接续含义准确。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Xerox案例重构操作员与普通用户的关系，并以颜色、触点和即时提示支持操作。",
+        "source": "P01，物理PDF第8页",
+        "verdict": "supported",
+        "reason": "页面说明了案例怎样体现问题框定和知识贡献，超出仅列举系统名称。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Philips的1995年项目探索四个生活领域，花瓶状通信装置体现相关性，教学沿用体现可延展性。",
+        "source": "P01，物理PDF第8–9页",
+        "verdict": "supported",
+        "reason": "年份、领域数、装置特征和作者使用案例的评价关系均准确。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Apple Guides使用历史人物形象引导浏览，意外使内容被理解为角色观点。",
+        "source": "P01，物理PDF第9页",
+        "verdict": "error",
+        "reason": "原文只说明人物穿历史服饰、置于历史情境，并未确认这些角色是具体历史人物；页面增加了人物身份判断。导航目标、意外发现及后续研究关系本身有支持。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "研究人工物以共同体知识和新整合为目标，可弱化商业制造与产品线约束。",
+        "source": "P01，物理PDF第7页",
+        "verdict": "supported",
+        "reason": "准确归属于作者提出的模型，没有将其扩大为商业项目与RtD绝对互斥的通则。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Gaver将RtD理论视为暂定、依情境且带愿景的，倡议注释作品组合并警惕过度标准化。",
+        "source": "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf，提供全文缓存物理PDF第1、5–10页",
+        "verdict": "supported",
+        "reason": "理论性质、对多样性的解释和注释作品组合的作用均准确；页面没有伪造统一评分公式。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "具体情境中的设计发现不能自动推广，但可通过清楚表达支持其他项目判断如何迁移。",
+        "source": "P01，物理PDF第6–8页；Gaver接收稿物理PDF第8–10页",
+        "verdict": "supported",
+        "reason": "符合人工物知识交流与情境性边界，未将可接续性写成普遍效果证明。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三页首句均交代中文名称、英文原名、类别及区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言分别概括说服机制与伦理、质性解释取向、RtD知识贡献，未加入脱离正文的评价。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "段落按定义、机制、分析质量及应用展开，各段有清楚中心。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "没有无归属的优越性或宣传性评价；相关争论按作者立场陈述。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "C085将历史服饰角色写成历史人物，超出了案例来源的身份表述；其他主要研究关系归属准确。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "没有把案例相关性冒充实验因果；行为链、伦理类比和后续研究作用均保留来源语境。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "C083扩展定义遗漏实际行为影响、技术关键性和自主性条件，影响读者判断概念边界。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "1993、1995、2007及2017年末等阶段交代清楚，无含混的当前时间断言。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "650、261、251、53及类别数量均有对象；访谈百分比没有泛化为产业发生率。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "主要术语首次附英文且译名保持一致；IRR、RtD和B=MAP均得到解释。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "章节都有实质材料，表格承担机制和评价视角比较，未设置空标题或信息框。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "结尾停留于适用边界和知识迁移，没有宣传升华，也没有将自评过程写入百科正文。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "七策略和RtD四视角完整展开，但C083对扩展定义的必要条件说明不完整。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "三页均用机制及证据关系组织叙述，没有将抽取字段逐条改写成句。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统、人数和方法名均连接到分析作用；两个表格有解释性正文。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "研究样本、筛选分母、系数任务及计数范围得到解释，未孤立堆数。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内应用说明了概念如何参与编码、方法论论证、设计重构或讨论参照，没有用套话链接代替关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景包含定义争议、方法传统和HCI贡献模型问题，没有只留下设问。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、效果显著等无依据赞誉；贡献均以具体机制或作者论证说明。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C083.md",
+        "sections": [
+          "导言与传统定义",
+          "定义范围与发展",
+          "行为如何受到影响：B=MAP、提示与行为链",
+          "工具、媒介与社会行动者",
+          "七种说服策略：逐项机制、自拟例子及策略区别",
+          "与暗黑模式的关系",
+          "在本站论文中的应用：P14研究取向、收集过程及策略类比",
+          "设计评价的边界",
+          "参考文献及引注范围"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C084.md",
+        "sections": [
+          "导言与定义",
+          "从材料到解释：资料、传统、编码及Data Cascades例子",
+          "主题、频数与意义",
+          "质量如何被论证：透明性、IRR及可靠性与效度",
+          "在本站论文中的应用：P18筛选与分析任务",
+          "在本站论文中的应用：P20访谈、类别构造及不用IRR",
+          "与量化及混合方法的关系",
+          "参考文献及数字口径"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C085.md",
+        "sections": [
+          "导言与RtD定义",
+          "概念的发展",
+          "设计怎样成为研究手段",
+          "从制作到知识的过程",
+          "四个评价视角",
+          "在本站论文中的应用：Xerox问题重构",
+          "在本站论文中的应用：研究与商业实践边界",
+          "在本站论文中的应用：Philips未来愿景",
+          "在本站论文中的应用：Apple Guides意外发现",
+          "后续讨论与局限：Gaver及情境迁移",
+          "参考文献及物理页码"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已依据输入的维基体规则独立审校，并实际搜索、打开外部来源；官方全文缓存作为原文证据使用。",
+      "发现两处需修订：C083扩展定义的必要条件不完整；C085将历史服饰角色误述为历史人物。",
+      "C084主要定义、方法区别、研究数字及站内应用关系均获支持。",
+      "P14中的说服性技术被准确标为背景与解释参照；P18和P20确实实施质性分析；P01提出RtD模型并用既有案例说明，页面未将这些案例冒称为作者新实施的实验。",
+      "没有剩余需要列为unverified的具体页面论断；已确认的问题以error记录，不代表三页整体获得无条件通过。"
+    ]
+  }
+}

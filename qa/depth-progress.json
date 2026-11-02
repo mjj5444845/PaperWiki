@@ -1,0 +1,7 @@
+{
+  "phase": "content accepted; release verification pending",
+  "validation": "qa/final-validation.json",
+  "published": false,
+  "scheduler_resumed": false,
+  "notes": "25 paper and 88 concept snapshots independently accepted; current source hashes are authoritative."
+}

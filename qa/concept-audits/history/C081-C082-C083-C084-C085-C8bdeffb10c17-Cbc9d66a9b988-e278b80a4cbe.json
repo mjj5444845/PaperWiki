@@ -1,0 +1,521 @@
+{
+  "ids": [
+    "C081",
+    "C082",
+    "C083",
+    "C084",
+    "C085",
+    "C8bdeffb10c17",
+    "Cbc9d66a9b988"
+  ],
+  "page_hashes": {
+    "concepts/C081.md": "1cd2c706e8eb48acbf101ef83deb81e78b1ba2ebb0bf191614619f0aa8c69021",
+    "concepts/C082.md": "c06b86f28f002402cf53a508d98de540fffd21679e0bdb5e282924c8386740d1",
+    "concepts/C083.md": "ff61ce0aaf81fa5efefe30871f3d2ac881f9149db032b941cc89a2a285b9f623",
+    "concepts/C084.md": "72fb822e85fd3c2cffd92a7bc3554e1ce7081e2485deea79a83c5634b1669f03",
+    "concepts/C085.md": "2e0690565779d29b56d04ade28385e72b03ccbbd7146ce631b28708f09226661",
+    "concepts/C8bdeffb10c17.md": "c2598d01fec9916a48fd2da016e1266e78db45c626db8d3b711907ea614c5838",
+    "concepts/Cbc9d66a9b988.md": "a706f06412398b16e96f16f3f87a3fa733f93671f594e9f36b8ecab8b1705fcd"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C081.md",
+        "claim": "认知需求描述参与并享受费力思考的倾向，不能直接代替智力或任务难度。",
+        "source": "P21物理PDF第3、12–14页；https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/",
+        "verdict": "supported",
+        "reason": "定义与原文一致，正确区分动机、能力和任务负担。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "六题量表从18题缩减，在英美三个样本共1596人中检验结构及测量一致性。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/，摘要及Study 1方法",
+        "verdict": "supported",
+        "reason": "已打开全文核对；人数、版本和检验对象准确，2018在线发表与2020卷期亦相容。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "P21采用四题短量表、中位数分组及三种认知强制设计。",
+        "source": "P21物理PDF第7–8、14页",
+        "verdict": "supported",
+        "reason": "四题取自既有量表最高载荷题项；按需、先决定再更新、等待30秒及SXAI两条件均准确。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "错误预测试次完整决定的边际均值分别为高NFC 0.02/0.11、低NFC 0.03/0.06。",
+        "source": "P21物理PDF第9–10、14页表4、表5",
+        "verdict": "supported",
+        "reason": "数字及显著性与表4一致；页面正确说明调整后均值，并记录表5低NFC值印为0.07的原文差异。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "以完整决定结果概括高、低NFC群体的干预收益差异。",
+        "source": "P21物理PDF第14–15页表4、表5及Objective Measures",
+        "verdict": "error",
+        "reason": "应用分析不完整：低NFC组在错误预测时的碳水来源识别也显著改善，0.09升至0.26，p=.003。仅呈现完整决定容易使读者误以为低NFC组各方面均未获益，须补充这一重要边界。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "强制设计没有普遍提高心智要求，但系统复杂程度存在差异。",
+        "source": "P21物理PDF第12页表3，附图第4张",
+        "verdict": "supported",
+        "reason": "SXAI/CFF心智要求为2.86/2.84，无显著差异；系统复杂程度为2.64/2.95，SXAI显著较低。"
+      },
+      {
+        "path": "concepts/C081.md",
+        "claim": "认知需求用于有限内部审计，群体差异不能单独证明人格因果关系，跨领域推广需再验证。",
+        "source": "P21物理PDF第12、14–17页",
+        "verdict": "supported",
+        "reason": "准确标为实际分组审计；未把适应性干预建议写成已实施方法，也未把非显著结果解释为零效应。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "κ比较观察一致率与偶然一致率，公式及0.80、0.50得到0.60的例算正确。",
+        "source": "P18物理PDF第4页；https://discovery.ucl.ac.uk/id/eprint/10091273/1/1609406919899220.pdf，物理第8页",
+        "verdict": "supported",
+        "reason": "公式和算术正确，教学数字已与实测结果分开；κ不代表分类正确率的解释成立。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "κ的定义和边界已充分说明。",
+        "source": "concepts/C082.md“一致如何被测量”",
+        "verdict": "error",
+        "reason": "缺少退化条件：p_e=1时分母为零，κ未定义，故“κ为1表示本批标签完全一致”之外还应说明完全一致未必都能算出1。也未明确负κ表示低于偶然模型的一致程度。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "两名作者在12%开放回答上取得κ=1。",
+        "source": "P16物理PDF第7页Methods",
+        "verdict": "supported",
+        "reason": "抽查比例、人数、统计量和怀疑标签任务均有原文支持；不是所有质性分析均取得该系数。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "P18论文筛选首轮报告κ=0.849、α=0.85。",
+        "source": "P18物理PDF第7页",
+        "verdict": "supported",
+        "reason": "数值正确，但可更精确说明：先对30篇达到100%一致，随后共同编码70篇才计算这两个系数。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "P19抽查200个候选簇，κ=0.74，其余由一人检查。",
+        "source": "P19物理PDF第11页第4.3.3节，附图第1张",
+        "verdict": "supported",
+        "reason": "图像与原文对应，200簇来自1768候选簇；系数比较记录片段的判断，页面没有误称全部1818实例均双人复核。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "Data Cascades不计算IRR，以迭代编码形成三个顶层及18个嵌套类别。",
+        "source": "P20物理PDF第4页Analysis and coding、第14页参考文献80",
+        "verdict": "supported",
+        "reason": "研究明确援引P18并将代码视为过程；准确区分方法论选择与实际采用统计检验。"
+      },
+      {
+        "path": "concepts/C082.md",
+        "claim": "是否使用IRR需与分析目标匹配，讨论共识不能替代独立编码信度。",
+        "source": "P18物理PDF第5、13–18页；https://discovery.ucl.ac.uk/id/eprint/10091273/1/1609406919899220.pdf",
+        "verdict": "supported",
+        "reason": "已打开外部全文；编码阶段、分歧处理和报告透明度的说明符合来源。IRR与ICR可互换是常见用法，但外部指南另有更严格术语区分。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "Fogg模型要求动机、能力、提示同时汇合，B=MAP不是直接计算概率的方程。",
+        "source": "https://www.behaviormodel.org/",
+        "verdict": "supported",
+        "reason": "已打开作者页面，三要素和表达式准确；没有把模型宣传中的普遍有效性直接当成事实。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "trigger于2017年末改称prompt，召回邮件可引出后续社交行为链。",
+        "source": "https://www.behaviormodel.org/prompts",
+        "verdict": "supported",
+        "reason": "作者原网页明确记载术语变更及登录、寻找朋友、回应的链条。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "七策略的名称及简化、路径引导、个性化机制来自Fogg。",
+        "source": "P14物理PDF第2页；https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-152.html",
+        "verdict": "supported",
+        "reason": "原论文列全七名称；实际打开的原著预览支持前三项机制，示例被明确标为说明用途。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "公开监督的必要条件、身份识别与洗手停留时间的具体案例，以及后三项策略细节已由原著预览支持。",
+        "source": "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-41.html；https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-152.html",
+        "verdict": "unverified",
+        "reason": "已打开网页，但可访问正文预览不足以核对洗手设备细节及全部策略定义；目录中的章节标题不能代替案例原文。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "P14将说服性技术作为伦理比较视角，并未以七策略主导全部分类。",
+        "source": "P14物理PDF第2–5、9页",
+        "verdict": "supported",
+        "reason": "作者明确拒绝由既有说服框架支配UX研究；最终五类来自案例分析，关系归属准确。"
+      },
+      {
+        "path": "concepts/C083.md",
+        "claim": "两名不同背景研究者用两个月收集案例，案例研究不能推算总体受害比例。",
+        "source": "P14物理PDF第3–4、10页",
+        "verdict": "supported",
+        "reason": "背景、时长及案例取向准确；伦理原则被标为相关工作，没有冒称已验证检查表。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "质性研究不限于非数字资料，材料来源、编码与方法论需区分。",
+        "source": "P18物理PDF第3–5、18页",
+        "verdict": "supported",
+        "reason": "五种传统、资料类型和编码不同用途均有直接依据。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "主题分析是方法家族，反思性分析强调共同意义与研究者立场。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9879167/",
+        "verdict": "supported",
+        "reason": "已打开全文；信度、代码表与反思性路径的区分准确，未将机械执行程序等同研究质量。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "P18从650篇筛出261篇，其中251篇描述分析方法；筛选与后续内容分析采用不同信度处理。",
+        "source": "P18物理PDF第6–9页",
+        "verdict": "supported",
+        "reason": "样本、分母及κ/α的使用阶段准确；后续二元识别未计算IRR的理由也得到保留。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "Data Cascades访谈53人，迭代形成三个顶层和18个嵌套类别，比例仅限受访者自述。",
+        "source": "P20物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "具体说明了质性分析如何产生解释，并保留目的性与滚雪球招募下的推断范围。"
+      },
+      {
+        "path": "concepts/C084.md",
+        "claim": "混合方法需要有意整合质性与量化证据。",
+        "source": "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf，物理第6–8页",
+        "verdict": "supported",
+        "reason": "实际打开NIH原报告，定义及合并、连接、嵌入的定位准确。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "RtD通过设计活动和人工物产生并传达研究知识，与为设计收集资料有区别。",
+        "source": "P01物理PDF第1–2、5–7页；https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+        "verdict": "supported",
+        "reason": "原论文与已打开外部百科均支持该区分，未把所有产品制作都算作研究。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "模型整合行为、技术及现实知识，经构思迭代和反思指向优选状态。",
+        "source": "P01物理PDF第2、5–6页",
+        "verdict": "supported",
+        "reason": "机制概括符合原文；页面所述循环是综合说明，不是作者规定的线性实验程序。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "四评价视角为过程、发明、相关性、可延展性，不要求产出相同物件。",
+        "source": "P01物理PDF第7–8页",
+        "verdict": "supported",
+        "reason": "四项齐全，过程可复行与结果可重复的区别、知识接续与商业扩产的区别准确。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Xerox案例从关键操作员维护转向普通办公室使用者使用和排除卡纸。",
+        "source": "P01物理PDF第8页",
+        "verdict": "supported",
+        "reason": "问题重构及颜色、触点、即时指示的用途有依据，准确标为作者用于说明模型的既有案例。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "本站应用已解释Xerox、Philips与Apple Guides如何体现RtD。",
+        "source": "P01物理PDF第8–9页",
+        "verdict": "error",
+        "reason": "应用段实际只展开Xerox，另两个仅列名称。尤其遗漏Apple Guides试用中意外发现内容被理解为角色观点、继而反馈给技术和行为研究的过程；这正能说明人工物如何产生研究知识。"
+      },
+      {
+        "path": "concepts/C085.md",
+        "claim": "Gaver将RtD知识描述为暂定、情境依赖、愿景导向，并提出注释与作品组合。",
+        "source": "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf",
+        "verdict": "supported",
+        "reason": "已打开作者稿；后续讨论与四视角模型的关系准确，没有杜撰统一评分公式。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "局部忠实性要求解释符合实例邻域内模型行为，不等同全局重要性。",
+        "source": "P365079753571物理PDF第3页",
+        "verdict": "supported",
+        "reason": "定义及局部、全局特征差异直接对应原文。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "LIME以可理解表示扰动、查询黑箱、邻近加权并折衷拟合误差与复杂度。",
+        "source": "P365079753571物理PDF第3–4页公式1、2及算法1",
+        "verdict": "supported",
+        "reason": "两个公式、符号和四步流程准确；原表示与可理解表示没有混淆。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "SVM留出准确率94%，Posting出现在22%训练样本，其中99%属Atheism。",
+        "source": "P365079753571物理PDF第4页第3.5节",
+        "verdict": "supported",
+        "reason": "数字和条件正确，例子确实用于揭露与主题无关的分类线索。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "稀疏性、表示能力、邻域采样和稳定性限制解释可靠程度。",
+        "source": "P365079753571物理PDF第4页；https://christophm.github.io/interpretable-ml-book/lime.html",
+        "verdict": "supported",
+        "reason": "原论文与已打开教材相互支持；没有把样本拟合估计写成邻域内处处准确的保证。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "SHAP单点局部准确性不同于LIME邻域拟合；SP-LIME扩展个案覆盖但不使局部权重成为全局规律。",
+        "source": "P01c7aa8f7d9e物理PDF第4页性质1；P365079753571物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "概念区分和具体方法作用准确，未把两种“局部”性质合并。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "夏普利值是不同顺序边际贡献的平均；双特征例算为4和6。",
+        "source": "P01c7aa8f7d9e物理PDF第3、5页；https://christophm.github.io/interpretable-ml-book/shapley.html",
+        "verdict": "supported",
+        "reason": "子集权重公式和算术正确，收益函数与教学数据身份明确。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "效率、对称性、虚参与者、可加性给出经典分配性质。",
+        "source": "https://christophm.github.io/interpretable-ml-book/shapley.html",
+        "verdict": "supported",
+        "reason": "所述四项与经典性质相符；效率使用总收益差口径，避免遗漏非零基准。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "SHAP三性质在给定映射和加性解释类别中确定唯一归因形式。",
+        "source": "P01c7aa8f7d9e物理PDF第2、4–5页",
+        "verdict": "supported",
+        "reason": "正确保留唯一性的条件，并准确说明局部准确性和一致性；不是所有解释问题唯一。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "三性质的含义已完整解释。",
+        "source": "P01c7aa8f7d9e物理PDF第4页性质2",
+        "verdict": "error",
+        "reason": "页面仅命名缺失性，未解释x'_i=0时φ_i=0，也未区分它与经典虚参与者性质。对以这些性质解释唯一性定理的概念页，这是核心组成遗漏。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "重新训练子集模型与固定模型缺失输入不同；Kernel SHAP使用特定核和约束，依赖及采样影响解释。",
+        "source": "P01c7aa8f7d9e物理PDF第3、5–7页",
+        "verdict": "supported",
+        "reason": "方法关系、条件期望及可选简化假设均准确，未将原论文的近似写成无条件精确计算。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "夏普利值不是局部导数或因果效应。",
+        "source": "https://christophm.github.io/interpretable-ml-book/shapley.html",
+        "verdict": "supported",
+        "reason": "相对背景的收益分配不自动代表现实干预效果，解释边界成立。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均提供名称、英文及基本类别，未被书目或括号淹没。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义与研究用途，基本未加入正文之外的结论。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "主要章节结构合理，但C081遗漏低NFC显著识别收益，夏普利值遗漏缺失性的解释，RtD两个案例仅列名。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清楚，通常区分机制、实测结果与推广限制；未用时间先后替代因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Gray、Gaver及方法论立场均具名归属；未把某一质性传统写成全领域唯一标准。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "量表人数、PDF页码、边际均值与示意数字基本有口径；量表在线年份和卷期年份分开。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "关键论断多有来源，但C083洗手设备案例及部分策略机制尚未取得可核对正文，不能视为全部查证。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "κ公式及p_e定义挂在P18脚注下，但P18没有提供该公式；需就近补适当统计来源。其余所给Crossref缓存支持对应本站论文书目。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "均未使用信息框，无空字段或与正文冲突的信息框数据。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见大段复制或宣传总结，教学例算有标识；表4/5差异作为脚注说明保留。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念机制、例子、边界和应用结构，没有机械套用实验论文模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未宣称优良条目或自评通过，但当前仍有核心解释遗漏及真正未核实的外部细节，不能无条件验收。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "Cbc9d66a9b988未解释缺失性；C085未展开Philips与Apple Guides；C081分组收益呈现欠完整。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "有连续机制解释与比较，不是把抽取字段逐项转成句子。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "多数表格包含运作方式和证据范围，没有以人名、人数和系统名堆砌替代正文。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "0.02等均值注明错误预测条件及调整口径；94%与22%各有对象，示意例算不冒充实测。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内关系通常具体到量表分组、编码抽查、解释拟合或理论比较，未靠套话链接制造关联。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明实际方法差异、解释工具问题及设计知识诉求，没有只留下研究问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性、重大突破等空泛赞誉；统计显著与一般评价基本分开。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C081.md",
+        "sections": [
+          "导言",
+          "含义与测量",
+          "AI辅助决策中的作用机制",
+          "在本站论文中的应用及表格",
+          "使用边界",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C082.md",
+        "sections": [
+          "导言",
+          "一致如何被测量、κ公式与例算",
+          "实施过程与解释边界",
+          "四篇本站论文的采用或不采用方式",
+          "方法论差异",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C083.md",
+        "sections": [
+          "导言",
+          "行为如何受到影响及B=MAP",
+          "七种说服策略",
+          "公开监督与洗手案例",
+          "与暗黑模式的关系",
+          "在本站论文中的应用",
+          "设计评价的边界",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "原著洗手案例的身份识别、传感及停留时长细节。",
+          "公开监督必要条件的完整原文论证。",
+          "原著预览未完整显示的建议、自我监测、监督和条件作用定义细节。"
+        ]
+      },
+      {
+        "path": "concepts/C084.md",
+        "sections": [
+          "导言",
+          "从材料到解释",
+          "主题、频数与意义",
+          "质量如何被论证",
+          "两篇本站论文中的具体应用",
+          "与量化及混合方法的关系",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C085.md",
+        "sections": [
+          "导言",
+          "设计怎样成为研究手段",
+          "从制作到知识的过程",
+          "四个评价视角",
+          "在本站论文中的应用",
+          "后续讨论与局限",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "sections": [
+          "导言",
+          "直观含义",
+          "LIME怎样构造局部解释及两个公式",
+          "文本例子",
+          "忠实性与可理解性的折衷",
+          "与其他解释性质的区别",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "sections": [
+          "导言",
+          "不同顺序及双特征例算",
+          "定义公式与经典性质",
+          "从合作收益到模型归因",
+          "本站SHAP论文应用及加性模型",
+          "计算与解释限制",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "结论：暂不作整批通过。主要需补齐C081低NFC识别收益、C082退化κ边界、C085案例作用及夏普利值缺失性解释；C083部分原著细节待核。",
+      "已按用户提供的维基体标准独立审校，实际搜索并打开外部原文；未访问文件系统、修改页面、调用MCP或委派其他角色。",
+      "已对照附图P19物理第11页及P21物理第10–13页。P19提取文本中的R代码不属于页面正文；P21图表支持心智要求与系统复杂度须分别解释，不能以相关性图推断因果。",
+      "实际采用、方法建议和设计参照总体区分准确：P20明确不使用IRR；P14借说服策略比较而非实施七类实验；P01以既有案例阐释模型；LIME与SHAP分别使用邻域拟合与单点加性准确性。",
+      "未将未重跑实验、未提供盲读题或未访问本站文件列为事实缺口。"
+    ]
+  }
+}

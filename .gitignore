@@ -8,7 +8,7 @@ GoodPaper/
 sampling/
 analysis/
 planning/
-wiki-style-writer/
+/wiki-style-writer/
 wiki-style-writer.zip
 scripts/
 # Generated site
@@ -41,3 +41,6 @@ tmp/
 /reports/*
 !/reports/.gitkeep
 # manifest.json is local by default; export only a reviewed copy if needed.
+
+# Full reading notes and private source audits
+/notes/

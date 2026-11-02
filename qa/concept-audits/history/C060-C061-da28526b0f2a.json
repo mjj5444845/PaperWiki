@@ -1,0 +1,339 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C060",
+    "C061"
+  ],
+  "page_hashes": {
+    "concepts/C060.md": "578466e90a184a096b2d4408ec40ce5b6953d1940387448d8dbe695a012bc6f6",
+    "concepts/C061.md": "6888290400e879f8044ed98772a2570e82954eec3c0cce0c32764e741e0f5648"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C060.md",
+        "claim": "可解释性关注人对模型行为和预测依据的理解，术语与目标尚无统一定义。",
+        "source": "P16，物理PDF第1–2页及第1页脚注",
+        "verdict": "supported",
+        "reason": "原文明确区分内在可解释模型与事后解释，并说明interpretability、intelligibility、explainability的用法尚无共识。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "开发者查错、非专业者学习和决策者核查建议需要不同的解释设计。",
+        "source": "P16，物理PDF第1–3、10页；P17，第5、8页；P21，第2–3页",
+        "verdict": "supported",
+        "reason": "三篇分别处理工具使用、学习设计和实际决策，页面没有把不同目标当成同一个效果指标。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Miller主张解释研究借鉴哲学、心理学及认知科学，不能只依赖研究者直觉。",
+        "source": "https://arxiv.org/abs/1706.07269 ，已打开的摘要与版本记录",
+        "verdict": "supported",
+        "reason": "摘要直接支持该归属；2017年首次发布也与记录一致。页面明确只引用公开摘要。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "GAM以各特征函数的相加组织预测；结构可检查不等于用户理解。",
+        "source": "P16，物理PDF第3、5–9页",
+        "verdict": "supported",
+        "reason": "原文说明加性组成及其可视化，也观察到用户对分数轴和图形的误解。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "全局与局部是解释范围，模型结构与事后说明是解释途径。",
+        "source": "P16，物理PDF第1、3–5页；P365079753571，第3页",
+        "verdict": "supported",
+        "reason": "表格中的四行不是互斥分类；原文同时存在GAM的全局和局部表示，支持页面的交叉区分及边界。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Kaur等使用SHAP解释LightGBM预测。",
+        "source": "P16，物理PDF第3–4页；候选页“模型本身与事后解释”末段",
+        "verdict": "error",
+        "reason": "事实正确，但该段只引n7、n8两篇SHAP教程，没有引用支持研究设置的n1。教程不能证明Kaur研究采用了什么模型；“它”的指代也应明确为SHAP。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "SHAP贡献相对于基准模型输出，不能自动解释为现实因果效应。",
+        "source": "所给SHAP两篇官方教程verbatim_external_cache，The additive nature of Shapley values及Prediction tasks versus causal tasks",
+        "verdict": "supported",
+        "reason": "缓存原文分别支持贡献加和与预测关联、因果干预之间的区别；页面没有把模型输入干预等同现实因果识别。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "LIME通过扰动、原模型查询、邻近加权和简单模型拟合生成局部解释。",
+        "source": "P365079753571，物理PDF第3–4页，公式1–2及算法1",
+        "verdict": "supported",
+        "reason": "输入表示、扰动标签、局部权重及复杂度约束均对应原方法。页面虽未排出公式，但已解释目标中的两项及其冲突。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "稀疏或简单的解释可能不足以忠实表达局部复杂行为。",
+        "source": "P365079753571，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "原文明确列出解释表示能力不足和局部高度非线性两种限制。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "垃圾邮件例中的0.8、词语和正负权重是教学假设。",
+        "source": "候选页自拟示例；P365079753571，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "流程符合LIME；页面明确标明假设，并没有伪称原论文实验。不过没有给出扰动分数、拟合权重或误差，尚不能据此走完一次可检查的拟合实例。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Kaur研究先访谈，再开展11人现场研究和197人在线研究，并观察到过度信任与解释误读。",
+        "source": "P16，物理PDF第2–10页",
+        "verdict": "supported",
+        "reason": "人数、顺序和定性发现均吻合；197是清理后的有效问卷人数，页面未混同最初253份响应。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "年龄替换为38与特征名称重排是不同层面的操纵，后者没有重新训练模型。",
+        "source": "P16，物理PDF第3–4、6页",
+        "verdict": "supported",
+        "reason": "前者修改高收入样本中的部分年龄，后者修改全局与局部解释上的名称。页面准确区分了数据和显示操纵。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "AI素养论文把Explainability作为学习设计考虑，并警告展示过多或过少内部机制。",
+        "source": "P17，物理PDF第5、8页",
+        "verdict": "supported",
+        "reason": "对应Design Consideration 1和Unveil Gradually。页面准确写成设计建议，没有声称该论文实施并验证了一套解释教学系统。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "认知强制研究比较即时解释、不确定性提示、按需、先决定再更新及等待30秒，使用模拟AI。",
+        "source": "P21，物理PDF第6–8页",
+        "verdict": "supported",
+        "reason": "条件及解释内容正确；这是真正实施的解释界面实验，其特征式解释以SHAP等为设计参照，并未实际计算SHAP。页面没有误写为采用SHAP。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Vasconcelos等通过五项研究、731人考察迷宫任务中解释成本收益与过度依赖。",
+        "source": "https://arxiv.org/abs/2212.06823 ，已打开的摘要与版本记录",
+        "verdict": "supported",
+        "reason": "摘要明确给出人数、研究数量、任务难度、解释难度及金钱报酬。页面将结论限定于所测条件，没有仅凭摘要补写具体实验效应。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "民族志通过持续接触社会情境，理解参与者实践、关系和意义，可以结合多种资料。",
+        "source": "https://ctb.ku.edu/en/table-of-contents/evaluate/evaluate-community-interventions/ethnographic-information/main ，已打开的定义及资料收集部分；P18，第3页",
+        "verdict": "supported",
+        "reason": "定义、参与者视角及资料多样性均有支持，没有把民族志缩减为访谈或编码技术。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "民族志应关注群体共享模式和内部差别，不能把文化当成完全同质属性。",
+        "source": "https://ctb.ku.edu/en/table-of-contents/evaluate/evaluate-community-interventions/ethnographic-information/main ，What is ethnographic information?",
+        "verdict": "supported",
+        "reason": "已打开正文明确说明群体连接形式多样，内部存在年龄、资源等差别。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "自我民族志系统分析个人经验以理解文化经验，1980年代反思是其发展背景。",
+        "source": "Ellis等官方全文缓存，第1–2节、第1–9段",
+        "verdict": "supported",
+        "reason": "定义、过程与成果的双重性质及历史背景均有直接依据；页面将历史解释归属给Ellis等。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "Millen于2000年提出快速民族志，以收窄焦点、关键知情人、互动观察、多观察者和合作分析应对时间压力。",
+        "source": "所给https://course.ccs.neu.edu/is4300sp13/ssl/articles/p280-millen.pdf原始网页缓存，物理PDF第1–4页",
+        "verdict": "supported",
+        "reason": "三项核心策略及产品周期背景均明确出现。“第1–4页（刊页280–283）”是所引范围，不是把全文误称为四页；原文全文为七页。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "未回复消息可能具有不同情境意义。",
+        "source": "候选页说明性示例；P23，物理PDF第4–5页；Community Tool Box定义部分",
+        "verdict": "supported",
+        "reason": "作为明确标识的教学例子符合情境解释原则，没有冒充观察结果。但它只提出可能解释，未展示收集资料后如何选择、修正或反驳解释。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "Technology Probes实际结合了部署前后家庭民族志访谈、使用日志和低技术原型工作坊。",
+        "source": "P23，物理PDF第1–3、7页",
+        "verdict": "supported",
+        "reason": "第2–3页明确报告方法组合，第7页报告实际开展的美国家庭工作坊。民族志在这里提供家庭沟通的情境理解，而不是整个项目的唯一方法。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "探针会改变家庭行为，研究者希望借这种变化支持设计想象。",
+        "source": "P23，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "原文明确拒绝只收集无偏民族志数据的定位，说明共同适应与设计启发目标；页面准确保留了干预性质。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "P18认为长期参与、研究者经验与解释形成有关，因此IRR不宜作为所有质性研究的统一门槛。",
+        "source": "P18，物理PDF第3、5–6、14、16页",
+        "verdict": "supported",
+        "reason": "Expert researcher部分直接讨论民族志；码本应用和频数结果部分说明IRR何时有用。页面没有把不适用IRR写成免除论证责任。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "P18本身是方法分析，而不是一项家庭民族志。",
+        "source": "P18，物理PDF第6–8页",
+        "verdict": "supported",
+        "reason": "其经验材料是CSCW和CHI论文的方法部分。页面准确区分讨论民族志的评价原则与实际开展民族志。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "参与式观察应说明进入现场、关系、记录、保密及适合情境的同意过程。",
+        "source": "https://research.utoronto.ca/participant-observation ，已打开的Participant Observation Methodology和Ethical Conduct",
+        "verdict": "supported",
+        "reason": "该机构指南逐项支持这些要求；公开会议、私人互动和技术记录也被区分处理。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "仅凭深入描述不能估计总体发生率，仅凭观察关联不能确定因果。",
+        "source": "P18，物理PDF第5–6、16页；Ellis等官方全文缓存第32–35段",
+        "verdict": "supported",
+        "reason": "作为研究设计边界成立，且没有扩大为民族志绝不能使用数量或参与因果解释。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "页面已充分解释民族志如何从资料形成分析成果。",
+        "source": "候选页“资料与研究者的位置”“家庭技术研究中的用法”；P23，物理PDF第4–5、7页；Ellis等缓存第13段",
+        "verdict": "error",
+        "reason": "资料类型和方法边界较完整，但分析链条不足：没有用一个实际案例串起记录、参与者解释、跨资料比较和情境结论。原论文中美国家庭祖父母互不直接通信、访谈确认原有习惯等材料可支持这种展开。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均给出名称、英文、研究类别和核心特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括各页主要关注点，未加入未经正文支持的影响或成效结论。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "两页章节均有实质内容，但C061缺少从现场资料到解释成果的完整实例，主要机制仍不够充分。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确；快速民族志的时间压力背景和自我民族志的发展背景分别有来源及归属。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Miller、Ellis及IRR论文的观点明确归属；设计建议、实证发现和概念边界没有混写。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "11人、197人、731人和30秒均有明确对象；教学分数0.8有假设标识；2017预印本与2023修订未混淆。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "绝大多数关键陈述有可靠来源，但C060关于Kaur使用LightGBM的句子缺少直接支持该研究设置的引注。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "所给论文与Crossref缓存支持主要书目信息；C060的n7、n8不能承担Kaur研究设置的引用范围。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "两页未使用信息框，不存在空字段或与正文冲突；此项不适用。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见宣传、大段复制或自行推导的研究结论；自拟示例明确标识，没有伪装成实验。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "按概念的问题、机制、变体、边界与站内关系组织，没有套用模型训练或实验结果模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "候选页未宣称达到优良条目标准，但仍有引用范围和分析实例完整性问题，不能据形式检查判为全部通过。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C061说明了资料形式和研究者位置，却未完整演示民族志分析如何形成情境解释；C060的LIME例子也只有流程，没有可检查的拟合结果。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "两页通过问题和机制建立段落关系，没有逐字段转写论文摘要。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "模型、方法及研究人数都置于明确用途之中；表格解释差别，没有以名称串列代替正文。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "人数和等待时间有对象与条件，0.8明确为教学假设；未使用缺少分母或比较口径的效果数字。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内关系具体说明LIME生成解释、Kaur评价理解、素养论文提出设计考虑、P21实施界面实验，以及家庭访谈和方法评价的不同作用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代了黑箱理解需求、社会科学反思和产品开发时间压力，没有只留下研究问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、普遍有效等空泛赞誉；对解释效果和民族志推论范围均保留条件。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C060.md",
+        "sections": [
+          "导言与术语范围",
+          "解释对象与使用目的",
+          "模型本身与事后解释：GAM、SHAP及四项区分",
+          "局部近似的一个例子：LIME目标、步骤、限制及教学例",
+          "工具理解与实际使用：研究人数、年龄操纵、显示操纵与发现",
+          "教育与决策场景：素养设计建议及模拟AI界面实验",
+          "评价与适用边界：成本收益研究与各篇应用关系",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C061.md",
+        "sections": [
+          "导言与民族志定义",
+          "发展与不同取向：自我民族志及快速民族志",
+          "行动与情境怎样联系：教学例及群体内部差异",
+          "资料与研究者的位置：资料形式、参与和反思",
+          "家庭技术研究中的用法：访谈、探针干预、日志及工作坊",
+          "为什么一致编码未必是统一标准：IRR边界和替代论证方式",
+          "伦理与适用边界：现场关系、同意、保密和推论范围",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已独立阅读所给论文全文、官方原文缓存及Crossref书目缓存，并实际搜索、打开Community Tool Box、多伦多大学和两篇arXiv摘要；未把搜索摘要替代已读原文。",
+      "C060需要补正Kaur研究设置的引注范围；C061需要补足一个从资料到情境解释的实际分析链条。二者属于明确的引用或内容完整性问题，不是未核实事实。",
+      "C060中的教育框架属于设计建议；P21属于实际实施的解释界面实验，其解释仅以SHAP等为参照。C061中的P23实际采用民族志访谈，P18则讨论民族志的评价条件。这些关系总体标示准确。",
+      "本轮没有修改正文。"
+    ]
+  }
+}

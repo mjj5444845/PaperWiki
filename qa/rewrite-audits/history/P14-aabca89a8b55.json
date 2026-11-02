@@ -1,0 +1,378 @@
+{
+  "id": "P14",
+  "page_sha256": "957429025a694e1391bd69eec3e464aaa1874d76799c25f8b9892058a1cb6c54",
+  "questions_sha256": "a78eb855e3dad48f91b0d7b8a2c9573970cb3f943a4b0cd61228e92973a481b8",
+  "score": 8,
+  "passed": false,
+  "error": "12项风格检查未通过或未完整记录",
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "据“背景：从设计圈的批评到研究问题”，暗黑模式利用人类心理与界面知识，诱使用户做出不符合自身利益的行为；页面也区分能力不足导致的反模式与有操纵意图的暗黑模式，但强调不能只凭界面外观证明意图。研究采取实践引导视角，是因为相关批评已在从业者博客、社交媒体和新闻中流通，而价值敏感设计、批判性设计等学术讨论未必容易用于日常商业工作；作者从实际案例出发连接两者。"
+      },
+      {
+        "id": 2,
+        "answer": "据“材料怎样收集与分析—118件材料的组成”，两名分别具有UX和计算机科学背景的研究者，用两个月探索并迭代收集材料。搜索从dark patterns及社交标签扩展到unethical、evil、manipulative与design、UX、interface的组合，并用机器人收集带#darkpatterns的推文；记录来源、产品、视觉表现和研究备忘。共118件：社交媒体45件、从业者博客40件、新闻媒体19件、研究者日常体验10件、darkpatterns.org 4件。这是材料件数，并非随机抽样的网站数。"
+      },
+      {
+        "id": 3,
+        "answer": "据“为什么做第二轮编码”及“背景：从设计圈的批评到研究问题”，第一轮以Brignull分类作预设代码，虽能容纳大部分材料，却发现案例常跨类别，且分类混合内容场景、操作技巧与结果。研究者随后对全部材料开放编码，考虑互动质量、语境及目标人群，以持续比较和轴心编码组织层次，形成纠缠、阻碍、暗中操作、界面干扰、强制行动五类策略。这使分析更能解释跨场景的共同机制和策略共现；五类并非互斥类别或严重程度量表。"
+      },
+      {
+        "id": 4,
+        "answer": "据“纠缠：让拒绝只在这一次有效”，纠缠通过持续或反复打断，把用户引向其他行动，并累积拒绝成本；例如Instagram通知提示只有“现在不要”和“好”，无法在该对话中永久拒绝。据“阻碍：让不希望用户做的事更困难”，阻碍给特定流程增加不必要的困难，以劝退行动，例如theladders.com禁用文字选择，使用户更难复制职位信息另行搜索。其子类包括Roach Motel：订阅容易、退出困难；Price Comparison Prevention：阻止复制等以妨碍比价；Intermediate Currency：用游戏币等中间货币隔开支付与真实货币价值。"
+      },
+      {
+        "id": 5,
+        "answer": "据“暗中操作：让决定发生在信息披露之前”，其机制是隐藏、伪装或延迟披露相关信息，使用户可能做出知情时不会作出的选择。四个子类是：Forced Continuity，试用或限定服务结束后继续收费；Hidden Costs，较后阶段才披露额外成本或限制；Sneak into Basket，购物车被加入用户未主动选择的商品；Bait and Switch，看似产生一种结果的操作实际触发另一结果。例如Boston Globe的99美分广告到注册页才说明是四周试用，SportsDirect自动加购商品。页面列出了这四类，但未明确交代它们各自继承自Brignull分类的对应关系。"
+      },
+      {
+        "id": 6,
+        "answer": "据“界面干扰：让某些选项看不见或不像选项”，完整层级为：界面干扰下分隐藏信息、预先选择、审美操纵；审美操纵再分利用情绪、虚假层级、伪装广告、诱导性问题。隐藏信息降低相关选项的显著性；预先选择替用户默认勾选；利用情绪通过羞辱或紧迫感施压；虚假层级把平行路径做成主次或看似禁用；伪装广告使商业内容貌似功能或独立内容；诱导性问题通过双重否定等措辞混淆含义。它们共同使某些行动更受优待，影响理解与可发现性。"
+      },
+      {
+        "id": 7,
+        "answer": "据“强制行动：把目标功能绑到另一项行为”，强制行动把目标功能设为另一行为的条件：用户必须先完成附加行为，才能获得或继续使用功能，例如取消邮件订阅前必须同意额外资料处理条款。Social Pyramid指邀请朋友才能取得功能或进度；Privacy Zuckering指诱使用户分享超出预期的个人资料；Gamification在本文批判语境中指通过重复甚至不受欢迎的活动，迫使用户投入更多时间或付费解锁进度。页面强调，不能因此认定所有社交邀请、游戏化或更新都有害。"
+      },
+      {
+        "id": 8,
+        "answer": "据“怎样用分类解释伦理问题”，用户既要理解有哪些行动可做，也要判断操作后发生了什么。界面干扰和阻碍妨碍发现、理解或完成路径；纠缠和强制行动突出服务方希望的行为；暗中操作使选择在用户知情之前发生。这关联到执行与评价之间的落差。常规指标可能把被迫完成算作高完成率，把被导向付费算作高转化率，却忽略选择减少或目标受损；因此应追问成功按谁的目标、相对于哪些替代路径衡量。页面没有提供这些影响的实验效应量。"
+      },
+      {
+        "id": 9,
+        "answer": "据“背景：从设计圈的批评到研究问题”和“怎样用分类解释伦理问题”，页面区分无意的设计失误与有操纵意图的暗黑模式，但也指出善意设计在不同人群和情境中可能造成伤害，不能由截图直接推断设计者恶意。设计师责任因此包括认识组织压力、利益取舍及长期使用后果，并在发现伤害后持续判断。据“局限与教育议程”，作者反对把分类作为简单伦理检查表，因为伦理判断需要结合用户、情境和组织约束。页面未明确讨论暗黑模式与说服设计的关系，无法仅据所给材料完整回答这一部分。"
+      },
+      {
+        "id": 10,
+        "answer": "据“局限与教育议程”和“118件材料的组成”，证据来自从业者及相关公众分享的屏幕界面材料，属于选择性语料，不能估计行业发生率，也不能覆盖所有服务设计、物理计算或未公开批评的机制。研究没有访谈每个案例的设计者，也未实测行为因果效应；案例是历史界面记录，不能推广为产品所有版本的永久评价。作者提出将价值关注融入实际时间、权力和组织约束，发展联系日常实践的应用伦理；教育应训练学生解释利益取舍、辨识不同用户风险，并在多方设计流程中提出异议。据“后续研究与公共讨论”，发生率研究还需明确抽样和检测边界；但页面没有将这一点明确列为原作者提出的后续研究方向。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "准确说明利用心理与界面知识诱导不利于用户的行为，并解释从实践案例连接从业者伦理关切与学术讨论的研究取向。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "采集人员背景、时长、迭代搜索、关键词扩展、推文机器人、记录方式及118件材料的来源数量均符合原文。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "说明了先验分类的混杂与重叠问题，以及对全部材料开放编码、持续比较和轴心编码后形成五类策略的过程与作用。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "正确区分反复打断的纠缠与增加行动难度的阻碍，实例准确，且完整解释阻碍的三个子类。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "准确解释信息隐藏、伪装和延迟披露机制，并正确说明四个Brignull子类；末尾对页面交代情况的评论不影响实质回答。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "完整列出三个直接子类及审美操纵的四个下级类别，并正确说明各自如何影响选择、理解与可发现性。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "准确说明功能获取的附加行为条件，实例及社会金字塔、隐私诱骗、游戏化三个子类的机制均符合原文。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "覆盖行动可能性与结果理解两个维度、五种策略的差异，以及完成率和转化率可能掩盖选择损失与替代路径受阻的问题。"
+      },
+      {
+        "id": 9,
+        "correct": false,
+        "reason": "虽解释意图、情境变化、设计责任和检查表的局限，但明确未回答说服设计这一关键部分；原文指出同类说服策略可用于善恶，并讨论其与暗黑策略的对应关系。"
+      },
+      {
+        "id": 10,
+        "correct": false,
+        "reason": "证据局限与部分教育实践方向正确，但未交代作者明确提出的扩展至服务设计、物理计算及非屏幕交互的后续研究方向；指出现有语料不能覆盖这些领域不能替代该回答。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P14.md",
+        "claim": "作者、2018年、CHI 2018、Paper 534及DOI。",
+        "source": "原PDF第1页；所给Crossref缓存https://api.crossref.org/works/10.1145%2F3173574.3174108",
+        "verdict": "supported",
+        "reason": "五名作者顺序、题名、年份、会议信息和DOI均对应；Crossref记载正文页码1—14。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "研究分析118件材料，提出五类潜在设计策略，而非行为效应实验。",
+        "source": "原PDF第1、4—5页",
+        "verdict": "supported",
+        "reason": "研究为语料内容分析，输出nagging、obstruction、sneaking、interface interference和forced action；没有报告购买增量或因果效应量。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "Brignull于2010年提出术语；旧分类混合情境、策略和结果。",
+        "source": "原PDF第3页Dark Patterns as Critical–Ethical",
+        "verdict": "supported",
+        "reason": "原文明确记载2010年命名，并以分类层次混杂作为重新组织的理由。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "暗黑模式与能力不足导致的反模式有区别，但意图和后果不能简单等同。",
+        "source": "原PDF第3、9页",
+        "verdict": "supported",
+        "reason": "原文讨论恶意与技能不足的区分，以及善意设计在其他受众和情境下产生操纵后果的可能性。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "两名不同背景研究者用两个月迭代搜集，并用机器人收集#darkpatterns推文。",
+        "source": "原PDF第3—4页Corpus Generation",
+        "verdict": "supported",
+        "reason": "人数、周期、UX与计算机科学背景、搜索词扩展及机器人用途均准确；页面略去了每周会议这一程序细节。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "材料来源表：社交媒体45、博客40、新闻19、日常体验10、模式库4，合计118。",
+        "source": "原PDF第4页Corpus Generation",
+        "verdict": "supported",
+        "reason": "全部计数与原文一致，加总为118；页面正确说明其单位是材料而非随机网站样本。表中解释栏是概括性说明，不是额外统计结果。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "某种模式出现次数受到传播热度和可取得截图的影响。",
+        "source": "原PDF第3—4页Corpus Generation、Analysis",
+        "verdict": "unverified",
+        "reason": "原文支持搜索与公开分享造成取样边界，但没有检验传播热度或截图可取得性对频次的影响；页面将合理的方法论推测写成了确定陈述。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "先采用Brignull预设编码，再对全部材料开放编码，结合持续比较和轴心编码。",
+        "source": "原PDF第4页Analysis",
+        "verdict": "supported",
+        "reason": "两轮分析的顺序、第二轮考虑互动质量、情境和目标用户群的说明均对应。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "纠缠的定义及Instagram、Google位置服务和Uber收入目标案例。",
+        "source": "原PDF第5页Nagging",
+        "verdict": "supported",
+        "reason": "三个案例的按钮、复选框显著性和继续驾驶提示均有对应描述；页面保留了案例说明与实验验证之间的区别。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "阻碍包括theladders.com、iOS 6、Roach Motel、阻止比价和中间货币。",
+        "source": "原PDF第5—6页Obstruction；第4页表1",
+        "verdict": "supported",
+        "reason": "机制和子型齐全，营业时间电话取消对应Stamps.com案例；iOS 6被正确限定为历史版本。“难进易出”的反面式表达虽绕口，未颠倒实际定义。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "暗中操作包含四个原分类，以及99美分、四周试用、自动加购、红色X和Two Dots按钮案例。",
+        "source": "原PDF第6—7页Sneaking",
+        "verdict": "supported",
+        "reason": "四个子型、价格和试用时长均准确；移除商品需离开结账流程的条件也保留。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "界面干扰有三个直接子类，审美操纵再含四个实例类型；表格逐项解释机制。",
+        "source": "原PDF第7—8页Interface Interference",
+        "verdict": "supported",
+        "reason": "正文准确说明三层关系，表中隐藏信息、预选、情绪、假层级、广告和问题措辞均对应原文。表格单独阅读会弱化审美操纵的父级关系，但正文已交代。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "强制行动包括Windows 10更新、取消订阅附加条款，以及Social Pyramid、Privacy Zuckering和Gamification。",
+        "source": "原PDF第8页Forced Action",
+        "verdict": "supported",
+        "reason": "定义、三个子型与案例一致，且没有将所有更新或游戏化一概判为有害；Social Pyramid吸收Friend Spam的关系未明确写出。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "五类策略影响行动可能性和结果预期，可用性或转化指标不能代替伦理判断。",
+        "source": "原PDF第8—9页Qualities and Breadth of Potential Darkness",
+        "verdict": "supported",
+        "reason": "对应执行鸿沟、评价鸿沟及股东目标导向评价的论证；页面没有虚构量化比较。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "作者讨论组织压力、长期责任和设计者品格，并反对把分类当伦理清单。",
+        "source": "原PDF第9页Design Responsibility and a Designer’s Character",
+        "verdict": "supported",
+        "reason": "责任、组织约束、善意设计的后续使用与反清单立场均有直接依据；页面对品格及设计领导力展开较少。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "语料范围有限，没有直接研究各团队决策或测量策略因果效应；未来应扩展服务设计和物理计算。",
+        "source": "原PDF第3—4页方法；第10页Implications and Future Work",
+        "verdict": "supported",
+        "reason": "所报告的方法只有材料搜集与分析，扩展领域为作者明确建议；关于未访谈、未测量的表述与本研究报告范围一致。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "后续方向包括实践中的价值方法与应用伦理，以及UX伦理教育。",
+        "source": "原PDF第10页UX Pedagogy and Practice、Criticality and HCI",
+        "verdict": "supported",
+        "reason": "两条研究方向和教育诉求准确；但页面省略了专业组织约束力、ACM成员身份和执照制度的讨论。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "CMA于2022年4月5日综述中引用Gray，并指出Mathur文本抓取无法涵盖视觉因素。",
+        "source": "https://www.gov.uk/government/publications/online-choice-architecture-how-digital-design-can-harm-competition-and-consumers/evidence-review-of-online-choice-architecture-and-consumer-and-competition-harm",
+        "verdict": "supported",
+        "reason": "已打开阅读Introduction、Taxonomy及Prevalence内容；日期、Gray的历史定位和文本位置、字号、颜色未纳入抓取的限制均明确存在。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "FTC的2022年官方报告说明涉及伪装广告、取消困难、掩埋条款及诱导共享数据。",
+        "source": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+        "verdict": "supported",
+        "reason": "已打开正文，四项情境均在开头列出；页面将其作为公共讨论证据，没有归称为Gray分类的法律采用。"
+      },
+      {
+        "path": "papers/P14.md",
+        "claim": "Heuristic Evaluation研究依据启发式发现可用性问题；Feminist HCI关注设计中的价值。",
+        "source": "https://www.cs.cmu.edu/~bam/uicourse/20790utc04/cmuonly/p249-nielsen.pdf；https://pure.psu.edu/en/publications/feminist-hci-taking-stock-and-outlining-an-agenda-for-design/",
+        "verdict": "supported",
+        "reason": "已打开前者原文首页及方法部分、后者大学研究记录中的摘要，分别支持启发式评价和能动性、公平、赋权、社会正义等价值取向。但页面仅引Gray第1、8、9页，未给这两篇的对应来源，属于引注范围缺口。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句明确论文身份、作者年份、定性研究对象与118件材料。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言覆盖分类、研究产出及伦理评价边界，主要内容可在正文找到。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "主要分类完整，但遗漏Fogg策略对应这一实质分析，以及设计品格、专业伦理治理的重要论证。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕机制展开，历史案例与2022年后续分开，未将时间先后写成因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "案例和规范判断主要归属于原作者，CMA与FTC的机构身份清楚。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "118及分项、两个月、两名研究者、99美分与四周口径准确，术语保持一致。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "传播热度与截图可取得性影响频次的陈述没有直接证据或来源请求。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "主体页码与外部书目真实，但最后两篇站内论文比较仅引Gray，不能支撑被比较论文的内容。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "信息框作者、年份、场所和DOI与原文及Crossref缓存一致。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "没有宣传结尾或大段复制，但抽样频次的具体影响因素被自行推定为事实。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用定性论文的背景、方法、框架、解释、局限与后续结构，没有套造实验指标。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面说明研究边界，但未标示仍缺证据的取样影响论断及跨论文比较的引用缺口。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "五类及子型基本完整，但没有解释原文将Fogg的tunneling/reduction、tailoring/suggestion、conditioning分别联系到暗黑策略的分析，伦理责任部分也明显压缩。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "用旧分类为何不足和第二轮编码如何解决问题串联内容，并非字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "名称与案例均配有机制解释，两张表服务于论证而非堆积笔记。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "材料表明确分母与单位，价格和时长保留情境，没有虚构效应数据。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "与启发式评价及Feminist HCI的链接有具体问题层面的比较，虽须补对应来源。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明从业者话语与学术伦理方法之间的实际落差，以及旧分类的层次问题。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、显著成功等无证据赞誉，后续讨论给出实际机构材料。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P14.md",
+        "sections": [
+          "信息框与导言",
+          "背景：从设计圈的批评到研究问题",
+          "材料怎样收集与分析：118件材料的组成",
+          "材料怎样收集与分析：为什么做第二轮编码",
+          "五类策略及其机制：纠缠",
+          "五类策略及其机制：阻碍",
+          "五类策略及其机制：暗中操作",
+          "五类策略及其机制：界面干扰及全部表格行",
+          "五类策略及其机制：强制行动",
+          "怎样用分类解释伦理问题",
+          "局限与教育议程",
+          "后续研究与公共讨论：CMA、FTC及跨论文比较",
+          "参见与参考文献的事实和引注范围",
+          "对照原文第1—14页：研究背景、方法、表1、图1分类、结果、讨论、教育与未来方向、结论和书目"
+        ],
+        "unverified": [
+          "传播热度和截图可取得性实际影响本语料中模式频次的确定性论断"
+        ]
+      }
+    ],
+    "review": [
+      "不宜直接判为全部通过：关键数字、分类定义和两个主要外部引文均得到支持，但存在一项未核实推断及跨论文比较的引注范围缺口。",
+      "原文覆盖仍有不足：未展开Fogg说服策略与五类策略的对应；未明确Social Pyramid吸收Friend Spam；设计品格、设计领导力，以及伦理组织、ACM与执照治理的论证被大幅压缩。",
+      "未发现需要重写数字表或颠倒核心结论的事实错误。本审校未修改文稿。"
+    ]
+  }
+}

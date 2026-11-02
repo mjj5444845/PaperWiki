@@ -1,0 +1,462 @@
+{
+  "ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C086"
+  ],
+  "page_hashes": {
+    "concepts/C001.md": "637ba0ef574b9137fc9fe0540351eeee35a32c1df2734d940e949a1e1564e171",
+    "concepts/C002.md": "84e803fe0ac15d775d18f44789b71bebebeff9b4ed01a3026b99f9f6c5462cd6",
+    "concepts/C003.md": "564ba04279372a9b9c84ac667f3a65df6ea76175540e4152fb7cb4ca9eed002f",
+    "concepts/C004.md": "854be4a1f96601ce23f469d40ba9e574b2b07e79c0ff9be6898702fca964505a",
+    "concepts/C086.md": "a61590b8a4208bff845e277353110b0bb939384a78da81fa2af0b7b8769fd13f"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C001.md",
+        "claim": "MTurk已于2026年9月30日永久关闭。",
+        "source": "https://www.mturk.com/help",
+        "verdict": "supported",
+        "reason": "实际打开的官方Closure FAQs明确记载永久关闭日期；页面使用过去时有据。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "HIT、assignment、资格、发布者和劳动者是不同平台对象，提交数不能直接当作参与人数。",
+        "source": "P06物理PDF第2、7–8页；P11物理PDF第3页",
+        "verdict": "supported",
+        "reason": "原文说明每个HIT的assignment名额、资格门槛及劳动者跨任务参与；页面正确区分工作单元与人员。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "图形感知实验先少量试运行，交互任务通过自行托管的嵌入界面执行。",
+        "source": "P06物理PDF第3、5页",
+        "verdict": "supported",
+        "reason": "原文记载通常先开放3个assignment，并以嵌入式Flash应用执行透明度调整。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "无资格练习的比例判断试运行超过10%回答不可用，作者主要归因于理解困难。",
+        "source": "P06物理PDF第3、8页",
+        "verdict": "supported",
+        "reason": "数字、实验阶段及作者解释均吻合；页面没有把前后差异表述为随机对照证明。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "52名平均完成率至少95%的劳动者完成45.7%的试次；响应时间中位数为42秒。",
+        "source": "P06物理PDF第8页",
+        "verdict": "supported",
+        "reason": "两个数字和统计对象准确，并保留了任务分布与计时混杂的边界。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "Turkopticon通过发布者评价、浏览器扩展和互助基础设施干预劳动关系信息不对称。",
+        "source": "P11物理PDF第1、3–9页",
+        "verdict": "supported",
+        "reason": "概念作用落实到任务选择、评价和治理维护，且把制度批评归于原作者。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "To Trust or to Think通过MTurk接入参与者，每个问题块先练习，再比较辅助决策条件。",
+        "source": "P21物理PDF第7–9页",
+        "verdict": "supported",
+        "reason": "原文为两个13题问题块，各块首题练习；页面正确把平台渠道与实验界面干预分开。"
+      },
+      {
+        "path": "concepts/C001.md",
+        "claim": "LIME论文让MTurk非专家选择分类器并标记应删除词语；SHAP论文让参与者分配简单模型的输出贡献。",
+        "source": "P365079753571物理PDF第7–8页；P01c7aa8f7d9e物理PDF第8–9页",
+        "verdict": "supported",
+        "reason": "两篇应用均具体说明参与者执行的判断，未把人类归因一致性扩大为普遍正确性验证。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "SHAP以特征组合的平均边际贡献分配相对于基线的预测差异。",
+        "source": "P01c7aa8f7d9e物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "求和集合、阶乘权重、空集合基线及加和关系准确；价值函数决定解释对象的限定也合理。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "局部准确性、缺失性和一致性约束给定解释表示下的归因，不保证预测正确。",
+        "source": "P01c7aa8f7d9e物理PDF第4页",
+        "verdict": "supported",
+        "reason": "三项性质的解释与定理适用范围一致，没有将唯一性扩大到任意背景定义。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "两特征示意例算得到A贡献6、B贡献4，基线10加和为20。",
+        "source": "P01c7aa8f7d9e物理PDF第3、5页；页面给定的四个价值",
+        "verdict": "supported",
+        "reason": "两种顺序的边际增量及平均运算正确，明确标作示意而非实验。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "未知特征不能普遍设为0；条件期望、独立假设和参考资料影响归因。",
+        "source": "P01c7aa8f7d9e物理PDF第5页；https://shap.readthedocs.io/en/stable/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html",
+        "verdict": "supported",
+        "reason": "原论文式9–12区分条件期望与近似；实际打开的教程也区分观察和干预式价值定义。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "六种计算方法利用不同模型结构，Kernel SHAP采用特定加权回归，Deep SHAP是组合近似。",
+        "source": "P01c7aa8f7d9e物理PDF第5–7页",
+        "verdict": "supported",
+        "reason": "方法列表完整覆盖原论文两种模型无关及四种模型专用方法，主要机制和近似边界准确。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "2018年树集成归因工作及TreeExplainer属于后续发展，并需明确特征依赖假设。",
+        "source": "https://arxiv.org/abs/1802.03888；https://shap.readthedocs.io/en/stable/generated/shap.TreeExplainer.html",
+        "verdict": "supported",
+        "reason": "实际打开的论文记录确认首次提交年份和树模型方法；官方文档明确不同背景资料与依赖处理模式。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "瀑布累加、跨样本汇总与因果干预回答不同问题。",
+        "source": "https://shap.readthedocs.io/en/stable/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html；https://shap.readthedocs.io/en/stable/example_notebooks/overviews/Be%20careful%20when%20interpreting%20predictive%20models%20in%20search%20of%20causal%20insights.html",
+        "verdict": "supported",
+        "reason": "官方教程支持基线、分布和输出尺度的重要性；因果示例明确显示报错与续费的预测关系不能直接当作干预效果。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "Kaur等研究比较SHAP解释LightGBM与InterpretML的GAM，并调换全局和局部图的特征名。",
+        "source": "P16物理PDF第3–7页",
+        "verdict": "supported",
+        "reason": "模型、图形种类、Jupyter情境调查及问卷操纵均准确，应用说明具体体现算法输出与使用者理解的区别。"
+      },
+      {
+        "path": "concepts/C002.md",
+        "claim": "本站应用完整覆盖了所给论文中SHAP的实质使用。",
+        "source": "P21物理PDF第8页",
+        "verdict": "error",
+        "reason": "应用节遗漏To Trust or to Think：作者明确以SHAP等特征解释作为其碳水减少和风味相似性解释的可比设计参照。应说明这是解释形式的参照，并非运行SHAP算法。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "三角互证不限三种资料，可涉及资料、研究者、理论和方法，也不等于编码一致率。",
+        "source": "P18物理PDF第4–5页；https://pubmed.ncbi.nlm.nih.gov/25158659/；所提供Arias Valencia全文缓存",
+        "verdict": "supported",
+        "reason": "实际打开的Carter摘要列出四类；缓存全文支持多参照点背景及两种以上组合，P18区分互证与IRR。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "不同材料不一致可成为分析对象，访谈与观察不能未经情境核对就互相否定。",
+        "source": "P18物理PDF第9–10页；所提供Arias Valencia全文缓存",
+        "verdict": "supported",
+        "reason": "P18明确记载不同主体保有相反观点的实例；会议例子标为示意，没有冒充来源中的经验发现。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "三角互证与混合方法、成员核查不同，单纯增加材料不自动构成独立验证。",
+        "source": "P18物理PDF第5页；所提供Arias Valencia全文缓存",
+        "verdict": "supported",
+        "reason": "原文分别列出成员核查和资料互证；缓存讨论方法互补、各方法自身严谨性以及多方法可能扩大共同弱点。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "251篇中10篇报告某种互证，其中7篇涉及不同资料来源。",
+        "source": "P18物理PDF第8–10页",
+        "verdict": "supported",
+        "reason": "分母和计数正确，页面清楚限定为报告实践的描述，未推断研究结论更真实。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "McDonald等自身结合非正式讨论、方法文献和系统论文审查进行互证。",
+        "source": "P18物理PDF第6页",
+        "verdict": "supported",
+        "reason": "Study Design首段直接说明三类材料，页面解释其各自论证作用。"
+      },
+      {
+        "path": "concepts/C003.md",
+        "claim": "本站应用完整覆盖了所给论文中的互证使用。",
+        "source": "P06物理PDF第9–10页",
+        "verdict": "error",
+        "reason": "遗漏Heer与Bostock提出将小规模实验室研究与条件重叠的MTurk研究配合、相互核查的具体方法建议。应说明这是互补核查建议，不能写成已经实施的完整混合验证设计。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "主题是围绕中心概念的意义模式，编码、话题汇总与主题不同。",
+        "source": "P18物理PDF第3页；https://www.thematicanalysis.net/faqs/所提供原文缓存",
+        "verdict": "supported",
+        "reason": "准确解释反思性路径的主题定义，并保留其他路径对主题理解可能不同的边界。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "归纳与演绎可以先后结合，主题重要性不由编码频率单独决定。",
+        "source": "P18物理PDF第3、9页",
+        "verdict": "supported",
+        "reason": "原文明确记载先归纳、再用女性主义HCI框架组织主题的实例，也明确主题以研究问题显著性为重。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "现行反思性主题分析包含六阶段，阶段名称自2006年有调整，过程递归而非固定算法。",
+        "source": "https://www.thematicanalysis.net/doing-reflexive-ta/所提供原文缓存",
+        "verdict": "supported",
+        "reason": "六阶段的顺序和主要工作准确；页面没有把其推广为所有主题分析的统一规则。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "三个软件建议片段可经编码、候选主题、反例检查发展为解释。",
+        "source": "https://www.thematicanalysis.net/doing-reflexive-ta/所提供原文缓存；页面明确标示的示意材料",
+        "verdict": "supported",
+        "reason": "例子展示分析步骤并要求返回全资料检查，没有把少量编写材料当作普遍经验结论。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "编码信度、编码本和反思性路径对多人编码及一致率有不同质量要求。",
+        "source": "https://www.thematicanalysis.net/faqs/所提供原文缓存；P18物理PDF第13–16页",
+        "verdict": "supported",
+        "reason": "区分准确，也没有把所有编码本实践贬为低质量或把不计算IRR当作免除报告义务。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "表4在249篇中计65篇主题分析，此分类可以重叠。",
+        "source": "P18物理PDF第12页",
+        "verdict": "supported",
+        "reason": "计数和分母正确；表中包含方法描述词，不应把249篇一概理解为明确命名了完整分析方法，页面后文已提示名称与操作的区别。"
+      },
+      {
+        "path": "concepts/C004.md",
+        "claim": "Kaur等用六次试访谈的归纳主题分析形成任务，情境调查材料也用该方法分析。",
+        "source": "P16物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "开放编码、亲和图、六类问题到任务设计的关系明确，应用与P18的方法报告审查形成真实区别。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "皮尔逊系数公式、常数列未定义及两对非常数观测只能取正负1。",
+        "source": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html",
+        "verdict": "supported",
+        "reason": "实际打开的官方文档支持公式和两项边界；页面正确要求相同配对集合。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "Ken和Lee的四对评分产生相关系数−0.8，负权重可提高Ken对Lee低评分文章的预测。",
+        "source": "P09物理PDF第6–7页及图5",
+        "verdict": "supported",
+        "reason": "评分、均值3、乘积和−8、平方和10及运算均正确；没有误称准确率。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "GroupLens按共同评分及新闻组建立权重，预测采用评分偏差和绝对权重分母。",
+        "source": "P09物理PDF第7页",
+        "verdict": "supported",
+        "reason": "相关计算与预测归一化被正确区分；原文4.56为示意预测而非实验成绩。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "系数、p值和总体相关不同；曲线、离群点及因果混淆限制解释，Spearman关注单调关系。",
+        "source": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html；https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm；https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
+        "verdict": "supported",
+        "reason": "已打开的统计文档和教材支持这些区别，页面没有把正态性误写为描述性计算的必要条件。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "Kaur等探索分析的相关系数为0.49、−0.17和−0.27。",
+        "source": "P16物理PDF第7、9页",
+        "verdict": "supported",
+        "reason": "数值及对应变量准确，保留未预注册属性，没有复述原文对负相关强度的过度定性。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "认知强制研究分别分析AI正确与错误条件，信任与错误碳水来源依赖相关，但整体决定未发现相同关系。",
+        "source": "P21物理PDF第10、12–13页",
+        "verdict": "supported",
+        "reason": "准确区分表现、依赖及两种决策层级，应用说明体现相关系数作为结果分析工具的作用。"
+      },
+      {
+        "path": "concepts/C086.md",
+        "claim": "本站应用完整覆盖了所给论文中相关系数的实质用途。",
+        "source": "P06物理PDF第6页",
+        "verdict": "error",
+        "reason": "遗漏图形感知研究中透明度与屏幕总像素、色深的相关分析，分别报告r=0.07及r=−0.176。原文该段未直接命名Pearson，加入本站应用时应保留这一归属限定，不能仅凭r符号断言计算实现。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "五页首句均识别概念类别和关键机制；MTurk关闭状态另经官方原文核实。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、用途及主要解释边界，未增加正文之外的影响评价。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "主体章节实质充分，但C002、C003及C086的本站应用仍遗漏所给文献中的相关使用或设计参照。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕机制、实例或边界展开；资格任务效果、相关分析及解释因果均保留适当限定。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "制度批评归于Turkopticon作者，反思性主题分析主张归于Braun与Clarke，没有匿名评价。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "年份、物理页码口径及关键数字一致；示意计算、样本统计和总体参数有明确区别。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "现有关键事实有可核查论文页码、官方来源或明确标示的示意依据；未发现虚构关闭公告。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "来源整体支持相邻论断；Carter明确只使用公开摘要。C001部分脚注有重复的研究方法提示，属书目冗余。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用事实信息框；元数据标题和正文主题一致，无空字段制造完整感。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "原创例子明确标为示意，没有冒充经验结果；未见大段复制或宣传性结尾。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "平台、归因框架、质性方法与统计量采用不同章节结构，未机械套用实验论文模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面未宣称达到优良条目标准，但本站应用覆盖的剩余缺口尚未在交付材料中明确列出，本报告予以记录。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "定义和核心机制基本完整，但三页的本站应用覆盖不足；遗漏见逐项error。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "内容通过原理、条件、实例和比较组织，未按抽取字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "方法表和应用条目均解释实际作用，没有仅串联系统名、人数和数字。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "45.7%、65/249、相关系数和例算均有对象、分母或条件，并说明不能推出什么。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "应用说明解释平台招募、评价基础设施、归因工具、分析方法及预测权重的具体工作关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代方法形成、模型解释问题和微任务实验机制，不以问句代替历史或方法状况。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性、重大意义等空泛赞誉；研究结果与局限保持具体归属。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C001.md",
+        "sections": [
+          "导言与关闭状态",
+          "历史任务、名额与提交",
+          "如何用作实验平台",
+          "在线参与带来的方法限制",
+          "劳动关系与发布者评价",
+          "本站应用：图形感知、Turkopticon、认知强制、LIME、SHAP",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C002.md",
+        "sections": [
+          "导言",
+          "直观原理",
+          "形式化定义与解释对象",
+          "两特征例算",
+          "缺失特征与参考资料",
+          "计算方法与变体",
+          "Tree SHAP后续发展",
+          "可视化与解释局限",
+          "本站应用：原始SHAP、Kaur等工具使用研究",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C003.md",
+        "sections": [
+          "导言",
+          "方法背景",
+          "解释及根据的比较原理",
+          "四类常见形式",
+          "与混合方法及成员核查的区别",
+          "使用条件与局限",
+          "本站应用：报告计数、自身设计、保留分歧",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C004.md",
+        "sections": [
+          "导言",
+          "方法路径的形成",
+          "材料、编码与主题",
+          "归纳演绎及多人分析取向",
+          "反思性主题分析六阶段",
+          "片段到主题示意",
+          "不同路径的质量要求",
+          "本站应用：McDonald文献审查与Kaur研究设计",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C086.md",
+        "sections": [
+          "导言",
+          "直观含义",
+          "定义与计算",
+          "GroupLens原文算例",
+          "观测范围与稳定性",
+          "描述、检验与局限",
+          "样本相关与变体",
+          "计算接口与应用范围",
+          "本站应用：GroupLens、Kaur、认知强制研究",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "若将P06显示配置相关分析纳入本站应用，尚需明确其具体相关系数类型；所给原文只记r而未直接命名Pearson。"
+        ]
+      }
+    ],
+    "review": [
+      "已按提供的全文及物理PDF页码审校，并实际搜索、打开外部官方文档、教材和公开摘要；作者网站及Arias Valencia全文缓存也已独立核对。",
+      "未发现所列公式、关键例算或已列研究数字的实质错误；主要问题是三页本站应用覆盖不完整。",
+      "C002应补充P21以SHAP作为解释形式参照的关系；C003应补充P06实验室与众包互相核查的建议；C086应处理P06显示配置相关分析，并保留统计类型未明的边界。",
+      "本报告不修改正文，也不以形式检查宣称页面已通过全部验收。"
+    ]
+  }
+}

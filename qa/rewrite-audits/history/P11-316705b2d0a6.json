@@ -1,0 +1,457 @@
+{
+  "id": "P11",
+  "page_sha256": "a834a6d4ba91be08a7ed3a30f6e9f125a05a4c0c5df702f369c888150360f3ca",
+  "questions_sha256": "c668ce2e9277f6eb2f8e2e131a764cb39e402bae0cd18f2864e7618bb026d7f3",
+  "score": 9,
+  "passed": false,
+  "error": "12项风格检查未通过或未完整记录",
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "据“背景：谁在‘人类计算’中被看见”，劳动者不可见是指：平台将人的判断接入API和自动化流程时，具体劳动者的处境、工作条件及其与发布者的关系被效率导向的基础设施弱化；并非平台完全不记录劳动者身份。"
+      },
+      {
+        "id": 2,
+        "answer": "据“背景：谁在‘人类计算’中被看见”，拒收会使已完成的劳动得不到报酬，同时降低劳动者的通过率；发布者可设置通过率门槛，因此劳动者还可能失去未来部分任务的接单资格。"
+      },
+      {
+        "id": 3,
+        "answer": "据“研究方式与需求形成—‘劳动者权利清单’调查”，67份回答中：不公平或任意拒收35人、更快付款26人、一般性公平报酬14人、明确最低工资或单项最低支付7人、发布者或Amazon不回应诉求8人。同一人可提及多项，不能相加当作独立样本；这些回答也不具人口代表性。"
+      },
+      {
+        "id": 4,
+        "answer": "据“系统如何运作—从任务列表到共享评价”，扩展扫描任务页的文档对象模型，从链接中提取Amazon requester ID，以该ID匹配数据库中的发布者，在其名称旁插入按钮；鼠标移上时显示从后台取得的评价。匹配依据是唯一ID，而非可见名称。"
+      },
+      {
+        "id": 5,
+        "answer": "据“系统如何运作—四种属性与文字说明”，Communicativity衡量是否回应问题或担忧；Generosity衡量支付与完成任务所需时间是否相称；Fairness衡量接受或拒收工作是否公平；Promptness衡量审批及付款是否及时。0表示该属性没有数据，不是最差评价。"
+      },
+      {
+        "id": 6,
+        "answer": "据“系统如何运作—如何解决冷启动”，作者借助DoloresLabs发布任务，为主要发布者征集300条付费初始评价，让首批使用者已有信息可查。300指评价条数，不是参与有效性实验的用户人数。"
+      },
+      {
+        "id": 7,
+        "answer": "据“设计选择：匿名、可信与治理—保护评论者而保留历史”，系统使用部分遮蔽的电子邮件标识签名，并链接同一评论者的历史评价，让他人据其记录判断可信度，同时降低被发布者直接追踪和报复的风险。后来允许自选屏幕名称，以便自愿关联论坛身份；没有强制统一平台身份，也不保证绝对匿名或消除虚假评价。"
+      },
+      {
+        "id": 8,
+        "answer": "据“设计选择：匿名、可信与治理—为什么不是所有人投票删评论”，发布者与劳动者的激励可能冲突，发布者可注册账号，甚至付费压下负面评价，因此自由投票可能遭操纵。系统采用普通用户标记、管理员追加标记后隐藏的方式，借熟悉社区者复核，在开放性与防操纵之间取舍。页面未提供这种治理优于其他结构的定量准确率。"
+      },
+      {
+        "id": 9,
+        "answer": "据“使用规模、维护与解释”，超过7000指安装次数，每月约10万指页面浏览量。安装次数不能当作独立或持续活跃用户数，浏览量不能证明工资提高；二者均不是减少拒付或改善劳动条件的因果效果指标。"
+      },
+      {
+        "id": 10,
+        "answer": "据“局限与成功的矛盾”，工具虽提供互助和风险信息，却不能强制付款、改变平台规则或提供劳动法救济；Amazon当时未纳入作者期望的保护，劳动者反而依赖学术补贴维持的软件，工具可能因缓和风险而帮助被批判的平台继续运行。据“后续研究与实践”，后续经济学研究报告好声誉发布者对应的有效工资高约40%，并联系到更快完成和较少拒收；这是另一研究条件下的发现，不能归为2013年论文的实验结果或每位安装者的收益。2023年官方FAQ则自述项目转为劳动者运营的组织与倡议项目，并以每小时报酬替换Generosity评分，说明跨地区评分可比性问题持续影响设计；这属于运营者自述，不证明争议已解决。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "准确说明API与基础设施抽象遮蔽具体劳动者、劳动条件及雇佣关系，而非完全不记录身份。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "完整说明拒收造成当前报酬损失、通过率下降，并因任务门槛减少未来工作机会。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "五项关切及人数均准确，并正确指出多项回答可重叠，不能相加视为独立受访者人数。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "准确描述扫描DOM、从链接提取唯一requester ID、匹配评价并在名称旁显示按钮与评价的流程。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "四个评分维度的含义准确，且正确说明0代表该属性没有数据。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "准确说明DoloresLabs通过付费任务征集初始评价，300指评价条数，用于填充数据库。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "准确说明部分遮蔽邮箱与可追溯评价历史的平衡，以及后来可自选屏幕名称、自愿关联论坛身份。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "准确说明发布者操纵投票的风险，以及普通用户标记后由管理员追加标记才能隐藏评价的复核机制。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "正确区分安装次数与每月页面浏览量，并指出这些规模指标不能证明活跃用户数量或劳动条件改善的因果效果。"
+      },
+      {
+        "id": 10,
+        "correct": false,
+        "reason": "成功矛盾部分符合原文，但后续研究的40%工资差异、2023年FAQ及评分替换均未见于所给材料，无法据此确认；题目要求的关键后续证据不能由原文补足。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P11.md",
+        "claim": "论文作者、年份、会议及页码为Irani与Silberman、2013、CHI、611–620。",
+        "source": "原PDF第1–10页，署名、版权信息及页脚。",
+        "verdict": "supported",
+        "reason": "与提供的原文一致。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "DOI为10.1145/2470654.2470742。",
+        "source": "https://doi.org/10.1145/2470654.2470742",
+        "verdict": "unverified",
+        "reason": "原文摘录没有DOI；直接打开返回403，搜索结果不能替代实际读取的书目记录。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "核心论点是API和基础设施抽象弱化劳动者可见性，Turkopticon通过公开劳动关系支持互助。",
+        "source": "原PDF第1页摘要、第2–3页Humans-as-a-Service、第6页。",
+        "verdict": "supported",
+        "reason": "准确保留作者的分析归属，未把不可见性误写为平台没有身份记录。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "HIT包括转录、图片标注和结构化资料录入；发布者设置报酬、格式和资格。",
+        "source": "原PDF第3页Employing Humans-as-a-Service。",
+        "verdict": "supported",
+        "reason": "任务实例及发布流程均有直接对应。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "employer是论文的劳动关系分析用语，不能直接据此确定法定雇佣身份。",
+        "source": "原PDF第2页Background。",
+        "verdict": "supported",
+        "reason": "原文明确区分Amazon的承包者分类、法律争议和相关判例；页面没有把作者措辞升级为司法认定。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "拒收会降低通过率、限制后续任务；发布者不必回应申诉，一些发布者把来信当作算法信号。",
+        "source": "原PDF第3–5页。",
+        "verdict": "supported",
+        "reason": "通过率机制、申诉规则和Rick的访谈叙述均支持，页面保留了历史条件及部分发布者的范围。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "研究自2008年开始，依据四年参与观察，并访谈四名发布者。",
+        "source": "原PDF第1页Method and Our Stance、第2页。",
+        "verdict": "supported",
+        "reason": "年份、持续时间、开放式访谈人数逐项一致；原文并非随机界面实验。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "劳动者对收入、消遣、工会等问题存在分歧，作者以部分连接寻找共同关切。",
+        "source": "原PDF第2页、第5页Mutual Aid for Accountability。",
+        "verdict": "supported",
+        "reason": "页面准确呈现反思立场及Haraway启发的联盟思路，没有假定统一劳动者身份。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "权利问题取得67份回答，并使用挑动想象的问题和公开许可。",
+        "source": "原PDF第1页、第4–5页Workers’ Bill of Rights。",
+        "verdict": "supported",
+        "reason": "样本数、问题选择理由和征求公开许可均对应原文；非代表性解释合理。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "35人提及不公平或任意拒收。",
+        "source": "原PDF第5页调查列表。",
+        "verdict": "supported",
+        "reason": "人数及关切一致；原文还明确描述为经常发生。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "26人要求更快付款，平台当时允许30天评估和支付。",
+        "source": "原PDF第5页调查列表。",
+        "verdict": "supported",
+        "reason": "26和30天均准确，且限定为论文当时规则。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "14人提及一般公平报酬，7人明确要求最低工资或单项最低支付，8人不满缺乏回应。",
+        "source": "原PDF第5页调查列表。",
+        "verdict": "supported",
+        "reason": "三项数字与类别均一致；页面没有将多项提及相加当作独立样本。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "Firefox、Chrome扩展以requester ID查库，扫描DOM、插入按钮、后台请求并展示浮层。",
+        "source": "原PDF第6页The System。",
+        "verdict": "supported",
+        "reason": "输入、匹配、请求和显示过程完整；预填评价表单及审批付款页面的覆盖也有原文依据。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "系统分别收集Communicativity、Generosity、Fairness和Promptness，0表示无数据。",
+        "source": "原PDF第6页Standardizing Requester Reputations。",
+        "verdict": "supported",
+        "reason": "四项定义和0的语义逐项一致，未误写为综合总分或最低分。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "四属性表中的无需沟通、高报酬仍可能等待等说明。",
+        "source": "原PDF第6页；https://turkopticon.net/faq/index.html 第2.5节。",
+        "verdict": "supported",
+        "reason": "属于帮助区分维度的说明，不冒充实验结果；实际读取的FAQ也明确说无需沟通时留空。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "评价必须有自由文字，用于补充情境并判断评论者可信度。",
+        "source": "原PDF第6页。",
+        "verdict": "supported",
+        "reason": "原文明确说明文本既提供细节又是可信度判断依据。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "DoloresLabs征集300条付费种子评价，双方合作但政治愿景不同。",
+        "source": "原PDF第7页Bootstrapping a Collective System。",
+        "verdict": "supported",
+        "reason": "300是评价数而非参与者数；市场透明与批判商品化的动机区别也准确。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "部分遮蔽邮箱、可查评论历史、可选屏幕名称用于平衡防报复与信誉。",
+        "source": "原PDF第7页Reputation without Retribution、Comment Moderation。",
+        "verdict": "supported",
+        "reason": "机制与设计张力均一致；页面没有承诺绝对匿名。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "最初两年无审核，普通用户标记后管理员第二次标记隐藏；首批名单公示一周。",
+        "source": "原PDF第7页Comment Moderation。",
+        "verdict": "supported",
+        "reason": "两年、第二标记、一周及无人反对的程序全部对应。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "不用完全自动审核或开放投票，是因为规范变化和发布者操纵风险。",
+        "source": "原PDF第7–8页Comment Moderation。",
+        "verdict": "supported",
+        "reason": "社区语境、注册操纵及付费压制评论均为原文理由；未虚构审核准确率。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "写作时部署第四年、超过7000次安装、每月约10万页面浏览。",
+        "source": "原PDF第1页Introduction。",
+        "verdict": "supported",
+        "reason": "三个规模指标及统计时点一致；汇总表正确区分安装、浏览、样本和评价的口径。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "维护包括适配浏览器、优化服务器、调整规范和条款标记，并加强社区联系。",
+        "source": "原PDF第8页Strengthening Ties Through Maintenance and Repair。",
+        "verdict": "supported",
+        "reason": "技术维护、设计变更及关系劳动均在原文出现；团结作用明确归于作者解释。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "策略性量化因快速、便宜、部分有用而采用，Generosity受生活成本差异影响。",
+        "source": "原PDF第8–9页Tactical Quantification。",
+        "verdict": "supported",
+        "reason": "保留了数字不是完整客观表征、设计受基础设施节奏约束的核心论证。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "工具支持公众形成的中间基础，并存在保护劳动者同时维持平台的成功矛盾。",
+        "source": "原PDF第9页Publics and their Means of Assembly、The Ambivalence of Success。",
+        "verdict": "supported",
+        "reason": "平台未纳入保护、学术补贴不可持续及互助不等于统一公众的边界均准确；没有声称已证明谈判能力。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "后续研究考察到达、雇主审计和声誉系统中断，报告有效工资高40%。",
+        "source": "https://www.minneapolisfed.org/research/institute-working-papers/can-reputation-discipline-the-gig-economy-experimental-evidence-from-an-online-labor-market",
+        "verdict": "supported",
+        "reason": "已打开并阅读机构摘要，三种研究及40%、完成更快和拒收更少均明确出现。页面没有将结果归给2013年论文；具体比较组仍写得较含糊。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "经济学引文作者为Benson、Sojourner、Umyarov，DOI为10.21034/iwp.16。",
+        "source": "https://www.minneapolisfed.org/research/institute-working-papers/can-reputation-discipline-the-gig-economy-experimental-evidence-from-an-online-labor-market",
+        "verdict": "unverified",
+        "reason": "实际读取页面明确显示DOI及标题，但没有显示作者；PDF链接返回403，故作者顺序未完成独立核验。引文还缺发表年份。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "2023年7月18日FAQ记载转为劳动者运营的组织倡议项目，并以时薪替代Generosity。",
+        "source": "https://turkopticon.net/faq/index.html 第1.1、2.2节。",
+        "verdict": "supported",
+        "reason": "实际读取页面确认版本日期、组织变化及替换措施；其理由包括全球分布对支付判断的影响，页面正确标为官方自述。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "Feminist HCI为本文的倡议和反思立场提供理论联系。",
+        "source": "原PDF第5页及第9页参考文献2。",
+        "verdict": "supported",
+        "reason": "正文明确引用Bardzell的advocacy问题，书名和理论联系有直接依据。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "Hollaback!通过共同叙事把个人经历转为公共问题。",
+        "source": "https://www.cc.gatech.edu/news/ic-award-roundup-regents-professor-be-recognized-lasting-impact-cscw",
+        "verdict": "error",
+        "reason": "实际读取的大学报道支持研究在线叙事与组织行动的联系，但候选段落只引P11第5、6、9页；这些页没有Hollaback!，现有引注不能支持该外部关系。"
+      },
+      {
+        "path": "papers/P11.md",
+        "claim": "页面完整呈现论文核心框架。",
+        "source": "原PDF第6页命名解释、第8–9页torque与基础设施约束。",
+        "verdict": "unverified",
+        "reason": "机制、治理、互助和成功矛盾已覆盖，但遗漏Turkopticon名称与panopticon的关系，也未明确展开torque概念；核心约束论证有概述，理论细节覆盖不完整。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句交代论文名称、作者、年份、研究类别和共同评价雇主的特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括机制、研究材料和成功矛盾，没有加入未经正文支持的效果结论。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "主要章节匹配设计行动主义研究，但名称来源和torque理论细节未覆盖。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕具体机制展开，区分2013年部署与后续变化，没有把先后关系当因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "政治立场归于作者，FAQ归于运营者，后续经济学发现单独归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "67、35、26、14、7、8、30天、300条、7000次和10万浏览口径一致，未混为人数或效果。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "Hollaback!关系缺少对应外部引注，且没有来源请求标记。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "原文页码引用总体准确；Hollaback!的引注范围错误，DOI及经济学作者元数据仍有未核项，经济学引文缺年份。"
+      },
+      {
+        "item": 9,
+        "pass": false,
+        "reason": "信息框作者、年份和会议一致，但DOI尚未通过实际读取的权威记录独立确认。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有宣传结尾或大段复制；指标不能证明因果效果的说明属于必要证据边界。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用背景、机制、设计取舍、部署和局限的结构，没有强套训练模型或随机实验模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "页面说明研究效果边界，但没有标明外部关系引文缺口；独立读者验收记录不在本次输入中，不能宣称完整验收通过。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "系统四维及治理完整，但panopticon命名和torque理论组件未展开，尚有核心解释细节缺口。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "通过声誉不对称、冷启动和审核取舍形成论证，没有机械转写研究字段。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名、人数和规模均有作用说明，表格与段落相互补充。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "数字有对象和口径；40%明确限定为后续研究，但其比较组可进一步具体化。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内联系说明倡议理论与工作流机制的区别，并非仅列通用链接；引用错误另记。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景具体解释任务流程、资格筛选和争议处理，不是空泛提问。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性或显著成功等无据赞誉，反复保留使用规模与实际效果的区别。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P11.md",
+        "sections": [
+          "元数据与信息框",
+          "导言",
+          "背景：谁在“人类计算”中被看见",
+          "研究方式与需求形成／披露立场的长期介入",
+          "研究方式与需求形成／“劳动者权利清单”调查及人数表",
+          "系统如何运作／从任务列表到共享评价",
+          "系统如何运作／四种属性与文字说明及属性表",
+          "系统如何运作／如何解决冷启动",
+          "设计选择：匿名、可信与治理／保护评论者而保留历史",
+          "设计选择：匿名、可信与治理／为什么不是所有人投票删评论",
+          "使用规模、维护与解释及数量口径表",
+          "局限与成功的矛盾",
+          "后续研究与实践",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": [
+          "P11 DOI直接访问403，未完成权威元数据核验。",
+          "经济学工作论文PDF返回403；仅实际读取机构摘要，未核完整实验样本、比较组与估计方法。",
+          "经济学引文作者顺序未由成功打开的页面确认。",
+          "Hollaback!段落现有脚注不支持该外部关系，虽另读大学报道获得内容层面的支持。",
+          "原文图1–3只有提取文本和图注，无法进行图像细节核验。",
+          "页面未解释panopticon命名来源，torque概念仅有间接概述。",
+          "原文的46.8%美国劳动者、每小时2美元示例及1000比1访谈表述未进入候选页，未当作页面遗漏的实验指标。",
+          "提供版本没有附录；未声称读取附录。",
+          "没有取得冻结的10题、独立读者答案与评分记录；本报告仅作事实审校。"
+        ]
+      }
+    ],
+    "review": [
+      "原文核心机制、全部候选页调查数字及部署规模基本忠实，未发现数字抄错。",
+      "暂不判定完整通过：Hollaback!引用对应错误，书目核验及理论细节覆盖仍有缺口。",
+      "已实际打开并阅读机构研究摘要、官方FAQ及大学报道；未将搜索摘要视为已读文献，未修改文稿。"
+    ]
+  }
+}

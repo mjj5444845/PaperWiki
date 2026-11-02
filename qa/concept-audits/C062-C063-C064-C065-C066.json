@@ -1,0 +1,425 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C062",
+    "C063",
+    "C064",
+    "C065",
+    "C066"
+  ],
+  "page_hashes": {
+    "concepts/C062.md": "1f56c0a194ea953db4f5a10180894f58ab49ae554799ae495208b849bffb0475",
+    "concepts/C063.md": "2e1791a729feaf43d405fff0ed2b07d44aa8b19b5178507e121f5bf68874b604",
+    "concepts/C064.md": "bdbf83fc9fbc85373dc22a487b22e3b9f08604b915ada73912fa97b14ad60483",
+    "concepts/C065.md": "746f3dd27d13c184811f65d1a57bab0b7021f29e2152a6268316acadc7e36e4c",
+    "concepts/C066.md": "88a7236803b9ad6334941928aa81464fc059c37d64b4b325ff1b824847914efe"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C062.md",
+        "claim": "泛在计算强调计算融入日常环境并退到使用背景，而非仅增加设备数量。",
+        "source": "https://www.informatikdidaktik.de/Lehre/UbiComp/Literatur/Weiser21stCentury.htm；P12，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "Weiser原文讨论技术融入生活背景；P12明确承接该愿景，并说明自身强调实体媒介的区别。"
+      },
+      {
+        "path": "concepts/C062.md",
+        "claim": "Tabs、Pads、Boards及通信基础设施是早期探索；将其描述为扩展GUI的路线是Tangible Bits作者的回顾。",
+        "source": "P12，物理PDF第2–3页；https://www.informatikdidaktik.de/Lehre/UbiComp/Literatur/Weiser21stCentury.htm",
+        "verdict": "supported",
+        "reason": "设备与基础设施有据，页面也正确保留了后一个判断的作者归属。"
+      },
+      {
+        "path": "concepts/C062.md",
+        "claim": "交互表面、实体数据耦合和环境媒体不是所有泛在系统必须同时满足的定义条件。",
+        "source": "P12，物理PDF第1–2页",
+        "verdict": "supported",
+        "reason": "三项是Tangible Bits自身框架，页面没有将其扩大为泛在计算的通用必要条件。"
+      },
+      {
+        "path": "concepts/C062.md",
+        "claim": "校园模型绑定地图位置，双模型旋转歧义通过机械约束工具处理。",
+        "source": "P12，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "单模型映射、双模型约束、忽略冲突旋转及双圆柱滑杆设计均与原文一致。"
+      },
+      {
+        "path": "concepts/C062.md",
+        "claim": "雨声原型已实现，而把模型带到metaDESK查看详细网页记录是设计情境。",
+        "source": "P12，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "正确区分传感器、被动模型和样例雨声的实现，与作者用设想语气提出的跨设备转移。"
+      },
+      {
+        "path": "concepts/C062.md",
+        "claim": "本站应用将泛在计算定位为明确设计背景，并解释三个原型各自承担的环境整合作用。",
+        "source": "P12，物理PDF第2–6页",
+        "verdict": "supported",
+        "reason": "关系属于愿景继承和设计落实；没有误写成论文采用一套名为泛在计算的算法。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "混合方法的关键是有意整合质性与量化证据。",
+        "source": "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf，印刷第4–6页",
+        "verdict": "supported",
+        "reason": "指南明确区分系统整合与只是并列收集两类数据。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "汇合、解释型顺序、探索型顺序和嵌入是常见设计，整合可发生于连接、合并和嵌入。",
+        "source": "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf，印刷第5–8页",
+        "verdict": "supported",
+        "reason": "表格准确说明不同设计的证据连接方式，没有规定所有研究都必须采用同一顺序。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "信息流研究把七项参与特征与访谈得到的觉察分组相联系。",
+        "source": "P13，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "三项被动特征和四项主动特征完整，且解释了质性材料与统计比较的具体接口。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "数值特征采用Welch检验，类别特征采用卡方并以Fisher精确检验确认；访谈由两人开放编码后进行轴心编码。",
+        "source": "P13，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "分析程序、编码人数和协商修订关系均符合原文。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "40人、修改配额非概率抽样、62.5%最初不知算法存在，以及两至六个月邮件随访。",
+        "source": "P13，物理PDF第2–4、7–8页",
+        "verdict": "supported",
+        "reason": "人数、比例、时间和抽样边界正确；页面没有将样本比例推广为全国发生率。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "平台参与资料可与访谈结合，但不能据此把行为变化理解为服务器端观测或随机实验结果。",
+        "source": "P13，物理PDF第5、8页",
+        "verdict": "supported",
+        "reason": "论文确实提取网络和内容资料，同时明确所有行为评估依赖自报。页面的随访限制正确；其一般性“平台记录吻合”例子不应被读成该论文已验证行为自报。"
+      },
+      {
+        "path": "concepts/C063.md",
+        "claim": "混合研究中的质性部分可以居主要地位，不能因为包含统计就一律要求主题生成计算IRR。",
+        "source": "P18，物理PDF第7、13–16页",
+        "verdict": "supported",
+        "reason": "P18纳入质性起主要作用的混合研究，并根据分析目标区分无需IRR与频率比较等适用情况。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "环境信息显示可采用物理或屏幕媒介，核心涉及周边觉察与注意组织。",
+        "source": "P12，物理PDF第2、5–6页；https://faculty.cc.gatech.edu/~stasko/papers/avi06.pdf，物理PDF第1–3页",
+        "verdict": "supported",
+        "reason": "来源支持媒介范围及注意关系；页面也说明ambient media是P12的原用语。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "雨声变化提示网页活动，无声不能独立诊断低访问量或服务器故障。",
+        "source": "P12，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "原文列出无雨声的两种可能解释，页面正确保留了线索与诊断的区别。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "ambientROOM约6乘8英尺，使用MIDI设施、红外接近传感、录制雨声以及电磁浮子水槽。",
+        "source": "P12，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "空间尺寸、原型组件和由雨声干扰引出的替代媒介均有直接依据。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "白板刮擦声是潜在环境输出；跨到metaDESK查看详情也不是已报告实现的功能。",
+        "source": "P12，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "正确保留potentially和情境设想的实现边界。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "Pousman与Stasko的四维分类包括信息容量、通知程度、表征忠实度和美学强调。",
+        "source": "https://faculty.cc.gatech.edu/~stasko/papers/avi06.pdf，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "四项名称和描述性用途正确；并未误称为性能指标或越高越好的等级。"
+      },
+      {
+        "path": "concepts/C064.md",
+        "claim": "本站应用解释环境媒体如何承担背景觉察并与前景实体操纵连接。",
+        "source": "P12，物理PDF第2、4–6页",
+        "verdict": "supported",
+        "reason": "明确落到ambientROOM的输入、输出及设计过渡，超过仅列概念名称的相关性说明。"
+      },
+      {
+        "path": "concepts/C065.md",
+        "claim": "直接操纵包含持续表示、物理动作或按钮、快速渐进可逆反馈；1983年原文还列出分层或螺旋学习。",
+        "source": "https://iihm.imag.fr/blanch/ens/2016-2017/M1/TLI/readings/1983-Shneiderman-DirectManipulation.pdf，物理PDF第8页；https://www.cs.umd.edu/~ben/about.html",
+        "verdict": "supported",
+        "reason": "三项常用概括与原文四项列表可并存，页面没有遗漏后者或把输入设备当成充分条件。"
+      },
+      {
+        "path": "concepts/C065.md",
+        "claim": "Bricks以多个专用空间把手区别于鼠标的时间复用，并支持双手并行输入。",
+        "source": "P12，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "机制和前例归属准确，没有将Bricks写成Tangible Bits首次提出的系统。"
+      },
+      {
+        "path": "concepts/C065.md",
+        "claim": "Tangible Geospace用单模型绑定、双模型变换及activeLENS实现可见且连续的实体操纵。",
+        "source": "P12，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "步骤、反馈对象及多人分别控制模型的描述均对应原文。"
+      },
+      {
+        "path": "concepts/C065.md",
+        "claim": "真实物体仍可能产生动作歧义，机械工具仅解决特定旋转和缩放约束。",
+        "source": "P12，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "页面没有从局部原型推导实体交互普遍优于GUI，也没有编造可用性实验。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "社会网络分析研究关系结构；度、路径、中介和密度不能直接等同于亲密程度。",
+        "source": "https://faculty.ucr.edu/~hanneman/nettext/C1_Social_Network_Data.html；https://faculty.ucr.edu/~hanneman/nettext/C7_Connection.html；https://faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html",
+        "verdict": "supported",
+        "reason": "行动者、关系资料、边界和结构位置的基本区分符合教材。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "三节点无向无自环示例的度为2、1、1，密度为2/3，补边后密度为1；有向可能边数为n(n−1)。",
+        "source": "页面自拟例算；https://faculty.ucr.edu/~hanneman/nettext/C7_Connection.html",
+        "verdict": "supported",
+        "reason": "公式条件明确，算术与最短路径均正确，并明确标为示意而非经验结果。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "网络项使用互友强度分布的七项描述量，与67项个体变量及维度交互项共同建模。",
+        "source": "P04，物理PDF第5页（印刷215），附图公式",
+        "verdict": "supported",
+        "reason": "附图显示s_i=α+βR_i+γD_i+N(i)+ε_i，及以互友集合M构造的网络项。七项名称符合正文；其中方差、偏度、峰度是作者对中心矩项的概括，页面未另造公式。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "以零初始化，用前轮强度重算网络项，迭代OLS在0.001平均相对变化阈值下九次收敛。",
+        "source": "P04，物理PDF第5页（印刷215）",
+        "verdict": "supported",
+        "reason": "初始化、替代计算、阈值和迭代次数均直接见原文。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "结构维度单独线性作用较小，但经与亲密度、社会距离等的交互发挥调节作用。",
+        "source": "P04，物理PDF第5–6页（印刷215–216），附图2、3及表3",
+        "verdict": "supported",
+        "reason": "图3结构维度为4.5%，表3及正文支持相关交互。图2同时表明交互项增益大于额外网络项增益，页面未将两者混为同一贡献。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "跨媒介交流和借朋友孩子帐号交流造成平台预测偏弱。",
+        "source": "P04，物理PDF第8页",
+        "verdict": "supported",
+        "reason": "两个误差案例的行动者、媒介与预测方向均准确。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "1930年代Moreno与Helen Hall Jennings发展社会计量学，战后研究结合图论、矩阵与间接路径。",
+        "source": "https://cps.isr.umich.edu/news-events/in-the-news/the-research-center-for-group-dynamics-the-origins-of-network-analysis/",
+        "verdict": "supported",
+        "reason": "已打开机构历史回顾，人物、时期和发展关系有据；2026年2月27日是回顾发表日期。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "将连续关系强度引入完整社会网络分析，是P04提出的后续应用方向。",
+        "source": "P04，物理PDF第9页",
+        "verdict": "supported",
+        "reason": "本站应用段正确使用“提出”，并区分实际网络项建模与尚未实施的完整网络分析；没有声称论文计算了中心性。"
+      },
+      {
+        "path": "concepts/C066.md",
+        "claim": "隐私默认、朋友推荐及信息排序属于设计设想，不能视为已部署验证。",
+        "source": "P04，物理PDF第8–9页",
+        "verdict": "supported",
+        "reason": "原文使用前瞻情境并要求进一步研究，页面保留了这一证据等级。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "五页首句均给出主题、英文及类别或区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义和主要机制，未加入正文没有支撑的新结果。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "定义、机制、实例、变体、边界和本站应用均有实质内容；无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确；P13关联与因果、P12原型与设想均作了区分。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "GUI路线比较、结构调节解释和原型反应均明确归属于相应作者。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "年份、物理PDF页码、40人样本比例、空间单位及迭代阈值一致；未发现数字冲突。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义有实际打开的外部全文，具体应用可回溯所给论文；示意例算有明确标识。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "页码范围覆盖对应论断，DOI及作者年份与原文和Crossref缓存吻合；没有发现虚构书目。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；元数据标题、别名与正文一致，无不确定字段伪装成事实。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有长段复制、宣传结尾或新增经验因果；设计边界解释与主题相关。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "按技术和方法概念组织，未套用不相关领域章节；表格用于比较机制。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "页面没有自称通过独立验收或达到优良条目资格；本轮未发现需要列入coverage的未核实实质论断。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "核心组成完整：混合方法有整合位置，直接操纵补充第四项学习原则，网络分析有公式例算与网络项过程。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕机制和证据关系展开，未把研究字段逐项转写为句子。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名、参与特征及统计量均解释用途，没有仅罗列名称和人数。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "62.5%有样本分母与抽样边界，密度有图类型条件，收敛数有阈值。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用逐一解释概念如何进入原型、证据整合或模型，且区分研究建议与实际采用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代桌面GUI、不同研究证据及关系资料的实际特点，没有只剩研究问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未使用无来源的革命性或普遍优势评价；访客反应没有充当长期效果证据。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C062.md",
+        "sections": [
+          "导言定义与Weiser背景",
+          "从单个终端到环境中的服务",
+          "物件、表面与周边信息",
+          "前景与背景的切换",
+          "与相关方向的关系",
+          "适用条件与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C063.md",
+        "sections": [
+          "导言定义",
+          "不同证据回答不同问题",
+          "常见设计与整合位置",
+          "一个具体的证据链",
+          "解释冲突而非抹平冲突",
+          "质量与适用边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C064.md",
+        "sections": [
+          "导言定义及ambient media用语",
+          "从读数到周边线索",
+          "机制：来源、映射、媒介与解释",
+          "ambientROOM的具体原型",
+          "后续分类与变体",
+          "适用条件与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C065.md",
+        "sections": [
+          "导言定义与历史",
+          "三项概括与学习原则",
+          "对象、动作与反馈的联系",
+          "与命令和隐喻的区别",
+          "从鼠标到多个物理把手",
+          "校园地图的逐步例子",
+          "物理性不自动等于清晰",
+          "适用条件与边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C066.md",
+        "sections": [
+          "导言定义",
+          "从个人属性到关系资料",
+          "常见结构问题",
+          "一个结构与强度分开的例子及公式",
+          "网络结构怎样进入关系强度研究",
+          "发展与不同资料范围",
+          "推断边界与应用",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已依据提供的四篇论文全文、两张附图及实际打开的外部原文审校；未发现明确事实错误。",
+      "附图对应P04物理PDF第5、6页，印刷页215、216；核对了网络项公式、图2增益关系、图3结构权重及表3交互项。",
+      "C063中的“平台记录吻合”是一般方法示例；实际论文的行为评估均为自报，引用和后续使用应继续保留此边界。",
+      "C066的实际采用是自我中心资料中的结构项建模；将连续强度用于完整社会网络分析属于作者提出的后续方向。"
+    ]
+  }
+}

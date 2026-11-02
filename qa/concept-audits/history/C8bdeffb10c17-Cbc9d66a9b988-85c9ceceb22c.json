@@ -1,0 +1,312 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C8bdeffb10c17",
+    "Cbc9d66a9b988"
+  ],
+  "page_hashes": {
+    "concepts/C8bdeffb10c17.md": "c2598d01fec9916a48fd2da016e1266e78db45c626db8d3b711907ea614c5838",
+    "concepts/Cbc9d66a9b988.md": "8cce6a4f83b3fb97f32d7d5a1b6d8168a8fcb440bdd44813b4a00afd46c9ddba"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "局部忠实性指解释符合被解释实例附近的模型行为，与可理解性共同构成LIME的目标。",
+        "source": "P365079753571，物理PDF第2–3页；[Molnar：LIME](https://christophm.github.io/interpretable-ml-book/lime.html)",
+        "verdict": "supported",
+        "reason": "原论文明确区分邻域忠实性、全局忠实性及用户可理解性；教材也将局部预测近似的准确程度称为local fidelity。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "单点预测相等、整体平均拟合良好都不足以保证当前邻域中的行为得到准确解释。",
+        "source": "P365079753571，物理PDF第3–4页；P01c7aa8f7d9e，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "这是邻域损失与单点相等约束的直接区别；页面没有把这一说明冒充额外实验发现。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "局部重要特征与全局重要特征可能不同。",
+        "source": "P365079753571，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "Desired Characteristics明确陈述这一双向区别。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "LIME使用可理解表示，经扰动、映射、黑箱查询和接近度加权拟合产生解释。",
+        "source": "P365079753571，物理PDF第3–4页，第3.1–3.4节、算法1",
+        "verdict": "supported",
+        "reason": "四步流程与原文一致，且正确区分解释输入与分类器原始表示。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "LIME优化加权拟合损失与复杂度之和，并可采用加权平方误差。",
+        "source": "P365079753571，物理PDF第3–4页，公式1–2",
+        "verdict": "supported",
+        "reason": "两条公式及f、g、G、接近度和复杂度的解释正确；页面保留了一般框架与具体损失的层次。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "Christianity与Atheism分类器留出准确率94%，解释突出Posting、Host、Re；Posting出现率22%，其中99%属于Atheism。",
+        "source": "P365079753571，物理PDF第4页，第3.5节",
+        "verdict": "supported",
+        "reason": "数字、分母及类别方向均与原文一致；没有把这些线索解释为宗教语义。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "稀疏线性模型和可理解表示可能无法表达局部非线性或整体色调作用。",
+        "source": "P365079753571，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "高度非线性和sepia照片例子均为原作者明确提出的限制。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "可估计扰动集上的忠实程度，并据此考虑其他解释模型类别。",
+        "source": "P365079753571，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "原文确实提出这一可能性，但跨类别选择被留作未来工作。页面使用“可以”“考虑”，没有声称论文已实现自适应选择；若增加未来工作归属会更清楚。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "邻域、采样、特征相关性和稳定性会影响解释。",
+        "source": "[Molnar：LIME，邻域讨论及Limitations](https://christophm.github.io/interpretable-ml-book/lime.html)",
+        "verdict": "supported",
+        "reason": "实际打开的教材讨论核宽度、任意距离、忽略相关性产生不现实样本及重复采样不稳定；这些限制主要针对所述实现和表格数据，不应读成所有模态的统一采样规则。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "局部忠实性不同于预测正确率、用户满意度与现实因果解释；SHAP局部准确性是被解释点的加性恢复。",
+        "source": "P365079753571，物理PDF第3–4页；P01c7aa8f7d9e，物理PDF第4页；[Molnar：Shapley Values](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "supported",
+        "reason": "性质区别成立；SHAP Property 1没有要求附近每个扰动都同样拟合准确。"
+      },
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "claim": "LIME真正采用局部拟合；SP-LIME通过互补个案扩展模型展示范围。",
+        "source": "P365079753571，物理PDF第3–6页，第3–4节",
+        "verdict": "supported",
+        "reason": "应用段解释了概念在目标函数和个案选择中的具体作用，没有把局部权重提升为全局规律。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "夏普利值是在所有加入顺序上平均边际贡献，归因依赖收益函数和缺失处理。",
+        "source": "P01c7aa8f7d9e，物理PDF第3–5页；[Molnar：Shapley Values，General idea及Definition](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "supported",
+        "reason": "定义正确；明确背景依赖，避免将归因描述为特征固有属性。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "双特征教学例子得到A=4、B=6，总和10。",
+        "source": "页面所列收益表；P01c7aa8f7d9e，物理PDF第3页公式4",
+        "verdict": "supported",
+        "reason": "两种顺序的边际贡献和平均数均正确，并明确标为教学例算。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "子集公式的阶乘权重等于相应先行成员集合在全排列中的比例。",
+        "source": "P01c7aa8f7d9e，物理PDF第3页公式4；[Molnar：Shapley Values，Definition](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "supported",
+        "reason": "求和范围、边际差及权重正确，与顺序平均等价。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "经典性质包括效率、对称性、虚参与者和可加性。",
+        "source": "[Molnar：Shapley Values，Shapley value theory](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "supported",
+        "reason": "四项性质的简述正确，效率按总收益差表述，也适用于未归零的空联盟基准。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "重新训练子集模型与固定模型上的采样、积分缺失处理是不同实现。",
+        "source": "P01c7aa8f7d9e，物理PDF第3页，第2.4节",
+        "verdict": "supported",
+        "reason": "准确区分Shapley regression values与Shapley sampling values，未将不同收益函数混为一谈。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "SHAP论文在加性归因类别中提出局部准确性、缺失性、一致性及给定映射下的唯一性。",
+        "source": "P01c7aa8f7d9e，物理PDF第2、4页",
+        "verdict": "supported",
+        "reason": "公式和性质转述忠实于论文；特别正确区分简化输入缺失性与经典虚参与者性质，且限定唯一性适用范围。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "SHAP定义采用条件期望函数，独立性与线性性是可选计算近似。",
+        "source": "P01c7aa8f7d9e，物理PDF第4–5页，公式9–12",
+        "verdict": "supported",
+        "reason": "定义、近似和依赖特征的解释边界均与原文一致。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "Kernel SHAP通过特定核、损失和约束把加权回归与夏普利归因连接起来，普通LIME不自动满足这些条件。",
+        "source": "P01c7aa8f7d9e，物理PDF第5–6页，定理2",
+        "verdict": "supported",
+        "reason": "关系归属准确，没有把LIME称为已经计算夏普利值的方法。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "Kaur等实际用SHAP Python包解释LightGBM收入分类，并展示局部、全局和依赖图。",
+        "source": "P16，物理PDF第3–4页；提供的Crossref缓存10.1145/3313831.3376219",
+        "verdict": "supported",
+        "reason": "工具、底层模型、任务和可视化用途均有直接记录；应用段说明了归因如何进入研究任务。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "To Trust or to Think只将其特征式解释与SHAP类比，没有报告实际计算夏普利值。",
+        "source": "P21，物理PDF第7–8页；提供的Crossref缓存10.1145/3449287",
+        "verdict": "supported",
+        "reason": "原文使用模拟AI、查找表、风味分子集合相似度与调和平均排名；SHAP是解释形式的设计参照。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "精确计算涉及指数数量联盟，近似误差和背景分布影响归因；归因不等于局部导数或因果干预效应。",
+        "source": "P01c7aa8f7d9e，物理PDF第5–7页；[Molnar：Shapley Values，参考数据与解释限制](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "supported",
+        "reason": "计算和解释边界正确，页面未把数学定义的精确性质无条件赋予采样输出。"
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "claim": "页面已充分交代夏普利值的发展背景。",
+        "source": "候选页全文；P01c7aa8f7d9e，物理PDF第10页参考文献6；[Molnar：Shapley Values，General idea](https://christophm.github.io/interpretable-ml-book/shapley.html)",
+        "verdict": "error",
+        "reason": "内容覆盖不完整：页面解释了现代模型归因变体，却没有说明Lloyd Shapley及1953年的原始提出。现有已核来源足以补足这一基础沿革，无须另造影响评价。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均给出主题、类别与核心区分特征，并附英文名。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言分别概括邻域行为近似和平均边际贡献，并提示关键适用边界。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "章节大体匹配证据，但夏普利值页缺少原始提出者及年代这一基础发展背景。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落分别围绕定义、算法、实例和限制展开，没有从时间先后推导因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "作者的理论结果、教材限制和设计类比有明确归属，未加入无来源赞誉。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "94%、22%和99%的对象与分母准确；教学数字明确区别于实验结果。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、公式、数字与应用都有可核来源，实际打开了两章外部教材。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "论文引注的物理页码覆盖对应论点；P16和P21书目亦与提供的Crossref缓存相符。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框，不存在与正文冲突的字段。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见大段复制或宣传结尾；自拟算例明确标注教学性质，没有冒充实验。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念条目的定义、机制、例子、边界与应用结构，没有强套实验论文模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文没有声称已通过独立验收或达到优良条目标准；本报告单独记录内容缺项。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "LIME流程与目标函数、夏普利公式与双特征计算均已解释，核心机制没有仅剩名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文按概念关系展开，未将研究问题、贡献等输入字段机械转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "工具和模型名称均说明用途；四步列表具有操作顺序，不是未解释的笔记堆积。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "实验比例说明对象和含义，算例说明收益函数、顺序和计算结果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接对应目标函数、归因计算、可视化或设计参照等具体工作关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景以非线性近似、交互和顺序依赖等实际问题陈述，没有以问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、显著先进等空泛赞誉，也未从单个案例泛化方法优越性。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C8bdeffb10c17.md",
+        "sections": [
+          "导言：定义及LIME目标",
+          "直观含义：邻域近似、局部与全局",
+          "LIME怎样构造局部解释：表示、扰动、加权、目标函数",
+          "一个文本例子：教学流程与新闻组真实案例",
+          "忠实性与可理解性的折衷：表示能力、非线性、邻域及稳定性",
+          "与其他解释性质的区别：正确率、满意度、因果及局部准确性",
+          "在本站论文中的应用：LIME与SP-LIME",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/Cbc9d66a9b988.md",
+        "sections": [
+          "导言：合作博弈定义与背景依赖",
+          "为什么需要平均不同顺序：交互与双特征例算",
+          "定义与性质：子集公式、权重及四项公理",
+          "从合作收益到模型归因：条件期望、重新训练和采样变体",
+          "在本站论文中的应用：加性模型、三性质、唯一性、SHAP与LIME联系",
+          "在本站论文中的应用：Kaur等实际工具使用",
+          "在本站论文中的应用：Buçinca等解释形式设计参照",
+          "计算与解释限制：指数计算、近似、依赖、参考分布及非因果性",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "依据用户提供的页面与四篇原论文全文逐项复核，并检索、实际打开Molnar两章教材；未访问文件系统或其他会话。",
+      "主要事实、公式、数字和应用关系得到支持。夏普利值页存在基础沿革缺项，应补充Shapley于1953年提出该概念及对应来源。",
+      "局部忠实性页关于估计忠实度后选择解释类别的描述有原文依据，但该跨类别选择属于未来探索，宜进一步明确归属。",
+      "没有把P21的设计类比写成实际采用SHAP，也没有把LIME通常使用的回归解释自动认定为夏普利值。"
+    ]
+  }
+}

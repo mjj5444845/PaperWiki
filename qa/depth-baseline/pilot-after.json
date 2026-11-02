@@ -1,0 +1,59 @@
+[
+  {
+    "title": "P01",
+    "words": 4393,
+    "han": 4298,
+    "sections": 15,
+    "numbers": 17,
+    "tables": 2,
+    "citations": 33,
+    "references": 18,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/642611.642616",
+      "https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+      "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf",
+      "https://research.tudelft.nl/en/publications/research-through-design-2/"
+    ],
+    "id": "P01"
+  },
+  {
+    "title": "P09",
+    "words": 4464,
+    "han": 4162,
+    "sections": 15,
+    "numbers": 94,
+    "tables": 5,
+    "citations": 35,
+    "references": 18,
+    "external_sources": 6,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/2827872",
+      "https://doi.org/10.1145/358916.358995",
+      "https://files.grouplens.org/papers/harper-tiis2015.pdf",
+      "https://www.cambridge.org/core/books/recommender-systems/C6471B59388D8A9F684C49C198691B53/listing",
+      "https://www.usenix.org/conference/atc97/presentation/miller"
+    ],
+    "id": "P09"
+  },
+  {
+    "title": "P24",
+    "words": 3745,
+    "han": 3584,
+    "sections": 11,
+    "numbers": 84,
+    "tables": 3,
+    "citations": 26,
+    "references": 17,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/97243.97281",
+      "https://hcibib.perlman.hosting.acm.org/tcuid/chap-4.html",
+      "https://mortenhertzum.dk/publ/IJHCI2001.pdf",
+      "https://www.nngroup.com/articles/ten-usability-heuristics/"
+    ],
+    "id": "P24"
+  }
+]

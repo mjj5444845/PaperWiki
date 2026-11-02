@@ -1,0 +1,1356 @@
+[
+  {
+    "title": "Amazon Mechanical Turk",
+    "words": 376,
+    "han": 303,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 7,
+    "references": 6,
+    "external_sources": 5,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/2939672.2939778",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C001"
+  },
+  {
+    "title": "SHAP",
+    "words": 204,
+    "han": 170,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "C002"
+  },
+  {
+    "title": "三角互证",
+    "words": 161,
+    "han": 139,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C003"
+  },
+  {
+    "title": "主题分析",
+    "words": 161,
+    "han": 138,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C004"
+  },
+  {
+    "title": "交互设计",
+    "words": 205,
+    "han": 174,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/1753326.1753521"
+    ],
+    "id": "C005"
+  },
+  {
+    "title": "亲和图法",
+    "words": 155,
+    "han": 141,
+    "sections": 4,
+    "numbers": 5,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233"
+    ],
+    "id": "C006"
+  },
+  {
+    "title": "人工智能素养",
+    "words": 178,
+    "han": 160,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "C007"
+  },
+  {
+    "title": "人机智能交互",
+    "words": 236,
+    "han": 205,
+    "sections": 4,
+    "numbers": 5,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C008"
+  },
+  {
+    "title": "人类计算",
+    "words": 195,
+    "han": 170,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "C009"
+  },
+  {
+    "title": "以用户为中心的设计",
+    "words": 208,
+    "han": 187,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "C010"
+  },
+  {
+    "title": "价值敏感设计",
+    "words": 156,
+    "han": 143,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "C011"
+  },
+  {
+    "title": "众包",
+    "words": 197,
+    "han": 173,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/2470654.2470742"
+    ],
+    "id": "C012"
+  },
+  {
+    "title": "信息不对称",
+    "words": 153,
+    "han": 142,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742"
+    ],
+    "id": "C013"
+  },
+  {
+    "title": "信息可视化",
+    "words": 149,
+    "han": 125,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556"
+    ],
+    "id": "C014"
+  },
+  {
+    "title": "共享工作空间",
+    "words": 142,
+    "han": 128,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143468"
+    ],
+    "id": "C015"
+  },
+  {
+    "title": "关系强度",
+    "words": 147,
+    "han": 136,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "C016"
+  },
+  {
+    "title": "冷启动",
+    "words": 151,
+    "han": 128,
+    "sections": 4,
+    "numbers": 2,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905"
+    ],
+    "id": "C017"
+  },
+  {
+    "title": "出声思考法",
+    "words": 204,
+    "han": 186,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "C018"
+  },
+  {
+    "title": "半结构访谈",
+    "words": 160,
+    "han": 138,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C019"
+  },
+  {
+    "title": "协作感知",
+    "words": 200,
+    "han": 174,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143468",
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C020"
+  },
+  {
+    "title": "协同过滤",
+    "words": 342,
+    "han": 282,
+    "sections": 5,
+    "numbers": 2,
+    "tables": 0,
+    "citations": 6,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C021"
+  },
+  {
+    "title": "原型设计",
+    "words": 200,
+    "han": 183,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/642611.642616",
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "C022"
+  },
+  {
+    "title": "参与式行动研究",
+    "words": 156,
+    "han": 140,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831"
+    ],
+    "id": "C023"
+  },
+  {
+    "title": "参与式设计",
+    "words": 252,
+    "han": 221,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 5,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C024"
+  },
+  {
+    "title": "双加工理论",
+    "words": 304,
+    "han": 246,
+    "sections": 4,
+    "numbers": 4,
+    "tables": 0,
+    "citations": 5,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C025"
+  },
+  {
+    "title": "可用性",
+    "words": 164,
+    "han": 155,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "C026"
+  },
+  {
+    "title": "可用性测试",
+    "words": 208,
+    "han": 190,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703",
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "C027"
+  },
+  {
+    "title": "启发式评估",
+    "words": 212,
+    "han": 192,
+    "sections": 4,
+    "numbers": 6,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/97243.97281"
+    ],
+    "id": "C028"
+  },
+  {
+    "title": "图像标注",
+    "words": 149,
+    "han": 138,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "C029"
+  },
+  {
+    "title": "图形感知",
+    "words": 157,
+    "han": 142,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357"
+    ],
+    "id": "C030"
+  },
+  {
+    "title": "基于内容的过滤",
+    "words": 203,
+    "han": 171,
+    "sections": 4,
+    "numbers": 2,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C031"
+  },
+  {
+    "title": "增强现实",
+    "words": 136,
+    "han": 120,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "C032"
+  },
+  {
+    "title": "声誉系统",
+    "words": 140,
+    "han": 126,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742"
+    ],
+    "id": "C033"
+  },
+  {
+    "title": "女性主义人机交互",
+    "words": 327,
+    "han": 265,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 6,
+    "references": 5,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C034"
+  },
+  {
+    "title": "女性主义立场理论",
+    "words": 153,
+    "han": 136,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521"
+    ],
+    "id": "C035"
+  },
+  {
+    "title": "广义可加模型",
+    "words": 156,
+    "han": 134,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "C036"
+  },
+  {
+    "title": "开放编码",
+    "words": 323,
+    "han": 252,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 6,
+    "references": 5,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C037"
+  },
+  {
+    "title": "心智模型",
+    "words": 403,
+    "han": 321,
+    "sections": 4,
+    "numbers": 2,
+    "tables": 0,
+    "citations": 7,
+    "references": 6,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549",
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "C038"
+  },
+  {
+    "title": "情境调查",
+    "words": 169,
+    "han": 151,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "C039"
+  },
+  {
+    "title": "手势引出",
+    "words": 160,
+    "han": 150,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866"
+    ],
+    "id": "C040"
+  },
+  {
+    "title": "扎根理论",
+    "words": 222,
+    "han": 182,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C041"
+  },
+  {
+    "title": "批判性设计",
+    "words": 142,
+    "han": 129,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "C042"
+  },
+  {
+    "title": "技术债务",
+    "words": 167,
+    "han": 143,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C043"
+  },
+  {
+    "title": "技术框架",
+    "words": 162,
+    "han": 145,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549"
+    ],
+    "id": "C044"
+  },
+  {
+    "title": "拟人化",
+    "words": 147,
+    "han": 141,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703"
+    ],
+    "id": "C045"
+  },
+  {
+    "title": "持续比较法",
+    "words": 146,
+    "han": 133,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "C046"
+  },
+  {
+    "title": "推荐系统",
+    "words": 135,
+    "han": 126,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C047"
+  },
+  {
+    "title": "推荐解释",
+    "words": 131,
+    "han": 122,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C048"
+  },
+  {
+    "title": "数据素养",
+    "words": 221,
+    "han": 180,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C049"
+  },
+  {
+    "title": "数据质量",
+    "words": 156,
+    "han": 129,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C050"
+  },
+  {
+    "title": "数据集文档",
+    "words": 169,
+    "han": 144,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C051"
+  },
+  {
+    "title": "文化探针",
+    "words": 148,
+    "han": 137,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C052"
+  },
+  {
+    "title": "无障碍",
+    "words": 149,
+    "han": 140,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "C053"
+  },
+  {
+    "title": "普通最小二乘回归",
+    "words": 158,
+    "han": 143,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "C054"
+  },
+  {
+    "title": "暗黑模式",
+    "words": 209,
+    "han": 182,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3359183"
+    ],
+    "id": "C055"
+  },
+  {
+    "title": "有形用户界面",
+    "words": 147,
+    "han": 131,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "C056"
+  },
+  {
+    "title": "机器学习",
+    "words": 275,
+    "han": 226,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 5,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "C057"
+  },
+  {
+    "title": "棘手问题",
+    "words": 160,
+    "han": 136,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704"
+    ],
+    "id": "C058"
+  },
+  {
+    "title": "概念模型",
+    "words": 144,
+    "han": 131,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C059"
+  },
+  {
+    "title": "模型可解释性",
+    "words": 362,
+    "han": 298,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 6,
+    "references": 5,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/2939672.2939778",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C060"
+  },
+  {
+    "title": "民族志",
+    "words": 214,
+    "han": 183,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C061"
+  },
+  {
+    "title": "泛在计算",
+    "words": 127,
+    "han": 112,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "C062"
+  },
+  {
+    "title": "混合方法研究",
+    "words": 161,
+    "han": 138,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556"
+    ],
+    "id": "C063"
+  },
+  {
+    "title": "环境显示",
+    "words": 137,
+    "han": 119,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "C064"
+  },
+  {
+    "title": "直接操纵",
+    "words": 140,
+    "han": 123,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715"
+    ],
+    "id": "C065"
+  },
+  {
+    "title": "社会网络分析",
+    "words": 153,
+    "han": 139,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "C066"
+  },
+  {
+    "title": "社会规范",
+    "words": 201,
+    "han": 180,
+    "sections": 4,
+    "numbers": 5,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703",
+      "https://doi.org/10.1145/3290605.3300233"
+    ],
+    "id": "C067"
+  },
+  {
+    "title": "社会运动框架",
+    "words": 151,
+    "han": 128,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831"
+    ],
+    "id": "C068"
+  },
+  {
+    "title": "科学技术研究",
+    "words": 150,
+    "han": 129,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521"
+    ],
+    "id": "C069"
+  },
+  {
+    "title": "算法偏差",
+    "words": 219,
+    "han": 191,
+    "sections": 4,
+    "numbers": 4,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "C070"
+  },
+  {
+    "title": "算法觉察",
+    "words": 154,
+    "han": 128,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556"
+    ],
+    "id": "C071"
+  },
+  {
+    "title": "算法透明度",
+    "words": 277,
+    "han": 229,
+    "sections": 4,
+    "numbers": 4,
+    "tables": 0,
+    "citations": 5,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "C072"
+  },
+  {
+    "title": "群件",
+    "words": 192,
+    "han": 166,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143468",
+      "https://doi.org/10.1145/143457.143549"
+    ],
+    "id": "C073"
+  },
+  {
+    "title": "聚类分析",
+    "words": 153,
+    "han": 134,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3359183"
+    ],
+    "id": "C074"
+  },
+  {
+    "title": "自动化过度依赖",
+    "words": 179,
+    "han": 155,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C075"
+  },
+  {
+    "title": "范围综述",
+    "words": 164,
+    "han": 149,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727"
+    ],
+    "id": "C076"
+  },
+  {
+    "title": "计算机视觉",
+    "words": 153,
+    "han": 141,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733"
+    ],
+    "id": "C077"
+  },
+  {
+    "title": "认知偏差",
+    "words": 230,
+    "han": 191,
+    "sections": 4,
+    "numbers": 2,
+    "tables": 0,
+    "citations": 4,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C078"
+  },
+  {
+    "title": "认知强制功能",
+    "words": 178,
+    "han": 154,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C079"
+  },
+  {
+    "title": "认知负荷",
+    "words": 142,
+    "han": 121,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "C080"
+  },
+  {
+    "title": "认知需求",
+    "words": 176,
+    "han": 154,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C081"
+  },
+  {
+    "title": "评定者间信度",
+    "words": 336,
+    "han": 254,
+    "sections": 4,
+    "numbers": 7,
+    "tables": 0,
+    "citations": 6,
+    "references": 5,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C082"
+  },
+  {
+    "title": "说服性技术",
+    "words": 141,
+    "han": 128,
+    "sections": 4,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108"
+    ],
+    "id": "C083"
+  },
+  {
+    "title": "质性研究",
+    "words": 169,
+    "han": 143,
+    "sections": 4,
+    "numbers": 3,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/3359174"
+    ],
+    "id": "C084"
+  },
+  {
+    "title": "通过设计开展研究",
+    "words": 162,
+    "han": 141,
+    "sections": 4,
+    "numbers": 1,
+    "tables": 0,
+    "citations": 3,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704"
+    ],
+    "id": "C085"
+  },
+  {
+    "title": "局部忠实性",
+    "words": 84,
+    "han": 70,
+    "sections": 3,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 2,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2939672.2939778"
+    ],
+    "id": "C8bdeffb10c17"
+  },
+  {
+    "title": "夏普利值",
+    "words": 95,
+    "han": 84,
+    "sections": 3,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 2,
+    "references": 2,
+    "external_sources": 1,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2"
+    ],
+    "id": "Cbc9d66a9b988"
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "id": "P03",
+  "page_sha256": "115b989ac948a4eaad243b7419f2476705c9b501b83606296b7a8087c553d26f",
+  "questions_sha256": "9f8798776680bded35676ddc01ce069367c3359fcf6708eb17528b936f3bf488",
+  "score": 10,
+  "passed": false,
+  "error": "12项风格检查未通过或未完整记录",
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "研究解释为何 Alpha 引进 Notes 后邮件得到采用，却未在早期形成预期的知识共享与工作方式转变。核心框架包括认知因素与结构因素：前者涉及用户的技术框架、沟通和培训，后者涉及奖励制度、政策程序及竞争规范；两者共同影响使用。（依据：“认知因素：旧框架怎样塑造新技术”“结构因素：为什么知道能共享仍不愿共享”“两类因素怎样共同作用”）"
+      },
+      {
+        "id": 2,
+        "answer": "Notes 是应用开发环境，除内置邮件外，还能支持共享数据库、讨论论坛和定制数据库视图，但相关应用需要组织开发。Alpha 是全球咨询公司，具有金字塔式晋升体系，同时由地方办公室执行项目、总部协调业务，形成矩阵组织。高层希望弥补信息技术落后、统一通信并利用组织知识，因此该案例能揭示平台能力与实际组织改变之间的距离。（依据：“背景：从部署工具到改变工作”“部署经过：高层愿景与基层经验”）"
+      },
+      {
+        "id": 3,
+        "answer": "作者于1991年2月至6月在一个大型办公室开展五个月田野研究，覆盖安装前、实施及早期使用，收集非结构化访谈、办公室文件和会议、工作会、培训观察，并访谈总部及集中技术支持人员。91是访谈次数，部分人员接受重复访谈。这种探索性个案设计支持结合行动、说法和制度解释采用过程，但不能提供随机比较的因果结论、全公司代表性采用率或长期成效判断。（依据：“研究如何开展”“局限与后续研究”）"
+      },
+      {
+        "id": 4,
+        "answer": "技术框架是人们关于技术及其工作用途的假设、期待和解释，也可能由共同经历与交往形成群体共享的理解。面对陌生技术，用户借已有框架判断用途与价值，进而选择使用方式。Alpha 未充分传播 Notes 的用途和采购理由；部分员工从报刊或安装现场才得知产品，因而用邮件、电子表格等个人软件经验理解它，难以自然转向跨团队共享。（依据：“技术框架不是功能清单”“部署经过：高层愿景与基层经验”）"
+      },
+      {
+        "id": 5,
+        "answer": "部署负责人假设快速扩大覆盖后，意见领袖会在使用中探索新工作方式，因此未先完成充分原型、试点或长期技术评价。技术部门忙于安装和运行，缺少正式推广与传播策略。培训采用视频、练习册及最多四小时的课堂和上机练习，主要教授通用基础操作；初期应用也多自动化既有信息流。这些安排共同强化了 Notes 是个人效率工具的理解，未充分展示共同业务实践。（依据：“部署经过：高层愿景与基层经验”“培训教会操作，却未必教会协作”）"
+      },
+      {
+        "id": 6,
+        "answer": "员工评价与客户可计费工时相联系，而学习 Notes 未被普遍视为客户工作，工作量也未相应减少，培训可能需要牺牲休息时间或周末补赶项目。邮件和浏览较易嵌入日常安排，持续贡献内容、学习新用法及探索协作则成本更高。职位影响这种压力：principals 较少受个人计费和晋升顾虑约束，更容易采取长期或全公司视角。（依据：“计费时间决定学习的机会成本”）"
+      },
+      {
+        "id": 7,
+        "answer": "当地缺少关于数据质量、保密和访问控制的新政策，也未明确知识内容的责任。高层担心商业资料被不适当人员读取，经理和高级顾问担心意见脱离语境后被引用，错误损害个人声誉，因而减少共享意愿。这些问题涉及地方管理和专业工作的权限；技术部门能规定平台标准，却不自动拥有决定内容责任及客户资料访问规则的权力。（依据：“内容责任与权限没有随平台一并确定”）"
+      },
+      {
+        "id": 8,
+        "answer": "晋升或离开的职业路径及稀缺高层职位推动同级竞争，独有客户关系和专长成为个人地位来源。公开知识可能使公司和同事获益，却让贡献者承担时间、声誉及竞争损失。若题中“负责人”指 principals，页面说明他们已取得较高职业地位，更强调同侪和组织利益；技术人员则已用 Notes 交流技术知识，且不受同样的计费、晋升及竞争压力约束。这是内部对照，并非随机对照，不能排除职能差异；页面未报告部署负责人个人共享行为的系统对照。（依据：“竞争规范影响知识的价值”）"
+      },
+      {
+        "id": 9,
+        "answer": "早期邮件得到采用，但研究期内未出现预期的知识共享和工作方式转变，因此不能认定已实现协作变革。也不能称为全面失败：标准化计算机网络、打印等基础设施已经形成，并有个人使用收益。研究仅覆盖一个办公室五个月的早期经验，未来技术框架、应用及使用方式仍可能变化，不能推断全公司永久失败。（依据：导言、“培训教会操作，却未必教会协作”“局限与后续研究”）"
+      },
+      {
+        "id": 10,
+        "answer": "改进方向包括领导示范、说明技术用途与采购理由、展示多人共同完成业务任务、开展集体学习以形成兼容预期，以及使协作规范获得组织认可、提供时间和资源并支持地方实验；结构方面还需回应考核及内容责任等障碍。论文比较了广泛部署后期待创新出现，与先在代表性群体试点、了解技术和组织调整后再推广两种策略。Alpha 接近前者，但作者未证明先行试点普遍更优，而将其保留为后续研究问题。（依据：“培训教会操作，却未必教会协作”“两类因素怎样共同作用”）"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "准确指出邮件采用与知识共享、工作转变之间的落差，并完整区分认知和结构因素及其共同作用。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "正确说明Notes的平台能力、内置与需开发功能，以及Alpha的层级、矩阵组织和知识利用目标。"
+      },
+      {
+        "id": 3,
+        "correct": true,
+        "reason": "交代研究时间、范围、资料来源及重复访谈，并准确限定个案研究对因果、代表性和长期结局的推断能力。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "说明既有技术框架如何引导价值判断和使用选择，并指出用途与采购理由传播不足导致以熟悉的个人工具理解Notes。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "覆盖快速部署与意见领袖假设、安装优先、培训形式及既有信息流自动化，正确解释其如何强化个人效率工具的理解。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "准确解释计费考核、学习时间不足和个人时间成本如何限制深入使用，并说明principals与经理、高级顾问受到的压力不同。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "指出权限和内容责任不明引发泄密、误用及声誉顾虑，并正确解释技术标准权力无法自动延伸至组织制度领域。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "准确关联晋升竞争、知识独占与共享损失，并提供principals和技术人员的内部对照；对“负责人”的限定不影响核心回答。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "正确区分邮件及个人收益与尚未实现的协作变革，同时指出标准化基础设施收益和早期、单办公室研究的局限。"
+      },
+      {
+        "id": 10,
+        "correct": true,
+        "reason": "涵盖群体应用示范、共同学习、规范与考核调整及实验资源，并准确比较广泛部署与代表性试点，未把策略建议夸大为已验证结论。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P03.md",
+        "claim": "作者、1992年、CSCW、标题、DOI及362—369页的书目信息。",
+        "source": "原PDF第1页；publisher_metadata：https://api.crossref.org/works/10.1145%2F143457.143549",
+        "verdict": "supported",
+        "reason": "原文标题与作者一致；提供的Crossref缓存确认年份、会议、标题副标题、DOI及页码。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "研究发现邮件采用没有自动形成知识共享，并以认知与结构两类因素解释。",
+        "source": "原PDF第1—2页，Abstract、Introduction、Research Results",
+        "verdict": "supported",
+        "reason": "原文明示邮件广泛采用，但共享专长及融入工作政策尚未实现；两类解释与页面一致。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "Notes是应用开发环境；邮件内置，讨论论坛和定制数据库视图需采用组织开发。",
+        "source": "原PDF第1页，注1",
+        "verdict": "supported",
+        "reason": "页面准确保留平台与具体应用之间的区别。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "Alpha是全球咨询服务公司，具有四个主要职业层级及矩阵组织形式。",
+        "source": "原PDF第2页，Research Site and Methods",
+        "verdict": "supported",
+        "reason": "四层级及地方执行、总部业务协调的描述均对应原文；未将principal擅自译为合伙人。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "田野研究持续五个月，为1991年2月至6月，覆盖安装前预期、实施及早期使用。",
+        "source": "原PDF第2页，Research Site and Methods",
+        "verdict": "supported",
+        "reason": "时间、单个大型办公室及研究阶段均准确。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "资料包括非结构化访谈、文件、会议、工作会及培训观察；访谈约一小时且有人重复受访。",
+        "source": "原PDF第2页，Research Site and Methods",
+        "verdict": "supported",
+        "reason": "各资料类型、总部及技术部门补充访谈、时长与重复访谈均有明确依据；91不是独立人数的说明正确。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "表格Principals为13、4、17次。",
+        "source": "原PDF第2页，表1",
+        "verdict": "supported",
+        "reason": "业务、技术和合计三格一致，13+4=17。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "表格经理为26、15、41次。",
+        "source": "原PDF第2页，表1",
+        "verdict": "supported",
+        "reason": "三格一致，26+15=41。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "表格高级人员为12、13、25次。",
+        "source": "原PDF第2页，表1",
+        "verdict": "supported",
+        "reason": "对应原表Seniors，三格一致，12+13=25。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "行政人员为8、0、8次；总计59、32、91次。",
+        "source": "原PDF第2页，表1",
+        "verdict": "supported",
+        "reason": "原表行政技术栏的横线表示无该类访谈，转为0合理；各行列加总正确。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "这是探索性个案研究，表格不代表采用率，也不是软件随机分配的绩效实验。",
+        "source": "原PDF第1—2页，Introduction、Research Site and Methods；全文第1—8页",
+        "verdict": "supported",
+        "reason": "研究设计为田野访谈与观察，原文没有随机分组、绩效指标或人口加权采用率。页面对证据类型的限定准确。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "内部调查后设置类似CIO的职位，采购全公司许可并确立Notes通信标准。",
+        "source": "原PDF第2页，Background to the Notes Acquisition",
+        "verdict": "supported",
+        "reason": "调查、职位、产品接触、许可采购和标准确立的次序一致。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "部署追求速度、关键人数和意见领袖，未先做原型、试点及长期技术评价；技术部门缺乏正式推广与传播计划。",
+        "source": "原PDF第3—4页，Communication about Notes",
+        "verdict": "supported",
+        "reason": "分别对应CIO的明确策略及技术经理关于需求过载的陈述。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "技术框架具有个人与共享认知性质；员工以邮件、电子表格等熟悉技术理解Notes。",
+        "source": "原PDF第3页，Cognitive Elements、Communication about Notes",
+        "verdict": "supported",
+        "reason": "共享认知的形成条件及员工说法均有依据，未把框架缩减为操作技能。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "培训有视频练习册自学及最多四小时课堂训练，侧重邮件、编辑、数据库浏览而未突出协作与业务价值。",
+        "source": "原PDF第4页，Training on Notes",
+        "verdict": "supported",
+        "reason": "形式、最长时数、操作内容与缺少群体业务示范的条件完整对应。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "技术部门应用主要自动化既有信息流；作者建议具体群体应用演示和集体学习。",
+        "source": "原PDF第4页，Training on Notes；第7页，Discussion",
+        "verdict": "supported",
+        "reason": "页面区分了当时观察与讨论中的建议，没有将建议写成已验证干预。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "计费工时考核限制学习；邮件或浏览每天几分钟；安装后未相应提供学习资源和时间。",
+        "source": "原PDF第5页，Reward Systems；第7页，Discussion",
+        "verdict": "supported",
+        "reason": "工时机制、几分钟的近似口径及资源未调整均有原文依据。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "缺少数据质量、保密、访问和责任政策；CIO技术权力不自动延伸至组织政策。",
+        "source": "原PDF第5—6页，Policies and Procedures",
+        "verdict": "supported",
+        "reason": "高层安全顾虑、经理个人责任顾虑与分权组织中的权限边界均准确，未把受访者担忧当作已证实的软件漏洞。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "晋升或离开和竞争规范抑制共享；principals及技术人员形成内部对照。",
+        "source": "原PDF第6页，Firm Culture and Work Norms",
+        "verdict": "supported",
+        "reason": "独有知识的权力价值、较高层同侪文化及技术人员交换专长均有依据；页面另保留非随机、职能可能不同的限制。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "认知与结构共同作用；协作规范可由领导培训推动或由地方实验形成，并需要资源。",
+        "source": "原PDF第7页，Discussion",
+        "verdict": "supported",
+        "reason": "覆盖沟通教育、规范、合法化及正式研发预算或地方余裕资源等讨论要素。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "广泛部署和代表群体试点是两种策略；Alpha接近前者，论文未证明后者普遍更好。",
+        "source": "原PDF第7—8页，Discussion",
+        "verdict": "supported",
+        "reason": "两种策略及未来研究保留均准确，未虚构策略比较实验。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "研究只能说明单办公室早期经验；未来使用可能变化，并已形成标准化计算基础设施收益。",
+        "source": "原PDF第2页，方法局限；第4—5页，框架变化；第8页，Discussion结尾",
+        "verdict": "supported",
+        "reason": "没有永久失败或全公司推广结论；网络计算机和激光打印机的基础设施收益也得到保留。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "1997年Orlikowski与Hofman论文区分预期、自发及机会导向变化，以Zeta客户支持说明持续调整。",
+        "source": "https://www.dhi.ac.uk/san/waysofbeing/data/data-crone-orlikowski-1997.pdf ，第3—4页；https://shop.sloanreview.mit.edu/store/an-improvisational-model-for-change-management-the-case-of-groupware-technologies",
+        "verdict": "supported",
+        "reason": "已打开排印PDF和出版方页面；三类变化定义、Zeta软件企业客户服务案例及作者、1997年1月15日信息均可核实。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "1997年研究延展组织条件和资源问题，Zeta不是Alpha干预成功的报告。",
+        "source": "https://www.dhi.ac.uk/san/waysofbeing/data/data-crone-orlikowski-1997.pdf ，The Case of Zeta、Enabling Conditions、参考文献12",
+        "verdict": "supported",
+        "reason": "Zeta被描述为软件公司，Alpha原文为咨询公司；后文讨论组织适配和支持资源，并引用1992年论文。页面所作主题联系合理，没有混同案例。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "Dourish与Bellotti论文依据共享编辑任务录像，讨论可见行动如何降低协调负担。",
+        "source": "https://www.dourish.com/publications/1992/cscw92-awareness.pdf ，第4—7页，Shared Feedback、Description of Study、Discussion",
+        "verdict": "supported",
+        "reason": "已打开全文并核对：研究录像覆盖各阶段，报告分析四组录像；共享反馈使行动可见并支持动态协调。页面与组织采用研究的比较有事实依据。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "e2作者、1992年、CSCW、107—114页和DOI。",
+        "source": "https://www.dourish.com/publications/1992/cscw92-awareness.pdf ；https://doi.org/10.1145/143457.143468",
+        "verdict": "unverified",
+        "reason": "实际打开的作者版确认作者与标题，但不含会议正式页码和DOI；DOI打开失败。搜索结果虽显示对应书目，按本次要求不能作为已读来源确认其余元数据。"
+      },
+      {
+        "path": "papers/P03.md",
+        "claim": "p4将快速部署策略引到Training on Notes；e2将录像方法依据定位为Shared Feedback、Discussion。",
+        "source": "原PDF第4页；https://www.dourish.com/publications/1992/cscw92-awareness.pdf ，第4—5页",
+        "verdict": "error",
+        "reason": "论断本身有依据，但定位不够准确：CIO快速部署策略在Communication about Notes续文；录像分析的直接依据在4.2 Description of Study及其续文，不能只标Discussion。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句识别论文名称、作者、年份及组织田野研究类别，下一句给出研究对象和主要差异。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言覆盖问题、双重解释、资料与早期单办公室边界，正文均有对应。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "背景、方法、部署、两类因素、讨论、局限及后续均有实质资料，没有空章节。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清楚；部署次序和制度影响主要遵从作者解释，未把时间先后直接等同因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "使用作者认为、论文建议和受访者担忧等归属，未将探索性发现写成普遍定律。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "五个月、1991年2—6月、91次与四小时口径一致；表格全部加总正确。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "核心事实均有引注，但e2部分书目元数据尚未通过实际打开来源核实。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "p4与e2存在章节定位偏差，e2正式书目仍有未核细节；其他脚注支持范围基本准确。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "信息框作者、年份、场所及DOI与原文和提供的Crossref缓存一致。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "无宣传和大段复制，但“理解其方法的关键是看……”及“这是解释建议与已验证干预之间的区别”等读者指导和审校式说明混入百科正文。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "按探索性组织研究展开机制与证据，没有强套算法、准确率或消融模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "明确单办公室、早期阶段、非随机对照和未来变化的边界，没有宣称达到优良条目资格。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "认知中的沟通和培训，以及结构中的奖励、政策程序、文化规范均逐项展开。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文以部署过程和组织机制串联资料，并非研究问题、贡献等字段逐项改写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "人数和系统用途有解释，表格后说明访谈覆盖与比较用途，没有笔记式名称堆积。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "明确91是访谈次数、重复访谈、表格分组、五个月阶段及培训时数上限。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "与共享工作空间论文的联系具体比较研究对象、录像证据和组织条件，没有只列泛化概念链接。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代当时群件期待、既有研究不足及平台应用开发性质，没有以问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未作革命性或效果显著等无据赞誉；收益落实为邮件、个人生产力和基础设施。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P03.md",
+        "sections": [
+          "信息框及导言",
+          "背景：从部署工具到改变工作",
+          "研究如何开展及表格全部数据",
+          "部署经过：高层愿景与基层经验",
+          "认知因素：技术框架、沟通及培训",
+          "结构因素：计费奖励、政策责任及竞争规范",
+          "两类因素怎样共同作用",
+          "局限与后续研究",
+          "参见中的实质论文关系",
+          "参考文献p1—p8及e1—e2",
+          "原文Abstract、Introduction",
+          "原文Research Site and Methods",
+          "原文Research Results及全部认知、结构子节",
+          "原文Discussion及基础设施收益"
+        ],
+        "unverified": [
+          "e2正式会议书目中的1992年、107—114页及DOI尚未由成功打开的书目来源确认；作者版全文已实际阅读并核实正文论断。"
+        ]
+      }
+    ],
+    "review": [
+      "核心框架、研究条件、全部表格数字、主要发现及原文局限覆盖充分，未发现实质性数字错误。",
+      "仍需处理e2书目核实和两处引文章节定位问题；正文部分审校式指导语言不符合纯百科行文。",
+      "本次未改动文稿。"
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C058",
+    "C059"
+  ],
+  "page_hashes": {
+    "concepts/C058.md": "8145f5e5656f41bb7a05f0a419dd0faab41b22257071b44c7fc054977ad65893",
+    "concepts/C059.md": "1b612e6b20e6ecc70b6df4a9cc99675a797046d15dd5b4fc1963ea4e23c0579e"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C058.md",
+        "claim": "棘手问题的核心包含问题界定、目标与可接受结果的分歧，而不只是技术困难。",
+        "source": "P01，物理PDF第3、5页；https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2 ，Introduction、Wicked Problems Defined",
+        "verdict": "supported",
+        "reason": "原论文强调利益相关者观点冲突；实际打开的Head章节也将价值分歧与技术性难题区分。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "问题框定与方案设计相互影响，增加计算精度不能自行决定应当优先满足谁的目标。",
+        "source": "P01，物理PDF第3、5页；Head章节，Wicked Problems Defined",
+        "verdict": "supported",
+        "reason": "符合持续重构问题的机制及不同解释决定处理方向的命题，没有把价值选择写成计算结果。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "居家养老例子包含成年子女重视安全与老人希望留在家中的目标冲突。",
+        "source": "P01，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "人物关系、家与身份认同、社会孤立均对应原文；监控与自主生活的两种框定已明确标成自拟示例。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "分析表以问题界定、价值、后果及结束条件说明棘手问题。",
+        "source": "P01，物理PDF第5、7–8页；Head章节，Wicked Problems Defined",
+        "verdict": "supported",
+        "reason": "表格是对来源机制的教学整理，没有冒称原作者提出的四步算法或固定分类。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "原理论包含没有确定表述、没有停止规则、按好坏评价等十项特征。",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2 ，Wicked Problems Defined",
+        "verdict": "supported",
+        "reason": "逐项对应该节十项命题，包含不可穷尽方案、独特性、症状关系、解释选择及规划者责任，未遗漏核心命题。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "通过设计进行研究将行为理论、技术机会及实际情境知识整合，并在构思、迭代与批评中持续重构问题。",
+        "source": "P01，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "准确说明输入知识、活动与输出；问题框定、期望状态、模型、原型、产品及过程文档均有原文依据。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "家庭智能服务例子同时包含父母保护与培养独立、孩子寻求安全与探索身份的张力。",
+        "source": "P01，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "双方愿望与关系保持准确；原型表达一种平衡而不消除争议，是对框定及冲突观点平衡机制的合理说明。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "设计研究与技术研究可以合作，前者补充对期望处境及问题框定的讨论。",
+        "source": "P01，物理PDF第4–7页",
+        "verdict": "supported",
+        "reason": "原文明确提出平等合作，并以工程规格及可建造性问题作比较，没有声称设计取代科学工程。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "论文把所提模型作为批判性设计之外的补充角色，使设计研究者成为合作者。",
+        "source": "P01，物理PDF第4、7页",
+        "verdict": "supported",
+        "reason": "准确保留补充关系，没有把批判性设计与合作研究写成互不相容。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "后续讨论质疑概念成为流行词，并主张细化温顺与棘手的二分。",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2 ，Abstract、Arguments for a Sliding Scale—Degrees of Intractability",
+        "verdict": "supported",
+        "reason": "实际打开的章节讨论二分局限及不同程度的复杂、不确定与价值分歧；页面将这些观点归于回顾与相关学者。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "不能仅凭计算量大、时间不足或程序故障就判定问题棘手，也不能认为全部方案同样合理。",
+        "source": "Head章节，Wicked Problems Defined、Arguments for a Sliding Scale；P01，物理PDF第7–8页",
+        "verdict": "supported",
+        "reason": "这是从定义与评价要求说明适用边界，没有加入新的经验结论。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "P01真正采用棘手问题作为研究模型的理论切入点，但家庭与养老冲突不是受控实验验证的求解成果。",
+        "source": "P01，物理PDF第1–10页，尤其第5、7–9页",
+        "verdict": "supported",
+        "reason": "清楚区分理论采用、说明性问题与研究模型评价；没有将设想写成已部署并解决社会冲突的系统。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型在交互设计中以较高抽象层次描述系统组织与运作，不等同于实现细节。",
+        "source": "Johnson与Henderson原始全文缓存，物理PDF第2–4页；P22，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "定义与来源一致；正文明确交互设计语境，未将其等同于预测模型。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "Johnson与Henderson主张先设计概念模型，再设计界面。",
+        "source": "https://doi.org/10.1145/503355.503366 ，原始全文缓存物理PDF第1–2页",
+        "verdict": "supported",
+        "reason": "原文直接提出这一设计顺序；页面没有声称2002年首次发明概念模型。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "模型组成包括隐喻、对象、属性、行动、概念关系及到任务领域的映射。",
+        "source": "Johnson与Henderson原始全文缓存，物理PDF第2–4页",
+        "verdict": "supported",
+        "reason": "组成完整，对象—行动分析及不要求用户理解模型之外概念的约束均可核对。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "图书目录示例可围绕馆藏、预约、借还及账户组织，而不要求用户理解文件流或数据库实现。",
+        "source": "Johnson与Henderson原始全文缓存，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "图书馆对象示例及实现对象的排除均见原文；页面将其连成教学说明，没有增添实验结果。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型与用户实际形成的心智模型需要区分，用户认识受既有经验影响且可能不准确。",
+        "source": "Johnson与Henderson原始全文缓存，物理PDF第2、4页；https://www.nngroup.com/articles/mental-models/",
+        "verdict": "supported",
+        "reason": "实际打开的NNGroup正文支持信念、经验与个体差异；没有将展示说明等同于理解成功。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "NNGroup引用的作者、2024年日期及2026年复审信息真实。",
+        "source": "https://www.nngroup.com/articles/mental-models/",
+        "verdict": "supported",
+        "reason": "页面署名Megan Chan，日期为2024年1月26日，复审为2026年9月1日；引用未混淆原始更新与复审时间。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "P22由个人评分档案、寻找相似邻居、合并邻居评分的三步模型推导解释成分。",
+        "source": "P22，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "这是真正采用的解释设计方法；表格进一步区分每一步可解释的过程与数据。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "当前兴趣可能不同于平均相似性，解释可支持用户检查邻居与当前需求的匹配。",
+        "source": "P22，物理PDF第2、4页",
+        "verdict": "supported",
+        "reason": "来源讨论情境性兴趣与相似度局限，页面未声称系统已完整建模这些情境。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "Jane假想例中，五名邻居分成三名高评分与两名中性或略负评分者，她检查趣味后信任推荐。",
+        "source": "P22，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "数量、评分方向、艺术电影与好莱坞趣味的关系、行动顺序均准确，且明确是假想例。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "黑箱条件仍可提供过去表现或外部影评等支持证据，但这些不等于揭示内部计算。",
+        "source": "P22，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "准确区别内部过程说明与外部佐证；租借、购买记录及影评均属于原文说明场景，没有冒称真实部署。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "MovieLens用户曾误以为推荐依赖导演、演员和类型；论文不进一步研究故意诱导错误模型的情形。",
+        "source": "P22，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "准确区分用户来信反映的误解与作者提出但未展开研究的故意误导问题。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型不能自动决定最佳界面，因此论文比较21种解释呈现。",
+        "source": "P22，物理PDF第5–7页",
+        "verdict": "supported",
+        "reason": "21种呈现及信息负担动机都有依据；正文未将所有候选解释都写成应当同时显示的功能。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "论文分别研究接受意愿与过滤表现，实际实验执行顺序与叙述顺序相反。",
+        "source": "P22，物理PDF第6–10页，Experimental Notes；Crossref缓存10.1145/358916.358995",
+        "verdict": "supported",
+        "reason": "研究关系、顺序及书目均吻合；页面只说考察过滤表现，没有误称已证实提升。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "P16用设计者预期的概念模型与参与者心智模型的错位解释工具误用。",
+        "source": "P16，物理PDF第8–10页",
+        "verdict": "supported",
+        "reason": "论文明确命名这一区别，属于实际分析框架；页面也与P22用于生成解释成分的用途作出具体比较。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "P16参与者可能依赖直觉或表面合理性忽略异常，并仍表示愿意部署模型。",
+        "source": "P16，物理PDF第8–10页",
+        "verdict": "supported",
+        "reason": "对应定性主题与部署意愿结果；页面使用有时等限定，没有推成全部数据科学家的普遍行为。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均给出名称、英文、类别与区别特征；C059后文进一步限定交互设计语境。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言分别概括价值冲突与框定、模型结构与推荐解释用途，均能在正文找到展开和证据。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖定义、机制、组成、例子、发展与边界；概念不以数学公式定义，无须凑造公式。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落分别围绕框定、知识整合、模型区别等中心组织，没有把时间先后写成未经支持的因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "十项命题、后续二分批评、设计建议及参与者研究发现均有明确主体归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "五名邻居、三与二的分组、21种界面均准确；NNGroup发表与复审阶段分开标记。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、原例、后续争论及站内应用均有可核对的原论文、原始缓存或实际打开的外部正文支持。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "物理PDF页码覆盖相应论点，DOI与所给书目证据一致；没有发现将摘要当全文的引用。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "两页均未使用信息框，不存在信息框与正文冲突；前置元数据不冒充研究结论。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "自拟框定与Jane假想例均有标识；无长篇复制、宣传结尾或新增研究性结论。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用技术概念的组织方式，分别展开社会规划理论与交互设计结构，没有硬套训练或实验结果模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文保留方法适用范围和研究边界；未发现必须保留却被隐藏的事实缺口，也未宣称达到优良条目资格。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "C058覆盖十项特征与重构机制；C059覆盖模型组成、三步流程、白箱黑箱及错误模型，核心内容完整。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文以为何需要重构、如何选择解释内容等关系展开，未按输入字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "术语、人物与数字均附机制或场景；表格承担对照说明，没有堆砌未经解释的系统名称。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "五名邻居用于说明分布与情境相似性，21种界面用于说明模型不足以决定呈现；数字有对象和用途。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内关系明确说明P01的理论切入点、P22的解释设计及P16的理解错位分析，非套话链接。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景提供社会规划中的价值分歧，以及界面设计前决定对象和行动的实际设计问题，并非只列问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未出现革命性或效果显著等无据赞誉；也没有将未获证实的过滤表现提升写成成果。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C058.md",
+        "sections": [
+          "导言与定义",
+          "为什么不能先固定全部要求",
+          "典型困难与问题重构：分析表与十项特征",
+          "通过设计进行探索",
+          "与技术研究及批判性设计的关系",
+          "后续讨论与概念边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C059.md",
+        "sections": [
+          "导言与定义",
+          "交互设计中的发展：组成、隐喻与对象—行动分析",
+          "模型与实现、用户理解的区别",
+          "一个三步模型怎样指导解释：过程数据表与Jane例子",
+          "白箱、黑箱与错误模型",
+          "以模型控制解释细节",
+          "在本站论文中的作用与局限：P22与P16",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "依据用户提供的维基体规则审校；仅使用所给材料与web检索、打开来源，未访问文件系统或其他会话。",
+      "已实际打开Head章节与NNGroup文章；Johnson与Henderson的定义和组成依据所给官方URL原始全文缓存核对。",
+      "P01属于概念与研究模型的实际采用，家庭和养老属于说明性问题；P22实际以模型推导解释成分；P16实际以模型错位分析使用行为。三者关系表述准确。",
+      "未发现需标为error或unverified的具体页面论断；此判断不等同于自动发布或优良条目资格认定。"
+    ]
+  }
+}

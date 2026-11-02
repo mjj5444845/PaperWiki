@@ -1,0 +1,399 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C055",
+    "C056",
+    "C057"
+  ],
+  "page_hashes": {
+    "concepts/C055.md": "9e82cf0bd6e683b1663735f4d4d9265390a94de5ab2098b767af931c48af7e49",
+    "concepts/C056.md": "7c350192359cd95bf2cbebdd9d4342fccbb16a7aa95bc794044497f5bba53ad6",
+    "concepts/C057.md": "e4d36f1df7c6e1e79acc23a4cdf6641a08433bf3e0d39a73cd5c6c031f3b31bc"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C055.md",
+        "claim": "暗黑模式通过界面干扰、操纵或误导选择，使服务提供者受益而可能损害用户利益。",
+        "source": "P19，物理PDF第1–2页；P14，第1、8–9页。",
+        "verdict": "supported",
+        "reason": "定义保留了服务方收益、用户选择受影响和潜在伤害三个要素，没有把所有不良体验都归入暗黑模式。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "Gray等人归纳出反复纠缠、阻碍、偷偷进行、界面干预和强制行动五种策略。",
+        "source": "P14，物理PDF第4–8页。",
+        "verdict": "supported",
+        "reason": "五项名称、机制及通知请求、退出成本等例子与原文一致；表中检查问题属于解释性整理，没有冒充原文验证过的判定量表。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "五种策略不能作为自动判断设计者恶意的规则。",
+        "source": "P14，物理PDF第8–9页。",
+        "verdict": "supported",
+        "reason": "作者明确讨论善意设计产生操纵结果的可能，并拒绝把策略作为伦理检查清单。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "购物网站研究分析约53,000个商品页、约11,000个网站，发现1,818个实例、15种类型、7个类别及22家第三方实体。",
+        "source": "P19，物理PDF第1–3、9、23–24页。",
+        "verdict": "supported",
+        "reason": "数量与单位准确；实际采集为53,180个商品页、11,286个网站，页面使用近似数合理，也保留了样本边界。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "不同暗黑模式分类关注策略、界面形式或应用场景，不能简单一一对应。",
+        "source": "P14，物理PDF第3–4页；P19，第4页。",
+        "verdict": "supported",
+        "reason": "原文明确指出早期分类混合情境、策略和结果；页面没有把不同分类版本合并成同一套定义。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "Mathur等人的五个特征维度是不对称、隐蔽、欺骗、隐藏信息和限制选择，可同时描述同一界面。",
+        "source": "P19，物理PDF第5–6、12–13页。",
+        "verdict": "supported",
+        "reason": "维度定义和各自例子忠实于原文；隐藏费用同时涉及欺骗与信息隐藏的解释也有具体分类依据。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "普通退换货安排和多张商品照片不因具有说服作用就成为暗黑模式。",
+        "source": "P19，物理PDF第5页。",
+        "verdict": "supported",
+        "reason": "这是原文明确给出的边界，页面正确区分说服与对用户决策的颠覆。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "183是涉及进一步查证的欺骗做法的网站数，不能与1,818个界面实例混同。",
+        "source": "P19，物理PDF第1–2、27页。",
+        "verdict": "supported",
+        "reason": "统计单位区分准确；原文另报告234个欺骗实例，但页面没有误报或把183写成实例数。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "爬取、文本预处理、聚类和专家情境检查构成识别流程，动态模式每四小时检查一次、持续五天。",
+        "source": "P19，物理PDF第6–11页。",
+        "verdict": "supported",
+        "reason": "机制和时间口径准确，明确聚类辅助筛查而非自动作出伦理分类。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "脚注n5所列第6、10–11页覆盖商品发现、加入购物车和进入结算的具体爬取机制。",
+        "source": "P19，物理PDF第6–11页；候选页脚注n5。",
+        "verdict": "error",
+        "reason": "第6页只给流程概述，具体导航、按钮识别与结算爬虫在第7–9页。正文事实正确，但该脚注对具体机制的页码定位不完整。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "文本测量不能覆盖全部视觉操纵，也没有直接测量每位用户的伤害。",
+        "source": "P19，物理PDF第6、26–27页。",
+        "verdict": "supported",
+        "reason": "原文把视觉检测和行为效应研究列为后续方向，并说明个体易感性及分类灰区。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "设计实践论文分析组织压力和责任，但不是通过设计师访谈建立组织条件的因果效果。",
+        "source": "P14，物理PDF第3–4、9–10页。",
+        "verdict": "supported",
+        "reason": "该研究实际分析118件实例材料，页面准确限定了方法与解释性质。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "FTC于2022年发布报告，讨论伪装广告、隐藏费用、未经授权收费、取消障碍和隐私选择。",
+        "source": "https://search.ftc.gov/system/files/ftc_gov/pdf/P214800%20Dark%20Patterns%20Report%209.14.2022%20-%20FINAL.pdf，已提供原始缓存，物理PDF第1、4、7–15页。",
+        "verdict": "supported",
+        "reason": "报告年份、主题和脚注主要定位均有原文支持；页面没有把类型标签直接当成具体案件的法律裁判。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "TUI把数字信息与物理对象或环境联系，Tangible Bits包括交互表面、可抓取物件及周边环境媒介三个方向。",
+        "source": "P12，物理PDF第1–3页。",
+        "verdict": "supported",
+        "reason": "定义和三项构想完整，并说明环境媒介超出狭义手持物件操作。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "表示、操作、反馈和空间使用可用于解释物理状态与数字状态的关系。",
+        "source": "P12，物理PDF第2–6页。",
+        "verdict": "supported",
+        "reason": "表格与原型机制相符，未声称这四项是原论文正式提出的另一套分类。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Tangible Geospace通过大圆顶和Media Lab两个物件约束地图，实现平移、缩放、旋转及双人协作。",
+        "source": "P12，物理PDF第4–5页。",
+        "verdict": "supported",
+        "reason": "操作顺序、二维桌面与三维activeLENS反馈均准确，读者可以走通具体交互过程。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "双圆柱滑杆仪器用于约束独立旋转并分开缩放和旋转。",
+        "source": "P12，物理PDF第5页。",
+        "verdict": "supported",
+        "reason": "原文明确描述已设计的机械约束仪器。页面可进一步补充原有双phicon软件当时忽略冲突旋转，但现有叙述未虚构仪器机制。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "transBOARD单向捕获白板笔画，hyperCARD条码指向服务器记录，条码扫描繁琐促使作者计划采用被动RFID。",
+        "source": "P12，物理PDF第6–7页。",
+        "verdict": "supported",
+        "reason": "物理卡片与服务器数据的关系准确，RFID被标为计划而非已经部署的功能。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "ambientROOM利用周边媒介呈现信息，弹珠答录机则是Bishop的先行设计参照。",
+        "source": "P12，物理PDF第3、5–6页。",
+        "verdict": "supported",
+        "reason": "正确区分作者原型与引用的先行作品，没有把答录机写成本站论文的新实验。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Tangible Interaction比狭义TUI更宽，协作收益的证据较充分，学习收益仍需按条件区分。",
+        "source": "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction，第45章，已实际打开。",
+        "verdict": "supported",
+        "reason": "作者概述明确讨论范围扩展及评价不确定性，页面没有声称动手操作必然提高学习效果。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Radical Atoms针对刚硬物件与流动数字信息的差异，提出双向同步的动态材料愿景；2009年讨论展示，2012年发表文章。",
+        "source": "https://tangible.media.mit.edu/project/radical-atoms/，已实际打开。",
+        "verdict": "supported",
+        "reason": "官方项目页明确支持材料限制、双向同步与两个阶段的日期，页面保留了假想材料和研究愿景性质。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Tangible Bits主要是研究纲领与原型探索，没有提供证明TUI普遍优于GUI的统一对照实验。",
+        "source": "P12，物理PDF第1、4–8页。",
+        "verdict": "supported",
+        "reason": "原文明确以提出愿景和研究问题为目标；页面准确限制了原型展示的证据力度。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "机器学习通过数据学习模型；监督、无监督、强化学习具有不同信号，生成式任务与这些训练方式并非互斥。",
+        "source": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml，已实际打开。",
+        "verdict": "supported",
+        "reason": "定义、分类与回归、聚类、奖励及生成内容的关系均符合官方教程。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "预测记号ŷ=fθ(x)只表达输入、参数和输出关系，并不保证泛化。",
+        "source": "P20，物理PDF第4、7–10页；Google机器学习入门教程。",
+        "verdict": "supported",
+        "reason": "符号解释一致，没有把一般预测函数冒充适用于所有学习范式的完整训练公式。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "平方损失放大大误差；训练、验证和测试承担不同角色，反复用测试集选择模型会污染最终评估。",
+        "source": "https://developers.google.com/machine-learning/crash-course/linear-regression/loss；https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets，均已实际打开。",
+        "verdict": "supported",
+        "reason": "损失机制及独立评估原则正确；页面未将训练拟合等同于现实有效性。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "示意数据(1,2)、(2,4)下，w=1的平方误差和为5，w=2为0，新输入3预测6。",
+        "source": "候选页示意例算；Google线性回归损失教程。",
+        "verdict": "supported",
+        "reason": "算术正确，清楚标注为教学例算，并说明新输入预测仍需独立验证。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "AI素养论文将ML步骤及人的模型选择、编程和微调决策列为学习内容。",
+        "source": "P17，物理PDF第5–6页。",
+        "verdict": "supported",
+        "reason": "与能力9–13一致；关系属于教育框架中的学习对象，没有误写为该论文训练了模型。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "AI素养不要求所有学习者先会编写训练代码。",
+        "source": "P17，物理PDF第2页；候选页脚注n2仅列第5–6页。",
+        "verdict": "error",
+        "reason": "论断本身有明确原文支持，但当前引注遗漏直接论述编程并非前提的第2页，需修正定位范围。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "ESP Game通过两位玩家词语匹配生成图像标签，并将其作为潜在训练资源，没有训练新的通用视觉模型。",
+        "source": "P25，物理PDF第1–3、6–7页。",
+        "verdict": "supported",
+        "reason": "正确区分人工标签生产、潜在机器学习用途和实际模型训练；2004年的能力判断也保留了历史语境。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "数据级联研究访谈53名从业者，报告相机变化、镜头污渍、GPS频率和时间戳错配等问题，并建议持续领域合作与文档实践。",
+        "source": "P20，物理PDF第1、4、7、9–11页。",
+        "verdict": "supported",
+        "reason": "人数、案例及建议归属准确，页面保留自报告访谈性质，没有把建议写成已验证的通用干预效果。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "暗黑模式研究用714个人工标注URL训练逻辑回归辅助导航，五折交叉验证平均准确率83%。",
+        "source": "P19，物理PDF第7–8页。",
+        "verdict": "supported",
+        "reason": "训练对象、特征及用途准确，尤其明确83%属于商品URL分类而非暗黑模式自动识别。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "同一研究以词袋、三个PCA成分及HDBSCAN组织文本，三个成分保留超过95%的方差。",
+        "source": "P19，物理PDF第10–11页。",
+        "verdict": "supported",
+        "reason": "忠实报告论文的具体设置，并说明最终模式判定依赖专家情境分析。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "解释工具研究在人工修改的Adult Income数据上训练GAM和LightGBM，准确率依次为0.907、0.904，SHAP解释后者。",
+        "source": "P16，物理PDF第3–4页。",
+        "verdict": "supported",
+        "reason": "数据处理、模型与解释工具配对、数字顺序均准确，保留了两种配置同时变化的比较边界。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "现有按年代排列的本站研究足以承担机器学习概念的发展与变体介绍。",
+        "source": "候选页“数据与标签的作用”及“训练、验证与新输入”；所提供概念深度模板。",
+        "verdict": "error",
+        "reason": "页面解释了主要学习范式，但没有概念自身的发展脉络。2004至2020年的本站研究位置对照不能替代机器学习的历史或方法发展；这是内容覆盖不足，并非该对照本身失实。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三页首句均给出中文名称、英文原名、类别和核心区别。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言分别覆盖选择操纵、物理数字耦合、数据学习及本站研究位置，与正文一致。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "C057缺少概念自身的发展脉络；其余章节基本有资料支撑，没有空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清楚，按机制、实例及边界展开；没有把年代先后写成技术替代的因果链。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "组织伦理、学习效果及材料愿景均有明确主体，实际采用、建议与参照作品的关系区分准确。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "网站与实例、模型准确率、访谈人数和教学例算均有口径；2009与2012被正确区分为不同阶段。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、机制、数字及外部背景均有真实来源，未发现虚构事实依据。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "C055的n5遗漏具体爬取机制所在第7–9页，C057的n2遗漏编程非前提所在第2页；已提供书目缓存支持主要作者、年份与DOI。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；页首元数据与正文主题一致，没有不确定字段冒充事实。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "无长段复制或无依据宣传；自拟计算明确为示意，主要边界说明属于知识内容。"
+      },
+      {
+        "item": 11,
+        "pass": false,
+        "reason": "三页按技术概念组织，实例和应用充分，但C057的发展方面尚未满足概念模板的实质要求。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "页面没有宣称自评通过或达到优良条目资格；本审校明确列出引用定位和覆盖不足。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "核心机制总体完整，但C057仍缺概念发展脉络；不能以本站论文年代对照补足这一方面。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕机制和证据关系组织，没有逐字段转写研究问题、贡献或数据。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名与数字均附作用说明；Tangible Geospace和机器学习流程具有连续解释。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "1,818、183、83%及两模型准确率均说明对象与用途，教学数字也明确不属于实验结果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用说明了具体模块、教育对象、资料供给或实践研究关系，没有用参见链接代替分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景有GUI限制、购物流程操纵和数据标签作用等实质内容，不是只提出问题。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、普遍优越或效果显著等空泛赞誉，愿景与效果证据保持分离。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C055.md",
+        "sections": [
+          "导言：定义、研究位置与FTC背景",
+          "界面怎样影响选择：机制、五种策略和对比例子",
+          "从设计实例到规模测量：样本结果、分类关系、五个特征维度、统计单位、爬取与专家分析",
+          "意图、结果与伦理判断：组织条件、设计责任与说服边界",
+          "后续讨论与边界：消费者保护、两篇本站论文的作用及测量限制",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C056.md",
+        "sections": [
+          "导言：TUI定义与Tangible Bits范围",
+          "从物理动作到数字状态：三项方向及表示、操作、反馈和空间关系",
+          "原论文中的几种实现：metaDESK完整操作、旋转约束、transBOARD、ambientROOM及弹珠答录机参照",
+          "后续发展与材料限制：Tangible Interaction范围、评价证据与Radical Atoms",
+          "在本站论文中的应用与局限：原型纲领、效果证据及物理媒介限制",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C057.md",
+        "sections": [
+          "导言：定义、学习信号与本站研究位置",
+          "从样例到预测：监督、分类、回归、无监督及预测记号",
+          "训练、验证与新输入：损失、数据划分、例算、强化学习与生成式任务",
+          "人在流程中的选择：教育框架、流程判断与迭代",
+          "数据与标签的作用：ESP Game、潜在训练用途及历史语境",
+          "从模型到实际系统：数据级联访谈、设备和资料问题及作者建议",
+          "在本站论文中的不同位置：教育、实践、标签供给、URL分类、PCA与HDBSCAN、GAM与LightGBM及解释工具",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "依据用户提供的完整论文、FTC原始缓存及Crossref书目缓存核对；另实际搜索并打开Google教程、Hornecker领域概述和MIT Radical Atoms官方页面，未以搜索摘要代替原文。",
+      "主要事实与应用归属可靠。应修正两处物理PDF页码范围，并补足C057的概念发展脉络后再验收。",
+      "未发现需要标为unverified的现存具体事实；内容缺项与引用定位问题已分别记录为error，不扩大为无证据的事实争议。"
+    ]
+  }
+}

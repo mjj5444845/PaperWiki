@@ -1,15 +1,7 @@
-# 部署与线上验收
+# 深度重写部署与线上验收
 
-日期：2026-11-01。
+内容验收：原25篇论文及88个概念页全部通过当前快照独立复核；25篇盲读为9—10/10。28项测试通过，`/`、`/PaperWiki/`、`/renamed-repo/`构建通过；115个站内实体（含此前两篇收件箱论文），747条按页面对去重的有向链接，零死链、零孤立页。
 
-- 网站：https://mjj5444845.github.io/PaperWiki/
-- 仓库：https://github.com/mjj5444845/PaperWiki
-- 首次部署提交：`3e1c104`；保留远端原有 main 历史，使用普通推送。
-- 成功工作流：https://github.com/mjj5444845/PaperWiki/actions/runs/41348642790
-- Pages Source 已通过 GitHub API 设置为 GitHub Actions，无需用户再次设置。
-- 所有 348 个生成的 HTML、JSON、CSS、JS 和字体地址在线返回 HTTP 200（见 online-http.json）。构建检查验证 `/PaperWiki/` 前缀及全部内部目标；另有 `/` 和改名路径测试。
-- 在线浏览器实测：中文“协同过滤”、英文“SHAP”搜索；MTurk 跳转至 Amazon Mechanical Turk 并显示别名提示；脚注与返回箭头；红链提示及落地页；内部链接导言预览（键盘聚焦触发，与鼠标共用显示逻辑）；协同过滤页 4 个 KaTeX 渲染节点。
-- 将线上 P23 页面放入 390px iframe，核验窄屏信息框及折叠菜单，展开后导航可见；见 preview-live-mobile.png。首页截图见 preview-live.png。
-- 公开提交树未包含论文 PDF、raw/、extract/、site/ 或本地配置；首次推送已通过清单确认和密钥扫描。
+本提交准备发布到 https://mjj5444845.github.io/PaperWiki/ 。线上工作流、HTTP全站检查与浏览器检查将在实际部署后补充；不沿用旧站检查冒称新版验收。收件箱任务在新版验证完成前保持暂停。
 
-未发现阻碍阅读或部署的问题。线上检查不包括逐一核验外部 DOI 网站的可用性；论文事实抽查覆盖 5 篇，详见 fact-check.md。
+资料边界见rewrite-report.md：未取得P16独立补充文件及P24配套另一篇论文的附录。自动新稿的负例拦截已实测，本次未宣称成功完成全自动新论文发布。

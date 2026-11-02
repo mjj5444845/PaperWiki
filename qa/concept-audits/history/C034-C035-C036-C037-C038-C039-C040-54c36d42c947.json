@@ -1,0 +1,535 @@
+{
+  "ids": [
+    "C034",
+    "C035",
+    "C036",
+    "C037",
+    "C038",
+    "C039",
+    "C040"
+  ],
+  "page_hashes": {
+    "concepts/C034.md": "a9d60a315e738c93b74f69deab64826da8da1fc64e3fa637cdbe07152960ab36",
+    "concepts/C035.md": "87b6f80678bcc876b3d9e610fbeb924567baaa896d758126d5c9bcd9d75ab212",
+    "concepts/C036.md": "73cb6e065a97024bcbe65cc9d80dc6d88a8ad99ac869376b7117e73596768bd4",
+    "concepts/C037.md": "07e554ed7b4fa2346c8101e6dbe41a2a239d68d306e4f16b1dddc04e65fbd9f8",
+    "concepts/C038.md": "77d4e81b1dda8904b6e3449db1d4d15a03f450bb2af9b120468ea281f92069d4",
+    "concepts/C039.md": "84c48b250a9847a00b00e49324c768cc3c8dc92bce63c783bb9efa85777b1b54",
+    "concepts/C040.md": "42ee6e650dfb6898cb5f53358e5700307755730e4b8be14eb02086e30144b301"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C034.md",
+        "claim": "女性主义HCI将权力、主体性、性别和社会正义纳入交互研究，并兼有批判与生成作用。",
+        "source": "P07，物理PDF第1–2、8页",
+        "verdict": "supported",
+        "reason": "定义和两类贡献均与原文相符，未把议程写成实验技术。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "六品质为多元、参与、倡议、生态、具身性和自我揭示，构成开放的品质集合。",
+        "source": "P07，物理PDF第5–8页",
+        "verdict": "supported",
+        "reason": "六项完整，解释准确；自我揭示正确指向软件如何构造用户，而非索取隐私。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "Rangoli用村民联系人记录实践发展颜色和图标组织方案。",
+        "source": "P07，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "保留了观察、设计资源与界面方案之间的关系，没有将案例误写为普遍偏好。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "Hoosier橱柜提高效率，同时受到Bardzell关于家务角色固化的批评。",
+        "source": "P07，物理PDF第7页",
+        "verdict": "supported",
+        "reason": "正确归属为作者的生态批判，没有包装成独立因果实验。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "Hollaback通过研究者位置披露、敏感访谈媒介选择等落实女性主义方法。",
+        "source": "P10，物理PDF第4–6、10页",
+        "verdict": "supported",
+        "reason": "论文明确采用女性主义方法；参与组织、开发和即时消息访谈均有具体记录。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "Turkopticon以倡议张力和部分联盟处理劳动者间的差异。",
+        "source": "P11，物理PDF第2、5–9页",
+        "verdict": "supported",
+        "reason": "论文明确引用Bardzell的倡议问题，并以共享评价、分维度评分和持续维护实施干预。"
+      },
+      {
+        "path": "concepts/C034.md",
+        "claim": "McDonald等以女性主义HCI说明强求一致可能损害边缘视角。",
+        "source": "P18，物理PDF第5、14页",
+        "verdict": "supported",
+        "reason": "准确呈现其方法论用途，未推导为女性主义研究普遍禁止统计或多人编码。"
+      },
+      {
+        "path": "concepts/C035.md",
+        "claim": "立场理论主张社会位置影响知识，但身份不自动提供正确性。",
+        "source": "P07，物理PDF第2页；https://plato.stanford.edu/archives/fall2024/entries/feminism-epistemology/ ，第2节",
+        "verdict": "supported",
+        "reason": "已打开SEP原文；其区分位置、优势范围、根据与取得条件，支持页面的限定。"
+      },
+      {
+        "path": "concepts/C035.md",
+        "claim": "Hartsock、Rose、MacKinnon和Collins的版本分别强调不同认识资源。",
+        "source": "https://plato.stanford.edu/archives/fall2024/entries/feminism-epistemology/ ，第2、5节",
+        "verdict": "supported",
+        "reason": "劳动与照护、集体行动、种族和性别交织以及后续多元化的归属准确。"
+      },
+      {
+        "path": "concepts/C035.md",
+        "claim": "立场理论在Bardzell议程中支持边缘用户、多元与参与。",
+        "source": "P07，物理PDF第2、5–6页",
+        "verdict": "supported",
+        "reason": "确为原文的认识论和设计论证，页面没有声称研究实施了统一操作程序。"
+      },
+      {
+        "path": "concepts/C035.md",
+        "claim": "Rangoli是立场理论影响设计起点的说明。",
+        "source": "P07，物理PDF第5–6页",
+        "verdict": "supported",
+        "reason": "作为Bardzell多元品质的设计参照成立；页面没有声称Rangoli团队明确采用或验证立场理论。"
+      },
+      {
+        "path": "concepts/C035.md",
+        "claim": "女性主义参与过程补充可用性测试，而非否定实验。",
+        "source": "P07，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "原文明确保留科学策略与可用性测试，并主张以参与过程补充。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "GAM通过连接函数将条件均值表示为基准项与特征函数之和。",
+        "source": "https://interpret.ml/docs/ebm.html ，How it Works；https://stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.html",
+        "verdict": "supported",
+        "reason": "已打开官方文档；公式、符号、连接尺度与非线性加性解释一致。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "基本单变量加性形式可扩展交互，GAM不等同于EBM。",
+        "source": "https://interpret.ml/docs/ebm.html；https://stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.html",
+        "verdict": "supported",
+        "reason": "正确区分类结构、特定训练算法和交互扩展，没有倒推历史实验配置。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "mgcv采用基函数、平滑惩罚及GCV或REML等平滑参数估计。",
+        "source": "https://stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.html ，Description、Details及示例",
+        "verdict": "supported",
+        "reason": "估计机制与多维平滑、混合模型扩展有官方依据。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "恒等连接例算10+2+3−1=14，其他连接需逆变换。",
+        "source": "页面所列公式；InterpretML官方EBM文档",
+        "verdict": "supported",
+        "reason": "算术正确，明确为示意；严格说14表示拟合条件均值，页面未将它冒充观测收入。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "P16将高收入记录中10%的年龄替换为38，使用GAM帮助参与者发现问题。",
+        "source": "P16，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "操纵分母、替换值及工具角色均准确。"
+      },
+      {
+        "path": "concepts/C036.md",
+        "claim": "两模型测试准确率为0.907和0.904，正常条件读图正确率为78.1%和58.8%。",
+        "source": "P16，物理PDF第4、7–8页；附图P16第8页表2",
+        "verdict": "supported",
+        "reason": "GAM正常组49人、SHAP正常组51人及标准差25.1、24.7均与图表一致；没有推广为算法普遍优劣。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "开放编码通过暂定代码、比较与修订形成概念，不等于完成整套扎根理论。",
+        "source": "P18，物理PDF第3、13–15页",
+        "verdict": "supported",
+        "reason": "原文支持代码作为中间过程以及开放编码与完整方法论的区别。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "Chun Tie等的外部方法论文支持开放、轴心和备忘记录的定义。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/；https://journals.sagepub.com/doi/full/10.1177/2050312118822927",
+        "verdict": "unverified",
+        "reason": "搜索找到相关原文内容，但实际打开分别遇验证码和超时；不能据搜索结果认定该引文已经独立查阅。定义本身另有P18支持。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "FeedVis由两名研究者逐行开放编码，再迭代修订并轴心编码。",
+        "source": "P13，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "分析材料包含预评估、主访谈和追访；页面的示意标签明确未冒充公开代码表。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "Hollaback前两位作者分别开放编码，并结合社会运动理论作归纳与演绎分析。",
+        "source": "P10，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "研究者身份、分析步骤及Straussian归属正确。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "暗黑模式研究先用Brignull分类，再开放分析118件材料，形成五类策略。",
+        "source": "P14，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "先验分类的局限、二次分析及产物准确；没有误写成消费者效果实验。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "P16在先导访谈和问卷开放回答中使用开放编码，局部信度统计不能代表全部解释。",
+        "source": "P16，物理PDF第3、7–9页",
+        "verdict": "supported",
+        "reason": "先导分析、怀疑变量编码与轴解释编码确为不同任务；kappa仅覆盖特定怀疑变量。"
+      },
+      {
+        "path": "concepts/C037.md",
+        "claim": "249篇命名方法的论文中85篇提到开放编码。",
+        "source": "P18，物理PDF第12–13页，表4",
+        "verdict": "supported",
+        "reason": "分母与计数准确，页面也正确保留这只是报告用语的统计。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "心智模型是用户的内部理解，可与实际系统或设计者概念模型不一致。",
+        "source": "P16，物理PDF第8–10页；https://www.nngroup.com/articles/mental-models/",
+        "verdict": "supported",
+        "reason": "已打开NNGroup原文；基本定义、经验迁移和错位机制有依据。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "NNGroup来源为Megan Chan于2024年发表、2026年复核的版本。",
+        "source": "https://www.nngroup.com/articles/mental-models/ ，页面署名与日期",
+        "verdict": "supported",
+        "reason": "网页显示2024年1月26日及2026年9月1日复核，并注明更新自Nielsen的2010年文章。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "Notes研究以认知和组织结构共同解释群件早期使用。",
+        "source": "P03，物理PDF第1、3–7页",
+        "verdict": "supported",
+        "reason": "个人软件框架、培训、奖励及共享规范都有直接论述；页面没有只归因于界面或个人记忆。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "FeedVis揭示过滤后，部分用户修正关于朋友不发帖或冷落自己的解释。",
+        "source": "P13，物理PDF第3–4、6–9页",
+        "verdict": "supported",
+        "reason": "具体归因与后续自述相符；可视化揭示输出差异而非全部算法权重的界限准确。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "手势论文以简化命令、可逆动作和手指数解释参与者心智模型。",
+        "source": "P05，物理PDF第8页",
+        "verdict": "supported",
+        "reason": "三个观察均有原文实例，应用说明超出了频数统计。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "P16区分读图正确、分数含义理解与部署判断。",
+        "source": "P16，物理PDF第6–10页；附图第8页",
+        "verdict": "supported",
+        "reason": "选择题、轴解释及部署评分确属不同测量；没有把高信心当成准确理解。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "AI素养论文将高层机制理解与较准确的系统心智模型相连。",
+        "source": "P17，物理PDF第2、4页",
+        "verdict": "supported",
+        "reason": "准确标为教育框架依据与设计目标，而非已经验证的测验或干预效果。"
+      },
+      {
+        "path": "concepts/C039.md",
+        "claim": "情境调查结合任务观察与询问，遵循情境、伙伴关系、解释和焦点四原则。",
+        "source": "https://www.nngroup.com/articles/contextual-inquiry/",
+        "verdict": "supported",
+        "reason": "已打开专业原文；定义、学徒类比及四原则相符。"
+      },
+      {
+        "path": "concepts/C039.md",
+        "claim": "P16以构造的Jupyter任务对11名数据科学家开展情境调查。",
+        "source": "P16，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "环境、记录方式、问题植入、GAM六人和SHAP五人均准确；没有称作自然项目长期田野。"
+      },
+      {
+        "path": "concepts/C039.md",
+        "claim": "平均每人识别2.5类问题，识别采用疑惑、怀疑或需要更多测试的宽标准。",
+        "source": "P16，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "数字和操作定义一并说明，避免将其误读为精准诊断成功率。"
+      },
+      {
+        "path": "concepts/C039.md",
+        "claim": "197人问卷不能自由操作notebook，短期构造任务具有真实性限制。",
+        "source": "P16，物理PDF第6–7、10页",
+        "verdict": "supported",
+        "reason": "准确区分两个阶段，且部署意向没有写成实际部署。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "手势引出先展示效果，再收集动作；P05不实时识别以避免反馈改变提议。",
+        "source": "P05，物理PDF第1–4页",
+        "verdict": "supported",
+        "reason": "方法输入、记录、输出及设计理由准确，没有虚构识别率。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "单命令一致性为组比例平方和，12、3、3、2与11、3、3、3分别约为0.42与0.37。",
+        "source": "P05，物理PDF第5页；附图P05第5页式1–3",
+        "verdict": "supported",
+        "reason": "单命令公式是原文总体平均公式的正确分量；精确值分别0.415和0.37。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "原例说明两个命令的分组，但没有给出命令和手数。",
+        "source": "P05，物理PDF第5页，式2–3及前文",
+        "verdict": "error",
+        "reason": "页面要求比较必须交代命令与手数，却在自己的原文实例省略：前者为move a little双手，后者为select single单手。属于例子说明不完整，数值本身正确。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "冲突由支持人数较多的命令取得动作，最终覆盖57.0%的提议。",
+        "source": "P05，物理PDF第5页；附图对应正文",
+        "verdict": "supported",
+        "reason": "规则与覆盖口径准确；原始操作复用属于未分配专属手势的处理，宜与冲突裁决分句。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "四维分类包括完整形态、性质、绑定和流动类别。",
+        "source": "P05，物理PDF第4–5页；附图表2",
+        "verdict": "supported",
+        "reason": "类别完整，双手分别描述形态正确；但单点类别按用户理解的接触点判断，不能机械按实际触碰手指数划分。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "20人、27命令、单双手共1080次提议，排除6次；总体一致性为0.32和0.28。",
+        "source": "P05，物理PDF第3–5页；附图第4–5页",
+        "verdict": "supported",
+        "reason": "人数、次数、排除原因和条件准确，群体与装置限制有保留。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "AR排除自配对，等于(NA−1)/(N−1)，示例约0.384。",
+        "source": "https://faculty.washington.edu/wobbrock/pubs/tochi-22.pdf ，物理PDF第33、37页，表4及式6",
+        "verdict": "supported",
+        "reason": "已打开论文并核查对应页面；在页面明确的一人一提议、互斥分组条件下，公式与换算正确。"
+      },
+      {
+        "path": "concepts/C040.md",
+        "claim": "AGATe支持一致率及组内、组间分析，相关方法分别见2015、2016和2022年研究。",
+        "source": "https://depts.washington.edu/acelab/proj/dollar/agate.html；https://faculty.washington.edu/wobbrock/pubs/tochi-22.pdf",
+        "verdict": "supported",
+        "reason": "已打开工具页及后续论文；页面没有将统计一致性等同于可用性保证。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均交代名称、类别与主要区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括机制与边界，没有添加无来源的影响排名。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节围绕机制、实例、变体和应用组织；C040原例条件遗漏须补。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清晰，模型关系与现实因果有区分。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Hoosier批判、倡议张力和方法建议均有主体归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "关键样本分母、准确率尺度和日期一致；附图数字相符。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "C037外部方法文献实际打开失败，该项引文支持仍待查；其余主要论断有可定位来源。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "主要页码与引注范围相符，Crossref缓存支持所列核心书目；C040例子需恢复命令和手数。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框，没有空字段或正文冲突。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见长段复制或宣传总结；自拟例算与整理示意明确标识。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "遵循概念解释结构，没有硬套实验论文模板或凑空章节。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "仍有实例说明遗漏与一项外部引文未独立读通，当前不能视为全部核实完成。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "整体机制完整，但C040原文算例缺少命令和单双手条件，未完全走通带语境实例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文解释概念关系，没有按输入字段机械转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "应用逐篇说明概念作用，人数与系统名均嵌入分析目的。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "准确率、覆盖率、编码频数均交代口径；一致性明确区别于识别成功率。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内应用包含具体模块和作用，没有用泛泛参见链接代替分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景解释默认用户、隐藏过滤、先验分类及设计者手势等实际问题。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见无依据的革命性或显著成功赞誉，保留作者判断与实证范围。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C034.md",
+        "sections": [
+          "导言",
+          "知识和设计怎样联系",
+          "六种交互品质",
+          "从一个实例理解评价尺度",
+          "方法、分歧与边界",
+          "在本站论文中的应用：P07、P10、P11、P18",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C035.md",
+        "sections": [
+          "导言",
+          "社会位置为何影响认识",
+          "立场、观点与正确性的区别",
+          "理论来源与不同版本",
+          "在设计研究中怎样落实",
+          "争论与适用边界",
+          "在本站论文中的应用：P07及与女性主义HCI的区别",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C036.md",
+        "sections": [
+          "导言",
+          "直观原理",
+          "形式与符号",
+          "一个明确的示意例算",
+          "估计、实现与变体",
+          "适用条件与局限",
+          "在本站论文中的应用：P16",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C037.md",
+        "sections": [
+          "导言",
+          "从资料片段到可比较的代码",
+          "一个可追溯的分析过程",
+          "与预设分类和信度的关系",
+          "在本站论文中的应用：P10、P13、P14、P16、P18",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "Chun Tie等2019年外部方法文献的直接引文支持：实际打开遇验证码及超时；未将搜索摘要视为已读全文。"
+        ]
+      },
+      {
+        "path": "concepts/C038.md",
+        "sections": [
+          "导言",
+          "直观机制：人会用一个解释串起现象",
+          "如何形成与改变",
+          "与概念模型、技术框架的关系",
+          "例子：缺失的帖子怎样变成人际关系",
+          "研究与设计中的局限",
+          "在本站论文中的应用：P03、P05、P13、P16、P17",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C039.md",
+        "sections": [
+          "导言",
+          "为什么边做边问",
+          "四项原则与实施过程",
+          "如何区分资料与解释",
+          "在本站论文中的应用：P16两个研究阶段",
+          "适用范围与局限",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C040.md",
+        "sections": [
+          "导言",
+          "从结果寻找动作",
+          "一次引出研究的步骤",
+          "一致性怎样计算",
+          "冲突、覆盖与动作语义",
+          "在本站论文中的应用：P05",
+          "局限与后续设计验证：AR、AGATe及后续研究",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "按提供原文与附图核对：P05物理第4、5页对应印刷1086、1087页；P16物理第8页对应Page 8。表格与公式未采用乱码推测。",
+      "七页总体事实与应用关系准确；P07的品质、P17的教育框架及P18的方法论建议均没有被误写为已验证的产品技术。",
+      "待处理事项：C040恢复两组算例的命令与手数；C037补读可访问的外部方法全文后再确认该引文。",
+      "可改进精度：C040说明单点类别依据参与者理解的接触点，并将冲突裁决与原始操作复用分开叙述。"
+    ]
+  }
+}

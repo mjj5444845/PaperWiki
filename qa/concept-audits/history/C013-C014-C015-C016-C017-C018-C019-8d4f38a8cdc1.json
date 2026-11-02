@@ -1,0 +1,504 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C013",
+    "C014",
+    "C015",
+    "C016",
+    "C017",
+    "C018",
+    "C019"
+  ],
+  "page_hashes": {
+    "concepts/C013.md": "0a8b611b94ec8a4b5b9c7f3527a8091f467aade4438244f101ab38103c565466",
+    "concepts/C014.md": "de01c710033ada465e0123c079e33fddaf4c6d5a7d6419384667b8bc8f624271",
+    "concepts/C015.md": "f8fae45169d7333a4d7181f1098c36342da3efa292a742e744206521826ce4df",
+    "concepts/C016.md": "fdcc7f6f1b0253443b1d9d9d2e31116cce40450baeded2781bf9340ff38d8320",
+    "concepts/C017.md": "900d5bbb0af0c6e07a733f64f6ee336b98e7fad5fe9240453b82124c92f8ff89",
+    "concepts/C018.md": "d7fb4a6b54ae4d241a7b1a3f92aa4cd7251db9260eb6368b37ac3ef62f3dba09",
+    "concepts/C019.md": "1c2c9778a931134530bef8437f442409b84cb2daf4f630105288a304c25a6ae4"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C013.md",
+        "claim": "信息不对称是相关信息在互动各方之间分布不均；共同未知不同于一方拥有另一方没有的信息。",
+        "source": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/Joseph_Stiglitz/2001_Nobel_Lecture.pdf，物理PDF第16—18页",
+        "verdict": "supported",
+        "reason": "演讲明确以不同人知道不同事情定义信息不对称，并列举车辆、保险、劳动和借贷情境。页面的天气例子属于清楚标示的概念说明。"
+      },
+      {
+        "path": "concepts/C013.md",
+        "claim": "逆向选择、道德风险、信号传递与筛选具有不同机制，更多信息并不保证更好的市场结果。",
+        "source": "Stiglitz演讲，物理PDF第10、16、20—21、27—28、33—34页",
+        "verdict": "supported",
+        "reason": "原文支持价格影响参与者构成、不可观察行动影响激励，以及知情方与不知情方发起信息区分的差别；页面没有把诚信声明当成可信信号。"
+      },
+      {
+        "path": "concepts/C013.md",
+        "claim": "研究期AMT给予雇主资格筛选、接受或拒绝工作的能力，却不要求其回应工作者争议。",
+        "source": "P11，物理PDF第3—4页",
+        "verdict": "supported",
+        "reason": "平台安排及请求者把争议信息用作算法管理信号均有原文依据；页面保留2013年研究范围，没有冒充当前法律判断。"
+      },
+      {
+        "path": "concepts/C013.md",
+        "claim": "Turkopticon在选择任务现场提供四维评价与文字背景，但不能保证公平或改变雇主行为。",
+        "source": "P11，物理PDF第6—9页",
+        "verdict": "supported",
+        "reason": "扩展、评价维度、文字评论和嵌入工作流程的机制均得到支持，工具能力与作者政治目标没有混淆。"
+      },
+      {
+        "path": "concepts/C013.md",
+        "claim": "DoloresLabs的信息不对称修补愿景与作者揭示商品化、剥削及支持互助的愿景不同。",
+        "source": "P11，物理PDF第7页",
+        "verdict": "supported",
+        "reason": "原文直接对照双方愿景；本站应用准确说明概念在合作与设计定位中的作用。"
+      },
+      {
+        "path": "concepts/C013.md",
+        "claim": "Data Cascades记录前线伙伴不理解收集目的及记录时长要求，约25%—30%的记录短于10分钟。",
+        "source": "P20，物理PDF第9页",
+        "verdict": "supported",
+        "reason": "数字、医生及解释记录长度的关系均与原文一致。这里是角色信息落差的经验案例，没有被写成已采用的信息经济学模型。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "可视化设计需要区分数据、任务、标记通道、交互与验证。",
+        "source": "https://www.cs.ubc.ca/~tmm/vadbook/；https://www.cs.ubc.ca/~tmm/courses/547-17/slides/marks-4x4.pdf，物理PDF第1—2页",
+        "verdict": "supported",
+        "reason": "作者教材目录与讲义支持这些组成及其区别；位置、长度、色相、形状与属性类型的解释准确。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "散点图、条形图、折线图、平行坐标及网络矩阵适用于不同数据关系与任务。",
+        "source": "https://www.cs.ubc.ca/~tmm/talks/vad/fullday-vis21-4x4.pdf，所附原始缓存物理PDF第10—15页",
+        "verdict": "supported",
+        "reason": "缓存支持图形编码、折线顺序假设、平行坐标轴序限制，以及节点连线和矩阵在路径任务与规模上的区别。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "FeedVis以双栏、蓝白背景比较API信息流与朋友页面查询并集，显示不等于用户实际看过。",
+        "source": "P13，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "两种查询、颜色和一周以内窗口均准确，页面明确限制了“全部”和“隐藏”的操作化范围。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "研究者通过帖子ID保证显示故事属于全部故事；朋友视图使用三个不连续比例区间。",
+        "source": "P13，物理PDF第3、9页",
+        "verdict": "supported",
+        "reason": "0%—10%、45%—55%、90%—100%及API遗漏修正均有依据，页面没有把三个区间误写成覆盖全部比例的完整划分。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "FeedVis重排视图用于访谈与偏好表达，未实际修改Facebook生产算法，也没有揭示完整内部机制。",
+        "source": "P13，物理PDF第2—4、8—9页",
+        "verdict": "supported",
+        "reason": "应用关系是输出揭示和研究介入；页面准确区分了原型操作、内部算法解释及因果证据。"
+      },
+      {
+        "path": "concepts/C014.md",
+        "claim": "Heer与Bostock把可视化编码及显示参数作为感知实验对象。",
+        "source": "P06，物理PDF第1—7页",
+        "verdict": "supported",
+        "reason": "位置、长度、角度、面积、背景、网格和图高均属于实际研究条件；页面说明了它与FeedVis使用可视化引出访谈的差别。"
+      },
+      {
+        "path": "concepts/C015.md",
+        "claim": "共享工作空间可以共享对象而保留不同视图，并通过对象变化支持协作感知。",
+        "source": "P02，物理PDF第1、3—4、6—7页；https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+        "verdict": "supported",
+        "reason": "独立视图、共享反馈及参与、位置、动作和意图等感知要素均有原文支持。"
+      },
+      {
+        "path": "concepts/C015.md",
+        "claim": "ShrEdit提供共享及私有窗口、选区锁定、光标碰撞提示，以及find和track功能。",
+        "source": "P02，物理PDF第4—6页",
+        "verdict": "supported",
+        "reason": "各项功能及普通视图不显示他人光标的限制准确；参与者认为定位界面笨拙的报告也被正确归属。"
+      },
+      {
+        "path": "concepts/C015.md",
+        "claim": "小组以社会约定划分个人共享窗口和公共窗口，协商作者责任并动态切换协作方式。",
+        "source": "P02，物理PDF第5—6页",
+        "verdict": "supported",
+        "reason": "页面保留了约定只读而非软件强制权限的区别，没有把观察写成取消所有组织角色的普遍结论。"
+      },
+      {
+        "path": "concepts/C015.md",
+        "claim": "持久历史和半同步空间属于设计方向，而非ShrEdit已经完整验证的功能。",
+        "source": "P02，物理PDF第7—8页",
+        "verdict": "supported",
+        "reason": "修改边线、修改者与变化性质、历史粒度及同时呈现当前和过去活动都来自讨论部分；实施与建议的关系准确。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "关系强度具有时间、情感、亲密及互惠等维度，2009年研究以七维指导平台代理选择。",
+        "source": "P04，物理PDF第2—4页",
+        "verdict": "supported",
+        "reason": "七维及表中代理总体对应原文，首次通信时间作为关系持续时间代理的限制解释准确。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "35人对2184条关系完成五种连续评分，评分未按个人强制标准化到两端。",
+        "source": "P04，物理PDF第3—5页",
+        "verdict": "supported",
+        "reason": "样本、关系数量、五种评价及不作ipsatization的理由均得到支持。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "共同好友强度形成循环依赖，模型从零初始化并迭代OLS，九轮达到0.001平均相对变化阈值。",
+        "source": "P04，物理PDF第5页",
+        "verdict": "supported",
+        "reason": "七个网络分布描述量、初始化、更新和收敛数字准确，且未推广为固定迭代次数。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "高中联系人、教授、旧恋人与跨媒介朋友的误差说明平台代理的边界。",
+        "source": "P04，物理PDF第7—8页",
+        "verdict": "supported",
+        "reason": "0/0.44、0.85/0.41、0.60/0.11、0.96/0.47均对应原例；教授关系中的教育差异、墙帖方向及参与者解释没有被替换。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "调整后R²为0.534、MAE为0.0994；32.8%是系数绝对值汇总权重，87.2%不是留出测试成绩。",
+        "source": "P04，物理PDF第6、8页",
+        "verdict": "supported",
+        "reason": "数字及其口径解释准确，尤其避免把维度权重当解释方差、把样本内分类当泛化性能。"
+      },
+      {
+        "path": "concepts/C016.md",
+        "claim": "隐私和信息流用途主要是设计设想；2012年We Meddle提供Twitter迁移的早期证据。",
+        "source": "P04，物理PDF第8—9页；https://courses.cs.umbc.edu/graduate/691/spring21/pdf/2145204.2145360.pdf，物理PDF第1页",
+        "verdict": "supported",
+        "reason": "后续原文明确报告52国、跨媒介特征映射和早期泛化证据；页面保留作者归属与限制。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "冷启动包括新用户、新项目缺少历史交互的情形；GroupLens的start-up interval不等于后来全部分类。",
+        "source": "P09，物理PDF第6—7页；https://zziwei.github.io/pubs/Ziwei_SIGIR_2020_Cold.pdf，物理PDF第1—3页",
+        "verdict": "supported",
+        "reason": "现代任务定义与旧论文的启动期明确分层，未把术语发展倒写成1994年贡献。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "Ken算例以相关系数−0.8和+1、当前评分2和5得到约4.56。",
+        "source": "P09，物理PDF第7页",
+        "verdict": "supported",
+        "reason": "中心化、负相关的贡献及绝对权重归一化均与原例一致；删项分析清楚说明输入缺口，没有冒充新实验。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "四人早期试用报告启动等待，但未确定普遍启动期；删除评分再预测及完整训练集属于计划。",
+        "source": "P09，物理PDF第7、10页",
+        "verdict": "supported",
+        "reason": "页面准确保留主观报告、较早评分版本与未来实验的证据地位。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "无项目评分不能预测的输入限制由脚注r1的PDF第7页支持。",
+        "source": "P09，物理PDF第6—7页；页面脚注r1",
+        "verdict": "error",
+        "reason": "明确写出无人读过文章便不能预测、空单元因未读或未评分而产生的是第6页。论断正确，但r1只列第7页，引用范围应补第6页。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "属性到潜在特征映射可辅助新项目探索，属于2017年的具体方法。",
+        "source": "https://research.google/pubs/expediting-exploration-by-attribute-to-feature-mapping-for-cold-start-recommendations/",
+        "verdict": "supported",
+        "reason": "实际打开的机构摘要支持属性映射、初始潜在向量及随交互更新；页面未将其写成GroupLens已实现模块。"
+      },
+      {
+        "path": "concepts/C017.md",
+        "claim": "Turkopticon以付费取得300条初始评论解决集体评价启动；Data Cascades提出数据、工具与培训干预。",
+        "source": "P11，物理PDF第6—7页；P20，物理PDF第6、12页",
+        "verdict": "supported",
+        "reason": "前者是实际实施的资料播种，后者是经验问题及作者建议；页面明确与个性化推荐算法的差别。"
+      },
+      {
+        "path": "concepts/C018.md",
+        "claim": "同步出声思考要求任务过程中口述；回溯形式在交互后解释，也可使用录像回放。",
+        "source": "https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/；https://www.nngroup.com/articles/research-methods-glossary/",
+        "verdict": "supported",
+        "reason": "实际打开来源支持定义、主持提醒、行为干扰及回溯形式；页面没有把口述当作全部认知的直接读取。"
+      },
+      {
+        "path": "concepts/C018.md",
+        "claim": "手势研究实际使用同步口述，并结合四角度录像、接触日志、笔记及独立偏好评分。",
+        "source": "P05，物理PDF第3—4、6页",
+        "verdict": "supported",
+        "reason": "27种操作、单双手、七点评分及资料类型的区别准确；未写成识别器准确率测量。"
+      },
+      {
+        "path": "concepts/C018.md",
+        "claim": "口述与追问帮助解释鼠标经验、想象控件及一至三指被当作单点的含义。",
+        "source": "P05，物理PDF第4、8—9页",
+        "verdict": "supported",
+        "reason": "具体机制与样本、无识别反馈的限制都有依据，没有把这些观察扩大为普遍心理定律。"
+      },
+      {
+        "path": "concepts/C018.md",
+        "claim": "1990年启发式论文把出声思考作为补充方法，其四项实验并非出声思考测试。",
+        "source": "P24，物理PDF第1—2、6页",
+        "verdict": "supported",
+        "reason": "实际实验为评估者提交问题报告；经验测试作为争议裁决与补充的建议被正确区分。"
+      },
+      {
+        "path": "concepts/C018.md",
+        "claim": "FeedVis探索要求出声描述模式，但民间理论的进一步分析不在该文范围。",
+        "source": "P13，物理PDF第7页脚注2",
+        "verdict": "supported",
+        "reason": "实际收集与本文已报告分析被准确分开。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "半结构访谈以预先提纲引导开放讨论，允许演化，不能直接测量各观点的总体普遍程度。",
+        "source": "https://www.gov.uk/guidance/interview-study-qualitative-studies",
+        "verdict": "supported",
+        "reason": "实际打开的官方指南支持提纲、开放讨论、记录、转录、饱和及普遍程度边界。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades于2020年5至7月对53人开展约75分钟半结构访谈，覆盖七组主题。",
+        "source": "P20，物理PDF第4—5页",
+        "verdict": "supported",
+        "reason": "地区23/16/14、非洲国家分布、机构28/16/9及性别45/8均准确；样本代表性的限制得到保留。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "研究使用目的与滚雪球取样、英语远程访谈、24小时内转录，并以迭代分类分析而未使用IRR。",
+        "source": "P20，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "取样、记录、两人独立阅读、讨论修订、三个顶层类别及未用IRR的理由都对应原文。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "百分比表示受访者自报经历的编码比例；伦理措施包含书面口头同意、限权访问和匿名化。",
+        "source": "P20，物理PDF第4—5页",
+        "verdict": "supported",
+        "reason": "页面没有把自报比例当总体故障率，也没有把参与者实践当经验证最佳实践。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "FeedVis访谈具有共同主题与开放追问的半结构特征，但作者未明确采用该名称。",
+        "source": "P13，物理PDF第2—4页",
+        "verdict": "supported",
+        "reason": "原文明确预设问题、条件追问和开放长访谈；页面将半结构归类标为安排描述，未伪称作者的方法命名。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均交代名称、类别及区分特征；C018还明确限定同步形式。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括机制、研究用途和边界，正文均有对应展开，没有新增影响力结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "定义、机制、实例、变体、局限和应用均有实质内容；没有为理论概念虚构实验栏目。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，C017区分1994年启动观察与2017、2020年方法，C015区分案例与未来设计。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "C013分开合作方与作者愿景，C016将泛化判断归于后续作者，观察和建议没有冒充共识。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "人数、关系数、访谈时段、评分范围及误差口径一致；百分比没有被误当总体发生率。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "定义、数字、实例和应用均有可查来源，外部定义已通过实际打开来源核对。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "C017的r1遗漏支持无评分项目和空单元解释的物理PDF第6页；其余主要页码和提供的Crossref书目相符。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；前置元数据中的标题、别名与正文一致。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有大段复制和宣传结尾；示意例子及输入删项解释均明确身份，没有生成新的研究结论。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用适合技术概念的方法、表示与应用结构，没有机械套用模型训练或实验结果模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "页面没有宣称达到优良条目或独立验收通过；剩余引用定位问题由本报告明确记录。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "信息经济学机制、视觉编码、共享反馈、关系代理、推荐算例和访谈实施均得到解释，没有只列名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕选择、协调、测量与解释形成论证，未按输入字段逐条转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "人数、系统功能及代理表均配有作用与限制解释，不是未解释的名词数字串。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "C016解释MAE、权重和分类准确率，C017走通4.56算例，C019限定自报百分比分母。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用逐篇说明模块与用途，并区分实际采用、设计建议、相似启动问题及描述性方法归类。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明市场质量判断、平台可见性、协作工具及历史评分不足等实际条件，没有只留下问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有无来源的革命性或显著有效等赞誉，效果判断均限定任务、数据与来源主体。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C013.md",
+        "sections": [
+          "导言与定义",
+          "信息差怎样影响选择",
+          "选择、激励与信息改善",
+          "平台怎样分配可见性",
+          "机制例子：把共享评价放回选择现场",
+          "与声誉、透明和责任的关系",
+          "研究与解释的局限",
+          "在本站论文中的应用：Turkopticon、Data Cascades",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C014.md",
+        "sections": [
+          "导言与定义",
+          "数据、任务与视觉表示",
+          "标记、通道与数据类型",
+          "研究发展与表示变体",
+          "实例：可见与潜在内容的对照",
+          "从内容差异到社会模式",
+          "交互与信息揭示的层次",
+          "感知与验证",
+          "适用边界",
+          "在本站论文中的应用：FeedVis、Crowdsourcing Graphical Perception",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C015.md",
+        "sections": [
+          "导言与定义",
+          "共享对象与共享视图",
+          "行动怎样留下可利用的线索",
+          "例子：由软件权限之外的约定组织工作",
+          "冲突控制与行动自由",
+          "持久空间与半同步工作",
+          "适用范围与局限",
+          "在本站论文中的应用：Awareness and Coordination in Shared Workspaces",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C016.md",
+        "sections": [
+          "导言与定义",
+          "理论维度与测量代理",
+          "连续自评与特定关系功能",
+          "网络位置怎样参与估计",
+          "相同分数背后的不同意义",
+          "预测成绩应怎样理解",
+          "应用与后续",
+          "在本站论文中的应用：Predicting Tie Strength With Social Media",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C017.md",
+        "sections": [
+          "导言与术语范围",
+          "为什么没有历史就难个性化",
+          "用原文算例看资料缺口",
+          "系统设计需要怎样应对",
+          "评价冷启动必须说明什么",
+          "发展与局限",
+          "在本站论文中的应用：GroupLens、Turkopticon、Data Cascades",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C018.md",
+        "sections": [
+          "导言与同步形式定义",
+          "行为记录之外能知道什么",
+          "怎样安排一次任务",
+          "例子：从鼠标动作看见旧经验",
+          "与启发式评估及访谈的区别",
+          "同步与回溯形式",
+          "反应性和解释边界",
+          "在本站论文中的应用：User-Defined Gestures、Heuristic Evaluation、FeedVis",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C019.md",
+        "sections": [
+          "导言与定义",
+          "共同提纲与开放追问",
+          "从一段经历追到工作机制",
+          "一个跨情境的研究实例",
+          "分析不在访谈结束时自动完成",
+          "伦理、关系与资料可信度",
+          "与其他方法及局限",
+          "在本站论文中的应用：Data Cascades、FeedVis",
+          "参考文献与引注"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "七页关键事实、机制和应用关系总体得到支持；发现一项明确引用定位错误：C017脚注r1应包含GroupLens物理PDF第6页。",
+      "已搜索并实际打开外部官方、作者及论文来源；Munzner表示变体另按所附官方原始全文缓存核对，没有用搜索摘要替代原文。",
+      "本站应用没有把未实施建议、描述性归类或相关问题强行写成已采用技术；未发现需要列入coverage的实质未核实论断。",
+      "仅审校所给正文，未修改页面。"
+    ]
+  }
+}

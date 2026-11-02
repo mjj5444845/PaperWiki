@@ -88,3 +88,11 @@ git status
 ## 增量收件箱
 
 新论文放入 `inbox/`，运行 `./run.sh`；简报在 `reports/`，状态在本地 `state/manifest.json`。安装依赖、12 小时 macOS 调度、暂停/删除任务和保守清理规则见 [收件箱说明](automation/README.md)。定时任务须完成测试并经确认后才启用。
+
+## 深度写作与审核
+
+论文与概念页遵循仓库内 `skills/wiki-style-writer/`。先读全文及附录、按页记录私有 `notes/`、冻结10个读者问题，再组织方法、实验及外部背景/后续资料；不要把 `extract/` 字段直接转成文章。每篇论文以独立盲读至少8/10、独立事实核对和七类反模式检查作为发布条件。私有原文、笔记和日志均不上传。
+
+`qa/diagnosis.md`记录诊断，`qa/rewrite-report.md`记录重写与问题闭环。可选研究工具依赖见 `requirements-research.txt`；`tools/depth_metrics.py`统计篇幅和结构，统计量不能替代内容审阅。`tools/rewrite_audit.py P02`会调用独立Codex角色并保存审校证据，使用已登录账户的用量。
+
+收件箱的新流程见 `automation/README.md`。无法通过独立验收的论文保留为待复核，不发布；审核后任何候选页面变化都必须重新核对。

@@ -1,0 +1,482 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C020",
+    "C021",
+    "C022",
+    "C023",
+    "C024",
+    "C025",
+    "C026"
+  ],
+  "page_hashes": {
+    "concepts/C020.md": "ae086d8074197b0cf827e466eddd2138135b759b2cf4c8a910c9c0845bb1d184",
+    "concepts/C021.md": "e9fe2ab9313a72e6fba29cfb14b86802eb60f44d37dfe781735948b4d5ab9123",
+    "concepts/C022.md": "4317817685c1e240b29f283c8f843400efdd61d5c02ba0e076cbc7afd8974fc1",
+    "concepts/C023.md": "75752f16df358386f6e774f09eca52318eecad20b159849657b6cc19132498c6",
+    "concepts/C024.md": "d169c14094bbc95b09b8e3e2bd85c289930e886cbd13cc15f799cdc27ed31579",
+    "concepts/C025.md": "38b2d513bdb41f2c0fc09be7fe935dd0d0e041b9e62c38f51f8916d7538a73da",
+    "concepts/C026.md": "7dcbc3ecb4001b3d8365beb59f2721a37648d5c29577c044463b6172ba3031a9"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C020.md",
+        "claim": "协作感知是对他人活动的理解，为自己的活动提供共同工作情境；同时涉及贡献内容及其性质。",
+        "source": "P02，物理PDF第1页，印刷107页",
+        "verdict": "supported",
+        "reason": "定义及内容与性质的区分均直接见于Introduction；页面没有将其缩减为在线状态。"
+      },
+      {
+        "path": "concepts/C020.md",
+        "claim": "显式汇报增加生产信息的工作，角色限制减少行动自由；共享反馈使活动信息随普通工作呈现。",
+        "source": "P02，物理PDF第3、6—8页",
+        "verdict": "supported",
+        "reason": "准确解释两类机制的成本、接收者相关性问题和共享反馈的运作。没有把被动收集误写成人不需解释信息。"
+      },
+      {
+        "path": "concepts/C020.md",
+        "claim": "ShrEdit支持松散与紧密合作的转换，但普通视图缺少他人编辑光标，find和track因控制窗口笨拙而较少使用。",
+        "source": "P02，物理PDF第4—6页",
+        "verdict": "supported",
+        "reason": "功能描述、观察和访谈归属准确；track能显示光标这一例外也由普通视图的限定保留。"
+      },
+      {
+        "path": "concepts/C020.md",
+        "claim": "修改边线及半同步持久工作空间是异步感知的设计方向，不能称为四组研究验证的完整系统。",
+        "source": "P02，物理PDF第7页，印刷113页",
+        "verdict": "supported",
+        "reason": "原文以设想方式讨论扩展；页面正确区分观察结果与设计建议。"
+      },
+      {
+        "path": "concepts/C020.md",
+        "claim": "Gutwin与Greenberg区分感知要素和获取机制，位置、意图、变化、公开表达及对象反馈是其中内容。",
+        "source": "https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+        "verdict": "supported",
+        "reason": "已打开正文核对框架及机制列表。页面为有选择的概述，没有声称列出全部要素。"
+      },
+      {
+        "path": "concepts/C020.md",
+        "claim": "技术探针在家庭中探索远程感知，工作坊产生共享日历、钥匙挂钩及便携设备等不同构想。",
+        "source": "P23，物理PDF第3—5、7页",
+        "verdict": "supported",
+        "reason": "装置的同步与异步使用、成员差异和构想均有依据。本站应用说明了感知在通信装置和设计反思中的具体作用。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "协同过滤利用用户与项目的反馈关系；显式评分和隐式观看反馈不同，也可学习共同嵌入。",
+        "source": "https://developers.google.com/machine-learning/recommendation/collaborative/basics",
+        "verdict": "supported",
+        "reason": "已打开教材正文，核对反馈矩阵、两类反馈及自动学习嵌入。未将观看直接等同满意。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "GroupLens相关系数只在双方共同评分文章上计算求和及均值。",
+        "source": "P09，物理PDF第7页，印刷181页；附图Image #2",
+        "verdict": "supported",
+        "reason": "图中公式及其下方说明明确限定共同评分集合；页面符号化表达忠实。空集合或零方差导致公式不可用的说明也符合公式。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "Ken与Lee相关为−0.8，与Meg相关为1，目标文章预测约为4.56。",
+        "source": "P09，物理PDF第7页，图5和预测公式；附图Image #2",
+        "verdict": "supported",
+        "reason": "已对照图5逐项检查评分。Lee例乘积和−8、平方和各10；Meg例分子及分母均为4；预测为3+2.8/1.8，约4.56。页面正确标为例算。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "预测使用均值调整评分和权重绝对值归一化，但具体均值范围及退化处理需另行指定。",
+        "source": "P09，物理PDF第7页，印刷181页；附图Image #2",
+        "verdict": "supported",
+        "reason": "与图中预测式一致，并诚实保留原文对一般实现细节说明不足的边界，没有擅自补成已实施规则。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "客户端收集评分，BBB交换评分并预测，消息标识与假名支持文章及评分历史关联。",
+        "source": "P09，物理PDF第3—6页，图1—4；附图Image #1",
+        "verdict": "supported",
+        "reason": "架构关系和图4字段一致；假名并未被写成不可关联记录。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "GroupLens按新闻组分开矩阵，四人旧版本试用存在启动期，删除评分再预测属于拟议评价。",
+        "source": "P09，物理PDF第7、10页",
+        "verdict": "supported",
+        "reason": "区分了实施、试用自报及未来实验安排，未声称取得大规模准确率证据。"
+      },
+      {
+        "path": "concepts/C021.md",
+        "claim": "Herlocker等以评分画像、寻找邻居、合成推荐三步构造解释，并区分接受推荐与过滤表现。",
+        "source": "P22，物理PDF第3—5、8—10页",
+        "verdict": "supported",
+        "reason": "三步及过程／数据维度准确；第二实验过滤表现无显著差异且证据不充分，页面没有误称实际预测或满意度得到改善。"
+      },
+      {
+        "path": "concepts/C022.md",
+        "claim": "原型应按设计问题理解；Houde与Hill区分角色、外观与感受、实现三个关注点。",
+        "source": "https://hci.stanford.edu/courses/cs294h/2006/readings/houde-prototypes-97.pdf，物理第1—3页",
+        "verdict": "supported",
+        "reason": "已打开章节稿核对。精细程度不能证明完整性，向不同观众说明原型目的也是原文重点。"
+      },
+      {
+        "path": "concepts/C022.md",
+        "claim": "技术探针与原型的区别是该文中的方法区分，探针用来启发未来方向，不是提前验收固定产品。",
+        "source": "P23，物理PDF第2—3页",
+        "verdict": "supported",
+        "reason": "保留了原文关于开放用途、部署记录、不按反馈持续修改的区别，也避免把该文的阶段顺序推广为普遍定义。"
+      },
+      {
+        "path": "concepts/C022.md",
+        "claim": "美国家庭以低技术材料制作日历、钥匙挂钩、戒指、钥匙链和手表构想。",
+        "source": "P23，物理PDF第7页",
+        "verdict": "supported",
+        "reason": "人物、物件和动机对应原文，没有把原型构想写成完成部署的产品。"
+      },
+      {
+        "path": "concepts/C022.md",
+        "claim": "1990年启发式评估研究纸面完整设计及运行系统，未验证设计内部快速比较子方案的循环。",
+        "source": "P24，物理PDF第2、6页",
+        "verdict": "supported",
+        "reason": "准确区分实际检查对象与尚待研究的问题。本站应用具体说明原型作为检查对象的作用。"
+      },
+      {
+        "path": "concepts/C023.md",
+        "claim": "PAR使有亲身经验的人参与研究与行动，形成反思、分析和行动循环，并改变专业研究者的权力位置。",
+        "source": "https://www.participatorymethods.org/methodology/participatory-action-research/，所附官方全文缓存",
+        "verdict": "supported",
+        "reason": "缓存正文明确支持参与者共同研究、研究者促成角色及循环机制；页面未将某种访谈技术视为PAR充分条件。"
+      },
+      {
+        "path": "concepts/C023.md",
+        "claim": "Hollaback采用解放性行动研究及女性主义方法，问题与纽约组织领导共同构造。",
+        "source": "P10，物理PDF第4—5页",
+        "verdict": "supported",
+        "reason": "属于实际采用的研究取向。页面正确限定共同构造的对象，没有宣称13名叙事者共同掌握全部研究决策。"
+      },
+      {
+        "path": "concepts/C023.md",
+        "claim": "13名受访者中第一作者访谈六人，第二作者七人；四人选择即时消息。",
+        "source": "P10，物理PDF第5、10页",
+        "verdict": "supported",
+        "reason": "人数、访谈者及媒介选择准确。没有把访谈分担误写成受访者身份分组。"
+      },
+      {
+        "path": "concepts/C023.md",
+        "claim": "布宜诺斯艾利斯、法国和纽约分别依据故事模式调整学校工作坊、求助资源和旁观者行动。",
+        "source": "P10，物理PDF第10页，印刷486页",
+        "verdict": "supported",
+        "reason": "三项实际组织行动及触发材料均准确，且没有扩大成骚扰发生率下降的因果证据。"
+      },
+      {
+        "path": "concepts/C023.md",
+        "claim": "研究的西方女性样本及交叉身份资料有限；PAR也需要安全形成并持续开展群体工作的条件。",
+        "source": "P10，物理PDF第5—6页；https://www.participatorymethods.org/methodology/participatory-action-research/，官方全文缓存",
+        "verdict": "supported",
+        "reason": "分别对应论文范围和IDS适用边界，来源归属清楚。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "参与式设计让非专业者影响设计方向；共同设计涉及设计者与非专业者在设计过程中的共同创造。",
+        "source": "https://helios.ntua.gr/pluginfile.php/264038/mod_folder/content/0/Sanders-Stappers_2008_Co-creation%20and%20the%20new%20landscapes%20of%20design.pdf?forcedownload=1，物理第2—4页；P23第2页",
+        "verdict": "supported",
+        "reason": "已打开排印PDF，术语及用户从研究对象转为伙伴的关系有依据，没有将共同设计与所有参与式活动简单等同。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "Bardzell回顾斯堪的纳维亚参与式设计传统，并以参与作为六项女性主义交互品质之一。",
+        "source": "P07，物理PDF第5—6页",
+        "verdict": "supported",
+        "reason": "历史陈述明确归属于Bardzell；参与、知识位置及与可用性测试互补的论述均忠实。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "20名非技术、无触屏经验成人为27项命令提出单手及双手动作，研究者形成48动作集合，识别器及新用户验证尚待进行。",
+        "source": "P05，物理PDF第2—6、9页",
+        "verdict": "supported",
+        "reason": "研究设置、最终数量及验证状态准确；属于实际参与输入构思，页面没有扩张为参与者共同完成识别器。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "技术探针将部署经验、反思与低技术工作坊结合，让家庭较早影响基本设计方向。",
+        "source": "P23，物理PDF第2—3、7页",
+        "verdict": "supported",
+        "reason": "明确讲出参与如何改变设计材料及方向，并保留维护资源、成员差异和长期评价边界。"
+      },
+      {
+        "path": "concepts/C025.md",
+        "claim": "双加工理论是一类理论；自主加工与依赖工作记忆和假设思考的加工是重要区分，快慢不能独自定义。",
+        "source": "https://www.krigolsonlab.com/uploads/4/3/8/4/43848243/evans_and_stanovich_2013.pdf，物理第1—4页",
+        "verdict": "supported",
+        "reason": "已打开综述正文，核对定义、不同理论之间的差异及对系统用语的限制。页面没有把系统1写成必然错误。"
+      },
+      {
+        "path": "concepts/C025.md",
+        "claim": "认知强制包括按需建议、先作答再更新及等待；199名参与者的实验显著减少碳水来源识别过度依赖，整体过度依赖差异不显著。",
+        "source": "P21，物理PDF第7—12页，表1—3",
+        "verdict": "supported",
+        "reason": "条件、分析样本及显著性范围准确。尤其正确区分整体最优决策与来源识别指标。"
+      },
+      {
+        "path": "concepts/C025.md",
+        "claim": "CFF与SXAI总体偏好和信任差异不显著，复杂度有差异；高认知需求组平均获得更多收益。",
+        "source": "P21，物理PDF第11—16页，表3—6",
+        "verdict": "supported",
+        "reason": "没有沿用摘要的宽泛措辞覆盖详细结果，也没有把组内显著性差异写成所有人的固定规律。"
+      },
+      {
+        "path": "concepts/C025.md",
+        "claim": "P16将审慎推理作为未来工具设计方向，P19在相关工作转述双加工解释，P21据此设计实验条件。",
+        "source": "P16，物理PDF第10页；P19，物理PDF第4页；P21，物理PDF第2—7页",
+        "verdict": "supported",
+        "reason": "准确区分设计建议、转述背景与实际操作化使用，没有把爬虫观察当作认知过程测量。"
+      },
+      {
+        "path": "concepts/C026.md",
+        "claim": "Nielsen以易学性、效率、可记忆性、错误和满意度组织可用性，并区分utility。",
+        "source": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+        "verdict": "supported",
+        "reason": "已打开定义章节，五项内容及功能满足需求的区别均对应正文；网页标有2012年发表日期。"
+      },
+      {
+        "path": "concepts/C026.md",
+        "claim": "1990年问题发现比例以已知问题集合为分母，集合经评估报告补充，不是软件全部问题或总体可用性得分。",
+        "source": "P24，物理PDF第2—4页",
+        "verdict": "supported",
+        "reason": "对评分方法、参照集合及情境性的解释准确，避免把发现比例改造成产品质量指标。"
+      },
+      {
+        "path": "concepts/C026.md",
+        "claim": "多人结果来自个人报告的随机模拟聚合，每种人数和实验抽取5000至9000组，并假设完美汇总权威。",
+        "source": "P24，物理PDF第6—7页",
+        "verdict": "supported",
+        "reason": "实际个人实验、模拟团队和未经实证检验的汇总假设均明确区分。"
+      },
+      {
+        "path": "concepts/C026.md",
+        "claim": "启发式检查与真实用户任务测试提供不同证据，反馈示例是说明性例子。",
+        "source": "P24，物理PDF第1—3、6—7页；C026“从检查到修改”",
+        "verdict": "supported",
+        "reason": "原文建议结合其他方法；页面明确标出重复提交示例并非原实验记录。本站应用具体说明问题报告、匹配和聚合的使用机制。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均交代主题类别及区分特征，英文名没有压过定义。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括核心机制和主要边界；C021涵盖邻居法及潜在表示，C025明确理论并非单一模型。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节围绕机制、实例、变体和应用展开，未凑设训练、消融等不适用栏目。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心清楚；探针部署后工作坊、研究者加入组织及拟议后续研究的时间和关系准确。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Bardzell、IDS及论文作者的观点有归属，未把参与或共享反馈写成普遍有效的价值判断。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "13名受访者、六与七次访谈、四名即时消息使用者、48动作及199人分析样本口径准确。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "定义、关键机制、精确数字与应用均有可核验来源；公式另有明确来源定位。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "关键页码与提供的物理PDF对应。书目与原文及Crossref缓存相符；P23署名采用原文完整名单，未被不完整缓存覆盖。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；前置元数据的主题、英文别名与正文一致。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见宣传性升华或大段复制。例算和说明示例明确限定，没有把编辑判断包装成实验发现。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "按技术概念组织，并针对研究取向、设计方法与算法分别解释，未机械套用同一实验骨架。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文保留资料及适用边界，没有以形式检查宣称优良条目资格或独立验收分数。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "核心机制充分：协同过滤给出权重、预测及完整算例；PAR给出循环与研究关系；其他页提供组成和具体运作。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文以问题和机制组织，未把研究问题、方法、贡献等抽取字段逐项转成句子。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名、人数和物件均解释其作用；应用部分虽采用列表，仍交代具体使用关系。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "4.56明确为例算，199人及两类过度依赖指标有条件，模拟聚合数量有抽样口径。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接伴随工作关系分析，尤其C025区分背景转述、设计建议与实验条件，没有用参见链接代替解释。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明当时的机制和不足，如角色限制、设计固定后才测试及解释被当作能力信号，未仅提出问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性或效果显著等无条件赞誉；CFF结果保留不显著项目，家庭构想也未冒充长期成效。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C020.md",
+        "sections": [
+          "导言：定义及与算法觉察的区别",
+          "知道内容，还要知道性质",
+          "信息从哪里来",
+          "例子：从观看编辑到共同工作",
+          "需求、线索与局限表",
+          "不同时在线的感知",
+          "家庭中的感知不只是工作进度",
+          "适用范围与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C021.md",
+        "sections": [
+          "导言：定义及算法范围",
+          "从评分矩阵开始",
+          "基于邻居的预测怎样算",
+          "权重怎样从共同评分取得",
+          "合成目标项目预测",
+          "原文例算",
+          "系统与算法是两个层次",
+          "变体与内容过滤",
+          "为什么还需要解释",
+          "局限与评价条件",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C022.md",
+        "sections": [
+          "导言：定义及三个关注点",
+          "原型先有问题，再有形式",
+          "与技术探针的区别及比较表",
+          "例子：家庭用低技术材料构造新方案",
+          "用原型进行早期检查",
+          "保真度不等于证据强度",
+          "解释与评价的边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C023.md",
+        "sections": [
+          "导言：定义与研究取向",
+          "与人一起改变，而非替人决定",
+          "一个研究循环包含什么及环节表",
+          "例子：与Hollaback共同研究讲述经历",
+          "组织利用故事决定行动",
+          "自我揭示与反思的作用",
+          "研究取向与资料方法",
+          "证据与改变不能混为一谈",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C024.md",
+        "sections": [
+          "导言：定义与共同设计",
+          "参与发生在什么时候",
+          "历史与知识立场",
+          "实例一：用户提出手势",
+          "实例二：家庭把使用经历做成方案",
+          "实例三：参与与改变立场的难题",
+          "参与贡献与研究者责任表",
+          "机制、资源与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C025.md",
+        "sections": [
+          "导言：理论类别与系统用语",
+          "两类加工与判断过程",
+          "从理论到界面设计",
+          "三种认知强制设计及实验结果",
+          "相关概念与适用边界",
+          "认知需求与干预差异",
+          "在本站论文中的应用：P16设计建议",
+          "在本站论文中的应用：P19相关工作",
+          "在本站论文中的应用：P21实验操作化",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C026.md",
+        "sections": [
+          "导言：定义与检查对象",
+          "质量的不同方面",
+          "怎样把问题变成可检查的证据及证据表",
+          "已知问题集合的分母限制",
+          "从检查到修改",
+          "局限与相关概念",
+          "模拟聚合与完美汇总假设",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "本轮未发现需要记录为error的关键事实错误，也未发现真正未核实的页面论断；这仅指本轮提供版本的事实与表达审校。",
+      "已直接检查两张附图：P09物理第6页对应印刷180页，第7页对应181页。评分消息字段、图5矩阵、相关公式及4.56预测与C021一致。",
+      "外部来源进行了搜索及实际打开正文；IDS两项定义与边界另以所附官方原始全文缓存核对。",
+      "本站应用均有具体机制说明，并正确区分实际采用、设计建议与相关工作转述。"
+    ]
+  }
+}

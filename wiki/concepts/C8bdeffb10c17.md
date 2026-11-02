@@ -9,20 +9,71 @@ created: '2026-11-01'
 updated: '2026-11-01'
 ---
 
-局部忠实性（local fidelity）指解释与模型在待解释实例附近的实际行为相符。[^auto2]
+**局部忠实性**（英语：local fidelity）是解释与模型在待解释实例附近的实际行为相符的性质。一个简单解释可能无法描述复杂模型的全部行为，但仍可以在限定区域内近似它；局部忠实性关心这一近似是否准确，而不只是解释是否听起来合理。在 [[“Why Should I Trust You?” Explaining the Predictions of Any Classifier|LIME]] 论文中，它与可理解性共同构成解释方法的目标。[^lime]
+
+## 直观含义
+
+可以把复杂分类器理解为一条在不同位置弯曲的决策边界。直线难以拟合整条边界，却可能在某个小区域内近似其方向。解释因此需要说明“这里”是哪一区域，以及区域内哪些变化会使模型输出变化。如果解释只在待解释点给出相同数值，却在邻近点描述错误，就没有充分说明模型附近的行为；如果它只在全体数据上平均拟合良好，也可能漏掉当前个案的特殊情形。[^lime]
+
+局部与全局的重要特征也可能不同。某个变量在数据整体上影响很大，在当前实例附近却几乎不改变输出；另一个变量则可能只在这一小片区域有决定作用。局部解释由此回答“这个预测附近模型依赖什么”，与给全部变量排一个永久不变的名次不同。[^lime]
+
+## LIME 怎样构造局部解释
+
+“Why Should I Trust You?” Explaining the Predictions of Any Classifier 先选择人能理解的输入表示。例如，对文本使用词语是否出现的二元向量，对图像使用一组相邻像素块是否保留的向量。这与原分类器使用的词嵌入或像素张量可以不同。随后对这些可理解成分作扰动，把扰动样本送回原模型获得预测，再用较简单的模型拟合这些预测。[^method]
+
+整个过程可以分为四步：
+
+1. 确定实例 \(x\) 及其可理解表示 \(x'\)，并选择解释模型类别 \(G\)。
+2. 产生扰动表示 \(z'\)，映射回原输入 \(z\)，查询黑箱输出 \(f(z)\)。
+3. 用接近程度 \(\pi_x(z)\) 对样本加权，附近样本通常影响更大。
+4. 在拟合误差与复杂度之间折衷，选出能够呈现给用户的解释模型。[^method]
+
+\[
+\xi(x)=\arg\min_{g\in G}\bigl[L(f,g,\pi_x)+\Omega(g)\bigr].
+\]
+
+其中 \(f\) 是被解释模型，\(g\) 是解释模型，\(L\) 衡量加权近似误差，\(\Omega(g)\) 惩罚复杂程度。论文采用的一个具体误差是
+
+\[
+L=\sum_{(z,z')\in Z}\pi_x(z)\,[f(z)-g(z')]^2.
+\]
+
+这表明局部忠实性不是抽象的赞美词：它依赖扰动集合 \(Z\)、接近度、输出尺度和模型类别。即使方法名称相同，改变这些设定也会改变“附近”以及解释所拟合的行为。[^method]
+
+## 一个文本例子
+
+假设需要解释一篇新闻组帖子的分类。解释器保留或删去部分词，询问分类器这些新文本属于目标类别的分数，再用少量词的权重近似变化。若删去邮件头中的某词总使分类分数明显下降，局部解释就可能突出该词，即使它与主题含义毫不相关。这种结果揭示的是模型实际使用的线索，而不是用户认为模型理应使用的理由。[^case]
+
+LIME 论文的真实例子是区分 Christianity 与 Atheism 的支持向量机：留出集准确率为 94%，解释却突出 Posting、Host、Re 等线索。作者指出，Posting 在训练样本的 22% 中出现，其中 99% 属于 Atheism。解释的价值在于使这种捷径可见；它没有证明模型学到的是宗教概念，也没有因为输出看似准确而替模型背书。[^case]
+
+## 忠实性与可理解性的折衷
+
+论文用稀疏线性模型限制解释所含特征数，以便读者理解。但真实模型即使在很小区域内仍可能高度非线性，少数线性权重便未必足够。可理解表示也有表达能力限制：例如用图像块的有无解释“泛黄照片因色调而被判为复古”，可能抓不住决定性的整体色彩。作者因此说明可以估计解释对扰动集的拟合程度，再考虑是否需要其他模型类别。[^limits]
+
+局部性的选择同样重要。Molnar 的教材讨论了邻域范围、采样和解释稳定性：过宽邻域会把不同的决策区域混在一起，过窄或不合现实的扰动也未必代表用户关心的变化。因此，一个可读的权重图需要连同它所依据的邻域与样本来解释，而不能当作模型在所有情境下的固定原因清单。[^book]
+
+## 与其他解释性质的区别
+
+局部忠实性不同于预测正确率：解释可以忠实显示一个错误模型使用了错误线索。它也不同于人的满意度：一个令人信服的故事，仍可能与模型计算无关。对解释的评价需要明确目标是复现模型行为、帮助用户完成任务，还是说明现实中的因果关系，三者不自动互相保证。[^lime][^book]
+
+[[A Unified Approach to Interpreting Model Predictions]] 使用“局部准确性”（local accuracy）表示加性解释在被解释点上的输出相等，即基准值与各归因值之和恢复该点预测。这与 LIME 的邻域拟合概念相关，但不完全相同：单点相加相等不直接保证附近每一个扰动都被同样准确地拟合。区分二者有助于理解 LIME 与 [[SHAP|SHAP]] 的理论比较。[^shap]
 
 ## 在本站论文中的应用
 
-- [[“Why Should I Trust You?” Explaining the Predictions of Any Classifier]]：LIME 用按接近程度加权的扰动样本拟合局部模型，优先近似待解释实例附近的黑箱行为。[^auto1]
+LIME 论文把局部忠实性放在方法设计的核心，用相同框架解释文本和图像分类器。它再通过 SP-LIME 选择一组互补个案，帮助用户形成对模型更广的认识。代表性个案的选择扩展了展示范围，但没有把任何一个个案的局部权重升级为全局定律；解释区域及其适用边界仍然存在。[^method][^pick]
 
 ## 参见
 
-- [[“Why Should I Trust You?” Explaining the Predictions of Any Classifier]]
 - [[模型可解释性]]
-- [[Amazon Mechanical Turk]]
+- [[SHAP]]
+- [[夏普利值]]
 
 ## 参考文献
 
-[^auto2]: Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)。PDF 第3页，Desired Characteristics for Explainers。
-
-[^auto1]: Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)。PDF 第3页，3.3 Sampling for Local Exploration。
+[^lime]: Ribeiro、Singh、Guestrin（2016）。[“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)，PDF第2–3页，Desired Characteristics for Explainers。
+[^method]: 同上，PDF第3–4页，第3.1–3.4节及算法1。
+[^case]: 同上，PDF第4页，第3.5节文本分类例子。
+[^limits]: 同上，PDF第4页，表示能力、非线性与忠实性估计的限制。
+[^pick]: 同上，PDF第5页，第4节 Submodular Pick。
+[^book]: Christoph Molnar。[Interpretable Machine Learning：LIME](https://christophm.github.io/interpretable-ml-book/lime.html)，局部替代模型与局限性。
+[^shap]: Lundberg、Lee（2017）。[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)，PDF第4页，Property 1。

@@ -1,0 +1,550 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C074",
+    "C075",
+    "C076",
+    "C077",
+    "C078",
+    "C079",
+    "C080"
+  ],
+  "page_hashes": {
+    "concepts/C074.md": "a3c16b6ed7c13b1b2bb82125be013d462411d5fa93e03114e61fee75f5a536e6",
+    "concepts/C075.md": "dc611bce2ef05547476f4638750181b64f81c5b43e22949bd30599f3ae306077",
+    "concepts/C076.md": "6637e2392251b7f377ad9f3e9712bba6bd498e9c0d7925c94c84cc99ae7647ef",
+    "concepts/C077.md": "e5d01f52b1570d6e4599c04058c144e9ca29c9f7135b47fad787b7606d2ed99b",
+    "concepts/C078.md": "421f780b8b7f0497e997d04081d57d8dcb00a57e8d6b665dd47654bb4346bef2",
+    "concepts/C079.md": "4623f64fb75e082c2e295d90c9ba2a5fb0e3a85904fcbf26a122a0220003835e",
+    "concepts/C080.md": "a8533b9c9330dcdb4f7b1686767cddc92f8f38c276dfe612a82f74d32295b69b"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C074.md",
+        "claim": "聚类通常处理无标签资料，分组依赖表示、距离和算法，不自动成为真实类别。",
+        "source": "https://scikit-learn.org/stable/modules/clustering.html；P19 PDF第10页",
+        "verdict": "supported",
+        "reason": "官方指南介绍不同聚类假设；原论文明确目的为组织片段供专家扫描，而非发现潜在构念。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "HDBSCAN通过密度相关距离、层级、压缩树和稳定簇提取形成分组，并允许噪声。",
+        "source": "https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html",
+        "verdict": "supported",
+        "reason": "算法说明支持这些主要阶段；页面属于概述，没有冒称完整实现。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "三向量例子的距离为1、√2、√5，阈值连通规则把前两项分到一起。",
+        "source": "页面所列向量与欧氏距离定义",
+        "verdict": "supported",
+        "reason": "逐项计算正确，且明确标明人为示例及非HDBSCAN实现。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "约1300万片段预处理为130万，词表10133维，三个主成分保留95%以上方差。",
+        "source": "P19 PDF第9–10页",
+        "verdict": "supported",
+        "reason": "数字忠实于原文，并正确区别方差保留与检测准确率。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "四种聚类设置后选择最小簇大小10的10277簇；人工筛至1768簇，200簇双人核查，κ=0.74。",
+        "source": "P19 PDF第10–11页",
+        "verdict": "supported",
+        "reason": "设置、筛查顺序和分歧解决流程一致；未把1818实例当自动预测。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "TF-IDF产生70%至75%噪声，作者推测与同站片段及IDF缩放有关。",
+        "source": "P19 PDF第10页脚注7",
+        "verdict": "supported",
+        "reason": "保留了作者推测语气，没有将解释升级为确定因果。"
+      },
+      {
+        "path": "concepts/C074.md",
+        "claim": "聚类、动态欺骗验证和第三方归因是不同环节；文字筛查结果属于下界。",
+        "source": "P19 PDF第11、18、20、23、26–27页",
+        "verdict": "supported",
+        "reason": "应用说明准确交代概念承担的实际工作及输入边界。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "错误AI试次中，同意AI为过度依赖，另选错误为人类错误。",
+        "source": "P21 PDF第9、11页，附图表2",
+        "verdict": "supported",
+        "reason": "与操作定义一致，也区别了态度、行为和正确性。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "模拟AI识别准确率75%，错误时漏认最高碳水食材，转而推荐替换第二高者。",
+        "source": "P21 PDF第7–8页",
+        "verdict": "supported",
+        "reason": "准确说明模拟错误来源，没有误称实际训练模型。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "SXAI合并解释和不确定性条件，CFF合并三种流程干预，比例为调整边际均值。",
+        "source": "P21 PDF第7、9–11页",
+        "verdict": "supported",
+        "reason": "条件及统计口径说明准确。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "来源照搬64%降至48%显著，整体照搬30%降至26%不显著；错误题正确率3%、9%、18%。",
+        "source": "P21 PDF第10–11页，附图表1–2",
+        "verdict": "supported",
+        "reason": "核对图表一致，未混淆总体与来源识别指标。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "全部题SXAI与CFF正确率35%和33%，未检出差异；错误题改善不证明总体互补或净效用。",
+        "source": "P21 PDF第10、16–17页",
+        "verdict": "supported",
+        "reason": "统计结果与推论边界恰当。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "文本生成研究发现强制功能不总能抵消幻觉对数据质量的损害。",
+        "source": "https://arxiv.org/abs/2409.08937v1",
+        "verdict": "supported",
+        "reason": "实际打开的v1摘要明确报告此结果；适用情境为客户支持对话数据生成。"
+      },
+      {
+        "path": "concepts/C075.md",
+        "claim": "错误试次中的信任、偏好与表现负相关，不证明降低信任的因果收益。",
+        "source": "P21 PDF第12–13页，附图图2–3",
+        "verdict": "supported",
+        "reason": "相关方向及因果限制准确。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "范围综述系统绘制证据、概念及资料类型，区别于聚焦干预效果的综合。",
+        "source": "https://jbi-global.atlassian.net/wiki/spaces/MANUAL/pages/355862573/10.1.2%2BWhat%2Bare%2Bscoping%2Breviews；2024 JBI手册PDF第162–165页",
+        "verdict": "supported",
+        "reason": "官方定义与方法说明支持，并明确要求系统、透明地开展。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "搜索选择、资料整理、综合及报告边界需透明，迭代不等于任意搜索。",
+        "source": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf，PDF第165–170页",
+        "verdict": "supported",
+        "reason": "流程表符合指南的协议、检索、选择和资料整理要求。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "Long与Magerko称方法更接近scoping studies，而非传统系统综述。",
+        "source": "P17 PDF第2–3页",
+        "verdict": "supported",
+        "reason": "页面正确标为方法参照，没有宣称符合全部现代范围综述标准。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "150份来源分为53篇会议论文、38篇期刊论文、15本书、44份灰色材料，并采用不同阅读强度。",
+        "source": "P17 PDF第2页表1、第3页",
+        "verdict": "supported",
+        "reason": "数量及精读、摘要阅读和浏览的区别均与原文一致。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "按相似性组织关键想法，再以定义吻合、多源支持、教育用途筛选，形成五主题下17项能力及15项设计考虑。",
+        "source": "P17 PDF第3–10页",
+        "verdict": "supported",
+        "reason": "综合步骤、主题及条目数一致；未误称统计验证或必修标准。"
+      },
+      {
+        "path": "concepts/C076.md",
+        "claim": "框架仍需进一步实证检验，不保证所有群体同样有效。",
+        "source": "P17 PDF第2、10页",
+        "verdict": "supported",
+        "reason": "忠实于作者将框架定位为讨论起点和未来研究指引。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "计算机视觉包括场景推断、识别、运动和三维重建，具有逆问题性质。",
+        "source": "https://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf，所给原文缓存物理第25–32页及目录",
+        "verdict": "supported",
+        "reason": "缓存正文及任务目录直接支持定义、观测歧义和任务范围。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "ESP利用人的视觉能力生成标签，系统承担配对、匹配、计分和存储，而非自动视觉算法。",
+        "source": "P25 PDF第1–3、6–7页",
+        "verdict": "supported",
+        "reason": "应用关系准确，训练集和无障碍等用途也保留为潜在用途。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "标签确认要求超过X对玩家，X=1意味着至少两对。",
+        "source": "P25 PDF第2–3页，Labels and Good Label Threshold、Implementation",
+        "verdict": "error",
+        "reason": "原文为至少X对，且明确X=1时一对匹配即接受。页面同时误写不等号和实现阈值。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "标签确认阈值与把匹配词加入禁用列表是不同机制。",
+        "source": "P25 PDF第2–3页",
+        "verdict": "error",
+        "reason": "功能目的可以区分，但原文明确同一阈值控制标签附着和成为禁用词；页面未说明这种耦合，反而造成实施流程分离的误解。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "四个月13630人生成1271451标签、覆盖293760图像；人工评价均值为5.105有用及0.105无关。",
+        "source": "P25 PDF第5–6页",
+        "verdict": "supported",
+        "reason": "运行规模、抽样框、20图15人及首六标签口径正确。"
+      },
+      {
+        "path": "concepts/C077.md",
+        "claim": "关键词不等于完整替代描述，原研究未报告现代视觉模型训练或下游准确率。",
+        "source": "P25 PDF第6–8页",
+        "verdict": "supported",
+        "reason": "正确区别人工数据生产、建议用途和已完成评价。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "认知偏差不是所有错误或所有启发式的同义词。",
+        "source": "P19 PDF第5–6页；P21 PDF第2–4页",
+        "verdict": "supported",
+        "reason": "合理判断参照及启发式可能有效的限定符合来源。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "暗黑模式研究讨论锚定、从众、默认、框架、稀缺和沉没成本六类偏差。",
+        "source": "P19 PDF第6、12–20页",
+        "verdict": "supported",
+        "reason": "六项定义和界面实例对应准确。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "1818实例是网页发现及解释分类，不是1818次偏差实验。",
+        "source": "P19 PDF第11、26–27页",
+        "verdict": "supported",
+        "reason": "正确保留用户效应与个体易感性尚需研究的边界。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "隐藏费用可用沉没成本解释，倒计时重访能证欺骗但不能证明购买量增加。",
+        "source": "P19 PDF第13、15页",
+        "verdict": "supported",
+        "reason": "区别界面事实、理论解释与未测心理及销售效果。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "双加工理论用于设计AI交互干预，来源识别照搬改善而整体照搬未显著改善。",
+        "source": "P21 PDF第2–7、10–11页，附图表2",
+        "verdict": "supported",
+        "reason": "实际采用、理论视角和测量结果关系清楚。"
+      },
+      {
+        "path": "concepts/C078.md",
+        "claim": "Vaccaro等2024人机合作元分析作为更广背景。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11659167/",
+        "verdict": "unverified",
+        "reason": "本轮打开被验证码阻断，未读到正文；该附加背景引用的支持范围尚未核实。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "认知强制在决策当下促使分析，区别于事先偏差教育。",
+        "source": "P21 PDF第2–5页",
+        "verdict": "supported",
+        "reason": "定义、医疗背景例子和干预时点准确。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "按需、先回答后更新、等待30秒改变建议获取流程，心理过程属于作者假设。",
+        "source": "P21 PDF第7页",
+        "verdict": "supported",
+        "reason": "操作与预期作用分栏，并未声称测得系统2实际启动。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "每人两区块各13题去掉练习，199人分析，混合效应模型处理重复测量。",
+        "source": "P21 PDF第8–10页",
+        "verdict": "supported",
+        "reason": "数字和模型准确；原研究另有未报告的探索条件，页面未据此虚构均衡配对。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "错误题两步正确率3%、9%、18%，来源正确率8%、27%、49%；总体类别无显著差异。",
+        "source": "P21 PDF第10–11页，附图表1–2",
+        "verdict": "supported",
+        "reason": "数值、比较对象及显著性均正确。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "CFF复杂程度高于SXAI；高NFC组错误题整体正确改善，低组主要改善来源识别。",
+        "source": "P21 PDF第12、14–16页",
+        "verdict": "supported",
+        "reason": "保留不同指标和分层结果，没有把组内显著性差异直接写成已证实交互效应。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "适应性、个体化强制属于未来建议，三种流程尚不能概括临床效果。",
+        "source": "P21 PDF第17页",
+        "verdict": "supported",
+        "reason": "准确区别实施研究和设计提议。"
+      },
+      {
+        "path": "concepts/C079.md",
+        "claim": "2024文本生成研究发现强制功能并非总能减轻幻觉造成的数据质量损害。",
+        "source": "https://arxiv.org/abs/2409.08937v1",
+        "verdict": "supported",
+        "reason": "已打开的原摘要直接支持，且页面明确版本与任务差异。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "认知负荷涉及有限工作记忆；内部与额外负荷取决于知识、材料及呈现。",
+        "source": "https://link.springer.com/article/10.1007/s10648-019-09465-5",
+        "verdict": "supported",
+        "reason": "综述支持学习任务负荷、工作记忆限制和知识结构的解释。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "NASA-TLX为六维主观工作负荷，原形式加权，不能直接等同特定教学负荷。",
+        "source": "https://www.nasa.gov/human-systems-integration-division/nasa-task-load-index-tlx/；P16 PDF第7页",
+        "verdict": "supported",
+        "reason": "六个维度及综合工作负荷性质正确，也未补写Kaur研究未报告的权重细节。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "Kaur研究197人比较两工具和正常/特征名重排图，数据问题四条件共有。",
+        "source": "P16 PDF第3–4、6–7页",
+        "verdict": "supported",
+        "reason": "实验操纵对象与纳入人数准确，避免把图形操纵误写为数据操纵。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "GAM参与者阅读准确率、自报理解较高、NASA-TLX较低，正常和操纵图未检出这些指标差异。",
+        "source": "P16 PDF第7页Results",
+        "verdict": "supported",
+        "reason": "正文直接报告这些成对比较；页面没有将工具比较说成相同底层模型的比较。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "P21心智要求均值3.66、2.86、2.84；正确试次表现负相关，错误试次来源识别正相关。",
+        "source": "P21 PDF第9、12–13页，附图表3和图2",
+        "verdict": "supported",
+        "reason": "类别、边际均值及相关方向与图文一致；正相关为r=0.13、p=0.03。"
+      },
+      {
+        "path": "concepts/C080.md",
+        "claim": "P21属于相邻应用，测的是心智要求及复杂程度，不是完整NASA-TLX。",
+        "source": "P21 PDF第9页；P16 PDF第7页",
+        "verdict": "supported",
+        "reason": "准确区分两个研究的测量；认知需求也未与任务负荷混同。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均给主题、英文名和类别或关键特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言覆盖定义与本站关系，未引入宣传性影响判断。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节围绕定义、机制、例子、边界和应用展开；计算机视觉的发展部分较简略但未凑空章。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，区分关联、干预和作者解释，未把相关写成因果。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "C077将ESP阈值误归为至少两对，并淡化与禁用词的共同触发条件；其余主要归属清楚。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "多数数字与口径一致，但C077的X不等式和X=1解释错误，属于核心机制数值问题。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "大部分关键事实有可核来源；C077核心机制与所引原文冲突，C078附加元分析背景尚未读到正文。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "书目与所给原文、Crossref缓存相符；但C077引用不能支持阈值陈述，部分宽页码引注定位仍可更精确。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "均未使用信息框，不存在空字段或信息框与正文矛盾。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见大段复制、宣传结尾或未经标明的新实验结论；C074算例明确为示意。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "依概念特点调整骨架；范围综述给流程实例，视觉给任务输出比较，未强套统一实验模板。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未宣称优良条目资格，但C077尚有需修正的确定错误，不能视为全部已核实成稿。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "多数核心机制完整，但C077阈值及禁用词关系错误，读者无法据此正确复现标签确认流程。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文用机制和证据串联，非研究问题、方法、贡献字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "表格解释对象和作用，人数、系统名及统计量未以无说明笔记方式堆叠。"
+      },
+      {
+        "item": 4,
+        "pass": false,
+        "reason": "P21均值、显著性和比较条件解释充分；C077虽有数字语境，阈值口径却实质错误。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用逐一说明聚类整理、方法参照、人工标注、理论设计及主观测量的具体关系。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代现有方法不足及任务需求，没有只剩问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性等无据赞誉；显著性陈述通常注明指标、条件和限制。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C074.md",
+        "sections": [
+          "导言",
+          "从对象到距离",
+          "不同算法回答的分组问题",
+          "一个可算的分组例子",
+          "本站案例的完整流程",
+          "为什么没有使用TF-IDF",
+          "解释与评价的边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C075.md",
+        "sections": [
+          "导言",
+          "依赖、信任和绩效",
+          "为什么解释不一定解决问题",
+          "一个可计算的操作定义",
+          "干预与实测区别",
+          "适用范围与评价风险",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C076.md",
+        "sections": [
+          "导言",
+          "为主题画地图，而非直接估计效果",
+          "研究流程中的关键决定",
+          "AI素养综述的具体做法",
+          "怎样从资料形成能力",
+          "发展与报告规范",
+          "适用条件与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C077.md",
+        "sections": [
+          "导言",
+          "从像素到场景信息",
+          "任务与输出形式",
+          "图像标注为何有用",
+          "在本站论文中的应用",
+          "方法之间的关系与局限",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C078.md",
+        "sections": [
+          "导言",
+          "机制与错误不能混为一谈",
+          "暗黑模式研究涉及的六种倾向",
+          "线索如何影响一次选择",
+          "与AI建议的依赖",
+          "适用条件与个体差异",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": [
+          "参考文献nfc中的Vaccaro等2024元分析背景链接，打开遇验证码，未核实正文支持范围。"
+        ]
+      },
+      {
+        "path": "concepts/C079.md",
+        "sections": [
+          "导言",
+          "为什么改变流程而非只增加解释",
+          "三种具体交互",
+          "与基线怎样比较",
+          "有效在哪里、没有解决什么",
+          "成本与个体差异",
+          "发展与适用边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C080.md",
+        "sections": [
+          "导言",
+          "认知负荷与工作负荷",
+          "任务为何产生负担",
+          "主观测量：NASA-TLX",
+          "负荷与决策质量",
+          "在本站论文中的应用：P16",
+          "在本站论文中的应用：P21",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "结论：C077存在必须修正的核心机制错误；C078有一项附加背景引用待核。其余所列关键事实获得支持。",
+      "ESP原文为至少X对匹配；当时实现X=1，即一对匹配即可接受，并达到成为禁用词的阈值。",
+      "已按物理PDF第10–13页检查P21附图表1–3及图2–3；类别均值、显著性和相关方向与候选页一致。",
+      "本站关系总体标注准确：P19实际使用聚类、以偏差作解释分类；P17参照范围研究；ESP提供视觉相关人工标签；P21实施交互干预；P16使用NASA-TLX，P21仅为相邻主观测量应用。",
+      "外部核查使用实际打开的官方文档、JBI手册、原研究摘要及所给教材原文缓存；没有把搜索摘要作为已读全文。"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   },
   "counts": {
     "papers": 27,
-    "concepts": 87,
+    "concepts": 88,
     "bibliographic_citation_edges": 12,
     "concept_candidates": 122
   },
@@ -1262,7 +1262,8 @@
       "canonical_name": "冷启动",
       "type": "概念",
       "aliases": [
-        "start-up interval"
+        "start-up interval",
+        "cold start"
       ],
       "appears_in_papers": [
         "P09"
@@ -1546,9 +1547,7 @@
       "canonical_name": "参与式设计",
       "type": "概念",
       "aliases": [
-        "participatory design",
-        "co-design",
-        "协同设计"
+        "participatory design"
       ],
       "appears_in_papers": [
         "P05",
@@ -4133,6 +4132,40 @@
         "P365079753571"
       ],
       "source_sha256": "01c7aa8f7d9edcf0cd185bf02e82363f743e441fcaf05b99e6054bfb470bf8ae"
+    },
+    {
+      "id": "C086",
+      "canonical_name": "皮尔逊相关系数",
+      "type": "概念",
+      "aliases": [
+        "皮尔森相关系数",
+        "Pearson correlation coefficient",
+        "Pearson product-moment correlation coefficient"
+      ],
+      "appears_in_papers": [
+        "P09",
+        "P16",
+        "P21"
+      ],
+      "field": "研究方法与基础概念",
+      "markdown_path": "concepts/C086.md",
+      "html_path": "concepts/C086.html",
+      "evidence": [
+        {
+          "pdf_pages": [
+            7
+          ],
+          "section": "Predicting Scores; correlation formula and Figure 5"
+        },
+        {
+          "paper_id": "P16",
+          "pdf_pages": [
+            7
+          ],
+          "section": "Study 2 Methods; exploratory Pearson correlation coefficients"
+        }
+      ],
+      "creation_reason": "理解P09核心权重计算所需的稳定统计前置概念；不是论文自创方法"
     }
   ],
   "concept_candidates": [

@@ -1,0 +1,545 @@
+{
+  "ids": [
+    "C055",
+    "C056",
+    "C057",
+    "C058",
+    "C059",
+    "C060",
+    "C061"
+  ],
+  "page_hashes": {
+    "concepts/C055.md": "d3212623df3e8a6d87ef0cb635d6f9af99e3ff0ea0fc1e98be7e94a5e6828c71",
+    "concepts/C056.md": "2ec52340dc4d53b885a789134aceecde7b76cd95474c6297b3f436335a5ed589",
+    "concepts/C057.md": "06c1aaaf6444f633f84b91f70f5d65d0d40541b5c0b9c5772aa49d4e29cdd7eb",
+    "concepts/C058.md": "9e6612c7ab44abe93e660068745a0eaf2751afcba251d6cbd413624d42a10acc",
+    "concepts/C059.md": "0301b106dd06fa49297a3d2a4ce058354d178942de39a24c99911aceaf366f77",
+    "concepts/C060.md": "6888cb27d16f5b4ba4a8ceb3e6d034b22f7e19044dd5c8f839301ccaecd2db5f",
+    "concepts/C061.md": "0932dd5ad54b99435563aa5e1bb562a8b5e02ea5b8d569ae35e2bdfa15370031"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C055.md",
+        "claim": "暗黑模式通过强迫、引导或欺骗改变用户选择，使服务受益并可能损害用户利益。",
+        "source": "P19，PDF第1–2页；P14，PDF第1页",
+        "verdict": "supported",
+        "reason": "定义保留了服务利益、用户非预期选择与潜在损害，未把所有说服都算作暗黑模式。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "五项策略及其机制为反复纠缠、阻碍、偷偷进行、界面干预和强制行动。",
+        "source": "P14，PDF第5–8页",
+        "verdict": "supported",
+        "reason": "五项齐全，表格解释与原文相符；通知提示和取消障碍也有对应实例。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "策略不能作为自动判定设计动机的伦理清单。",
+        "source": "P14，PDF第8–9页",
+        "verdict": "supported",
+        "reason": "作者明确讨论意图、实际结果与情境差别，并拒绝将策略用作伦理检查表。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "约53,000个页面、11,000个网站中发现1,818实例、15类型、7类别和22家第三方实体。",
+        "source": "P19，PDF第1–3、9、23–24页",
+        "verdict": "supported",
+        "reason": "数字及统计对象准确；183指涉及查证欺骗行为的网站，正文没有与实例数混淆。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "购物网站研究检验大量页面中能找到什么。",
+        "source": "P19，PDF第6、10–11页",
+        "verdict": "error",
+        "reason": "应用说明不够完整：未解释爬取购物流程、提取文本、聚类供专家检查，以及重复访问核验动态欺骗的工作关系。现有段落主要报告结果，未充分说明概念如何被操作化。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "不同分类关注形式、机制与场景，不能简单一一对应。",
+        "source": "P19，PDF第4、16–17页；P14，PDF第4页",
+        "verdict": "supported",
+        "reason": "原文既比较分类尺度，也明确说明自身与Gray对误导性问题的判定不同。"
+      },
+      {
+        "path": "concepts/C055.md",
+        "claim": "FTC在2022年列举伪装广告、取消障碍、隐藏费用和诱导分享数据。",
+        "source": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+        "verdict": "supported",
+        "reason": "已打开官方正文，列举内容一致；页面没有将类型标签写成具体案件裁判。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "TUI将数字信息与可操作物理形式联系，Tangible Bits包含三个方向。",
+        "source": "P12，PDF第1–3页",
+        "verdict": "supported",
+        "reason": "交互表面、物件耦合和环境媒介均准确，并说明环境媒介超出狭义手持操作。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "表示、操作、反馈、空间使用是阅读框架而非原论文正式四分类。",
+        "source": "P12，PDF第4–7页",
+        "verdict": "supported",
+        "reason": "框架可由原型归纳，正文明确标明整理性质，没有冒充作者分类。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "metaDESK通过地点物件操纵地图，transBOARD连接白板活动，ambientROOM提供周边反馈。",
+        "source": "P12，PDF第4–7页",
+        "verdict": "supported",
+        "reason": "原型职责正确，但metaDESK具体旋转、缩放及双物件约束可以展开，增强完整操作例子。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "弹珠留言设计说明信息物理化。",
+        "source": "P12，PDF第3页",
+        "verdict": "supported",
+        "reason": "原文将Durrell Bishop的设计列为相关工作；页面没有直接将其归为Ishii团队原型。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Hornecker提醒不能仅凭动手操作推定学习或协作效果。",
+        "source": "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction，第45.4–45.5节",
+        "verdict": "supported",
+        "reason": "已读正文，支持情境、社会行动与任务评价；但应保留其对协作已有较好证据、学习效果更不明确的区别。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "Radical Atoms针对刚性物件限制，追求动态物理数字双向同步，2009年讨论、2012年发文。",
+        "source": "https://tangible.media.mit.edu/project/radical-atoms/",
+        "verdict": "supported",
+        "reason": "官方正文明确给出材料愿景、双向同步及两个发表阶段；页面未把愿景写成已实现材料。"
+      },
+      {
+        "path": "concepts/C056.md",
+        "claim": "原论文没有证明有形界面普遍优于GUI。",
+        "source": "P12，PDF第1、4–8页",
+        "verdict": "supported",
+        "reason": "全文以愿景、原型与研究问题为主，无普遍优越性的统一对照实验。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "机器学习从数据训练模型，监督学习包括分类与回归，无监督学习寻找无标签数据结构。",
+        "source": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml",
+        "verdict": "supported",
+        "reason": "已打开教学正文，定义及两类任务一致。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "预测可表示为ŷ=fθ(x)，其中θ是训练得到的参数。",
+        "source": "P365079753571，PDF第3页；Google教学正文",
+        "verdict": "supported",
+        "reason": "作为参数化预测模型的示意记号正确，符号已解释；它不是所有机器学习方法的完整形式化定义。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "概念页已经充分解释机器学习的主要组成和变体。",
+        "source": "候选页“从样例到预测”；Google教学正文；P17，PDF第5–6页",
+        "verdict": "error",
+        "reason": "仅给预测函数，没有解释训练目标、依据误差调整模型和独立测试的机制，也没有走通具体训练到预测实例；强化学习未介绍，生成内容虽进入定义却无机制说明。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "AI素养框架强调学习步骤、人的决策与数据解释。",
+        "source": "P17，PDF第2、5–6页",
+        "verdict": "supported",
+        "reason": "能力9–13及无需以编程作为普遍前提均有直接依据，应用角色明确。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "ESP Game用玩家匹配生成潜在训练标签，没有训练通用视觉模型。",
+        "source": "P25，PDF第1–3、6–7页",
+        "verdict": "supported",
+        "reason": "资料供给与模型训练分开准确；但“独立描述”宜理解为独立猜词，原游戏并不直接要求描述图像。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "53名从业者访谈展示镜头、GPS频率、时间戳和文档问题影响模型。",
+        "source": "P20，PDF第4、7、9–11页",
+        "verdict": "supported",
+        "reason": "人数与案例准确，已保留访谈证据范围，没有写成算法性能比较。"
+      },
+      {
+        "path": "concepts/C057.md",
+        "claim": "本站模型可解释性研究考察人们能否正确读懂模型。",
+        "source": "P16，PDF第3–9页",
+        "verdict": "supported",
+        "reason": "有对应研究，但该处未直接引P16，当前脚注n2、n4不能完整承担这一应用论断。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "棘手问题涉及界定、目标和价值分歧，而非单纯技术困难。",
+        "source": "P01，PDF第3、5页；https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2",
+        "verdict": "supported",
+        "reason": "原论文与已打开的Head章节均支持利益相关者观点参与构成问题。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "居家养老和家庭服务案例体现冲突目标及持续重构。",
+        "source": "P01，PDF第5页",
+        "verdict": "supported",
+        "reason": "两个例子忠实；监控与自主生活的对比明确标成说明，没有伪称实验。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "通过设计进行研究整合行为理论、技术机会及情境知识，输出框定和设计物。",
+        "source": "P01，PDF第5–7页",
+        "verdict": "supported",
+        "reason": "解释了棘手问题如何驱动模型运作，并准确区别工程研究与批判性设计。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "四行分析表足以替代概念特征介绍。",
+        "source": "Head章节“Wicked Problems Defined”；P01，PDF第3页",
+        "verdict": "error",
+        "reason": "虽声明不是原始清单，仍遗漏无最终检验、干预不可无代价重试、无穷尽方案集、独特性及问题嵌套等关键特征，读者无法全面识别该概念。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "后续研究批评流行词化和温顺／棘手二分。",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2",
+        "verdict": "supported",
+        "reason": "实际打开的摘要和正文均直接讨论这些争论，归属准确。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型概括系统组成与运作，并区别于用户实际心智模型。",
+        "source": "P22，PDF第3页；P16，PDF第8页；https://www.nngroup.com/articles/mental-models/",
+        "verdict": "supported",
+        "reason": "区分总体成立，NNGroup正文与2024发表、2026复审元数据均核实。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "三步模型指导档案、邻居与评分聚合的过程及数据解释。",
+        "source": "P22，PDF第3–4页",
+        "verdict": "supported",
+        "reason": "三步及表格完整对应原文，解释了概念模型如何生成界面内容。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "黑箱也可用历史表现或外部影评支持推荐，但这些不等于内部计算依据。",
+        "source": "P22，PDF第5页",
+        "verdict": "supported",
+        "reason": "准确保留白箱、黑箱与外部支持证据区别。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "MovieLens用户曾误以为推荐依据导演、演员和类型。",
+        "source": "P22，PDF第5页",
+        "verdict": "supported",
+        "reason": "原文明确记录这些来信；未将其扩大成所有用户的普遍误解。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "21种解释界面实验检验具体呈现，概念模型本身不能决定最佳界面。",
+        "source": "P22，PDF第5–7页",
+        "verdict": "supported",
+        "reason": "数量和设计逻辑正确；页面未把接受意愿冒充已证实的过滤性能改善。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "本站应用已涵盖相关论文使用概念模型的不同方式。",
+        "source": "P16，PDF第8–10页；P22，PDF第3–7页",
+        "verdict": "error",
+        "reason": "遗漏P16的直接用法：以设计者预期的概念模型对照参与者心智模型，分析误用与部署判断。现页仅详述推荐解释设计，缺少这一不同研究角色。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "可解释性无统一定义，可区分全局／局部和固有结构／事后解释。",
+        "source": "P16，PDF第1–3页；P365079753571，PDF第2–4页",
+        "verdict": "supported",
+        "reason": "分类与边界合理，没有把解释等同现实因果证明。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "SHAP解释LightGBM贡献，加性模型图用于检查各特征关系。",
+        "source": "P16，PDF第3–4页",
+        "verdict": "supported",
+        "reason": "工具与底层模型搭配准确；因果限制表述恰当。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "LIME扰动输入、查询原模型，以简单模型兼顾局部误差与复杂度。",
+        "source": "P365079753571，PDF第3–4页",
+        "verdict": "supported",
+        "reason": "机制、可解释表示和稀疏限制准确；作为概念页无需照搬全部算法，但可用原文文本例子完善流程。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Kaur研究先访谈，再开展11人现场研究及197人在线研究。",
+        "source": "P16，PDF第2–7页",
+        "verdict": "supported",
+        "reason": "研究结构与人数准确，应用明确是检查专业人员实际理解。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "在线操纵交换了图中两个特征的名称。",
+        "source": "P16，PDF第6页",
+        "verdict": "error",
+        "reason": "原文是重排全局和局部解释中的输入特征名称，使最小贡献显示为最大、反之亦然；未限定为只交换两个特征。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "年龄38岁的异常来自替换部分高收入样本年龄。",
+        "source": "P16，PDF第3–4页",
+        "verdict": "supported",
+        "reason": "原文具体为高收入样本的10%，38为全体平均年龄；页面概括没有改变方向。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "AI素养使用解释促进学习，认知强制研究比较核查建议的界面。",
+        "source": "P17，PDF第5、8页；P21，PDF第6–8页",
+        "verdict": "supported",
+        "reason": "两个应用分别说明教学与行为干预，模拟AI、30秒等待和解释内容均准确。"
+      },
+      {
+        "path": "concepts/C060.md",
+        "claim": "Miller主张借鉴社会科学，Vasconcelos报告五项迷宫研究共731人。",
+        "source": "https://arxiv.org/abs/1706.07269；https://arxiv.org/abs/2212.06823",
+        "verdict": "supported",
+        "reason": "均已打开实际摘要；页面明确限定摘要支持范围，未声称精读外部全文。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "民族志通过情境接触理解实践和意义，可结合多种资料并关注群体内部差异。",
+        "source": "P18，PDF第3页；https://ctb.ku.edu/en/table-of-contents/evaluate/evaluate-community-interventions/ethnographic-information/main",
+        "verdict": "supported",
+        "reason": "已读官方教学正文，支持持续接触、参与者视角与内部差别。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "家庭探针研究结合部署前后民族志访谈、日志与低技术工作坊。",
+        "source": "P23，PDF第1–3、7页",
+        "verdict": "supported",
+        "reason": "明确解释访谈、使用痕迹与设计活动各自作用，未将技术部署误写成无干预观察。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "民族志不应统一要求外部编码者得到相同标签。",
+        "source": "P18，PDF第3、5、14–16页",
+        "verdict": "supported",
+        "reason": "准确保留研究者经验、认识立场与固定码本计数之间的适用区别，没有否认所有IRR用途。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "参与观察须交代关系、进入现场、记录、隐私及情境化同意。",
+        "source": "https://research.utoronto.ca/participant-observation",
+        "verdict": "supported",
+        "reason": "已打开大学伦理说明，方法特点和伦理事项支持该概括。"
+      },
+      {
+        "path": "concepts/C061.md",
+        "claim": "民族志不能仅凭深入描述推算总体频率或确定因果。",
+        "source": "P18，PDF第3–6、14页；Community Tool Box上述正文",
+        "verdict": "supported",
+        "reason": "作为证据边界合理；没有把方法论文错误描述为家庭民族志。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均交代名称、类别及区分特征，外文术语齐备。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义和本站研究位置，未引入夸大的影响结论。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "C057缺训练机制及主要变体，C058缺关键特征，C059漏相关应用；各页另有空的“原有参考资料”标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确；C058将养老框定例子与真实实验区别，C057将2004背景与今日状态区别。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "外部争论分别归属Head、Miller等，研究观察通常明确归属作者，未用匿名评价制造共识。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "主要数字与日期准确，但C060将特征名称重排缩成两个名称交换，操作口径失真。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "关键来源真实，但C057末段关于模型理解研究未直接引P16；C055测量应用机制仍未充分展开。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "存在引注范围不匹配：C057的P20脚注漏第4页方法人数，C056弹珠段还挂不支持该例子的第4–8页；C060的P16范围包含参考文献第11页却漏操纵所处第4页的部分细节。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "七页均无信息框，不存在信息框与正文不一致的问题。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "无宣传和长段复制，但多页反复出现“表格不是正式分类”“不能描述成已经实现”等编辑核验措辞，削弱百科正文的连贯性。"
+      },
+      {
+        "item": 11,
+        "pass": false,
+        "reason": "采用概念结构而未硬套实验论文模板，但C058以本站整理框架替代概念核心特征，C059过度依附单篇应用。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未宣称达到优良条目资格，但正文没有标示已发现的错误及引用缺口，不能据形式完整判定通过。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C057未解释学习目标与更新机制；C058省略重要特征；C055测量操作化和C059第二种应用缺失。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕机制、证据与差别组织，未按研究问题、贡献、数据字段机械转句。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名与研究人数均配有用途说明，表格各列有解释，没有分号串联笔记。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "1,818实例与183网站明确区分；访谈人数、模拟条件和731人研究均交代对象。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "多数站内链接承担明确关系，如标签供给、解释生成、教学及决策核查，而非仅列延伸阅读。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明屏幕交互、购物界面、家庭价值冲突等实际状况，未只留提问。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "没有革命性、显著优越等无依据赞誉，且主动保留普遍化限制。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C055.md",
+        "sections": [
+          "导言",
+          "界面怎样影响选择",
+          "从设计实例到规模测量",
+          "意图、结果与伦理判断",
+          "后续讨论与边界",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C056.md",
+        "sections": [
+          "导言",
+          "从物理动作到数字状态",
+          "原论文中的几种实现",
+          "后续发展与材料限制",
+          "在本站论文中的应用与局限",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C057.md",
+        "sections": [
+          "导言",
+          "从样例到预测",
+          "人在流程中的选择",
+          "数据与标签的作用",
+          "从模型到实际系统",
+          "在本站论文中的不同位置",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C058.md",
+        "sections": [
+          "导言",
+          "为什么不能先固定全部要求",
+          "典型困难与问题重构",
+          "通过设计进行探索",
+          "与技术研究及批判性设计的关系",
+          "后续讨论与概念边界",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C059.md",
+        "sections": [
+          "导言",
+          "模型与实现、用户理解的区别",
+          "一个三步模型怎样指导解释",
+          "白箱、黑箱与错误模型",
+          "以模型控制解释细节",
+          "在本站论文中的作用与局限",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C060.md",
+        "sections": [
+          "导言",
+          "解释对象与使用目的",
+          "模型本身与事后解释",
+          "局部近似的一个例子",
+          "工具理解与实际使用",
+          "教育与决策场景",
+          "评价与适用边界",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C061.md",
+        "sections": [
+          "导言",
+          "行动与情境怎样联系",
+          "资料与研究者的位置",
+          "家庭技术研究中的用法",
+          "为什么一致编码未必是统一标准",
+          "伦理与适用边界",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "结论：待修订。主要事实多数有据，C060存在明确操作描述错误；C055、C057、C058、C059有实质深度或应用覆盖不足。",
+      "已对照提供的论文全文及参考文献、P19附录；外部来源实际搜索并打开正文或明确标注的公开摘要，没有以搜索摘要替代阅读。",
+      "C056、C061的定义、应用关系与证据边界基本成立；仍需清理引用范围及空标题。",
+      "coverage的unverified为空表示未留下无法核实的现有事实论断，不表示错误或内容缺失已经通过；这些问题已分别记录为error。",
+      "未修改任何正文。"
+    ]
+  }
+}

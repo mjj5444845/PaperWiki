@@ -3,16 +3,27 @@ from unittest.mock import patch
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('builder',ROOT/'build.py');builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
 class BuildTests(unittest.TestCase):
+    def test_footnote_reuse_is_valid_but_conflicting_definitions_fail(self):
+        builder.validate_footnotes('A[^source] B[^source]\n\n[^source]: A source')
+        with self.assertRaisesRegex(ValueError, 'Duplicate footnote'):
+            builder.validate_footnotes('A[^source]\n\n[^source]: First\n[^source]: Other')
+
+    def test_inline_math_preserves_prices_and_code(self):
+        import build
+        self.assertEqual(build.inline_math('$R^2$ and $p<0.01$'),r'\(R^2\) and \(p<0.01\)')
+        self.assertEqual(build.inline_math('$N(i)$ $0.01$ $κ$'),r'\(N(i)\) \(0.01\) \(κ\)')
+        self.assertEqual(build.inline_math('费用$15 and $30，代码`$x$`'),'费用$15 and $30，代码`$x$`')
     def test_project_and_local_paths(self):
         for base in ['/','/PaperWiki/','/renamed-repo/']:
             with self.subTest(base=base),tempfile.TemporaryDirectory() as tmp,patch.dict(os.environ,{'BASE_URL':base}),patch.object(builder,'OUT',pathlib.Path(tmp)/'site'):
                 pages=builder.build();report=json.loads((builder.OUT/'link-report.json').read_text())
                 self.assertEqual(report['errors'],[])
                 p16=(builder.OUT/'papers/P16.html').read_text()
-                self.assertIn('id="fnref:s14"',p16)
+                self.assertIn('id="fnref:',p16)
+                self.assertIn('class="footnote-backref"',p16)
                 self.assertIn('data-page="C080"',p16)
                 cf=(builder.OUT/'concepts/C021.html').read_text()
-                self.assertIn(r'\(p_{a,i}',cf)
+                self.assertIn('katex',cf)
                 self.assertEqual(len(pages),len(json.loads((ROOT/'wiki/registry.json').read_text())['entities']))
                 self.assertTrue(all(p['backlinks'] for p in pages.values()))
                 self.assertIn(base+'assets/style.css',(builder.OUT/'index.html').read_text())

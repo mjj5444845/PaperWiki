@@ -1,0 +1,740 @@
+[
+  {
+    "title": "Research Through Design as a Method for Interaction Design Research in HCI",
+    "words": 4536,
+    "han": 4436,
+    "sections": 15,
+    "numbers": 19,
+    "tables": 2,
+    "citations": 34,
+    "references": 18,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/642611.642616",
+      "https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+      "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf",
+      "https://research.tudelft.nl/en/publications/research-through-design-2/"
+    ],
+    "id": "P01",
+    "old_words": 445,
+    "sha256": "52f25e51f0213af5a79a869999760da1be293e6daedddd8dfec7ecd7043e58f6",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "52f25e51f0213af5a79a869999760da1be293e6daedddd8dfec7ecd7043e58f6",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/642611.642616",
+      "https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+      "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf"
+    ]
+  },
+  {
+    "title": "Awareness and Coordination in Shared Workspaces",
+    "words": 3798,
+    "han": 3733,
+    "sections": 12,
+    "numbers": 6,
+    "tables": 2,
+    "citations": 36,
+    "references": 10,
+    "external_sources": 4,
+    "url_list": [
+      "https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+      "https://collablab.northwestern.edu/CollabolabDistro/nucmc/GutwinGreenberg_FrameworkWorkspaceAwareness.pdf",
+      "https://doi.org/10.1145/143457.143468",
+      "https://doi.org/10.1145/143457.143549"
+    ],
+    "id": "P02",
+    "old_words": 474,
+    "sha256": "e8dafd392021c6189424ad61cfd64a13d2f1af52eda849c0e88a95ea4b436180",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "e8dafd392021c6189424ad61cfd64a13d2f1af52eda849c0e88a95ea4b436180",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/143457.143549",
+      "https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+      "https://collablab.northwestern.edu/CollabolabDistro/nucmc/GutwinGreenberg_FrameworkWorkspaceAwareness.pdf"
+    ]
+  },
+  {
+    "title": "Learning from Notes: Organizational Issues in Groupware Implementation",
+    "words": 3369,
+    "han": 3293,
+    "sections": 14,
+    "numbers": 24,
+    "tables": 1,
+    "citations": 33,
+    "references": 10,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549",
+      "https://shop.sloanreview.mit.edu/store/an-improvisational-model-for-change-management-the-case-of-groupware-technologies",
+      "https://www.dhi.ac.uk/san/waysofbeing/data/data-crone-orlikowski-1997.pdf",
+      "https://www.dourish.com/publications/1992/cscw92-awareness.pdf"
+    ],
+    "id": "P03",
+    "old_words": 429,
+    "sha256": "d19489b254d6d1f890dec3d1b0c05d1703cea7132ed117699cc76387996208bb",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "d19489b254d6d1f890dec3d1b0c05d1703cea7132ed117699cc76387996208bb",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://shop.sloanreview.mit.edu/store/an-improvisational-model-for-change-management-the-case-of-groupware-technologies",
+      "https://www.dourish.com/publications/1992/cscw92-awareness.pdf"
+    ]
+  },
+  {
+    "title": "Predicting Tie Strength With Social Media",
+    "words": 4475,
+    "han": 4212,
+    "sections": 11,
+    "numbers": 131,
+    "tables": 3,
+    "citations": 42,
+    "references": 10,
+    "external_sources": 2,
+    "url_list": [
+      "https://courses.cs.umbc.edu/graduate/691/spring21/pdf/2145204.2145360.pdf",
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "P04",
+    "old_words": 498,
+    "sha256": "e44b79bf83f9fff76609431f161e867a60f08b68593223268fca0c5972589ec2",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "e44b79bf83f9fff76609431f161e867a60f08b68593223268fca0c5972589ec2",
+    "non_original_documents": 1,
+    "non_original_document_keys": [
+      "https://courses.cs.umbc.edu/graduate/691/spring21/pdf/2145204.2145360.pdf"
+    ]
+  },
+  {
+    "title": "User-Defined Gestures for Surface Computing",
+    "words": 4500,
+    "han": 4239,
+    "sections": 9,
+    "numbers": 182,
+    "tables": 5,
+    "citations": 40,
+    "references": 11,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://faculty.washington.edu/wobbrock/pubs/chi-15.01.pdf",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/gesture_elicitation_interactions.pdf"
+    ],
+    "id": "P05",
+    "old_words": 525,
+    "sha256": "b4df86609cf6448ca22a2a99acb077406cedbf4be1dd307ffe2cb73423d99db1",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "b4df86609cf6448ca22a2a99acb077406cedbf4be1dd307ffe2cb73423d99db1",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://faculty.washington.edu/wobbrock/pubs/chi-15.01.pdf",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/gesture_elicitation_interactions.pdf"
+    ]
+  },
+  {
+    "title": "Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design",
+    "words": 3887,
+    "han": 3651,
+    "sections": 11,
+    "numbers": 135,
+    "tables": 3,
+    "citations": 44,
+    "references": 13,
+    "external_sources": 5,
+    "url_list": [
+      "https://arxiv.org/abs/2109.01271",
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/3544548.3581349",
+      "https://research.aalto.fi/en/publications/information-visualization-evaluation-using-crowdsourcing/"
+    ],
+    "id": "P06",
+    "old_words": 617,
+    "sha256": "c53f614b7853d47bfe7d2a5569e3f7e37e651b90603e24aa65821461fe3c6329",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "c53f614b7853d47bfe7d2a5569e3f7e37e651b90603e24aa65821461fe3c6329",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/1518701.1518866",
+      "doi:10.1145/3544548.3581349",
+      "https://research.aalto.fi/en/publications/information-visualization-evaluation-using-crowdsourcing/"
+    ]
+  },
+  {
+    "title": "Feminist HCI: Taking Stock and Outlining an Agenda for Design",
+    "words": 3904,
+    "han": 3823,
+    "sections": 14,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 44,
+    "references": 10,
+    "external_sources": 3,
+    "url_list": [
+      "https://colingray.me/wp-content/uploads/2020/02/2020_ChivukulaGray_CHILBW_FeministHCI.pdf",
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/1753326.1753521"
+    ],
+    "id": "P07",
+    "old_words": 454,
+    "sha256": "244ee5a5f9e5b91c48009b63814879cc8976cda74212998a719e8d8c269fdb4e",
+    "score": 9,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "244ee5a5f9e5b91c48009b63814879cc8976cda74212998a719e8d8c269fdb4e",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "doi:10.1145/1240624.1240704",
+      "https://colingray.me/wp-content/uploads/2020/02/2020_ChivukulaGray_CHILBW_FeministHCI.pdf"
+    ]
+  },
+  {
+    "title": "Computers are Social Actors",
+    "words": 4176,
+    "han": 3999,
+    "sections": 11,
+    "numbers": 97,
+    "tables": 3,
+    "citations": 53,
+    "references": 10,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://doi.org/10.1145/191666.191703",
+      "https://stars.library.ucf.edu/hmc/vol1/iss1/5/",
+      "https://www.coli.uni-saarland.de/courses/agentinteraction/contents/papers/Nass00.pdf"
+    ],
+    "id": "P08",
+    "old_words": 524,
+    "sha256": "7670e29ff56d9df0b717b4ce924ceadbc720c200713a8717dd5c90c5a94fecdd",
+    "score": 9,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "7670e29ff56d9df0b717b4ce924ceadbc720c200713a8717dd5c90c5a94fecdd",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/1753326.1753521",
+      "https://stars.library.ucf.edu/hmc/vol1/iss1/5/",
+      "https://www.coli.uni-saarland.de/courses/agentinteraction/contents/papers/Nass00.pdf"
+    ]
+  },
+  {
+    "title": "GroupLens: An Open Architecture for Collaborative Filtering of Netnews",
+    "words": 5438,
+    "han": 5115,
+    "sections": 15,
+    "numbers": 104,
+    "tables": 6,
+    "citations": 43,
+    "references": 18,
+    "external_sources": 6,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/2827872",
+      "https://doi.org/10.1145/358916.358995",
+      "https://files.grouplens.org/papers/harper-tiis2015.pdf",
+      "https://www.cambridge.org/core/books/recommender-systems/C6471B59388D8A9F684C49C198691B53/listing",
+      "https://www.usenix.org/conference/atc97/presentation/miller"
+    ],
+    "id": "P09",
+    "old_words": 470,
+    "sha256": "0c6586b379bf50adad353e3c046e8a382d6ae538673143172d40b2552ca0eaf8",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "0c6586b379bf50adad353e3c046e8a382d6ae538673143172d40b2552ca0eaf8",
+    "non_original_documents": 4,
+    "non_original_document_keys": [
+      "doi:10.1145/2827872",
+      "doi:10.1145/358916.358995",
+      "https://www.cambridge.org/core/books/recommender-systems/C6471B59388D8A9F684C49C198691B53/listing",
+      "https://www.usenix.org/conference/atc97/presentation/miller"
+    ]
+  },
+  {
+    "title": "Hollaback!: The Role of Collective Storytelling Online in a Social Movement Organization",
+    "words": 4189,
+    "han": 4071,
+    "sections": 13,
+    "numbers": 25,
+    "tables": 1,
+    "citations": 46,
+    "references": 14,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://righttobe.org/about-our-storytelling-platform/",
+      "https://www.annualreviews.org/doi/10.1146/annurev.soc.26.1.611"
+    ],
+    "id": "P10",
+    "old_words": 470,
+    "sha256": "b9d1240f6d696b776e7a7cd069cab6568051e5f9ab9cee30c67c8bae97f42261",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "b9d1240f6d696b776e7a7cd069cab6568051e5f9ab9cee30c67c8bae97f42261",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/2470654.2470742",
+      "https://righttobe.org/about-our-storytelling-platform/",
+      "https://www.annualreviews.org/doi/10.1146/annurev.soc.26.1.611"
+    ]
+  },
+  {
+    "title": "Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk",
+    "words": 4108,
+    "han": 3993,
+    "sections": 16,
+    "numbers": 24,
+    "tables": 3,
+    "citations": 43,
+    "references": 12,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://turkopticon.net/faq/index.html",
+      "https://www.minneapolisfed.org/research/institute-working-papers/can-reputation-discipline-the-gig-economy-experimental-evidence-from-an-online-labor-market"
+    ],
+    "id": "P11",
+    "old_words": 470,
+    "sha256": "bf3bac0e5aa2511c65734d5a4be3d91dd8ca1798c4b75ccaf6701043faa98587",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "bf3bac0e5aa2511c65734d5a4be3d91dd8ca1798c4b75ccaf6701043faa98587",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/2441776.2441831",
+      "https://turkopticon.net/faq/index.html",
+      "https://www.minneapolisfed.org/research/institute-working-papers/can-reputation-discipline-the-gig-economy-experimental-evidence-from-an-online-labor-market"
+    ]
+  },
+  {
+    "title": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+    "words": 3692,
+    "han": 3569,
+    "sections": 14,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 42,
+    "references": 10,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction",
+      "https://tangible.media.mit.edu/project/radical-atoms/"
+    ],
+    "id": "P12",
+    "old_words": 431,
+    "sha256": "3a64cbe381dcd2b1dd8ffa93fb280867827634b648420e8edb796f1b4758d886",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "3a64cbe381dcd2b1dd8ffa93fb280867827634b648420e8edb796f1b4758d886",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction",
+      "https://tangible.media.mit.edu/project/radical-atoms/"
+    ]
+  },
+  {
+    "title": "“I always assumed that I wasn’t really that close to [her]”: Reasoning about Invisible Algorithms in News Feeds",
+    "words": 4707,
+    "han": 4497,
+    "sections": 13,
+    "numbers": 107,
+    "tables": 3,
+    "citations": 49,
+    "references": 12,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://experts.illinois.edu/en/publications/first-i-like-it-then-i-hide-it-folk-theories-of-social-feeds/",
+      "https://www.pewresearch.org/short-reads/2018/09/05/many-facebook-users-dont-understand-how-the-sites-news-feed-works/"
+    ],
+    "id": "P13",
+    "old_words": 493,
+    "sha256": "9ac48e876efa2db2298e5cece40991a1b4c2849ea385ed6d4dde4bb6d6a6a218",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "9ac48e876efa2db2298e5cece40991a1b4c2849ea385ed6d4dde4bb6d6a6a218",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/3313831.3376219",
+      "https://experts.illinois.edu/en/publications/first-i-like-it-then-i-hide-it-folk-theories-of-social-feeds/",
+      "https://www.pewresearch.org/short-reads/2018/09/05/many-facebook-users-dont-understand-how-the-sites-news-feed-works/"
+    ]
+  },
+  {
+    "title": "The Dark (Patterns) Side of UX Design",
+    "words": 4129,
+    "han": 3993,
+    "sections": 15,
+    "numbers": 19,
+    "tables": 2,
+    "citations": 50,
+    "references": 14,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+      "https://www.gov.uk/government/publications/online-choice-architecture-how-digital-design-can-harm-competition-and-consumers/evidence-review-of-online-choice-architecture-and-consumer-and-competition-harm"
+    ],
+    "id": "P14",
+    "old_words": 458,
+    "sha256": "264f0cdf6924fb6e35033d04960e80bdc83fe8000b16c5f6dc08fa985364cff3",
+    "score": 9,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "264f0cdf6924fb6e35033d04960e80bdc83fe8000b16c5f6dc08fa985364cff3",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+      "https://www.gov.uk/government/publications/online-choice-architecture-how-digital-design-can-harm-competition-and-consumers/evidence-review-of-online-choice-architecture-and-consumer-and-competition-harm"
+    ]
+  },
+  {
+    "title": "Guidelines for Human-AI Interaction",
+    "words": 5142,
+    "han": 4775,
+    "sections": 13,
+    "numbers": 172,
+    "tables": 7,
+    "citations": 59,
+    "references": 13,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://www.microsoft.com/en-us/haxtoolkit/about/",
+      "https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf"
+    ],
+    "id": "P15",
+    "old_words": 500,
+    "sha256": "870559e4f5ba3e9e6936adde44f6c0b1c9844983c4426af363e2d3c780de8514",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "870559e4f5ba3e9e6936adde44f6c0b1c9844983c4426af363e2d3c780de8514",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://www.microsoft.com/en-us/haxtoolkit/about/",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf"
+    ]
+  },
+  {
+    "title": "Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning",
+    "words": 5023,
+    "han": 4729,
+    "sections": 15,
+    "numbers": 163,
+    "tables": 4,
+    "citations": 64,
+    "references": 15,
+    "external_sources": 5,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874",
+      "https://arxiv.org/abs/1706.07269",
+      "https://arxiv.org/abs/2212.06823",
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3313831.3376219"
+    ],
+    "id": "P16",
+    "old_words": 578,
+    "sha256": "55c976f39ff1549ab4369bec73877b94c0947c954d09652cfe84f6d85173761f",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "55c976f39ff1549ab4369bec73877b94c0947c954d09652cfe84f6d85173761f",
+    "non_original_documents": 4,
+    "non_original_document_keys": [
+      "doi:10.1145/3290605.3300233",
+      "https://arxiv.org/abs/1705.07874",
+      "https://arxiv.org/abs/1706.07269",
+      "https://arxiv.org/abs/2212.06823"
+    ]
+  },
+  {
+    "title": "What is AI Literacy? Competencies and Design Considerations",
+    "words": 4835,
+    "han": 4578,
+    "sections": 15,
+    "numbers": 90,
+    "tables": 7,
+    "citations": 55,
+    "references": 12,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://www.gov.uk/government/publications/ai-skills-for-life-and-work-rapid-evidence-review/ai-skills-for-life-and-work-rapid-evidence-review",
+      "https://www.unesco.org/en/articles/ai-competency-framework-students"
+    ],
+    "id": "P17",
+    "old_words": 432,
+    "sha256": "0b6ea7c3ecffd2a28546663ae4bbea9a25ce8681a1857331a572dc25123e6659",
+    "score": 9,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "0b6ea7c3ecffd2a28546663ae4bbea9a25ce8681a1857331a572dc25123e6659",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://www.gov.uk/government/publications/ai-skills-for-life-and-work-rapid-evidence-review/ai-skills-for-life-and-work-rapid-evidence-review",
+      "https://www.unesco.org/en/articles/ai-competency-framework-students"
+    ]
+  },
+  {
+    "title": "Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice",
+    "words": 4382,
+    "han": 4143,
+    "sections": 17,
+    "numbers": 131,
+    "tables": 4,
+    "citations": 57,
+    "references": 22,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://doi.org/10.1177/1609406919899220",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9879167/"
+    ],
+    "id": "P18",
+    "old_words": 504,
+    "sha256": "36647b61f46040b474ee8e85a7b97a5925139fc81c0d05f704c746383ff19b7e",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "36647b61f46040b474ee8e85a7b97a5925139fc81c0d05f704c746383ff19b7e",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "doi:10.1145/3411764.3445518",
+      "doi:10.1177/1609406919899220",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9879167/"
+    ]
+  },
+  {
+    "title": "Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites",
+    "words": 5705,
+    "han": 5382,
+    "sections": 18,
+    "numbers": 172,
+    "tables": 5,
+    "citations": 70,
+    "references": 31,
+    "external_sources": 6,
+    "url_list": [
+      "https://arxiv.org/html/2101.04843v1",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3359183",
+      "https://github.com/aruneshmathur/dark-patterns",
+      "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+      "https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html"
+    ],
+    "id": "P19",
+    "old_words": 541,
+    "sha256": "0c9ff430e227748d009494c203b5d2409bc5f6634570693da3d2f8b164e3cff0",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "0c9ff430e227748d009494c203b5d2409bc5f6634570693da3d2f8b164e3cff0",
+    "non_original_documents": 4,
+    "non_original_document_keys": [
+      "doi:10.1145/3173574.3174108",
+      "https://arxiv.org/html/2101.04843v1",
+      "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+      "https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html"
+    ]
+  },
+  {
+    "title": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+    "words": 4464,
+    "han": 4339,
+    "sections": 14,
+    "numbers": 66,
+    "tables": 2,
+    "citations": 52,
+    "references": 14,
+    "external_sources": 3,
+    "url_list": [
+      "https://arxiv.org/abs/2303.10158",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://research.google/pubs/data-cards-purposeful-and-transparent-dataset-documentation-for-responsible-ai/"
+    ],
+    "id": "P20",
+    "old_words": 554,
+    "sha256": "ff7a3998e8eee25ee8ea12d69afc1140f457545dbefb1ff144d90d50d4601810",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "ff7a3998e8eee25ee8ea12d69afc1140f457545dbefb1ff144d90d50d4601810",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://arxiv.org/abs/2303.10158",
+      "https://research.google/pubs/data-cards-purposeful-and-transparent-dataset-documentation-for-responsible-ai/"
+    ]
+  },
+  {
+    "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+    "words": 4457,
+    "han": 4182,
+    "sections": 16,
+    "numbers": 103,
+    "tables": 4,
+    "citations": 52,
+    "references": 18,
+    "external_sources": 3,
+    "url_list": [
+      "https://arxiv.org/abs/2409.08937v1",
+      "https://doi.org/10.1145/3449287",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11659167/"
+    ],
+    "id": "P21",
+    "old_words": 683,
+    "sha256": "407113230eba5a594ecd2c57566e580031aa0a5475fdcb901a1d9b5f84ff7334",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "407113230eba5a594ecd2c57566e580031aa0a5475fdcb901a1d9b5f84ff7334",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://arxiv.org/abs/2409.08937v1",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11659167/"
+    ]
+  },
+  {
+    "title": "Explaining Collaborative Filtering Recommendations",
+    "words": 4748,
+    "han": 4559,
+    "sections": 14,
+    "numbers": 133,
+    "tables": 3,
+    "citations": 49,
+    "references": 13,
+    "external_sources": 4,
+    "url_list": [
+      "https://abdn.elsevierpure.com/en/publications/a-survey-of-explanations-in-recommender-systems/",
+      "https://arxiv.org/html/2102.09692",
+      "https://doi.org/10.1145/358916.358995",
+      "https://www.presnick.people.si.umich.edu/papers/cscw94/GroupLens.htm"
+    ],
+    "id": "P22",
+    "old_words": 500,
+    "sha256": "da22ef05332f51eb76006f721a9df998b8b5461423c9a2c842de96430bd21ee4",
+    "score": 9,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "da22ef05332f51eb76006f721a9df998b8b5461423c9a2c842de96430bd21ee4",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "https://abdn.elsevierpure.com/en/publications/a-survey-of-explanations-in-recommender-systems/",
+      "https://arxiv.org/html/2102.09692",
+      "https://www.presnick.people.si.umich.edu/papers/cscw94/GroupLens.htm"
+    ]
+  },
+  {
+    "title": "Technology Probes: Inspiring Design for and with Families",
+    "words": 4122,
+    "han": 4051,
+    "sections": 13,
+    "numbers": 12,
+    "tables": 1,
+    "citations": 44,
+    "references": 9,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/642611.642616",
+      "https://hcibook.com/e3/text//online/technology-probes",
+      "https://www.dourish.com/publications/2007/chi2007-probes.pdf"
+    ],
+    "id": "P23",
+    "old_words": 496,
+    "sha256": "37563ccc0591d0c84c93a7baee933ee9e694bb658f1d682510e224739f24f53e",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "37563ccc0591d0c84c93a7baee933ee9e694bb658f1d682510e224739f24f53e",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://hcibook.com/e3/text//online/technology-probes",
+      "https://www.dourish.com/publications/2007/chi2007-probes.pdf"
+    ]
+  },
+  {
+    "title": "Heuristic Evaluation of User Interfaces",
+    "words": 4715,
+    "han": 4452,
+    "sections": 12,
+    "numbers": 162,
+    "tables": 4,
+    "citations": 33,
+    "references": 18,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/97243.97281",
+      "https://hcibib.perlman.hosting.acm.org/tcuid/chap-4.html",
+      "https://mortenhertzum.dk/publ/IJHCI2001.pdf",
+      "https://www.nngroup.com/articles/ten-usability-heuristics/"
+    ],
+    "id": "P24",
+    "old_words": 529,
+    "sha256": "a4a951f06c87675c0e198239f4b8a9e92a125f8d2cddb7f55c1c38d1cda7eb5d",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "a4a951f06c87675c0e198239f4b8a9e92a125f8d2cddb7f55c1c38d1cda7eb5d",
+    "non_original_documents": 3,
+    "non_original_document_keys": [
+      "https://hcibib.perlman.hosting.acm.org/tcuid/chap-4.html",
+      "https://mortenhertzum.dk/publ/IJHCI2001.pdf",
+      "https://www.nngroup.com/articles/ten-usability-heuristics/"
+    ]
+  },
+  {
+    "title": "Labeling Images with a Computer Game",
+    "words": 4209,
+    "han": 4060,
+    "sections": 16,
+    "numbers": 66,
+    "tables": 2,
+    "citations": 39,
+    "references": 10,
+    "external_sources": 5,
+    "url_list": [
+      "https://api.crossref.org/works/10.1145/2399187.2399190",
+      "https://api.crossref.org/works/10.1145/985692.985733",
+      "https://dash.harvard.edu/entities/publication/73120378-cbbb-6bd4-e053-0100007fdf3b",
+      "https://doi.org/10.1145/985692.985733",
+      "https://www.cs.cmu.edu/news/2008/carnegie-mellon-launches-web-site-games-purposegames-tap-human-minds-accomplish-what-machines"
+    ],
+    "id": "P25",
+    "old_words": 567,
+    "sha256": "c4a8e22cd7384855bef99ad3f16c3603d36bf616ad5de72b9e4be5bfaa354b19",
+    "score": 10,
+    "passed": true,
+    "audit_status": "通过",
+    "audit_page_sha256": "c4a8e22cd7384855bef99ad3f16c3603d36bf616ad5de72b9e4be5bfaa354b19",
+    "non_original_documents": 2,
+    "non_original_document_keys": [
+      "https://dash.harvard.edu/entities/publication/73120378-cbbb-6bd4-e053-0100007fdf3b",
+      "https://www.cs.cmu.edu/news/2008/carnegie-mellon-launches-web-site-games-purposegames-tap-human-minds-accomplish-what-machines"
+    ]
+  }
+]

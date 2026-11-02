@@ -1,0 +1,825 @@
+{
+  "papers": [
+    {
+      "id": "P01",
+      "title": "Research Through Design as a Method for Interaction Design Research in HCI",
+      "sha256": "52f25e51f0213af5a79a869999760da1be293e6daedddd8dfec7ecd7043e58f6",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P01.json"
+    },
+    {
+      "id": "P02",
+      "title": "Awareness and Coordination in Shared Workspaces",
+      "sha256": "e8dafd392021c6189424ad61cfd64a13d2f1af52eda849c0e88a95ea4b436180",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P02.json"
+    },
+    {
+      "id": "P03",
+      "title": "Learning from Notes: Organizational Issues in Groupware Implementation",
+      "sha256": "d19489b254d6d1f890dec3d1b0c05d1703cea7132ed117699cc76387996208bb",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P03.json"
+    },
+    {
+      "id": "P04",
+      "title": "Predicting Tie Strength With Social Media",
+      "sha256": "e44b79bf83f9fff76609431f161e867a60f08b68593223268fca0c5972589ec2",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P04.json"
+    },
+    {
+      "id": "P05",
+      "title": "User-Defined Gestures for Surface Computing",
+      "sha256": "b4df86609cf6448ca22a2a99acb077406cedbf4be1dd307ffe2cb73423d99db1",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P05.json"
+    },
+    {
+      "id": "P06",
+      "title": "Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design",
+      "sha256": "c53f614b7853d47bfe7d2a5569e3f7e37e651b90603e24aa65821461fe3c6329",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P06.json"
+    },
+    {
+      "id": "P07",
+      "title": "Feminist HCI: Taking Stock and Outlining an Agenda for Design",
+      "sha256": "244ee5a5f9e5b91c48009b63814879cc8976cda74212998a719e8d8c269fdb4e",
+      "passed": true,
+      "score": 9,
+      "report": "qa/rewrite-audits/P07.json"
+    },
+    {
+      "id": "P08",
+      "title": "Computers are Social Actors",
+      "sha256": "7670e29ff56d9df0b717b4ce924ceadbc720c200713a8717dd5c90c5a94fecdd",
+      "passed": true,
+      "score": 9,
+      "report": "qa/rewrite-audits/P08.json"
+    },
+    {
+      "id": "P09",
+      "title": "GroupLens: An Open Architecture for Collaborative Filtering of Netnews",
+      "sha256": "0c6586b379bf50adad353e3c046e8a382d6ae538673143172d40b2552ca0eaf8",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P09.json"
+    },
+    {
+      "id": "P10",
+      "title": "Hollaback!: The Role of Collective Storytelling Online in a Social Movement Organization",
+      "sha256": "b9d1240f6d696b776e7a7cd069cab6568051e5f9ab9cee30c67c8bae97f42261",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P10.json"
+    },
+    {
+      "id": "P11",
+      "title": "Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk",
+      "sha256": "bf3bac0e5aa2511c65734d5a4be3d91dd8ca1798c4b75ccaf6701043faa98587",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P11.json"
+    },
+    {
+      "id": "P12",
+      "title": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+      "sha256": "3a64cbe381dcd2b1dd8ffa93fb280867827634b648420e8edb796f1b4758d886",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P12.json"
+    },
+    {
+      "id": "P13",
+      "title": "“I always assumed that I wasn’t really that close to [her]”: Reasoning about Invisible Algorithms in News Feeds",
+      "sha256": "9ac48e876efa2db2298e5cece40991a1b4c2849ea385ed6d4dde4bb6d6a6a218",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P13.json"
+    },
+    {
+      "id": "P14",
+      "title": "The Dark (Patterns) Side of UX Design",
+      "sha256": "264f0cdf6924fb6e35033d04960e80bdc83fe8000b16c5f6dc08fa985364cff3",
+      "passed": true,
+      "score": 9,
+      "report": "qa/rewrite-audits/P14.json"
+    },
+    {
+      "id": "P15",
+      "title": "Guidelines for Human-AI Interaction",
+      "sha256": "870559e4f5ba3e9e6936adde44f6c0b1c9844983c4426af363e2d3c780de8514",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P15.json"
+    },
+    {
+      "id": "P16",
+      "title": "Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning",
+      "sha256": "55c976f39ff1549ab4369bec73877b94c0947c954d09652cfe84f6d85173761f",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P16.json"
+    },
+    {
+      "id": "P17",
+      "title": "What is AI Literacy? Competencies and Design Considerations",
+      "sha256": "0b6ea7c3ecffd2a28546663ae4bbea9a25ce8681a1857331a572dc25123e6659",
+      "passed": true,
+      "score": 9,
+      "report": "qa/rewrite-audits/P17.json"
+    },
+    {
+      "id": "P18",
+      "title": "Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice",
+      "sha256": "36647b61f46040b474ee8e85a7b97a5925139fc81c0d05f704c746383ff19b7e",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P18.json"
+    },
+    {
+      "id": "P19",
+      "title": "Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites",
+      "sha256": "0c9ff430e227748d009494c203b5d2409bc5f6634570693da3d2f8b164e3cff0",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P19.json"
+    },
+    {
+      "id": "P20",
+      "title": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+      "sha256": "ff7a3998e8eee25ee8ea12d69afc1140f457545dbefb1ff144d90d50d4601810",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P20.json"
+    },
+    {
+      "id": "P21",
+      "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+      "sha256": "407113230eba5a594ecd2c57566e580031aa0a5475fdcb901a1d9b5f84ff7334",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P21.json"
+    },
+    {
+      "id": "P22",
+      "title": "Explaining Collaborative Filtering Recommendations",
+      "sha256": "da22ef05332f51eb76006f721a9df998b8b5461423c9a2c842de96430bd21ee4",
+      "passed": true,
+      "score": 9,
+      "report": "qa/rewrite-audits/P22.json"
+    },
+    {
+      "id": "P23",
+      "title": "Technology Probes: Inspiring Design for and with Families",
+      "sha256": "37563ccc0591d0c84c93a7baee933ee9e694bb658f1d682510e224739f24f53e",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P23.json"
+    },
+    {
+      "id": "P24",
+      "title": "Heuristic Evaluation of User Interfaces",
+      "sha256": "a4a951f06c87675c0e198239f4b8a9e92a125f8d2cddb7f55c1c38d1cda7eb5d",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P24.json"
+    },
+    {
+      "id": "P25",
+      "title": "Labeling Images with a Computer Game",
+      "sha256": "c4a8e22cd7384855bef99ad3f16c3603d36bf616ad5de72b9e4be5bfaa354b19",
+      "passed": true,
+      "score": 10,
+      "report": "qa/rewrite-audits/P25.json"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "C001",
+      "title": "Amazon Mechanical Turk",
+      "sha256": "637ba0ef574b9137fc9fe0540351eeee35a32c1df2734d940e949a1e1564e171",
+      "passed": true,
+      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    },
+    {
+      "id": "C002",
+      "title": "SHAP",
+      "sha256": "49535c630813cb82780ae874d91a3dd4979a18bab04db61cc8456723249e900b",
+      "passed": true,
+      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    },
+    {
+      "id": "C003",
+      "title": "三角互证",
+      "sha256": "85961d257a7673db0eb489cf5e1f6052c325c96e0bc60dc341b5d29fb11785ea",
+      "passed": true,
+      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    },
+    {
+      "id": "C004",
+      "title": "主题分析",
+      "sha256": "c0ff08f364c0266ac3be5dee3f41c5a5d2915a68c27d82c0e35ea18b0cd25f44",
+      "passed": true,
+      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    },
+    {
+      "id": "C005",
+      "title": "交互设计",
+      "sha256": "d1397bc4230e90b0a204b4e8180de32c5060f58cbf4fde9bd033175c025ce4cc",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C006",
+      "title": "亲和图法",
+      "sha256": "b09c632d48873a1c3cc5e1348ed01e28418ca52b3cfe3221439dfc69df79e055",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C007",
+      "title": "人工智能素养",
+      "sha256": "f2d488cdc0fee728102bb6c335f0751bad4aee39a6e94079f1e2eebafebdd682",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C008",
+      "title": "人机智能交互",
+      "sha256": "815904b8269bdaf38247c68792ae4922d7cc5cef4c337ef26c5cc63582cf7ed9",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C009",
+      "title": "人类计算",
+      "sha256": "5b46385422a5708b7c0488de518cba9a152290439358e2b5a7995a862f162fdf",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C010",
+      "title": "以用户为中心的设计",
+      "sha256": "e1e13fa3d4189bb1ec456d77edc1bde2ea4bfa9ebe87030fbc4cba61469f511c",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C011",
+      "title": "价值敏感设计",
+      "sha256": "2abb64270653737acf28f69b74e6fb2ccf0c16aa2673269e82cc516c460b7070",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C012",
+      "title": "众包",
+      "sha256": "4d88e998638847a1d63e8a0d73f27d49b10528541d8b466f1ff0eea712921a80",
+      "passed": true,
+      "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
+    },
+    {
+      "id": "C013",
+      "title": "信息不对称",
+      "sha256": "f41b9badf5fec7721dc26175a38eceec5750400a2dc5fa0bedc6523a0b678361",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C014",
+      "title": "信息可视化",
+      "sha256": "74bec166ba6629638801a0bfeff2961acde983cb8aefc7d28bec26ded9a34d44",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C015",
+      "title": "共享工作空间",
+      "sha256": "f8fae45169d7333a4d7181f1098c36342da3efa292a742e744206521826ce4df",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C016",
+      "title": "关系强度",
+      "sha256": "0a2e5fb51e50096b9975ec1e111481fe28c754a2ddfca034f53335526712f24f",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C017",
+      "title": "冷启动",
+      "sha256": "c6cafd0c6ae0c838cbba45ff55326d82859260d2c45d928245bc0790886ed5a1",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C018",
+      "title": "出声思考法",
+      "sha256": "5c8ec1d0c490277358d11cc80012aefdb6b190f85d42169ebe1d3a497d8b8c75",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C019",
+      "title": "半结构访谈",
+      "sha256": "e42f3c768a6ca28db94a36473c841f144196aebdade5e46d4e27fdb112848c5f",
+      "passed": true,
+      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+    },
+    {
+      "id": "C020",
+      "title": "协作感知",
+      "sha256": "ae086d8074197b0cf827e466eddd2138135b759b2cf4c8a910c9c0845bb1d184",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C021",
+      "title": "协同过滤",
+      "sha256": "e9fe2ab9313a72e6fba29cfb14b86802eb60f44d37dfe781735948b4d5ab9123",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C022",
+      "title": "原型设计",
+      "sha256": "e191d31391ad38d4667362c8a36aed2988d22c55d048045608479614c02d9c27",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C023",
+      "title": "参与式行动研究",
+      "sha256": "75752f16df358386f6e774f09eca52318eecad20b159849657b6cc19132498c6",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C024",
+      "title": "参与式设计",
+      "sha256": "d169c14094bbc95b09b8e3e2bd85c289930e886cbd13cc15f799cdc27ed31579",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C025",
+      "title": "双加工理论",
+      "sha256": "38b2d513bdb41f2c0fc09be7fe935dd0d0e041b9e62c38f51f8916d7538a73da",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C026",
+      "title": "可用性",
+      "sha256": "7dcbc3ecb4001b3d8365beb59f2721a37648d5c29577c044463b6172ba3031a9",
+      "passed": true,
+      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+    },
+    {
+      "id": "C027",
+      "title": "可用性测试",
+      "sha256": "527c3fb76d1ed6c3a11c391eb102a562196abc63393ae672f13cf3444d3762bf",
+      "passed": true,
+      "report": "qa/concept-audits/C027-C028-C029-C030.json"
+    },
+    {
+      "id": "C028",
+      "title": "启发式评估",
+      "sha256": "96d83cfdbc85ba8e5c60cd87d453d7a2a0f2d2a57c95217056a76430ce452442",
+      "passed": true,
+      "report": "qa/concept-audits/C027-C028-C029-C030.json"
+    },
+    {
+      "id": "C029",
+      "title": "图像标注",
+      "sha256": "0de8118c8a1f066056732950185a15f17f5d8b46b646e032a7c2668cdacb83d6",
+      "passed": true,
+      "report": "qa/concept-audits/C027-C028-C029-C030.json"
+    },
+    {
+      "id": "C030",
+      "title": "图形感知",
+      "sha256": "8fd04237728ac2f9fd81dc401449b69d1bcc2f4b44862b3dce5e1da8cae9809e",
+      "passed": true,
+      "report": "qa/concept-audits/C027-C028-C029-C030.json"
+    },
+    {
+      "id": "C031",
+      "title": "基于内容的过滤",
+      "sha256": "c1195da23d7be067bd017f933654b8df39be995595ccba1b6964622790fe99cb",
+      "passed": true,
+      "report": "qa/concept-audits/C031-C032-C033.json"
+    },
+    {
+      "id": "C032",
+      "title": "增强现实",
+      "sha256": "c974a22116f7a6aa30025a3715af94a5ae1db4c0f2c0839d68339f2cb7136cdd",
+      "passed": true,
+      "report": "qa/concept-audits/C031-C032-C033.json"
+    },
+    {
+      "id": "C033",
+      "title": "声誉系统",
+      "sha256": "807725419b195e2904a48fcbbcf5e6efa75bf7e37f9bfec326a11e26a8f002af",
+      "passed": true,
+      "report": "qa/concept-audits/C031-C032-C033.json"
+    },
+    {
+      "id": "C034",
+      "title": "女性主义人机交互",
+      "sha256": "a9d60a315e738c93b74f69deab64826da8da1fc64e3fa637cdbe07152960ab36",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C035",
+      "title": "女性主义立场理论",
+      "sha256": "87b6f80678bcc876b3d9e610fbeb924567baaa896d758126d5c9bcd9d75ab212",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C036",
+      "title": "广义可加模型",
+      "sha256": "73cb6e065a97024bcbe65cc9d80dc6d88a8ad99ac869376b7117e73596768bd4",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C037",
+      "title": "开放编码",
+      "sha256": "b466606c9964c66d0ed0ea1256a2a4d358431b67581dcea1edefd853b18c6432",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C038",
+      "title": "心智模型",
+      "sha256": "77d4e81b1dda8904b6e3449db1d4d15a03f450bb2af9b120468ea281f92069d4",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C039",
+      "title": "情境调查",
+      "sha256": "84c48b250a9847a00b00e49324c768cc3c8dc92bce63c783bb9efa85777b1b54",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C040",
+      "title": "手势引出",
+      "sha256": "bb9d350acb66b3e7f1b135d7be46c13df4849cde438461981e9c7a9401245e5b",
+      "passed": true,
+      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+    },
+    {
+      "id": "C041",
+      "title": "扎根理论",
+      "sha256": "c5fd583be0d629153c7d30f02b9f1f020e7fa557710d1a1c37dd2cf51f56665c",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C042",
+      "title": "批判性设计",
+      "sha256": "c7925910f83a2540bc7c3585a90ce2868f022bc95751074c35b12bf50dc313d7",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C043",
+      "title": "技术债务",
+      "sha256": "f9e09254364a1f9b5c0420e6757e8b93bb50801681f87b3707ea204d17a3d6ad",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C044",
+      "title": "技术框架",
+      "sha256": "3305f65950fe2192c9e4491a01e98ba82fd53a52f90b75251b47f6af55435230",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C045",
+      "title": "拟人化",
+      "sha256": "c1f0bf5385d0d77d19f892b4b854b2939cbe002c94da4c77ebe83d55908adcfa",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C046",
+      "title": "持续比较法",
+      "sha256": "3ef77851da0db3fb13c365aaf15c4e46a7c2d239db3f56acda55054155f6f230",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C047",
+      "title": "推荐系统",
+      "sha256": "22b097774b99c0bd92a454f5fbf689e592819326fcf58ef4663df12192f1f095",
+      "passed": true,
+      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+    },
+    {
+      "id": "C048",
+      "title": "推荐解释",
+      "sha256": "f1d7f005a797da5b2f1379d30344deefee73d57f1e041b9638bd61ae4b263552",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C049",
+      "title": "数据素养",
+      "sha256": "34bac528ded31fade4f38d96570f82b30cbb41a8b5d450df8f843f6061763e02",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C050",
+      "title": "数据质量",
+      "sha256": "90f1168c9782222321e84a69ef53b86a415a8d5e714e6f805396847394bdf49a",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C051",
+      "title": "数据集文档",
+      "sha256": "59c60a5ddfc8ed9fb3a14355edb2ab07c77ec47aafc53f169bf0fa09874ddb6e",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C052",
+      "title": "文化探针",
+      "sha256": "89fd994c42542a1f98f7cb1051ddadcbe525bcda67e16f993f698db07980ade3",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C053",
+      "title": "无障碍",
+      "sha256": "79dea3bb925f95043a6fb9d5b2f22b675eb37b40f99063ce283592834d658bb9",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C054",
+      "title": "普通最小二乘回归",
+      "sha256": "443872ec46a6c051b1b87803b1865721c27ac7751c0a1982e51090c56eaed497",
+      "passed": true,
+      "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
+    },
+    {
+      "id": "C055",
+      "title": "暗黑模式",
+      "sha256": "12d42a016f14f6084d1aa4d4b6dc56573e75232e355e9fc938c6dba6829cb852",
+      "passed": true,
+      "report": "qa/concept-audits/C055-C056-C057.json"
+    },
+    {
+      "id": "C056",
+      "title": "有形用户界面",
+      "sha256": "7c350192359cd95bf2cbebdd9d4342fccbb16a7aa95bc794044497f5bba53ad6",
+      "passed": true,
+      "report": "qa/concept-audits/C055-C056-C057.json"
+    },
+    {
+      "id": "C057",
+      "title": "机器学习",
+      "sha256": "080f2fd059873babef55157c6d790ce404a58a60160c57fab64a03a383e1f1fc",
+      "passed": true,
+      "report": "qa/concept-audits/C055-C056-C057.json"
+    },
+    {
+      "id": "C058",
+      "title": "棘手问题",
+      "sha256": "8145f5e5656f41bb7a05f0a419dd0faab41b22257071b44c7fc054977ad65893",
+      "passed": true,
+      "report": "qa/concept-audits/C058-C059.json"
+    },
+    {
+      "id": "C059",
+      "title": "概念模型",
+      "sha256": "1b612e6b20e6ecc70b6df4a9cc99675a797046d15dd5b4fc1963ea4e23c0579e",
+      "passed": true,
+      "report": "qa/concept-audits/C058-C059.json"
+    },
+    {
+      "id": "C060",
+      "title": "模型可解释性",
+      "sha256": "cb297c009b43dd85576a0ee242de4ee8d7667ad3dddb06eb7846cf301d0c9723",
+      "passed": true,
+      "report": "qa/concept-audits/C060-C061.json"
+    },
+    {
+      "id": "C061",
+      "title": "民族志",
+      "sha256": "75f15d083fb13179076d5c589552fa7e68b31833552172dd5ad8c7d127fbd409",
+      "passed": true,
+      "report": "qa/concept-audits/C060-C061.json"
+    },
+    {
+      "id": "C062",
+      "title": "泛在计算",
+      "sha256": "1f56c0a194ea953db4f5a10180894f58ab49ae554799ae495208b849bffb0475",
+      "passed": true,
+      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+    },
+    {
+      "id": "C063",
+      "title": "混合方法研究",
+      "sha256": "2e1791a729feaf43d405fff0ed2b07d44aa8b19b5178507e121f5bf68874b604",
+      "passed": true,
+      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+    },
+    {
+      "id": "C064",
+      "title": "环境显示",
+      "sha256": "bdbf83fc9fbc85373dc22a487b22e3b9f08604b915ada73912fa97b14ad60483",
+      "passed": true,
+      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+    },
+    {
+      "id": "C065",
+      "title": "直接操纵",
+      "sha256": "746f3dd27d13c184811f65d1a57bab0b7021f29e2152a6268316acadc7e36e4c",
+      "passed": true,
+      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+    },
+    {
+      "id": "C066",
+      "title": "社会网络分析",
+      "sha256": "88a7236803b9ad6334941928aa81464fc059c37d64b4b325ff1b824847914efe",
+      "passed": true,
+      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+    },
+    {
+      "id": "C067",
+      "title": "社会规范",
+      "sha256": "79fda1a1911376e3f2163d9e8cf2101b938cb30f8162dbe9f1f8c8097aa61b50",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C068",
+      "title": "社会运动框架",
+      "sha256": "a8dac414529095da08183ef1589398a0d5e279f65c5a9feb42f512652d8248c5",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C069",
+      "title": "科学技术研究",
+      "sha256": "381ebe5ae71b261dd9dd08107869325b5ec4237399511b6353cbf972b9b66f46",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C070",
+      "title": "算法偏差",
+      "sha256": "0930218b3ae3cf72d89263a4a802d6fad90d4e3f80c7d3dd131feaf336ed84ad",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C071",
+      "title": "算法觉察",
+      "sha256": "011cd2d1f5d3bee52bf2dfdefba4c2582b60b52fb3083b372e15266047d82789",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C072",
+      "title": "算法透明度",
+      "sha256": "c83252e3b26da765399d1141295993cec9bccc8c403ddd1c085251e75b98a685",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C073",
+      "title": "群件",
+      "sha256": "af8a80b4d70bc53993f1692db984002f3d378abf5f8774d234610df90c1821dc",
+      "passed": true,
+      "report": "qa/concept-audits/C067-C068-C069-C070-C071-C072-C073.json"
+    },
+    {
+      "id": "C074",
+      "title": "聚类分析",
+      "sha256": "046a281474b9ed5c8b9c24547d7c813b5f55d1a2e5dae1099f821fa7b1dbb66c",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C075",
+      "title": "自动化过度依赖",
+      "sha256": "323220e0e4a777b1cadc109ccc5079136cb05c34ea23beab475fba3c536602df",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C076",
+      "title": "范围综述",
+      "sha256": "6637e2392251b7f377ad9f3e9712bba6bd498e9c0d7925c94c84cc99ae7647ef",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C077",
+      "title": "计算机视觉",
+      "sha256": "2837593377a3aab1ffeb92c14ff74833e68686998fec68b8a02361801025e7b1",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C078",
+      "title": "认知偏差",
+      "sha256": "d51ee256e627aade64e256d20339c64e38a02b6bad7e6295de47c5918a8ef0cd",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C079",
+      "title": "认知强制功能",
+      "sha256": "3070cd8024b0c6d2d1530832a20cdf9adb6f80313923cd0e6b8750909bf66795",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C080",
+      "title": "认知负荷",
+      "sha256": "77416acd3a0b048657ad0407ef6f88f82e4703e539392f8151f46382fe9c8aef",
+      "passed": true,
+      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+    },
+    {
+      "id": "C081",
+      "title": "认知需求",
+      "sha256": "3c65ca93af5061044ab1068b7d062d0251f7f14abfcc539ebf7174693d013b61",
+      "passed": true,
+      "report": "qa/concept-audits/C081-C082.json"
+    },
+    {
+      "id": "C082",
+      "title": "评定者间信度",
+      "sha256": "52a75bc4fb1c0ba92369d31a9d13c5a7a20d3b4e3376e7f9ee267050f476f8d1",
+      "passed": true,
+      "report": "qa/concept-audits/C081-C082.json"
+    },
+    {
+      "id": "C083",
+      "title": "说服性技术",
+      "sha256": "44bd72bd5ca8087200441923c804d8b8a5e4ff775a94e551008ce8b1b372b70c",
+      "passed": true,
+      "report": "qa/concept-audits/C083-C084-C085.json"
+    },
+    {
+      "id": "C084",
+      "title": "质性研究",
+      "sha256": "8897eb28d0f88deb5db1a0d0f26a5e0d09947ad5f72759a2092852641f0df9f1",
+      "passed": true,
+      "report": "qa/concept-audits/C083-C084-C085.json"
+    },
+    {
+      "id": "C085",
+      "title": "通过设计开展研究",
+      "sha256": "eec09d5de3cbb6d43fadb669cafb3b3277c3b884793a31601f43fdcc4db7fcfe",
+      "passed": true,
+      "report": "qa/concept-audits/C083-C084-C085.json"
+    },
+    {
+      "id": "C8bdeffb10c17",
+      "title": "局部忠实性",
+      "sha256": "c2598d01fec9916a48fd2da016e1266e78db45c626db8d3b711907ea614c5838",
+      "passed": true,
+      "report": "qa/concept-audits/C8bdeffb10c17-Cbc9d66a9b988.json"
+    },
+    {
+      "id": "Cbc9d66a9b988",
+      "title": "夏普利值",
+      "sha256": "7f69efc7934ccf4b82d32803c96630535b0478706059ff284169bf3e2f84f19b",
+      "passed": true,
+      "report": "qa/concept-audits/C8bdeffb10c17-Cbc9d66a9b988.json"
+    },
+    {
+      "id": "C086",
+      "title": "皮尔逊相关系数",
+      "sha256": "ce142fba9ec8c204b7dcb9c5e8854440b8a4fb5a013398ed7ca1af8a2b045b18",
+      "passed": true,
+      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    }
+  ],
+  "paper_passes": 25,
+  "concept_passes": 88,
+  "all_passed": true
+}

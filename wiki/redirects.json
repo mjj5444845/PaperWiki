@@ -79,8 +79,6 @@
   "prototyping": "C022",
   "participatory action research": "C023",
   "participatory design": "C024",
-  "co-design": "C024",
-  "协同设计": "C024",
   "dual-process theory": "C025",
   "dual process theory": "C025",
   "usability": "C026",
@@ -162,5 +160,9 @@
   "RtD": "C085",
   "研究通过设计": "C085",
   "generated_from": "registry.json",
-  "updated": "2026-11-01"
+  "updated": "2026-11-01",
+  "皮尔森相关系数": "C086",
+  "Pearson correlation coefficient": "C086",
+  "Pearson product-moment correlation coefficient": "C086",
+  "cold start": "C017"
 }

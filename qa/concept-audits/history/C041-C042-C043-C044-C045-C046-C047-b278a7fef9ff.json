@@ -1,0 +1,602 @@
+{
+  "ids": [
+    "C041",
+    "C042",
+    "C043",
+    "C044",
+    "C045",
+    "C046",
+    "C047"
+  ],
+  "page_hashes": {
+    "concepts/C041.md": "4614eee0e84267a6dc323b921a9903e8edf529253374ba0ff26f6cbd2af94cf2",
+    "concepts/C042.md": "6c3e9a5e825acc6f44145b47bbd65487913a753c0e3ad033e78c61d5c6b186e1",
+    "concepts/C043.md": "d6093966bcdae0ab34e7012ca6140490ddf68d203225c59f5f25a8b347413142",
+    "concepts/C044.md": "1fffe93aa02251eb18041fa084f0905b97f7326792926ceb1dec108cc52ed46d",
+    "concepts/C045.md": "6ca2bff2cbb5ecebbe8c93f73e4d4793166d88a8fda09855929dd3e032f7be75",
+    "concepts/C046.md": "8fe63d10a88100ad97523cdc2f847eebbc7eeaf56d39de45ab08b6ca74877ac0",
+    "concepts/C047.md": "072a0afc8ddb4979f48c77e072e234eb21a4ea3c5deb94575d6258105e1707dd"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C041.md",
+        "claim": "扎根理论以系统比较资料发展理论，资料收集与分析相互引导。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，Research process、Discussion",
+        "verdict": "supported",
+        "reason": "外部全文明确描述递归研究过程、理论取样及理论整合，定义准确。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "编码、持续比较、理论取样、备忘及理论饱和相互反馈，饱和不由固定人数决定。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，Discussion",
+        "verdict": "supported",
+        "reason": "各要素及类别充分发展的判断均有依据；五项表格不是完整方法清单，还可补理论敏感性与理论整合。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "选择性或聚焦编码进一步集中于核心解释。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，Coding表1、Advanced coding",
+        "verdict": "error",
+        "reason": "将两者并列概括会掩盖层次差异：建构主义聚焦编码属于中间阶段，后续还有理论编码；选择性编码在演进传统中承担高级整合。紧接的学派差异声明不足以解释这一具体区别。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "发展可追溯临终研究、1967年著作及此后的传统分化。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，History、Grounded theory origins",
+        "verdict": "supported",
+        "reason": "历史脉络与外部全文一致，但不同传统的哲学及文献使用差异只提及、未展开。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "扎根理论不普遍要求IRR，代码可为理论发展的中间产品。",
+        "source": "P18，物理PDF第13–16页",
+        "verdict": "supported",
+        "reason": "第15页直接说明；文章也保留多人讨论和部分任务使用IRR的可能，页面未写成全面禁止。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "Hollaback研究访谈13人，分别开放编码后采用轴心编码，结合社会运动理论与资料主题。",
+        "source": "P10，物理PDF第5–7、9页",
+        "verdict": "supported",
+        "reason": "人数、操作和Straussian归纳演绎结合均吻合；应用解释了概念在分析中的作用，未冒称完成纯粹归纳的普遍理论。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "P18中249篇命名方法，44篇符合grounded术语范围，34篇明确写grounded theory。",
+        "source": "P18，物理PDF第12–13、15页",
+        "verdict": "supported",
+        "reason": "分母和术语口径准确，也解释了方法标签与实际过程的区别。"
+      },
+      {
+        "path": "concepts/C041.md",
+        "claim": "受伤经历例子足以说明完整扎根理论流程。",
+        "source": "页面“从材料中发展解释”；P10，物理PDF第5–6页",
+        "verdict": "error",
+        "reason": "例子仅演示比较方向，没有展示初始代码如何形成类别、怎样据此追加取样并整合解释。它没有明确声称是原研究实际完成的流程，但仍未满足有步骤走通实例的深度要求。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "批判性设计通过物件或体验质疑既有价值和假设，推想用于打开讨论而非预测。",
+        "source": "P14，物理PDF第2页；https://mitpress.mit.edu/9780262019842/speculative-everything/",
+        "verdict": "supported",
+        "reason": "论文支持质疑规范的定义；实际打开的出版方说明支持可能未来及讨论目的，页面也如实限定为出版方简介。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "价值敏感设计、反思性设计、暗黑模式与批判性设计不能互换。",
+        "source": "P14，物理PDF第1–3页",
+        "verdict": "supported",
+        "reason": "论文分别讨论各取向与现象，比较表基本准确。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "P14将批判性设计作为伦理背景与研究实践沟通问题的参照，而非118件材料的数据收集技术。",
+        "source": "P14，物理PDF第1–4、10页",
+        "verdict": "supported",
+        "reason": "准确交代背景作用及与实践语料分类的关系，应用段达到概念作用说明要求。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "学术批判设计方法在商业实践中的采用及所需解释技能存在问题。",
+        "source": "P14，物理PDF第2、10页",
+        "verdict": "supported",
+        "reason": "原文明确讨论解释技能及实践采用证据有限；应保留这是2018年作者的判断。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "批判性设计可能因研究者替所有人定义理想生活、只邀请能读懂符号的群体而重现排除。",
+        "source": "页面n3；P14，物理PDF第9–10页",
+        "verdict": "unverified",
+        "reason": "所引页讨论受众改变、脆弱群体及组织压力，没有直接论述这两种批判性设计特有的排除机制；需要针对性来源。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "工作过程和评价边界已经充分说明批判性设计怎样操作。",
+        "source": "页面“从问题到材料的工作过程”“局限与评价问题”；P14，物理PDF第2页",
+        "verdict": "error",
+        "reason": "只有一般检查问题，没有任何作品展示前提、材料表达、观众解释及评价之间的具体链条，也缺名称形成与发展脉络。不能以没有统一算法为由省去实例。"
+      },
+      {
+        "path": "concepts/C042.md",
+        "claim": "宣称态度或行为改变必须有相应观察，展览反应不能代替生活后果。",
+        "source": "页面n2、n3；P14，物理PDF第2、9–10页",
+        "verdict": "unverified",
+        "reason": "作为审慎建议合理，但这些页没有直接提出页面这一套评价规则；目前以引注呈现为来源结论，归属范围过宽。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "技术债务以本金和利息描述内部质量不足及未来修改额外成本。",
+        "source": "https://martinfowler.com/bliki/TechnicalDebt.html",
+        "verdict": "supported",
+        "reason": "定义及成本不确定性与实际打开原文一致，未将债务等同所有缺陷。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "利息主要由相关修改触发，稳定区域可暂留，债务不必全面重写。",
+        "source": "https://martinfowler.com/bliki/TechnicalDebt.html",
+        "verdict": "supported",
+        "reason": "原文明确讨论按修改频率渐进改善及金融比喻的时间限制。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "Fowler用有意或无意、审慎或鲁莽形成四象限。",
+        "source": "https://martinfowler.com/bliki/TechnicalDebtQuadrant.html",
+        "verdict": "supported",
+        "reason": "两个正交维度准确；表中活跃或稳定区域是另外的管理考虑，正文已将四象限限定在前两个维度。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "数据级联与技术债务相关但不同；53名从业者研究把资料问题的下游后果与债务联系起来。",
+        "source": "P20，物理PDF第2–5页",
+        "verdict": "supported",
+        "reason": "定义、样本及与生产系统相关工作的联系均真实；应用段说明了分析作用。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "洁净图像训练的眼病模型会因现场灰尘失效，社会组织条件使修复不限于调模型。",
+        "source": "P20，物理PDF第2、7–9页",
+        "verdict": "supported",
+        "reason": "眼病案例及硬件漂移有直接支持；重新收集、领域合作和伙伴培训也在后文报告。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "文档、验证、交接与一线资源是可能处理方式，模型表现不能代理数据质量。",
+        "source": "P20，物理PDF第3、9–12页；页面n3仅标第2–3页",
+        "verdict": "error",
+        "reason": "论断主要有全文支持，但统一n3页码无法覆盖具体干预、伙伴关系及资料生命周期应用；应扩展并拆分支持范围。"
+      },
+      {
+        "path": "concepts/C043.md",
+        "claim": "本金、利息和改善优先级已有可走通示例。",
+        "source": "页面“成本为什么会延后”“识别与处理”；https://martinfowler.com/bliki/TechnicalDebt.html",
+        "verdict": "error",
+        "reason": "页面没有把某次选择、重复修改成本与偿还代价连成完整例算；外部原文有清楚成本例子可供转述，当前仅有定性情境。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "技术框架由个人持有而部分共享，影响技术理解、设计与使用。",
+        "source": "P03，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "共同经历和互动促成共享的机制与原文一致，亦正确区别程序开发框架。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "传播和培训影响框架，个人工具隐喻限制Notes协作用途的理解。",
+        "source": "P03，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "传播不足、技术化培训及个人生产力解释均有具体资料支持。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "接触其他实践可能改变框架，原研究只涉及早期使用。",
+        "source": "P03，物理PDF第2、4–5、7页",
+        "verdict": "supported",
+        "reason": "条件性表述准确；页面n2仅标第4页，改变框架的具体例子跨到第5页，应补页码。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "奖励、责任政策和竞争文化与认知共同影响采用。",
+        "source": "P03，物理PDF第5–7页；页面n3仅标第5页",
+        "verdict": "error",
+        "reason": "内容受全文支持，但竞争文化主要在第6页，共同作用在第6–7页，当前页码不足。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "技术框架与心智模型相接，但不同于社会运动框架。",
+        "source": "P03，物理PDF第3页；P10，物理PDF第3–4页",
+        "verdict": "supported",
+        "reason": "两个原文的研究对象确实不同；页面只引P03不能完整支持对社会运动框架的比较。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "1994年Orlikowski与Gash发表Technological Frames，刊于12(2)，174–207页。",
+        "source": "https://doi.org/10.1145/196734.196745",
+        "verdict": "unverified",
+        "reason": "本轮实际打开DOI返回403，未取得可读元数据；不能把页面声称已核Crossref当独立核验证据。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "Notes应用具体说明框架如何参与分析，而非实验操纵或全组织总分。",
+        "source": "P03，物理PDF第2–7页",
+        "verdict": "supported",
+        "reason": "传播—培训—解释—使用及制度条件的关系明确，未复制总体方法充当概念作用。"
+      },
+      {
+        "path": "concepts/C044.md",
+        "claim": "同部门不能推定完全共享，框架不可作为事后万能解释。",
+        "source": "页面“分析时怎样取得证据”“局限”；P03，物理PDF第2–3页",
+        "verdict": "unverified",
+        "reason": "部分共享及样本边界有依据，但具体证据操作规则和可反驳性要求是未明示归属的方法论延伸。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "拟人化归因、界面人类线索与社会行为需要区分。",
+        "source": "P08，物理PDF第1、6页；https://www.psychologicalscience.org/journals/perspectives/1745691610369336/",
+        "verdict": "supported",
+        "reason": "论文否认社会反应必需明确拟人信念；官方摘要将拟人化定义为人类特征归因。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "33人同机、异机与纸笔评价实验中，同机评价更正面且变异更小。",
+        "source": "P08，物理PDF第3页",
+        "verdict": "supported",
+        "reason": "人数、对照逻辑与方向正确；“反应较少分歧”指跨被试评分变异，不应理解为编码一致性。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "原研究控制视觉界面及特定录音者差异，五项实验考察不同社会线索。",
+        "source": "P08，物理PDF第1–5页",
+        "verdict": "supported",
+        "reason": "实验主题、视觉控制及多录音者控制均吻合。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "2010年研究涉及个体拟人化差异及道德关切、责任、信任和社会影响。",
+        "source": "https://www.psychologicalscience.org/journals/perspectives/1745691610369336/",
+        "verdict": "supported",
+        "reason": "实际打开学会摘要直接支持，页面未冒称取得全文或因果证据。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "CASA中的拟人化是理论边界参照，不能简化成误以为机器是人。",
+        "source": "P08，物理PDF第1、5–6页",
+        "verdict": "supported",
+        "reason": "正确解释概念如何参与论文理论立场，而不是把关键词当作实验测量。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "大学生短期录音辅导实验不能直接外推现代长期聊天关系。",
+        "source": "P08，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "研究设置支持外推限制；页面将其作为范围判断，没有伪称原文研究现代系统。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "拟人语言和角色能降低理解负担，也可能使能力边界更难判断。",
+        "source": "页面n1、n2；P08第1页与APS摘要",
+        "verdict": "unverified",
+        "reason": "指定来源未直接验证这两种设计效果；需增加研究理解负担、能力校准或过度依赖的来源。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "概念机制和发展已充分覆盖。",
+        "source": "页面“对象线索与使用者归因”“个体差异与后续研究”",
+        "verdict": "error",
+        "reason": "已解释线索、行为和归因区别，但没有展开产生拟人归因的机制或主要理论；一项个体差异摘要不能替代机制和发展说明。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "持续比较贯穿片段、代码及类别发展，并能引导理论取样。",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，Constant comparative analysis、Theoretical sampling",
+        "verdict": "supported",
+        "reason": "比较层次及迭代机制准确；不等同关键词频数或最终一次比较。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "暗黑模式研究由预设分类转向开放编码，形成五类策略。",
+        "source": "P14，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "118件材料、分类混杂问题及分析转换均准确。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "取消困难、禁止复制可按阻碍比较，退订授权同时涉及暗中操作和强制行动。",
+        "source": "P14，物理PDF第5–6、8页",
+        "verdict": "supported",
+        "reason": "实例与分类有直接证据；“完整例子”仍是对最终分类关系的教学重组，不能视为作者公开了全部比较决策记录。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "持续比较不同于IRR，代码可随分析修改。",
+        "source": "P18，物理PDF第13–16页",
+        "verdict": "supported",
+        "reason": "区分合理，但不应遗漏第16页也承认IRR可辅助代码发展；页面没有绝对排除这种用途。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "固定语料比较支持概念组织，不能证明互联网发生率或行为效应量。",
+        "source": "P14，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "实际语料搜集与分析设计支持这一证据边界。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "概念发展与变体已经覆盖。",
+        "source": "页面全文；https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/ ，History",
+        "verdict": "error",
+        "reason": "说明了跨方法借用，却没有交代方法起源、发展或不同使用传统的变化；外部来源已有相应历史资料。"
+      },
+      {
+        "path": "concepts/C046.md",
+        "claim": "比较必须记录反例及修改理由，讨论一致不能独自证明解释充分。",
+        "source": "P18，物理PDF第13–18页",
+        "verdict": "supported",
+        "reason": "与原文强调过程、差异和解释透明度相符，属于审慎方法归纳，未伪造具体实验发现。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "推荐系统包括协同、内容、知识及混合方法，解释与评价是独立议题。",
+        "source": "https://www.cambridge.org/core/books/recommender-systems/C6471B59388D8A9F684C49C198691B53",
+        "verdict": "supported",
+        "reason": "实际打开出版方目录支持类别结构；页面如实注明只查简介与目录。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "用户协同过滤依次建立评分档案、寻找邻居并合并评分。",
+        "source": "P22，物理PDF第1、3–4页",
+        "verdict": "supported",
+        "reason": "准确限定为基于用户的流程，未将其当作所有推荐系统的算法。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "情境差异、稀疏、新用户新项目、误点及两极评分会影响推荐。",
+        "source": "P22，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "莎士比亚与Star Trek、误访网页及Dune均有原文实例。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "第一实验78人比较21个解释界面，针对同一隐藏片名电影；第二实验210人填写743次小问卷，过滤表现差异未显著。",
+        "source": "P22，物理PDF第6、8–9页",
+        "verdict": "supported",
+        "reason": "人数、条件、分母和显著性解释准确，未将接受意愿写成算法准确率。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "相关系数等解释可能被用户误读，电影结果不能直接替代其他高风险任务评估。",
+        "source": "P22，物理PDF第1、7–9页",
+        "verdict": "supported",
+        "reason": "统计理解问题及研究任务边界明确。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "本站论文把推荐过程概念模型用于设计各步骤的解释内容。",
+        "source": "P22，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "清楚说明推荐系统在研究中的具体作用，并区别推荐算法与解释界面贡献。"
+      },
+      {
+        "path": "concepts/C047.md",
+        "claim": "页面提供足以走通推荐计算的例子及概念发展。",
+        "source": "页面“从记录到建议”“主要方法与资料条件”；P22，物理PDF第4页",
+        "verdict": "error",
+        "reason": "只有流程与错误情境，没有完整输入、邻居选择、合并及输出实例，也没有发展脉络；原文的Jane实例可帮助补流程，形式化权重及符号亦未提供。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "七页首句均给主题、类别及区分特征，技术框架还明确排除软件框架歧义。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言主要概括定义、核心机制和边界，没有新增量化成果或影响排名。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "段落通常围绕机制、案例或证据边界；表格有相应解释，不是名称堆积。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "没有革命性或普遍有效等宣传判断，实验与理论主张大多中性呈现。"
+      },
+      {
+        "item": 5,
+        "pass": false,
+        "reason": "C042将排除机制和评价要求归到Gray等人，C045设计效果也超出所引来源；部分作者方法建议被写成通行规范。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "C045降低理解负担及模糊能力边界是未充分取证的效果关系；C043的条件性返工解释则保留了合理边界。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "C042缺作品实例与发展，C045缺归因机制，C047缺完整推荐实例；C041、C046理论整合或历史亦不足。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "已有年份和Fowler日期一致，未发现阶段日期被错误合并；页面创建日期没有被当作概念起源。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "249/44/34、13人、33人、78人及210人/743次均交代对象与条件，没有把次数当人数或意愿当准确率。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "C041选择性与聚焦编码并列模糊阶段差异；其他主要术语及简体使用基本一致。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "章节围绕概念机制、应用与边界组织，没有空信息框；C044案例与应用略重复但不构成交叉矛盾。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未虚称优良条目或全部验收通过，但多页把“读者应”“最有用的检查”“在本站”等审读指导混入正文，参考文献还含访问过程说明；真正待补论断未标来源请求。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "核心深度有缺口：C042无具体作品操作链，C045无主要拟人归因机制，C047无完整推荐实例，C041编码整合层次不清。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "页面有连续机制论述与比较，不是将研究问题、方法、贡献等索引字段逐项改写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "人数、系统与方法名一般附解释；列表和表格组织平行内容，没有分号式笔记堆积。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "主要实验数字保留条件及结果含义，明确未显著不等于没有用途，也未混淆算法与界面。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内应用具体说明编码分析、背景参照、债务分析语言、技术理解和解释设计的作用，关系链接基本有工作内容。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景以实际问题展开，例如培训偏重个人工具、分类层次混杂及稀疏评分，不只留下提问。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无空泛赞誉；有效性和采用范围大多附研究条件，没有使用无比较依据的显著或重大结论。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C041.md",
+        "sections": [
+          "导言",
+          "从材料中发展解释",
+          "相互连接的方法",
+          "编码术语与学派差异",
+          "质量与编码者信度",
+          "在本站论文中的应用：P10、P18",
+          "适用边界",
+          "参见与两组参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C042.md",
+        "sections": [
+          "导言",
+          "怎样通过设计提出问题",
+          "与相近概念的区别",
+          "从问题到材料的工作过程",
+          "在本站论文中的应用：P14",
+          "局限与评价问题",
+          "参见与两组参考资料"
+        ],
+        "unverified": [
+          "替所有人定义理想生活及符号理解门槛导致排除的具体归属",
+          "态度行为效果及展览评价规则的来源范围"
+        ]
+      },
+      {
+        "path": "concepts/C043.md",
+        "sections": [
+          "导言",
+          "成本为什么会延后",
+          "有意、无意与是否审慎",
+          "机器学习中的扩展",
+          "数据级联与债务的区别",
+          "识别与处理",
+          "在本站论文中的应用：P20",
+          "比喻的边界",
+          "参见与两组参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C044.md",
+        "sections": [
+          "导言",
+          "为什么同一系统会被理解成不同东西",
+          "形成与变化的过程",
+          "与组织条件共同作用",
+          "Notes案例怎样体现框架",
+          "分析时怎样取得证据",
+          "在本站论文中的应用：P03及1994年书目",
+          "局限",
+          "参见与两组参考资料"
+        ],
+        "unverified": [
+          "1994年后续论文的独立书目核验",
+          "不能由部门推定共享的具体方法规则及可反驳性要求的直接来源"
+        ]
+      },
+      {
+        "path": "concepts/C045.md",
+        "sections": [
+          "导言",
+          "对象线索与使用者归因",
+          "一个实验例子：对机器也客气吗",
+          "声音、角色与社会判断",
+          "个体差异与后续研究",
+          "在本站论文中的应用：P08",
+          "局限与设计考虑",
+          "参见与两组参考资料"
+        ],
+        "unverified": [
+          "拟人语言降低理解负担、模糊能力边界的效果论断"
+        ]
+      },
+      {
+        "path": "concepts/C046.md",
+        "sections": [
+          "导言",
+          "比较什么",
+          "一个来自暗黑模式研究的完整例子",
+          "迭代怎样留下证据",
+          "与开放编码和信度的关系",
+          "在本站论文中的应用：P14",
+          "适用边界",
+          "参见与两组参考资料"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C047.md",
+        "sections": [
+          "导言",
+          "从记录到建议",
+          "主要方法与资料条件",
+          "推荐结果如何评估",
+          "解释、控制与适用边界",
+          "在本站论文中的应用：P22",
+          "参见与两组参考资料"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已独立对照所给六篇原论文全文及参考资料，并实际搜索、打开外部来源；没有用搜索摘要替代已读文献。",
+      "所有本站应用均说明了概念的具体作用，包括作为背景或理论边界的情况；未把未实际采用的概念冒写为数据收集方法。",
+      "七页均无必须核算的现成公式；主要问题是实例闭环、发展与机制深度，以及少数引文支持范围。无公式本身不判错。",
+      "优先修正C041编码阶段混同，补C043与C044物理页码，处理C042、C045的超范围归属，再补具体实例与概念发展。正文未修改。",
+      "整体结论为待修订，不能据已支持的多数论断宣布全部通过；coverage中的空数组仅表示没有剩余未核实论断，不表示页面没有已记录错误或深度缺口。"
+    ]
+  }
+}

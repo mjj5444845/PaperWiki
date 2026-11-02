@@ -1,0 +1,1634 @@
+[
+  {
+    "title": "Amazon Mechanical Turk",
+    "words": 1859,
+    "han": 1764,
+    "sections": 7,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 19,
+    "references": 10,
+    "external_sources": 6,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/2939672.2939778",
+      "https://doi.org/10.1145/3449287",
+      "https://www.mturk.com/help"
+    ],
+    "id": "C001",
+    "old_words": 376
+  },
+  {
+    "title": "SHAP",
+    "words": 2290,
+    "han": 2121,
+    "sections": 9,
+    "numbers": 34,
+    "tables": 2,
+    "citations": 19,
+    "references": 10,
+    "external_sources": 7,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://arxiv.org/abs/1802.03888",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3449287",
+      "https://shap.readthedocs.io/en/stable/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html",
+      "https://shap.readthedocs.io/en/stable/example_notebooks/overviews/Be%20careful%20when%20interpreting%20predictive%20models%20in%20search%20of%20causal%20insights.html",
+      "https://shap.readthedocs.io/en/stable/generated/shap.TreeExplainer.html"
+    ],
+    "id": "C002",
+    "old_words": 204
+  },
+  {
+    "title": "三角互证",
+    "words": 1947,
+    "han": 1904,
+    "sections": 8,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 17,
+    "references": 6,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/3359174",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9714985/",
+      "https://pubmed.ncbi.nlm.nih.gov/25158659/"
+    ],
+    "id": "C003",
+    "old_words": 161
+  },
+  {
+    "title": "主题分析",
+    "words": 2500,
+    "han": 2445,
+    "sections": 9,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 24,
+    "references": 6,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359174",
+      "https://www.thematicanalysis.net/doing-reflexive-ta/",
+      "https://www.thematicanalysis.net/faqs/"
+    ],
+    "id": "C004",
+    "old_words": 161
+  },
+  {
+    "title": "交互设计",
+    "words": 1729,
+    "han": 1697,
+    "sections": 7,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 17,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://www.usabilitybok.org/interaction-design/"
+    ],
+    "id": "C005",
+    "old_words": 205
+  },
+  {
+    "title": "亲和图法",
+    "words": 1554,
+    "han": 1521,
+    "sections": 7,
+    "numbers": 19,
+    "tables": 1,
+    "citations": 18,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://asq.org/quality-resources/affinity",
+      "https://doi.org/10.1145/3290605.3300233"
+    ],
+    "id": "C006",
+    "old_words": 155
+  },
+  {
+    "title": "人工智能素养",
+    "words": 2952,
+    "han": 2876,
+    "sections": 9,
+    "numbers": 44,
+    "tables": 2,
+    "citations": 24,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66973"
+    ],
+    "id": "C007",
+    "old_words": 178
+  },
+  {
+    "title": "人机智能交互",
+    "words": 1917,
+    "han": 1862,
+    "sections": 8,
+    "numbers": 14,
+    "tables": 1,
+    "citations": 21,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3449287",
+      "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/"
+    ],
+    "id": "C008",
+    "old_words": 236
+  },
+  {
+    "title": "人类计算",
+    "words": 1856,
+    "han": 1823,
+    "sections": 8,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 19,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/985692.985733",
+      "https://www.cs.umd.edu/~bederson/images/pubs_pdfs/p1403-quinn.pdf"
+    ],
+    "id": "C009",
+    "old_words": 195
+  },
+  {
+    "title": "以用户为中心的设计",
+    "words": 1617,
+    "han": 1594,
+    "sections": 7,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 19,
+    "references": 6,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1080/15710880701875068",
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://helios.ntua.gr/pluginfile.php/264038/mod_folder/content/0/Sanders-Stappers_2008_Co-creation%20and%20the%20new%20landscapes%20of%20design.pdf?forcedownload=1",
+      "https://www.iso.org/standard/77520.html"
+    ],
+    "id": "C010",
+    "old_words": 208
+  },
+  {
+    "title": "价值敏感设计",
+    "words": 1927,
+    "han": 1890,
+    "sections": 9,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 21,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://vsdesign.org/vsd/"
+    ],
+    "id": "C011",
+    "old_words": 156
+  },
+  {
+    "title": "众包",
+    "words": 1733,
+    "han": 1692,
+    "sections": 8,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 19,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://www.cs.umd.edu/~bederson/images/pubs_pdfs/p1403-quinn.pdf"
+    ],
+    "id": "C012",
+    "old_words": 197
+  },
+  {
+    "title": "信息不对称",
+    "words": 2099,
+    "han": 2050,
+    "sections": 9,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 23,
+    "references": 7,
+    "external_sources": 2,
+    "url_list": [
+      "https://business.columbia.edu/sites/default/files-efs/imce-uploads/Joseph_Stiglitz/2001_Nobel_Lecture.pdf",
+      "https://doi.org/10.1145/2470654.2470742"
+    ],
+    "id": "C013",
+    "old_words": 153
+  },
+  {
+    "title": "信息可视化",
+    "words": 2775,
+    "han": 2713,
+    "sections": 11,
+    "numbers": 7,
+    "tables": 2,
+    "citations": 29,
+    "references": 7,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://www.cs.ubc.ca/~tmm/courses/547-17/slides/marks-4x4.pdf",
+      "https://www.cs.ubc.ca/~tmm/talks/vad/fullday-vis21-4x4.pdf",
+      "https://www.cs.ubc.ca/~tmm/vadbook/"
+    ],
+    "id": "C014",
+    "old_words": 149
+  },
+  {
+    "title": "共享工作空间",
+    "words": 1616,
+    "han": 1597,
+    "sections": 9,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 19,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+      "https://doi.org/10.1145/143457.143468"
+    ],
+    "id": "C015",
+    "old_words": 142
+  },
+  {
+    "title": "关系强度",
+    "words": 1738,
+    "han": 1696,
+    "sections": 9,
+    "numbers": 26,
+    "tables": 1,
+    "citations": 18,
+    "references": 7,
+    "external_sources": 2,
+    "url_list": [
+      "https://courses.cs.umbc.edu/graduate/691/spring21/pdf/2145204.2145360.pdf",
+      "https://doi.org/10.1145/1518701.1518736"
+    ],
+    "id": "C016",
+    "old_words": 147
+  },
+  {
+    "title": "冷启动",
+    "words": 2057,
+    "han": 1923,
+    "sections": 8,
+    "numbers": 41,
+    "tables": 1,
+    "citations": 26,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/192844.192905",
+      "https://research.google/pubs/expediting-exploration-by-attribute-to-feature-mapping-for-cold-start-recommendations/",
+      "https://zziwei.github.io/pubs/Ziwei_SIGIR_2020_Cold.pdf"
+    ],
+    "id": "C017",
+    "old_words": 151
+  },
+  {
+    "title": "出声思考法",
+    "words": 1899,
+    "han": 1840,
+    "sections": 9,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 23,
+    "references": 8,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/97243.97281",
+      "https://www.nngroup.com/articles/research-methods-glossary/",
+      "https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/"
+    ],
+    "id": "C018",
+    "old_words": 204
+  },
+  {
+    "title": "半结构访谈",
+    "words": 1953,
+    "han": 1873,
+    "sections": 9,
+    "numbers": 21,
+    "tables": 1,
+    "citations": 20,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://www.gov.uk/guidance/interview-study-qualitative-studies"
+    ],
+    "id": "C019",
+    "old_words": 160
+  },
+  {
+    "title": "协作感知",
+    "words": 1686,
+    "han": 1660,
+    "sections": 9,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 19,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://chi1996.acm.org/proceedings/shortpap/Gutwin2/cg2txt.html",
+      "https://doi.org/10.1145/143457.143468",
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C020",
+    "old_words": 200
+  },
+  {
+    "title": "协同过滤",
+    "words": 2119,
+    "han": 1917,
+    "sections": 12,
+    "numbers": 48,
+    "tables": 0,
+    "citations": 25,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://developers.google.com/machine-learning/recommendation/collaborative/basics",
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C021",
+    "old_words": 342
+  },
+  {
+    "title": "原型设计",
+    "words": 1772,
+    "han": 1752,
+    "sections": 9,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 22,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/642611.642616",
+      "https://doi.org/10.1145/97243.97281",
+      "https://hci.stanford.edu/courses/cs294h/2006/readings/houde-prototypes-97.pdf"
+    ],
+    "id": "C022",
+    "old_words": 200
+  },
+  {
+    "title": "参与式行动研究",
+    "words": 1882,
+    "han": 1855,
+    "sections": 9,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 22,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://www.participatorymethods.org/methodology/participatory-action-research/"
+    ],
+    "id": "C023",
+    "old_words": 156
+  },
+  {
+    "title": "参与式设计",
+    "words": 1808,
+    "han": 1769,
+    "sections": 9,
+    "numbers": 5,
+    "tables": 1,
+    "citations": 27,
+    "references": 9,
+    "external_sources": 6,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://doi.org/10.1145/642611.642616",
+      "https://helios.ntua.gr/pluginfile.php/264038/mod_folder/content/0/Sanders-Stappers_2008_Co-creation%20and%20the%20new%20landscapes%20of%20design.pdf?forcedownload=1",
+      "https://www.participatorymethods.org/what-are-participatory-methods/",
+      "https://www.tandfonline.com/doi/full/10.1080/15710880701875068"
+    ],
+    "id": "C024",
+    "old_words": 252
+  },
+  {
+    "title": "双加工理论",
+    "words": 1550,
+    "han": 1476,
+    "sections": 6,
+    "numbers": 11,
+    "tables": 1,
+    "citations": 12,
+    "references": 4,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3449287",
+      "https://www.krigolsonlab.com/uploads/4/3/8/4/43848243/evans_and_stanovich_2013.pdf"
+    ],
+    "id": "C025",
+    "old_words": 304
+  },
+  {
+    "title": "可用性",
+    "words": 1709,
+    "han": 1691,
+    "sections": 7,
+    "numbers": 10,
+    "tables": 1,
+    "citations": 17,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/97243.97281",
+      "https://www.nngroup.com/articles/usability-101-introduction-to-usability/"
+    ],
+    "id": "C026",
+    "old_words": 164
+  },
+  {
+    "title": "可用性测试",
+    "words": 1709,
+    "han": 1685,
+    "sections": 8,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 15,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703",
+      "https://doi.org/10.1145/97243.97281",
+      "https://www.nngroup.com/articles/usability-testing-101/"
+    ],
+    "id": "C027",
+    "old_words": 208
+  },
+  {
+    "title": "启发式评估",
+    "words": 1791,
+    "han": 1742,
+    "sections": 8,
+    "numbers": 17,
+    "tables": 1,
+    "citations": 19,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/97243.97281",
+      "https://www.nngroup.com/articles/ten-usability-heuristics/"
+    ],
+    "id": "C028",
+    "old_words": 212
+  },
+  {
+    "title": "图像标注",
+    "words": 2249,
+    "han": 2207,
+    "sections": 9,
+    "numbers": 10,
+    "tables": 1,
+    "citations": 25,
+    "references": 9,
+    "external_sources": 6,
+    "url_list": [
+      "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html",
+      "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-bounding-box.html",
+      "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-task-types.html",
+      "https://doi.org/10.1145/985692.985733",
+      "https://www.tensorflow.org/tutorials/images/segmentation",
+      "https://www.w3.org/WAI/tutorials/images/decision-tree/"
+    ],
+    "id": "C029",
+    "old_words": 149
+  },
+  {
+    "title": "图形感知",
+    "words": 2667,
+    "han": 2562,
+    "sections": 9,
+    "numbers": 64,
+    "tables": 2,
+    "citations": 20,
+    "references": 9,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/3544548.3581349",
+      "https://faculty.washington.edu/aragon/classes/hcde511/s12/readings/cleveland84.pdf"
+    ],
+    "id": "C030",
+    "old_words": 157
+  },
+  {
+    "title": "基于内容的过滤",
+    "words": 1618,
+    "han": 1551,
+    "sections": 7,
+    "numbers": 18,
+    "tables": 1,
+    "citations": 18,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://developers.google.com/machine-learning/recommendation/content-based/basics",
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C031",
+    "old_words": 203
+  },
+  {
+    "title": "增强现实",
+    "words": 1977,
+    "han": 1923,
+    "sections": 9,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 19,
+    "references": 8,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://icg.gwu.edu/sites/g/files/zaxdzs6126/files/downloads/A%20Survey%20of%20Augmented%20Reality%5BBillinghurts%20et%20al.%5D.pdf",
+      "https://ronaldazuma.com/papers/ARpresence.pdf"
+    ],
+    "id": "C032",
+    "old_words": 136
+  },
+  {
+    "title": "声誉系统",
+    "words": 1969,
+    "han": 1922,
+    "sections": 9,
+    "numbers": 22,
+    "tables": 1,
+    "citations": 23,
+    "references": 7,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://presnick.people.si.umich.edu/papers/cacm00/reputations.pdf"
+    ],
+    "id": "C033",
+    "old_words": 140
+  },
+  {
+    "title": "女性主义人机交互",
+    "words": 1696,
+    "han": 1631,
+    "sections": 7,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 13,
+    "references": 5,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/2470654.2470742",
+      "https://doi.org/10.1145/3359174",
+      "https://plato.stanford.edu/entries/feminism-epistemology/"
+    ],
+    "id": "C034",
+    "old_words": 327
+  },
+  {
+    "title": "女性主义立场理论",
+    "words": 1747,
+    "han": 1717,
+    "sections": 8,
+    "numbers": 0,
+    "tables": 0,
+    "citations": 17,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://plato.stanford.edu/archives/fall2024/entries/feminism-epistemology/"
+    ],
+    "id": "C035",
+    "old_words": 153
+  },
+  {
+    "title": "广义可加模型",
+    "words": 1892,
+    "han": 1795,
+    "sections": 8,
+    "numbers": 26,
+    "tables": 0,
+    "citations": 18,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://interpret.ml/docs/ebm.html",
+      "https://stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.html"
+    ],
+    "id": "C036",
+    "old_words": 156
+  },
+  {
+    "title": "开放编码",
+    "words": 1751,
+    "han": 1687,
+    "sections": 6,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 17,
+    "references": 6,
+    "external_sources": 6,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359174",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/"
+    ],
+    "id": "C037",
+    "old_words": 323
+  },
+  {
+    "title": "心智模型",
+    "words": 1792,
+    "han": 1742,
+    "sections": 8,
+    "numbers": 0,
+    "tables": 1,
+    "citations": 23,
+    "references": 6,
+    "external_sources": 6,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549",
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://www.nngroup.com/articles/mental-models/"
+    ],
+    "id": "C038",
+    "old_words": 403
+  },
+  {
+    "title": "情境调查",
+    "words": 1473,
+    "han": 1443,
+    "sections": 7,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 15,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://www.nngroup.com/articles/contextual-inquiry/"
+    ],
+    "id": "C039",
+    "old_words": 169
+  },
+  {
+    "title": "手势引出",
+    "words": 2517,
+    "han": 2381,
+    "sections": 8,
+    "numbers": 51,
+    "tables": 1,
+    "citations": 20,
+    "references": 7,
+    "external_sources": 4,
+    "url_list": [
+      "https://depts.washington.edu/acelab/proj/dollar/agate.html",
+      "https://doi.org/10.1145/1518701.1518866",
+      "https://faculty.washington.edu/wobbrock/pubs/tochi-22.pdf",
+      "https://www.microsoft.com/en-us/research/publication/user-defined-gestures-for-surface-computing/"
+    ],
+    "id": "C040",
+    "old_words": 160
+  },
+  {
+    "title": "扎根理论",
+    "words": 2013,
+    "han": 1965,
+    "sections": 8,
+    "numbers": 5,
+    "tables": 1,
+    "citations": 20,
+    "references": 3,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1145/3359174",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/"
+    ],
+    "id": "C041",
+    "old_words": 222
+  },
+  {
+    "title": "批判性设计",
+    "words": 1603,
+    "han": 1552,
+    "sections": 7,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 18,
+    "references": 5,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "https://research.lancaster-university.uk/en/publications/the-drift-table-designing-for-ludic-engagement/",
+      "https://research.northumbria.ac.uk/irs/the-drift-table/"
+    ],
+    "id": "C042",
+    "old_words": 142
+  },
+  {
+    "title": "技术债务",
+    "words": 2166,
+    "han": 2122,
+    "sections": 11,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 26,
+    "references": 4,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://martinfowler.com/bliki/TechnicalDebt.html",
+      "https://martinfowler.com/bliki/TechnicalDebtQuadrant.html",
+      "https://proceedings.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf"
+    ],
+    "id": "C043",
+    "old_words": 167
+  },
+  {
+    "title": "技术框架",
+    "words": 1933,
+    "han": 1881,
+    "sections": 10,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 27,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549",
+      "https://doi.org/10.1145/196734.196745"
+    ],
+    "id": "C044",
+    "old_words": 162
+  },
+  {
+    "title": "拟人化",
+    "words": 1688,
+    "han": 1668,
+    "sections": 9,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 21,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703",
+      "https://static1.squarespace.com/static/51e3f4ede4b053e5f0062efd/t/51f7e184e4b0f58fade40024/1375199620013/when-we-need-a-human.pdf",
+      "https://www.psychologicalscience.org/journals/perspectives/1745691610369336/"
+    ],
+    "id": "C045",
+    "old_words": 147
+  },
+  {
+    "title": "持续比较法",
+    "words": 1985,
+    "han": 1937,
+    "sections": 9,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 22,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3359174",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/"
+    ],
+    "id": "C046",
+    "old_words": 146
+  },
+  {
+    "title": "推荐系统",
+    "words": 1966,
+    "han": 1944,
+    "sections": 9,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 20,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/358916.358995",
+      "https://www.cambridge.org/core/books/recommender-systems/C6471B59388D8A9F684C49C198691B53"
+    ],
+    "id": "C047",
+    "old_words": 135
+  },
+  {
+    "title": "推荐解释",
+    "words": 2047,
+    "han": 2011,
+    "sections": 8,
+    "numbers": 19,
+    "tables": 1,
+    "citations": 19,
+    "references": 6,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/abs/2006.08672",
+      "https://doi.org/10.1145/358916.358995"
+    ],
+    "id": "C048",
+    "old_words": 131
+  },
+  {
+    "title": "数据素养",
+    "words": 1555,
+    "han": 1517,
+    "sections": 6,
+    "numbers": 7,
+    "tables": 1,
+    "citations": 13,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://public.imaginingamerica.org/journalcontent/2017/4/2/236/index.html"
+    ],
+    "id": "C049",
+    "old_words": 221
+  },
+  {
+    "title": "数据质量",
+    "words": 1664,
+    "han": 1638,
+    "sections": 6,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 16,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://www.gov.uk/government/news/what-is-data-quality",
+      "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework"
+    ],
+    "id": "C050",
+    "old_words": 156
+  },
+  {
+    "title": "数据集文档",
+    "words": 1646,
+    "han": 1621,
+    "sections": 7,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 18,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/html/1803.09010v8",
+      "https://doi.org/10.1145/3411764.3445518"
+    ],
+    "id": "C051",
+    "old_words": 169
+  },
+  {
+    "title": "文化探针",
+    "words": 1715,
+    "han": 1697,
+    "sections": 7,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 15,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://arl.human.cornell.edu/linked%20docs/Cultural%20Probes_Gaver.pdf",
+      "https://doi.org/10.1145/642611.642616"
+    ],
+    "id": "C052",
+    "old_words": 148
+  },
+  {
+    "title": "无障碍",
+    "words": 1523,
+    "han": 1492,
+    "sections": 7,
+    "numbers": 8,
+    "tables": 1,
+    "citations": 15,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733",
+      "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+    ],
+    "id": "C053",
+    "old_words": 149
+  },
+  {
+    "title": "普通最小二乘回归",
+    "words": 2412,
+    "han": 2242,
+    "sections": 9,
+    "numbers": 70,
+    "tables": 2,
+    "citations": 24,
+    "references": 8,
+    "external_sources": 7,
+    "url_list": [
+      "https://doi.org/10.1145/1518701.1518736",
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication300v1.pdf",
+      "https://scikit-learn.org/stable/modules/linear_model.html",
+      "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+      "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd432.htm",
+      "https://www.statlect.com/fundamentals-of-statistics/generalized-least-squares",
+      "https://www.statlect.com/fundamentals-of-statistics/linear-regression"
+    ],
+    "id": "C054",
+    "old_words": 158
+  },
+  {
+    "title": "暗黑模式",
+    "words": 2085,
+    "han": 2034,
+    "sections": 7,
+    "numbers": 12,
+    "tables": 2,
+    "citations": 24,
+    "references": 7,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://doi.org/10.1145/3359183",
+      "https://search.ftc.gov/system/files/ftc_gov/pdf/P214800%20Dark%20Patterns%20Report%209.14.2022%20-%20FINAL.pdf"
+    ],
+    "id": "C055",
+    "old_words": 209
+  },
+  {
+    "title": "有形用户界面",
+    "words": 1640,
+    "han": 1581,
+    "sections": 6,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 14,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction",
+      "https://tangible.media.mit.edu/project/radical-atoms/"
+    ],
+    "id": "C056",
+    "old_words": 147
+  },
+  {
+    "title": "机器学习",
+    "words": 2545,
+    "han": 2425,
+    "sections": 9,
+    "numbers": 24,
+    "tables": 1,
+    "citations": 38,
+    "references": 9,
+    "external_sources": 9,
+    "url_list": [
+      "https://developers.google.com/machine-learning/crash-course/linear-regression/loss",
+      "https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets",
+      "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://doi.org/10.1145/985692.985733",
+      "https://www.ibm.com/think/topics/history-of-artificial-intelligence"
+    ],
+    "id": "C057",
+    "old_words": 275
+  },
+  {
+    "title": "棘手问题",
+    "words": 1726,
+    "han": 1705,
+    "sections": 8,
+    "numbers": 0,
+    "tables": 1,
+    "citations": 18,
+    "references": 3,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1007/978-3-030-94580-0_2",
+      "https://doi.org/10.1145/1240624.1240704"
+    ],
+    "id": "C058",
+    "old_words": 160
+  },
+  {
+    "title": "概念模型",
+    "words": 2232,
+    "han": 2202,
+    "sections": 8,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 21,
+    "references": 7,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/358916.358995",
+      "https://doi.org/10.1145/503355.503366",
+      "https://www.nngroup.com/articles/mental-models/"
+    ],
+    "id": "C059",
+    "old_words": 144
+  },
+  {
+    "title": "模型可解释性",
+    "words": 2019,
+    "han": 1919,
+    "sections": 8,
+    "numbers": 33,
+    "tables": 2,
+    "citations": 20,
+    "references": 8,
+    "external_sources": 8,
+    "url_list": [
+      "https://arxiv.org/abs/1706.07269",
+      "https://arxiv.org/abs/2212.06823",
+      "https://arxiv.org/html/1602.04938",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3449287",
+      "https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html",
+      "https://shap.readthedocs.io/en/latest/example_notebooks/overviews/Be%20careful%20when%20interpreting%20predictive%20models%20in%20search%20of%20causal%20insights.html"
+    ],
+    "id": "C060",
+    "old_words": 362
+  },
+  {
+    "title": "民族志",
+    "words": 2172,
+    "han": 2134,
+    "sections": 8,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 20,
+    "references": 7,
+    "external_sources": 6,
+    "url_list": [
+      "https://ctb.ku.edu/en/table-of-contents/evaluate/evaluate-community-interventions/ethnographic-information/main",
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/347642.347763",
+      "https://doi.org/10.1145/642611.642616",
+      "https://research.utoronto.ca/participant-observation",
+      "https://www.qualitative-research.net/index.php/fqs/article/download/1589/3095?inline=1"
+    ],
+    "id": "C061",
+    "old_words": 214
+  },
+  {
+    "title": "泛在计算",
+    "words": 1517,
+    "han": 1484,
+    "sections": 8,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 15,
+    "references": 5,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://www.informatikdidaktik.de/Lehre/UbiComp/Literatur/Weiser21stCentury.htm"
+    ],
+    "id": "C062",
+    "old_words": 127
+  },
+  {
+    "title": "混合方法研究",
+    "words": 1600,
+    "han": 1553,
+    "sections": 8,
+    "numbers": 2,
+    "tables": 1,
+    "citations": 16,
+    "references": 4,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3359174",
+      "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf"
+    ],
+    "id": "C063",
+    "old_words": 161
+  },
+  {
+    "title": "环境显示",
+    "words": 1599,
+    "han": 1567,
+    "sections": 8,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 19,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://faculty.cc.gatech.edu/~stasko/papers/avi06.pdf"
+    ],
+    "id": "C064",
+    "old_words": 137
+  },
+  {
+    "title": "直接操纵",
+    "words": 1770,
+    "han": 1732,
+    "sections": 10,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 19,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/258549.258715",
+      "https://iihm.imag.fr/blanch/ens/2016-2017/M1/TLI/readings/1983-Shneiderman-DirectManipulation.pdf",
+      "https://www.cs.umd.edu/~ben/about.html"
+    ],
+    "id": "C065",
+    "old_words": 140
+  },
+  {
+    "title": "社会网络分析",
+    "words": 2313,
+    "han": 2258,
+    "sections": 9,
+    "numbers": 19,
+    "tables": 1,
+    "citations": 25,
+    "references": 8,
+    "external_sources": 5,
+    "url_list": [
+      "https://cps.isr.umich.edu/news-events/in-the-news/the-research-center-for-group-dynamics-the-origins-of-network-analysis/",
+      "https://doi.org/10.1145/1518701.1518736",
+      "https://faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html",
+      "https://faculty.ucr.edu/~hanneman/nettext/C1_Social_Network_Data.html",
+      "https://faculty.ucr.edu/~hanneman/nettext/C7_Connection.html"
+    ],
+    "id": "C066",
+    "old_words": 153
+  },
+  {
+    "title": "社会规范",
+    "words": 1631,
+    "han": 1597,
+    "sections": 7,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 19,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/191666.191703",
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://plato.stanford.edu/entries/social-norms/"
+    ],
+    "id": "C067",
+    "old_words": 201
+  },
+  {
+    "title": "社会运动框架",
+    "words": 1955,
+    "han": 1913,
+    "sections": 8,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 18,
+    "references": 5,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143549",
+      "https://doi.org/10.1145/2441776.2441831",
+      "https://doi.org/10.1146/annurev.soc.26.1.611"
+    ],
+    "id": "C068",
+    "old_words": 151
+  },
+  {
+    "title": "科学技术研究",
+    "words": 2289,
+    "han": 2215,
+    "sections": 10,
+    "numbers": 4,
+    "tables": 1,
+    "citations": 18,
+    "references": 7,
+    "external_sources": 4,
+    "url_list": [
+      "https://4sonline.org/what_is_4s.php",
+      "https://doi.org/10.1145/143457.143549",
+      "https://doi.org/10.1145/1753326.1753521",
+      "https://sts.hks.harvard.edu/about/whatissts.html"
+    ],
+    "id": "C069",
+    "old_words": 150
+  },
+  {
+    "title": "算法偏差",
+    "words": 1683,
+    "han": 1647,
+    "sections": 7,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 20,
+    "references": 8,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3449287",
+      "https://doi.org/10.6028/NIST.SP.1270"
+    ],
+    "id": "C070",
+    "old_words": 219
+  },
+  {
+    "title": "算法觉察",
+    "words": 1896,
+    "han": 1859,
+    "sections": 9,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 17,
+    "references": 8,
+    "external_sources": 1,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556"
+    ],
+    "id": "C071",
+    "old_words": 154
+  },
+  {
+    "title": "算法透明度",
+    "words": 1783,
+    "han": 1732,
+    "sections": 8,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 20,
+    "references": 10,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/2702123.2702556",
+      "https://doi.org/10.1145/3290605.3300233",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C072",
+    "old_words": 277
+  },
+  {
+    "title": "群件",
+    "words": 1775,
+    "han": 1739,
+    "sections": 8,
+    "numbers": 1,
+    "tables": 1,
+    "citations": 19,
+    "references": 10,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/143457.143468",
+      "https://doi.org/10.1145/143457.143549",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/groupware-and-social-dynamics.pdf"
+    ],
+    "id": "C073",
+    "old_words": 192
+  },
+  {
+    "title": "聚类分析",
+    "words": 1670,
+    "han": 1609,
+    "sections": 9,
+    "numbers": 25,
+    "tables": 1,
+    "citations": 18,
+    "references": 6,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/3359183",
+      "https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html",
+      "https://scikit-learn.org/stable/modules/clustering.html"
+    ],
+    "id": "C074",
+    "old_words": 153
+  },
+  {
+    "title": "自动化过度依赖",
+    "words": 1507,
+    "han": 1461,
+    "sections": 8,
+    "numbers": 11,
+    "tables": 1,
+    "citations": 19,
+    "references": 7,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/abs/2409.08937v1",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C075",
+    "old_words": 179
+  },
+  {
+    "title": "范围综述",
+    "words": 1573,
+    "han": 1528,
+    "sections": 9,
+    "numbers": 12,
+    "tables": 1,
+    "citations": 16,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376727",
+      "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf"
+    ],
+    "id": "C076",
+    "old_words": 164
+  },
+  {
+    "title": "计算机视觉",
+    "words": 2348,
+    "han": 2304,
+    "sections": 9,
+    "numbers": 16,
+    "tables": 1,
+    "citations": 19,
+    "references": 6,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/985692.985733",
+      "https://szeliski.org/Book/1stEdition.htm"
+    ],
+    "id": "C077",
+    "old_words": 153
+  },
+  {
+    "title": "认知偏差",
+    "words": 1424,
+    "han": 1377,
+    "sections": 8,
+    "numbers": 6,
+    "tables": 1,
+    "citations": 19,
+    "references": 9,
+    "external_sources": 3,
+    "url_list": [
+      "https://arxiv.org/abs/2405.06087v2",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C078",
+    "old_words": 230
+  },
+  {
+    "title": "认知强制功能",
+    "words": 1588,
+    "han": 1538,
+    "sections": 9,
+    "numbers": 15,
+    "tables": 1,
+    "citations": 21,
+    "references": 10,
+    "external_sources": 2,
+    "url_list": [
+      "https://arxiv.org/abs/2409.08937v1",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "C079",
+    "old_words": 178
+  },
+  {
+    "title": "认知负荷",
+    "words": 2069,
+    "han": 1984,
+    "sections": 7,
+    "numbers": 9,
+    "tables": 1,
+    "citations": 16,
+    "references": 6,
+    "external_sources": 5,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3449287",
+      "https://link.springer.com/article/10.1007/s10648-019-09465-5",
+      "https://www.nasa.gov/human-systems-integration-division/nasa-task-load-index-tlx/",
+      "https://www.nasa.gov/wp-content/uploads/2026/01/hfes-2006-paper.pdf"
+    ],
+    "id": "C080",
+    "old_words": 142
+  },
+  {
+    "title": "认知需求",
+    "words": 1745,
+    "han": 1665,
+    "sections": 6,
+    "numbers": 26,
+    "tables": 1,
+    "citations": 13,
+    "references": 4,
+    "external_sources": 2,
+    "url_list": [
+      "https://doi.org/10.1145/3449287",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7545655/"
+    ],
+    "id": "C081",
+    "old_words": 176
+  },
+  {
+    "title": "评定者间信度",
+    "words": 2150,
+    "han": 2009,
+    "sections": 7,
+    "numbers": 40,
+    "tables": 2,
+    "citations": 18,
+    "references": 8,
+    "external_sources": 7,
+    "url_list": [
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/3359183",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://doi.org/10.1177/1609406919899220",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3402032/",
+      "https://www.tqmp.org/RegularArticles/vol08-1/p023/p023.pdf"
+    ],
+    "id": "C082",
+    "old_words": 336
+  },
+  {
+    "title": "说服性技术",
+    "words": 2457,
+    "han": 2411,
+    "sections": 9,
+    "numbers": 3,
+    "tables": 1,
+    "citations": 21,
+    "references": 10,
+    "external_sources": 8,
+    "url_list": [
+      "https://ceur-ws.org/Vol-2154/paper4.pdf",
+      "https://doi.org/10.1145/3173574.3174108",
+      "https://homes.cs.washington.edu/~jfogarty/publications/persuasive2007.pdf",
+      "https://mari.usc.edu/wesrac/wired/bldg-7_file/Persuasive_Computers.pdf",
+      "https://www.behaviormodel.org/home",
+      "https://www.behaviormodel.org/prompts",
+      "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-152.html",
+      "https://www.oreilly.com/library/view/persuasive-technology/9781558606432/chapter-42.html"
+    ],
+    "id": "C083",
+    "old_words": 141
+  },
+  {
+    "title": "质性研究",
+    "words": 1717,
+    "han": 1666,
+    "sections": 7,
+    "numbers": 7,
+    "tables": 0,
+    "citations": 17,
+    "references": 6,
+    "external_sources": 4,
+    "url_list": [
+      "https://doi.org/10.1145/3359174",
+      "https://doi.org/10.1145/3411764.3445518",
+      "https://obssr.od.nih.gov/sites/g/files/mnhszr296/files/Best_Practices_for_Mixed_Methods_Research.pdf",
+      "https://www.thematicanalysis.net/faqs/"
+    ],
+    "id": "C084",
+    "old_words": 169
+  },
+  {
+    "title": "通过设计开展研究",
+    "words": 2017,
+    "han": 1959,
+    "sections": 8,
+    "numbers": 5,
+    "tables": 1,
+    "citations": 17,
+    "references": 7,
+    "external_sources": 3,
+    "url_list": [
+      "https://doi.org/10.1145/1240624.1240704",
+      "https://ixdf.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/research-through-design",
+      "https://research.gold.ac.uk/14818/7/WHAT%20SHOULD%20WE%20EXPECT%20AAM.pdf"
+    ],
+    "id": "C085",
+    "old_words": 162
+  },
+  {
+    "title": "局部忠实性",
+    "words": 1620,
+    "han": 1529,
+    "sections": 8,
+    "numbers": 8,
+    "tables": 0,
+    "citations": 15,
+    "references": 7,
+    "external_sources": 3,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://christophm.github.io/interpretable-ml-book/lime.html",
+      "https://doi.org/10.1145/2939672.2939778"
+    ],
+    "id": "C8bdeffb10c17",
+    "old_words": 84
+  },
+  {
+    "title": "夏普利值",
+    "words": 2031,
+    "han": 1893,
+    "sections": 7,
+    "numbers": 23,
+    "tables": 0,
+    "citations": 20,
+    "references": 7,
+    "external_sources": 4,
+    "url_list": [
+      "https://arxiv.org/abs/1705.07874v2",
+      "https://christophm.github.io/interpretable-ml-book/shapley.html",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3449287"
+    ],
+    "id": "Cbc9d66a9b988",
+    "old_words": 95
+  },
+  {
+    "title": "皮尔逊相关系数",
+    "words": 2324,
+    "han": 2141,
+    "sections": 11,
+    "numbers": 66,
+    "tables": 1,
+    "citations": 21,
+    "references": 7,
+    "external_sources": 7,
+    "url_list": [
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html",
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html",
+      "https://doi.org/10.1145/1753326.1753357",
+      "https://doi.org/10.1145/192844.192905",
+      "https://doi.org/10.1145/3313831.3376219",
+      "https://doi.org/10.1145/3449287",
+      "https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm"
+    ],
+    "id": "C086",
+    "old_words": 0
+  }
+]

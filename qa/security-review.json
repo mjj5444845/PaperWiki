@@ -1,0 +1,16 @@
+{
+  "scope": "actual staged Git index including unchanged tracked files",
+  "changed_file_count": 429,
+  "scanned_file_count": 516,
+  "findings": [],
+  "forbidden_paths": [],
+  "private_directories_ignored": [
+    "papers",
+    "raw",
+    "extract",
+    "notes",
+    "inbox",
+    "state/logs",
+    "site"
+  ]
+}

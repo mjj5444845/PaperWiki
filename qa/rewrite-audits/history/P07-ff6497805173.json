@@ -1,0 +1,336 @@
+{
+  "id": "P07",
+  "protocol": "source-only-examiner-v3-with-visual-factcheck",
+  "factcheck_role": "factchecker-visual-v4-related",
+  "job_id": "46c9ea2a55c8e29e",
+  "page_sha256": "244ee5a5f9e5b91c48009b63814879cc8976cda74212998a719e8d8c269fdb4e",
+  "questions_sha256": "d5d0556d15c9210c87667bb672afea3118b8a24a49cedbe3f4c43326ffc47326",
+  "score": 9,
+  "passed": true,
+  "error": null,
+  "reader": {
+    "answers": [
+      {
+        "id": 1,
+        "answer": "据导言及“背景：从无差别的‘用户’到有处境的人”，本文要把女性主义对能动性、身份、公平和权力的关注带入交互设计的研究、制作与评价。范围限定于交互设计，不覆盖计算与技术的全部性别问题。实践目标是使人的处境及设计预设可被讨论，在需求、构思、原型和评价中推动改变，而不只在产品完成后检查性别歧视。"
+      },
+      {
+        "id": 2,
+        "answer": "据“背景：从无差别的‘用户’到有处境的人”，页面介绍了对女性固定本质的质疑，强调性别会在制度、媒介、身体实践和科学话语中被建构，但没有明确标出这些论点与“第三波女性主义”的对应关系，因此无法完整回答其第三波理论来源。页面明确说明，立场理论认为知识产生于社会位置，边缘经验可能揭示主流遗漏的劳动与限制。用户研究因此应从有处境的人出发，重新考虑研究问题和解释权，而非只扩大样本或将边缘用户视为标准用户的例外。"
+      },
+      {
+        "id": 3,
+        "answer": "据“论证材料与相邻领域”，STS揭示社会性别观念与技术相互塑造，提醒研究者关注群体缺席及设备拥有之外的数字鸿沟；产品设计揭示父权制、劳动分工和物件角色期待如何影响女性贡献的可见性及家务身份；建筑提示空间安排与可进入性涉及不同群体的生活；游戏设计提示检查身体呈现、凝视和角色认同，并以Purple Moon展示围绕友谊和社会成长组织体验的方向。页面对工业设计、城市规划没有分别展开，建筑部分也较简略。据“背景”及“如何使用框架及证据边界”，已有HCI虽已扩展到家庭、文化与体验，但性别和权力分析仍较零散；本文旨在组织已有方向，并非声称此前没有相关研究。"
+      },
+      {
+        "id": 4,
+        "answer": "据“六项设计品质”，六项为多元、参与、倡议、生态、具身和自我揭示。它们作为整体构成设计取向，用来检查默认用户与价值、组织研究和参与、提出设计方向，并评价身份、权力及关系后果。据“四个贡献层次与两种工作方式”及“如何使用框架及证据边界”，可在理论、方法、用户研究和评价层面支持批判与生成工作；它们不是顺序阶段，也不是已验证的通用计分量表，各项亦非女性主义独占。"
+      },
+      {
+        "id": 5,
+        "answer": "据“多元：拒绝一个视角包办所有经验”，多元要求跨文化设计检查任务、分类和成功标准以谁的生活为默认。World Washer的通用衣物假设未照顾南印度纱丽等衣物，造成损坏与使用挫折；页面未提供其完整设计过程。Rangoli面向印度村落中有语言及识字障碍的用户，设计者观察纸本记号和联系人组织方式，再以九种颜色页面、每页九个图标及两次数字键操作组织访问。前者说明通用化假设可能排除当地实践，后者说明当地实践可以改变信息表示方式；页面没有提供两者的量化效果或对照验证。"
+      },
+      {
+        "id": 6,
+        "answer": "据“参与：使用者不是可互换的数据提供者”，个人、情感和主观经验难以由保持距离的研究者完全代为解释，完成相同问卷也不意味着处境可以互换。因此，研究、草图、原型和评价需要持续对话，让用户的知识与决定权进入过程。作者援引参与式设计及工人、患者、专业人员参与的案例；这不是反对科学方法或可用性测试，而是以参与过程补充它们，尤其适用于深度个人化的现象。"
+      },
+      {
+        "id": 7,
+        "answer": "据“倡议：既不能只顺从现状，也不能替别人决定”，困境是：仅满足现有需求可能维持不公平，而设计者自行规定更好的社会又可能强加价值。参与机制把决定权威和责任放入多方对话，使改变伴随对设计者自身位置的反省。Nokia Life Tools和iShakti以作物周期、天气、市场等农业信息，扩展偏远社区参与市场与机构的机会。页面没有具体交代这两个工具的参与决策过程，本文也未独立测量其收入效果。"
+      },
+      {
+        "id": 8,
+        "answer": "据“生态：检查物件所在的关系系统”，设计处在物件、实践及利益相关者的网络中，会重新分配劳动、改变家庭关系并形成新常态，因此评价要追问直接操作者和单次任务之外由谁承担后果。Hoosier橱柜通过抽拉工作台、面粉箱和专门储物空间提高厨房操作效率，但其意义与家务佣人进入工厂、家庭成员接手劳动有关。页面所述批评是，它没有让女性摆脱家务，反而使原来的女主人承担服务劳动，更深地绑定于家务；操作效率提高不等于社会角色更自由。"
+      },
+      {
+        "id": 9,
+        "answer": "据“具身：身体、情绪与欲望参与交互”，具身要求关注身体、动机、情感、愉悦、欲望及具体文化中的性别经验，不能把人简化为信息处理者或按性别规定统一操作风格。据“自我揭示：系统怎样让人看见自己被如何描述”，自我揭示要求系统显露其用户假设，使之可质疑、可调整。Amazon因作者研究性别和性而购买书籍，将她推定为色情内容消费者并展示相关推荐；“修正推荐”等设置让她查看推荐与购买记录的关联，标明礼物或排除某项购买的推荐用途，从而回应系统赋予的身份。这并不意味着公开算法全部代码或参数。"
+      },
+      {
+        "id": 10,
+        "answer": "据“四个贡献层次与两种工作方式”，批判型贡献分析既有设计和流程，揭露未预期后果；生成型贡献把这些认识用于需求、构思、原型和评价，两者可相互支持。本文的主要成果是理论与设计议程及六品质概念框架。据“论证材料与相邻领域”及“如何使用框架及证据边界”，证据来自文献、既有案例和作者使用经验，没有统一招募实验、六品质因果检验、标准化量表或对照验证，不能据此断言普遍有效。据“后续使用与评价”，后续引用研究也只能说明引用方式，不能将引用次数等同于实际采用或现实改变，更不能证明框架从未用于设计。"
+      }
+    ]
+  },
+  "grader": {
+    "grades": [
+      {
+        "id": 1,
+        "correct": true,
+        "reason": "说明了交互设计的范围、女性主义价值关切及贯穿需求、原型与评价的实践目标，也涉及设计预设的反思。"
+      },
+      {
+        "id": 2,
+        "correct": true,
+        "reason": "虽称无法完整说明第三波理论来源，但已准确解释反本质主义的性别建构观、知识的社会位置性，以及边缘经验如何改变研究问题和解释权，核心内容齐全。"
+      },
+      {
+        "id": 3,
+        "correct": false,
+        "reason": "STS、产品设计和游戏设计的说明基本准确，但建筑部分仅泛称空间与不同群体生活有关，缺少空间安排如何体现家庭关系、家与工作及主导意识形态假设这一关键启示。"
+      },
+      {
+        "id": 4,
+        "correct": true,
+        "reason": "六项品质列举准确，说明了组合使用、研究与设计评价用途，以及单项并非女性主义独有，未将其误作量表或顺序阶段。"
+      },
+      {
+        "id": 5,
+        "correct": true,
+        "reason": "准确对比了普适洗衣假设造成纱丽损坏与当地实践研究推动Rangoli设计，交代了目标用户、颜色图标组织及两次按键访问机制。"
+      },
+      {
+        "id": 6,
+        "correct": true,
+        "reason": "解释了知者不可互换、持续对话及用户知识进入过程的必要性，并明确参与过程补充而非否定科学方法和可用性测试。"
+      },
+      {
+        "id": 7,
+        "correct": true,
+        "reason": "准确呈现维持不公平现状与强加设计者价值的双向困境，说明多方参与分配权威责任，以及农业信息工具扩展社区机会的作用。"
+      },
+      {
+        "id": 8,
+        "correct": true,
+        "reason": "说明了关系网络、广泛利益相关者和劳动分配的评价尺度，并准确指出Hoosier提高效率却将女性更深绑定于家务的后果。"
+      },
+      {
+        "id": 9,
+        "correct": true,
+        "reason": "正确区分具身经验与系统揭示用户假设，具体说明Amazon推荐依据、礼物标记和排除推荐用途如何支持用户修正被赋予的身份。"
+      },
+      {
+        "id": 10,
+        "correct": true,
+        "reason": "准确区分批判型与生成型贡献，将主要成果界定为议程和概念框架，并明确既有案例不构成统一实验或普遍有效性的验证。"
+      }
+    ]
+  },
+  "factcheck": {
+    "findings": [
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      },
+      {
+        "path": "papers/P07.md",
+        "claim": "papers/P07.md",
+        "source": "papers/P07.md",
+        "verdict": "supported",
+        "reason": "papers/P07.md"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "papers/P07.md"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "papers/P07.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "papers/P07.md"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "papers/P07.md",
+        "sections": [
+          "papers/P07.md"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "papers/P07.md"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "ids": [
+    "C067",
+    "C068",
+    "C069",
+    "C070",
+    "C071",
+    "C072",
+    "C073"
+  ],
+  "page_hashes": {
+    "concepts/C067.md": "79fda1a1911376e3f2163d9e8cf2101b938cb30f8162dbe9f1f8c8097aa61b50",
+    "concepts/C068.md": "a8dac414529095da08183ef1589398a0d5e279f65c5a9feb42f512652d8248c5",
+    "concepts/C069.md": "381ebe5ae71b261dd9dd08107869325b5ec4237399511b6353cbf972b9b66f46",
+    "concepts/C070.md": "0930218b3ae3cf72d89263a4a802d6fad90d4e3f80c7d3dd131feaf336ed84ad",
+    "concepts/C071.md": "011cd2d1f5d3bee52bf2dfdefba4c2582b60b52fb3083b372e15266047d82789",
+    "concepts/C072.md": "c83252e3b26da765399d1141295993cec9bccc8c403ddd1c085251e75b98a685",
+    "concepts/C073.md": "af8a80b4d70bc53993f1692db984002f3d378abf5f8774d234610df90c1821dc"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C067.md",
+        "claim": "concepts/C067.md",
+        "source": "concepts/C067.md",
+        "verdict": "supported",
+        "reason": "concepts/C067.md"
+      },
+      {
+        "path": "concepts/C068.md",
+        "claim": "concepts/C068.md",
+        "source": "concepts/C068.md",
+        "verdict": "supported",
+        "reason": "concepts/C068.md"
+      },
+      {
+        "path": "concepts/C069.md",
+        "claim": "concepts/C069.md",
+        "source": "concepts/C069.md",
+        "verdict": "unverified",
+        "reason": "concepts/C069.md"
+      },
+      {
+        "path": "concepts/C070.md",
+        "claim": "concepts/C070.md",
+        "source": "concepts/C070.md",
+        "verdict": "supported",
+        "reason": "concepts/C070.md"
+      },
+      {
+        "path": "concepts/C071.md",
+        "claim": "concepts/C071.md",
+        "source": "concepts/C071.md",
+        "verdict": "supported",
+        "reason": "concepts/C071.md"
+      },
+      {
+        "path": "concepts/C072.md",
+        "claim": "concepts/C072.md",
+        "source": "concepts/C072.md",
+        "verdict": "supported",
+        "reason": "concepts/C072.md"
+      },
+      {
+        "path": "concepts/C073.md",
+        "claim": "concepts/C073.md",
+        "source": "concepts/C073.md",
+        "verdict": "supported",
+        "reason": "concepts/C073.md"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "concepts/C067.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "concepts/C068.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "concepts/C073.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "concepts/C071.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "concepts/C069.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "concepts/C071.md"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "concepts/C069.md"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "concepts/C069.md"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "concepts/C067.md"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "concepts/C072.md"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "concepts/C073.md"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "concepts/C069.md"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "concepts/C071.md"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "concepts/C068.md"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "concepts/C073.md"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "concepts/C071.md"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "concepts/C072.md"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "concepts/C069.md"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "concepts/C070.md"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C067.md",
+        "sections": [
+          "concepts/C067.md"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C068.md",
+        "sections": [
+          "concepts/C068.md"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C069.md",
+        "sections": [
+          "concepts/C069.md"
+        ],
+        "unverified": [
+          "concepts/C069.md"
+        ]
+      },
+      {
+        "path": "concepts/C070.md",
+        "sections": [
+          "concepts/C070.md"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C071.md",
+        "sections": [
+          "concepts/C071.md"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C072.md",
+        "sections": [
+          "concepts/C072.md"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C073.md",
+        "sections": [
+          "concepts/C073.md"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "concepts/C069.md",
+      "concepts/C071.md"
+    ]
+  }
+}

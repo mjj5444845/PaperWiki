@@ -1,0 +1,312 @@
+{
+  "schema_protocol": 2,
+  "ids": [
+    "C058",
+    "C059"
+  ],
+  "page_hashes": {
+    "concepts/C058.md": "4c6bf6c12455ad567d4901ce76f323046feaca47beed7147fd90c457141e09c8",
+    "concepts/C059.md": "f656c1958bce4dd782e1ca44b681bc88724d9506e39628fee61be5951f3d231d"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C058.md",
+        "claim": "棘手问题涉及问题界定、目标与价值冲突，不能仅靠提高技术精度取得确定解。",
+        "source": "P01，PDF第3页；https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2，Introduction及Dilemmas in a General Theory of Planning",
+        "verdict": "supported",
+        "reason": "定义抓住了利益相关者观点参与构成问题的特征，没有把计算困难直接等同于棘手性。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "该概念与社会规划讨论相关，后来进入设计研究。",
+        "source": "P01，PDF第3页；Head章节的概念起源叙述",
+        "verdict": "error",
+        "reason": "若按历史先后理解，这一表述误导。Rittel本来就在设计与规划领域发展该概念；应区分设计研究中的早期形成与后来在HCI中的采用。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "养老例子中的成年子女强调安全，父母希望留家并可能承受社会孤立。",
+        "source": "P01，PDF第5页",
+        "verdict": "supported",
+        "reason": "人物、目标及孤立后果均与原例一致；页面明确把监控与自主生活的不同问法标为说明，没有冒充实际实验。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "四行分析表是作者整理，原理论另有十项特征。",
+        "source": "P01，PDF第3、5页；https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2，Wicked Problems Defined",
+        "verdict": "supported",
+        "reason": "表格与原清单的身份区分清楚；后面的压缩叙述覆盖全部十项命题，未漏掉独特性、症状关系或责任要求。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "通过设计研究整合行为理论、技术机会与情境知识，经构思、迭代和批评持续重构问题。",
+        "source": "P01，PDF第5–6页",
+        "verdict": "supported",
+        "reason": "输入、过程及问题框定和设计物输出均有原文依据，正确说明了概念如何支撑研究模型。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "家庭服务中的保护与独立张力是研究模型的示例。",
+        "source": "P01，PDF第5页",
+        "verdict": "supported",
+        "reason": "双方愿望对应准确；这些是模型说明，页面未宣称已部署原型并消除了冲突。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "该模型补充科学工程研究，并为设计研究者增加平等合作者角色。",
+        "source": "P01，PDF第4、6–7页",
+        "verdict": "supported",
+        "reason": "原文明确将其作为补充模型，并与批判性设计的批评者角色比较；没有证据支持把它理解为取代其他研究方式。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "后续讨论批评概念流行词化及温顺／棘手二分过强。",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-030-94580-0_2，Abstract及Arguments for a Sliding Scale—Degrees of Intractability",
+        "verdict": "supported",
+        "reason": "已打开章节核对，批评及程度化方向均存在；页面保留了评价主体。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "设计研究需公开过程与判断，不能把棘手标签当作所有方案等价的理由。",
+        "source": "P01，PDF第7–8页；页面脚注n2仅列PDF第3、5页",
+        "verdict": "error",
+        "reason": "内容方向成立，但公开过程、方法理由及偏好状态论证的直接依据在第7–8页，现有就近脚注定位不完整。"
+      },
+      {
+        "path": "concepts/C058.md",
+        "claim": "本站应用属于研究模型与评价讨论，并非验证社会冲突已解决的受控实验。",
+        "source": "P01，PDF第2、5、7–9页",
+        "verdict": "supported",
+        "reason": "正确区分概念的框架采用、说明性问题与实证求解；P23只是参见相关背景，未被强行列为采用该概念的论文。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型可在抽象层次上呈现系统关系，并与用户实际形成的心智模型区分。",
+        "source": "P22，PDF第3页；P16，PDF第8页；https://www.nngroup.com/articles/mental-models/",
+        "verdict": "supported",
+        "reason": "交互设计语境中的区分有依据；但首句范围较宽，所引材料主要支持面向用户理解的系统模型。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "概念模型与实现细节不同，关键关系应与系统实际操作相符。",
+        "source": "P22，PDF第3–5页",
+        "verdict": "supported",
+        "reason": "原文区分三步用户模型和更细实现，并专门讨论错误模型；缓存等是说明性实现例子，未冒充论文报告。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "NNGroup指出心智模型基于信念、经验并有个体差异。",
+        "source": "https://www.nngroup.com/articles/mental-models/，What Are Mental Models?",
+        "verdict": "supported",
+        "reason": "已打开正文核对；Megan Chan、2024年1月26日发表及2026年9月1日复审的署名日期也准确。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "推荐论文通过档案、相似邻居、合并评分三个环节推导解释内容。",
+        "source": "P22，PDF第3–4页",
+        "verdict": "supported",
+        "reason": "三步完整，表格正确保留每一步的过程与数据两个维度；具体内容多为候选解释设计，并未全部声称已实现。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "相似性需要结合用户当前情境判断。",
+        "source": "P22，PDF第2、4页",
+        "verdict": "supported",
+        "reason": "原文说明平均相似性可能不符合当前兴趣，并讨论查看邻居档案的作用。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "黑箱解释可提供过去表现或外部支持证据，但不能由此还原内部计算。",
+        "source": "P22，PDF第5页",
+        "verdict": "supported",
+        "reason": "正确区分解释证据与生成推荐的数据；租借记录和影评人意见的例子符合原文。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "MovieLens用户曾误以为系统根据导演、演员和类型推荐，论文未研究故意误导的情形。",
+        "source": "P22，PDF第5页",
+        "verdict": "supported",
+        "reason": "用户来信、误解内容及研究范围均准确，没有将说明性风险写成作者实施的做法。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "研究比较21种解释界面，并区分直方图、表格、历史表现与邻居数量。",
+        "source": "P22，PDF第5–7页",
+        "verdict": "supported",
+        "reason": "数量和比较对象准确；概念模型只生成候选空间，实际呈现仍需实验的说明成立。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "论文从概念模型生成解释成分，再考察接受意愿与过滤表现。",
+        "source": "P22，PDF第3、6、8–10页；页面脚注n4列PDF第5–7页",
+        "verdict": "error",
+        "reason": "研究内容成立，但过滤表现研究在第8–10页；且第10页说明实验实际执行顺序与呈现顺序相反，“再”宜明确为论述结构。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "三步模型不是评分预测数学模型，也不是每名用户心智模型的完整测量。",
+        "source": "P22，PDF第3、5、7页",
+        "verdict": "supported",
+        "reason": "准确区分设计表示、算法与实际用户理解；原文先导研究还发现解释可能改变用户对算法的认识。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "Kaur等用概念模型与心智模型错位分析工具使用。",
+        "source": "P16，PDF第8–10页",
+        "verdict": "supported",
+        "reason": "原文明确定义设计者预期用途与用户认知的差异，并用它解释部署判断；这是分析框架的采用，不是新推荐算法。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "参与者以已有常识代替深入检查，忽略可疑现象并倾向部署。",
+        "source": "P16，PDF第8–10页",
+        "verdict": "supported",
+        "reason": "定性主题支持这一有限概括；页面没有泛化到所有参与者，也没有声称概念模型错位已被实验干预修复。"
+      },
+      {
+        "path": "concepts/C059.md",
+        "claim": "页面已提供可走通的三步实例及概念发展背景。",
+        "source": "候选页全文；P22，PDF第4页Jane例子及第10页参考文献11",
+        "verdict": "error",
+        "reason": "页面有步骤表和局部设问，但未跟踪同一推荐从档案到邻居再到判断的完整实例；也缺少概念模型在交互设计中的发展交代。原文已有Jane的完整判断例，可支持进一步展开。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均给出名称、英文、类别及核心区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": false,
+        "reason": "C058导言的“后来进入设计研究”造成历史顺序误导；C059导言未概括后文P16的分析用途。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "段落围绕价值冲突、模型步骤或理解错位展开，整体关系可读。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "没有无来源的优越性或宣传评价，批评作为具体文献观点呈现。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "区分原理论、作者提出的研究模型、说明性例子及用户研究观察。"
+      },
+      {
+        "item": 6,
+        "pass": false,
+        "reason": "C058概念进入设计研究的先后关系不准确；C059“再考察”还需避免被读成实验执行顺序。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "C059缺完整实例和发展背景；C058虽覆盖十项特征，概念史表述仍需修正。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "年份与已读论文、Crossref缓存和NNGroup页面一致，没有把复审日期写成首次发表日期。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "21种界面数量准确；页面没有加入失去分母或条件的实验百分比。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "棘手问题、概念模型和心智模型译名基本一致，首次附英文。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "章节按机制、关系、边界与应用组织，没有空标题；少量应用重复尚未妨碍阅读。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "没有宣传结尾，但C058“后一句是……”和“这张表是……”属于编辑说明，按规则宜移入交付备注。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C058十项特征完整；C059机制骨架齐全，但缺同一案例的完整步骤演示及发展背景。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "两页均围绕问题关系组织论述，没有逐字段改写研究摘要。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "表格解释了分析位置或模型环节，未堆列未说明的系统名和数字。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "十项特征与21种界面的数字均指向明确对象，没有将数量当效果证据。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "本站应用说明了问题重构、解释成分生成及理解错位分析的具体作用；参见链接未代替关系分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景段解释既定规格失效和推荐系统解释需求，没有只留下研究问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未使用革命性、显著成功等空泛赞誉，也未把作者建议写成已验证成效。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C058.md",
+        "sections": [
+          "导言：定义与概念来源",
+          "为什么不能先固定全部要求",
+          "典型困难与问题重构：四行分析表及十项特征",
+          "通过设计进行探索",
+          "与技术研究及批判性设计的关系",
+          "后续讨论与概念边界",
+          "在本站论文中的应用",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C059.md",
+        "sections": [
+          "导言：定义与推荐解释用途",
+          "模型与实现、用户理解的区别",
+          "一个三步模型怎样指导解释",
+          "白箱、黑箱与错误模型",
+          "以模型控制解释细节",
+          "在本站论文中的作用与局限：P22设计用途及P16分析用途",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "已阅读提供的论文全文及书目缓存，并通过web搜索和打开正文核对Head与NNGroup外部来源；未访问文件系统或其他会话。",
+      "两页均需修订后复核，主要问题是C058概念史、两处引文页码范围，以及C059完整实例与发展背景不足。",
+      "这些概念不要求数学公式；不能为了形式完整而补造公式。当前缺项属于已识别的内容或定位错误，不是未核实事实。",
+      "本站应用关系总体准确：P01采用棘手问题作为研究框架依据；P22采用概念模型推导解释设计；P16采用概念与心智模型区分分析理解错位。"
+    ]
+  }
+}

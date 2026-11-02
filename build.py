@@ -28,6 +28,20 @@ def plain(text):
     text = re.sub(r'\[\^[^]]+\]', '', text)
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>|[*`#]', '', text)).strip()
 
+def inline_math(text):
+    """Normalize scientific $...$ while leaving dollar-denominated prices intact."""
+    def convert(m):
+        value=m.group(1)
+        if re.search(r'[\u4e00-\u9fff]',value):return m.group(0)
+        if '\\' in value or re.search(r'[_^=<>+{}]',value) or re.fullmatch(r'[A-Za-z\u0370-\u03ff]{1,3}',value.strip()) or re.fullmatch(r'[A-Za-z]+\([^)]*\)',value.strip()) or re.fullmatch(r'[-+]?\d+(?:\.\d+)?%?',value.strip()):
+            return r'\('+value+r'\)'
+        return m.group(0)
+    # Protect fenced and inline code from delimiter conversion.
+    parts=re.split(r'(```[\s\S]*?```|`[^`\n]+`)',text)
+    for i in range(0,len(parts),2):
+        parts[i]=re.sub(r'(?<![\\$])\$(?!\$)([^$\n]{1,250}?)\$(?![$\d])',convert,parts[i])
+    return ''.join(parts)
+
 class Linker:
     def __init__(self, pages, lookup, base):
         self.pages, self.lookup, self.base = pages, lookup, base
@@ -61,6 +75,12 @@ class Linker:
             parts[i] = re.sub(r'\[\[([^\n]+?)\]\]', replace, part)
         return ''.join(parts)
 
+def validate_footnotes(body):
+    definitions = re.findall(r'^\[\^([^]\n]+)\]:', body, flags=re.M)
+    repeated = sorted({key for key in definitions if definitions.count(key) > 1})
+    if repeated:
+        raise ValueError('Duplicate footnote definitions: '+', '.join(repeated))
+
 def build():
     base = base_url()
     registry = json.loads((R/'wiki/registry.json').read_text())
@@ -70,6 +90,7 @@ def build():
         src = R/'wiki'/e['markdown_path']
         if not src.exists(): raise ValueError('Registered page is missing: '+str(src))
         meta, body = read_page(src)
+        validate_footnotes(body)
         pid = e['id']; title = meta.get('title',e['canonical_name'])
         lead = body.split('\n## ',1)[0]
         pages[pid] = dict(id=pid,title=title,body=body,meta=meta,path=e['html_path'],kind=e['type'],
@@ -83,6 +104,7 @@ def build():
     for p in pages.values():
         md=markdown.Markdown(extensions=['tables','fenced_code','footnotes','toc','md_in_html'],extension_configs={'footnotes':{'BACKLINK_TEXT':'↑'},'toc':{'permalink':False}})
         safe_body=re.sub(r'\[\[[^\n]+?\]\]',lambda m:m.group(0).replace('|','&#124;'),p['body'])
+        safe_body=inline_math(safe_body)
         maths={}
         def keep_math(m):
             token='PAPERWIKIMATH'+str(len(maths))+'TOKEN';maths[token]=html.escape(m.group(0));return token

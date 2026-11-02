@@ -1,0 +1,558 @@
+{
+  "ids": [
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009",
+    "C010",
+    "C011",
+    "C012"
+  ],
+  "page_hashes": {
+    "concepts/C005.md": "1c05533aa0e0b72e17354f42b93fb5a1fb603f21669d42caa06f970041193bee",
+    "concepts/C006.md": "81a957d4d30b1c572706e9c64bdfdea1892a71d477a68a2cfa1fa716e7071b25",
+    "concepts/C007.md": "8d30ae583686cee614bec39d8727f9e2f2bab17cee83e44d18436ca2d411f6ca",
+    "concepts/C008.md": "3227f59e3c936e522cd16c57cd2660dd7e01290eda1010728c13737617f003e3",
+    "concepts/C009.md": "59ce977bd3d683d21e9a945b43cde764cb4bef7c60b5a5a2be4db7d06fd28fe2",
+    "concepts/C010.md": "1f530354e58f77d095fbfafebbe54432f789d590a6251eae62ca2f88b465b81f",
+    "concepts/C011.md": "edb4b10e7bcdebc1f8fdcd19308d1fb5bda6a9a6bb1e56ca0afa51f49ed2a0e2",
+    "concepts/C012.md": "4db6579cd6066ba157b142c63a74d08b5107d6d44057fb2be92c33e3a107352d"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C005.md",
+        "claim": "交互设计规定交互系统的结构、行为，并关注沟通、信息流及跨时间反馈。",
+        "source": "https://www.usabilitybok.org/interaction-design/",
+        "verdict": "supported",
+        "reason": "已打开UXPA正文；定义和详细说明均支持这些要素，2011年发布时间也一致。"
+      },
+      {
+        "path": "concepts/C005.md",
+        "claim": "Zimmerman等区分产品前期研究与意在贡献知识的设计研究，并以探查、构思、迭代和反思说明设计思维。",
+        "source": "P01，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "Definitions明确给出两种design research用法及设计思维的四项活动。"
+      },
+      {
+        "path": "concepts/C005.md",
+        "claim": "复印机案例通过重新界定使用者和维护活动改变设计；研究产物由过程、发明、相关性、可延展性评价。",
+        "source": "P01，物理PDF第5–8页",
+        "verdict": "supported",
+        "reason": "模型及四评价视角与页面概括一致；第8页明确从专门操作员转向普通办公室成员使用和排除卡纸。"
+      },
+      {
+        "path": "concepts/C005.md",
+        "claim": "女性主义交互设计提出六项品质，Amazon纠正推荐的例子涉及系统如何构成用户身份。",
+        "source": "P07，物理PDF第5–8页",
+        "verdict": "supported",
+        "reason": "六品质名称准确；研究购书引来色情内容推荐及用户修改归类的案例确实存在。"
+      },
+      {
+        "path": "concepts/C005.md",
+        "claim": "参与式过程补充科学测试；两篇本站应用分别说明交互设计如何生产研究知识及介入身份、权力和评价。",
+        "source": "P07，物理PDF第2、6、8页；P01，物理PDF第5–8页",
+        "verdict": "supported",
+        "reason": "没有把Bardzell误写成反对科学方法，应用段交代了概念的具体作用和两篇论文的差异。"
+      },
+      {
+        "path": "concepts/C006.md",
+        "claim": "亲和图按材料间关系组织主题，源于川喜田二郎1960年代的工作。",
+        "source": "https://asq.org/quality-resources/affinity",
+        "verdict": "supported",
+        "reason": "已打开ASQ定义、用途和过程；其支持相似关系分组、语言资料分析及该历史归属。"
+      },
+      {
+        "path": "concepts/C006.md",
+        "claim": "材料先分别记录，再形成分组；允许孤立材料，避免预设类别。",
+        "source": "https://asq.org/quality-resources/affinity",
+        "verdict": "supported",
+        "reason": "ASQ步骤1、2明确分别记录、按关系移动材料、保留不适配项目，并禁止预先确定标题。"
+      },
+      {
+        "path": "concepts/C006.md",
+        "claim": "三人异步亲和图将168条建议整理为35个概念，再按三类范围判断筛为20项指南。",
+        "source": "P15，物理PDF第4页",
+        "verdict": "supported",
+        "reason": "人数、异步方式、三个数量及过于含糊、过于具体、非AI专属的筛选例子全部对应原文。"
+      },
+      {
+        "path": "concepts/C006.md",
+        "claim": "初稿随后经过内部评价、49人对20种产品的研究和专家修订成为18条。",
+        "source": "P15，物理PDF第4–6、10–11页",
+        "verdict": "supported",
+        "reason": "流程正确，但20减至18实际发生于内部评价阶段；后两轮主要检验相关性和清晰度，页面没有声称人数缩减由统计聚类产生。"
+      },
+      {
+        "path": "concepts/C006.md",
+        "claim": "本站应用说明亲和图负责初始综合，启发式评价负责后续检查，且材料搜集并非穷尽。",
+        "source": "P15，物理PDF第4–5页",
+        "verdict": "supported",
+        "reason": "准确区分了方法在研究流程中的位置，没有把分组结果当作效应或最终验证。"
+      },
+      {
+        "path": "concepts/C007.md",
+        "claim": "AI素养包含批判评价、沟通协作和日常使用；数字素养为前提，编程和科学素养不被设为普遍前置条件。",
+        "source": "P17，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "定义及邻近素养关系忠实对应作者表述。"
+      },
+      {
+        "path": "concepts/C007.md",
+        "claim": "2020年框架有五个总问题、17项能力、15项设计考量，来自150份资料的探索性综述。",
+        "source": "P17，物理PDF第2–10页",
+        "verdict": "supported",
+        "reason": "数量及研究性质准确；没有把综述误称为穷尽系统综述或标准化测验。"
+      },
+      {
+        "path": "concepts/C007.md",
+        "claim": "能力框架及学习体验设计已得到充分解释。",
+        "source": "P17，物理PDF第4–10页；候选页“能力框架怎样组织理解”“学习体验为何需要设计”",
+        "verdict": "error",
+        "reason": "内容不完整。页面只用五行概括和少数教学方向代替17项能力与15项考量的实际组成，遗漏通用与狭义AI、知识表示、决策、行动与反应、传感器、可编程性等独立能力，也未说明渐进揭示、家长支持等多项考量。没有完整学习任务展示能力如何被运用和检查。"
+      },
+      {
+        "path": "concepts/C007.md",
+        "claim": "能力讨论的引用范围为PDF第3–7页。",
+        "source": "P17，物理PDF第8–9页；候选页脚注r1",
+        "verdict": "error",
+        "reason": "第17项能力Programmability在第8页引入、第9页正式列出；r1范围未覆盖全部17项能力，不能承载完整框架的组成论断。"
+      },
+      {
+        "path": "concepts/C007.md",
+        "claim": "UNESCO学生框架于2024年发布，有四维、12项能力和理解、应用、创造三个层次。",
+        "source": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66973",
+        "verdict": "supported",
+        "reason": "已打开官方介绍；维度、层次、数量和面向正式课程及共同创造者的定位均一致，未把它冒充2020年清单的直接修订版。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "人机智能交互同时处理显式助手、后台过滤、不确定性、纠错和长期适应。",
+        "source": "P15，物理PDF第1–3页",
+        "verdict": "supported",
+        "reason": "领域概括与论文的实例及问题范围一致，后台过滤造成信息隐藏的说明有直接依据。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "指南按最初、日常、出错和长期组织，具体包含调用、忽略、纠错、解释、反馈和控制。",
+        "source": "P15，物理PDF第3页；https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+        "verdict": "supported",
+        "reason": "已打开官方项目正文；四类组织及页面所选机制准确。该页介绍领域而非逐项解说指南，选择性举例本身不构成18项指南的虚假完整清单。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "营养替换实验采用75%准确率的模拟AI，比较两种解释条件与三种促思考交互。",
+        "source": "P21，物理PDF第6–8页",
+        "verdict": "supported",
+        "reason": "准确率指最高碳水影响食材的识别；条件和30秒等待准确，页面明确没有实际训练模型。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "先自行决定再看建议的例子改变信息顺序，而非新增解释算法。",
+        "source": "P21，物理PDF第7–8页",
+        "verdict": "supported",
+        "reason": "符合Update条件；碳水降低和风味相似度是各条件共用的特征解释。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "促思考安排减少部分过度依赖，但未消除；接受程度与表现有张力，高认知需求者受益较多。",
+        "source": "P21，物理PDF第10–17页",
+        "verdict": "supported",
+        "reason": "方向符合结果，且页面保留“部分”“往往”等限定。应更精确指出显著减少发生在碳水来源识别的过度依赖指标，整体替换决策的过度依赖差异不显著；偏好、信任和困难的张力主要来自相关分析。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "结果及认知需求差异由s3所列第3、7页支持。",
+        "source": "P21，物理PDF第10–17页；候选页脚注s3",
+        "verdict": "error",
+        "reason": "第3页确有作者贡献概括，但第7页仅介绍条件和模拟AI。具体评价结论应定位结果表、相关分析及分组结果，现有范围不足以复核统计边界。"
+      },
+      {
+        "path": "concepts/C008.md",
+        "claim": "两篇本站应用分别把该领域用于指南综合评价与交互干预检验。",
+        "source": "P15，物理PDF第4–11页；P21，物理PDF第5–17页",
+        "verdict": "supported",
+        "reason": "确实说明了概念怎样进入研究问题、操作和测量，没有只重复论文标题。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "人类计算由系统组织人的参与，并与众包、社会计算区别。",
+        "source": "https://www.cs.umd.edu/~bederson/images/pubs_pdfs/p1403-quinn.pdf，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "已打开综述定义及邻近概念讨论；页面抓住系统引导参与的特征。宜补足问题须符合计算范式这一另一项定义条件。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "ESP随机配对、隐匿伙伴、禁止直接通信，并接受图像显示期间曾输入的相同字符串。",
+        "source": "P25，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "流程准确，尤其正确说明不要求同时输入。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "禁词推动不同标签，采纳阈值原实现为一对，预录伙伴仍可生成新标签。",
+        "source": "P25，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "阈值、禁词来源、回放机制及质量与产量之间的可调性说明符合原文。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "随机配对、IP限制和反作弊机制不能保证标签无共同偏见，全网标注只是外推。",
+        "source": "P25，物理PDF第3–5页",
+        "verdict": "supported",
+        "reason": "机制和外推边界准确；共同偏见的提醒是对一致性证据的合理限定，没有伪称作者已测量此类偏见。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "Turkopticon分析人即服务造成的劳动不可见性，并通过共享雇主评价介入。",
+        "source": "P11，物理PDF第1–6、8–9页",
+        "verdict": "supported",
+        "reason": "准确归属作者立场，说明了API抽象、劳动风险和工具的具体作用；没有把工具说成新任务分解算法。"
+      },
+      {
+        "path": "concepts/C009.md",
+        "claim": "P25第1、8页存在名为“Editorial classification of human game-based computation”的来源章节。",
+        "source": "P25，物理PDF第1、8页；候选页脚注s3",
+        "verdict": "error",
+        "reason": "这不是原文章节或正式分类名称，而是编辑归类。正文已正确标明概念对应，书目注释仍不应把编辑说明混入原文定位。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "ISO将以人为中心的设计置于生命周期，公开摘要不详细处理全部技术及健康安全。",
+        "source": "https://www.iso.org/standard/77520.html",
+        "verdict": "supported",
+        "reason": "已打开官方摘要；适用范围和限制均准确，也明确没有声称读过付费全文。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "20位非技术、无相关触屏经验者从27种效果提出单双手动作，形成48个动作集合。",
+        "source": "P05，物理PDF第3–7页",
+        "verdict": "supported",
+        "reason": "人数、引出方式及集合大小一致；相同动作分组、共识和跨命令冲突处理确为资料进入设计的路径。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "允许一到三指表示同一接触点并保留别名；研究没有识别反馈，下一步需要新用户验证及识别器测试。",
+        "source": "P05，物理PDF第3、6–9页",
+        "verdict": "supported",
+        "reason": "准确区分已取得的用户行为证据与计划中的系统验证。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "暗黑模式可颠倒用户中心设计，把用户行为知识用于股东目标。",
+        "source": "P14，物理PDF第1、3、8–10页",
+        "verdict": "supported",
+        "reason": "原文明言此类颠倒，页面也保留组织压力与评价口径的限制，没有直接断定所有具体产品设计者的动机。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "参与式设计更强调发言和决定权，手势研究的参与性不等于用户掌握最终开发权。",
+        "source": "P05，物理PDF第2–3、8页；P07，物理PDF第6页",
+        "verdict": "supported",
+        "reason": "作为方法边界概括可成立；现有s1仅指P05第3页，对参与式设计一般定义的支撑较薄，宜补专门来源。"
+      },
+      {
+        "path": "concepts/C010.md",
+        "claim": "两篇本站应用分别说明如何引出用户行为和如何识别该取向被扭转。",
+        "source": "P05，物理PDF第3–9页；P14，物理PDF第3–10页",
+        "verdict": "supported",
+        "reason": "两项都说明概念的具体作用、操作及差别。"
+      },
+      {
+        "path": "concepts/C011.md",
+        "claim": "VSD始于1990年代，区分利益相关者和三类价值，并迭代开展概念、经验与技术调查。",
+        "source": "https://vsdesign.org/vsd/",
+        "verdict": "supported",
+        "reason": "已打开官方说明；年代、理论构念、三类调查及情境化实践均有依据，并明确归为团队自述。"
+      },
+      {
+        "path": "concepts/C011.md",
+        "claim": "三类调查已经通过有步骤的实例得到展示。",
+        "source": "候选页“价值怎样成为设计问题”“概念、经验与技术三类调查”；https://vsdesign.org/vsd/",
+        "verdict": "error",
+        "reason": "内容不完整。记录功能只是泛例，表格只列问题，没有沿同一案例展示利益相关者识别、价值张力、经验资料、技术选择及回返修订。读者尚不能走通VSD如何使用。"
+      },
+      {
+        "path": "concepts/C011.md",
+        "claim": "Gray等回顾VSD、Values at Play和value levers，并转述VSD具体指导不足的批评。",
+        "source": "P14，物理PDF第2页",
+        "verdict": "supported",
+        "reason": "相关方法及三类批评对应原文，没有把批评写成VSD无价值的定论。"
+      },
+      {
+        "path": "concepts/C011.md",
+        "claim": "VSD在暗黑模式论文中是背景和争论对象，并非已实施并验证的干预。",
+        "source": "P14，物理PDF第2–4、9–10页",
+        "verdict": "supported",
+        "reason": "应用关系归属准确，明确说明论文如何借其讨论实践距离；没有虚构VSD实验。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "众包就是把任务向参与者群体分发、征集并汇集贡献。",
+        "source": "https://www.cs.umd.edu/~bederson/images/pubs_pdfs/p1403-quinn.pdf，物理PDF第3页",
+        "verdict": "error",
+        "reason": "定义缺少开放征集及未预先指定参与群体的区分特征，现有表述也涵盖普通团队分工。所引综述实际强调open call，并以替代指定劳动角色区分众包与人类计算。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "微任务实验先判断较小值，再估计百分比；资格题验证理解而不细筛感知精度。",
+        "source": "P06，物理PDF第2–3页",
+        "verdict": "supported",
+        "reason": "操作与筛选理由准确，短任务减少长任务数据丢失的解释也有原文依据。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "未设资格初试超过10%不可用，整体剔除0.75%；186人参与，52人贡献45.7%试次。",
+        "source": "P06，物理PDF第3、7–8页",
+        "verdict": "supported",
+        "reason": "数字及分母正确，页面也解释跨实验重叠及提交并非独立参与者。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "标准HIT中位耗时42秒，高报酬与低报酬的平均收集经过时间分别为0.8和1.9天。",
+        "source": "P06，物理PDF第8–9页",
+        "verdict": "supported",
+        "reason": "正确区分单题日志耗时与发布后提交的经过时间，没有把平台时间误作纯反应时。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "更高报酬未使答案更好。",
+        "source": "P06，物理PDF第9页",
+        "verdict": "supported",
+        "reason": "方向正确，但省略了重叠160像素条件中高报酬组误差增加1.4单位且显著这一细节；原文认为不改变设计结论，并承认节假日等收集条件。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "Turkopticon把雇主评价嵌入任务选择，不能据此证明平台权力关系已改变。",
+        "source": "P11，物理PDF第3–6、9页",
+        "verdict": "supported",
+        "reason": "工具机制、信息不对称及成效边界均准确；本站应用清楚说明其研究的是劳动制度而非答案汇总效率。"
+      },
+      {
+        "path": "concepts/C012.md",
+        "claim": "众包实验受显示环境、视距和参与控制限制，应与实验室重叠条件交叉核查。",
+        "source": "P06，物理PDF第1、9–10页",
+        "verdict": "supported",
+        "reason": "适用条件和方法组合建议直接对应作者讨论。"
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "多数首句能识别类别与特征；C012缺开放征集这一边界，C009也宜补计算问题条件。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "各导言概括定义、机制及本站研究位置，未出现正文没有支持的效果或影响排名。"
+      },
+      {
+        "item": 3,
+        "pass": false,
+        "reason": "章节均有内容，但C007未展开核心框架，C011缺贯通三类调查的实例，主要方面尚不充分。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落分别围绕反馈、筛选、学习、依赖或劳动条件展开；没有用时间先后虚构研究之间的因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Bardzell的立场、Turkopticon的批评及VSD团队自述都有主体，未包装成无争议事实。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "研究年份、物理页码标法及主要数量一致；75%模拟识别率、0.75%剔除率和0.8/1.9天分别有口径。"
+      },
+      {
+        "item": 7,
+        "pass": false,
+        "reason": "大部分关键陈述有可核验原文，但C012定义过宽，C007框架引用不覆盖第17项能力。"
+      },
+      {
+        "item": 8,
+        "pass": false,
+        "reason": "C008结果引注未定位实际结果页；C009 s3混入不存在的英文编辑分类标题，削弱原文定位真实性。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "八页均未使用信息框，无空字段或信息框与正文冲突。"
+      },
+      {
+        "item": 10,
+        "pass": false,
+        "reason": "未见宣传结尾或长段复制；但C009书目含编辑归类说明，C007和C011亦有面向编辑的自我说明，宜从百科正文移出。"
+      },
+      {
+        "item": 11,
+        "pass": false,
+        "reason": "总体遵循概念结构，未硬套实验模板；C007组成和实例、C011实践实例仍未达到所给概念深度标准。"
+      },
+      {
+        "item": 12,
+        "pass": false,
+        "reason": "未声称达到优良条目资格，但页面没有标出本次发现的定义、深度和引用缺口，仍需修订后复核。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": false,
+        "reason": "C007仅报17项能力和15项考量而未完整解释，C011列三类调查却没有可走通实例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "各页以机制和问题组织叙述，不是把研究问题、贡献、数据字段逐项转成句子。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "表格和应用列表解释输入、操作、输出及差别，未堆叠未释系统名和人数。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "168→35→20→18、75%、48个动作及众包参与和计时数字均有对象与条件；C008仍宜细化显著性边界。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "全部本站应用均说明概念承担的具体工作；C011尤其准确限定为相关方法与争论对象。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代指南零散、AI不确定性、手势由设计者预设、劳动不可见性等实际状况，没有只剩问题句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见革命性或效果显著等空泛赞誉；研究价值通过流程、结果和限制表达。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C005.md",
+        "sections": [
+          "导言定义",
+          "从动作与反馈理解交互",
+          "实践产物与研究贡献",
+          "身体、身份与设计价值",
+          "适用范围与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C006.md",
+        "sections": [
+          "导言定义与历史",
+          "从单条材料到主题",
+          "一个完整的研究实例",
+          "与其他分析活动的区别",
+          "解释分组结果的边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C007.md",
+        "sections": [
+          "导言定义",
+          "素养不等于会用一个产品",
+          "能力框架怎样组织理解",
+          "学习体验为何需要设计",
+          "发展：面向不同学习者的能力目标",
+          "判断理解与信任的边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C008.md",
+        "sections": [
+          "导言定义",
+          "为什么模型性能不足以说明交互质量",
+          "按时间理解交互机制",
+          "解释与实际利用解释不同",
+          "评价对象：依赖、表现与接受程度",
+          "发展与范围",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C009.md",
+        "sections": [
+          "导言定义",
+          "系统怎样把人的判断纳入流程",
+          "例子：把图像标签变成游戏结果",
+          "与众包的交集和区别",
+          "质量、激励与劳动可见性",
+          "发展与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C010.md",
+        "sections": [
+          "导言定义",
+          "用户资料怎样进入设计",
+          "一个从观察到方案的例子",
+          "理解用户也可能被用于操纵",
+          "相关取向与边界",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C011.md",
+        "sections": [
+          "导言定义与历史",
+          "价值怎样成为设计问题",
+          "概念、经验与技术三类调查",
+          "在伦理设计方法中的位置",
+          "暗黑模式揭示的挑战",
+          "使用边界与持续修订",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      },
+      {
+        "path": "concepts/C012.md",
+        "sections": [
+          "导言定义",
+          "从开放任务到可用结果",
+          "实例：图形感知实验的微任务化",
+          "时间和报酬的不同含义",
+          "劳动条件与信息结构",
+          "适用范围与局限",
+          "在本站论文中的应用",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "review": [
+      "结论：暂不整体通过。关键修订为C012定义、C007框架完整性与页码、C011操作实例、C008结果定位以及C009编辑分类式引注。",
+      "八页涉及的全部本站应用关系均有实质说明，未发现将背景引用冒充已实施方法或干预实验的情况。",
+      "已依据所给全部论文正文与附录核对，并实际搜索、打开七个外部来源；没有把搜索摘要作为已读正文。",
+      "coverage的unverified为空表示没有留下无法核实的具体事实论断；已确认的错误、引用缺陷和内容遗漏均在findings记录，不表示页面整体通过。",
+      "本轮仅审校，未修改正文。"
+    ]
+  }
+}
