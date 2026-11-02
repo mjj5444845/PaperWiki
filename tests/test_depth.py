@@ -82,6 +82,16 @@ class DepthGateTests(unittest.TestCase):
             self.assertEqual(seen,['full-reading','question-key-audit'])
             self.assertEqual(prepared['questions'][0]['expected'],'26')
 
+    def test_pdf_wrapped_words_do_not_change_numeric_evidence(self):
+        from automation.content import validate_evidence
+        validate_evidence([{'page':1,'quote':'environment has 0.84 accuracy'}],
+                          [{'page':1,'text':'environ -\nment has 0.84 accuracy'}])
+        for quote,text in [('0.9 accuracy','0.8 accuracy'),('12 tasks','1-2 tasks'),('5 points','-5 points')]:
+            # The negative-sign case is checked with a quote that includes a conflicting sign.
+            if text.startswith('-'):quote='+5 points'
+            with self.assertRaises(ValueError):validate_evidence([{'page':1,'quote':quote}],[{'page':1,'text':text}])
+        with self.assertRaises(ValueError):validate_evidence([{'page':0,'quote':'text'}],[{'page':1,'text':'text'}])
+
     def evidence(self):
         return ({'answers':[{'id':i,'answer':'页面中有依据'} for i in range(1,11)]},
                 {'grades':[{'id':i,'correct':i<=8,'reason':'与冻结要点一致'} for i in range(1,11)]},

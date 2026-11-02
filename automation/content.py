@@ -9,10 +9,18 @@ def norm(s):return re.sub(r'\s+', '', unicodedata.normalize('NFKC',s)).casefold(
 def read(path):return path.read_text(encoding='utf-8')
 def write(path,text):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8')
 def dump(path,data):write(path,json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+def evidence_norm(text):
+    # Only join alphabetic words split by a physical PDF line break. Keep minus
+    # signs, decimal points, ranges and ordinary within-line hyphens intact.
+    text = unicodedata.normalize('NFKC', text)
+    text = re.sub(r'([A-Za-z])[^\S\n]*-[^\S\n]*\n\s*(?=[A-Za-z])', r'\1', text)
+    text = re.sub(r'(?<=[A-Za-z])\u00ad(?=[A-Za-z])', '', text)
+    return norm(text)
+
 def validate_evidence(items,pages):
     if not items:raise ValueError('事实缺少出处')
     for e in items:
-        if e['page']>len(pages) or not e['quote'].strip() or norm(e['quote']) not in norm(pages[e['page']-1]['text']):
+        if not 1 <= e['page'] <= len(pages) or not e['quote'].strip() or evidence_norm(e['quote']) not in evidence_norm(pages[e['page']-1]['text']):
             raise ValueError('引文不能在指定 PDF 页定位：第 '+str(e['page'])+' 页')
 def numeric_source(text):
     """Recognize explicit English number words and calendar month dates, not inferred values."""

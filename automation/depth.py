@@ -278,7 +278,7 @@ class Pipeline:
             '对照提供的原文，并必须重新打开每项新外部来源检查支撑和短引文，不把作者的来源记录当证据。'
             'findings逐项记录关键论断及原文页/节或实际外部网址，不能只给总通过。每页coverage列全部已核章节及未核处；'
             '不能访问来源/旧页面新增事实缺原文/图表无法核实就记unverified。12项checklist及7反模式逐项理由。'
-            '发现任何错误记error，不自行修改后宣称已闭环。站内链接构建和独立盲读由其他角色检验，未提供这些结果不是本事实审校的缺口；coverage.unverified只记录页面事实的未核处。',
+            '发现任何错误记error，不自行修改后宣称已闭环。checklist第12项检查文章是否隐瞒资料缺口或虚称优良条目资格；最终独立验收由脚本在本轮事实复核后合并各角色证据，不因作者早期声明尚未执行后续验收就判定正文虚称通过。站内链接构建和独立盲读由其他角色检验，未提供这些结果不是本事实审校的缺口；coverage.unverified只记录页面事实的未核处。',
             {'skill': self.rules, 'source_pages': pages, 'candidate_pages': final, 'external_sources': draft['sources'], 'related_original_papers': related_sources, 'publisher_metadata': publisher_metadata}, web=True)
         # All failed artifacts remain private; the caller records needs_review and never commits them.
         score = evaluate(answers, grades, audit, paths)
