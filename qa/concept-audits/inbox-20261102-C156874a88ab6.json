@@ -1,0 +1,165 @@
+{
+  "ids": [
+    "C156874a88ab6"
+  ],
+  "page_hashes": {
+    "concepts/C156874a88ab6.md": "bafaf4af471dfb70157f822e1019d8ab3a43b4fc38300add61ee30f19237784a"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C156874a88ab6.md",
+        "claim": "Onnasch与Roesler的形态分类包括外观、交流、运动、情境信息，每维采用拟人、拟动物、技术式类别。",
+        "source": "所给Onnasch与Roesler全文§3.2，第8页。",
+        "verdict": "supported",
+        "reason": "四维、三级类别、交叉组合及不单列卡通类别的理由准确。"
+      },
+      {
+        "path": "concepts/C156874a88ab6.md",
+        "claim": "Goetz等提出任务匹配假说，偏好与服从取决于外观、举止和任务要求的适配。",
+        "source": "重新搜索并打开的[Goetz等原始论文](https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/kiesler/publications/2003pdfs/2003_matching-robot-appear-coop.pdf)，§2、Study 1—3及讨论；所给同文完整缓存。",
+        "verdict": "supported",
+        "reason": "概括忠实，没有声称类人或活泼设计普遍占优，也未夸大第三项研究的统计强度。"
+      },
+      {
+        "path": "concepts/C156874a88ab6.md",
+        "claim": "R2-D2逐维呈现技术式、拟动物和拟人线索，C-3PO四维拟人；动作研究比较还须考虑任务与交流差异。",
+        "source": "所给Onnasch与Roesler全文§4.1—4.2，第11—15页。",
+        "verdict": "supported",
+        "reason": "编码与解释符合原文，事后解释与因果验证明确分开。"
+      },
+      {
+        "path": "concepts/C156874a88ab6.md",
+        "claim": "该形态框架未提供完整新问卷，作者不推荐现有Godspeed相关工具完成四维编码；形态也不等于空间行为测量。",
+        "source": "所给Onnasch与Roesler全文第8页；2026年导航研究真实缓存§4—4.1。",
+        "verdict": "supported",
+        "reason": "测量缺口归属准确，形态影响因素与空间输出变量的区别符合后续研究。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C156874a88ab6.md",
+        "sections": [
+          "导言",
+          "形态如何形成交互期待",
+          "四个维度与三个类别",
+          "从观察到比较：R2-D2实例",
+          "在本站论文中的应用",
+          "测量与适用边界",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三页首句均识别主题、类别和区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、用途及证据边界，没有添加无依据结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖机制、变体、实例、应用和限制，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，历史先后没有被改写为因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "工作人员评价、作者解释和事后假说均明确归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "人数与研究数口径明确，在线发表与卷期年份分开，自主程度译名一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键事实有可定位原文或真实缓存支持。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "书目作者、题名、卷页、DOI及引注章节相符；引用范围对应实际论点。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "三页均未使用信息框，不存在字段冲突。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见原创因果结论、宣传结尾或大段复制；实例与证据解释相连。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念结构，理论分类未套用实验准确率模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "明确说明量表、推广和证据限制，没有虚称优良条目资格或完整验收。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "十级自主分类、四阶段和四维形态均逐项展开，SAR辅助机制有实例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕机制和比较组织，并非抽取字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "设备、人数和类别均解释其用途与证据角色，没有笔记式堆砌。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "数字交代对象、研究条件和比较；未从图表额外推导效果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内应用说明概念在选择、综合及分类中的具体作用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代实际研究问题与已有框架差异，没有只剩问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无无来源的革命性或效果显著等空泛赞誉。"
+      }
+    ],
+    "review": [
+      "外源已重新搜索并实际打开Feil-Seifer及Goetz原始PDF；2026年Frontiers全文重开超时，PMC入口遭验证码，相关判断采用输入提供的真实完整逐字缓存，没有以搜索摘要代替正文。",
+      "2025年综述报告3166人及8／2／5项使用经验分类，候选页忠实转述；本轮没有重新计算底层样本或重分析所有纳入研究。",
+      "2018年原文提及补充材料，但输入未提供该附件；候选页相关事实均可由已给全文支持。",
+      "未发现依赖缺失原图才能核实的页面具体数字。Beer十级符号有完整HTML表格缓存，其他图示分类有正文说明支持。",
+      "本结果仅为事实、引注和风格复核，不代表冻结读者测验、快照哈希或最终发布脚本已完成。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": null
+}

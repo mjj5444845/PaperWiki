@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 27,
-    "concepts": 88,
-    "bibliographic_citation_edges": 12,
+    "papers": 33,
+    "concepts": 96,
+    "bibliographic_citation_edges": 13,
     "concept_candidates": 122
   },
   "entities": [
@@ -779,7 +779,8 @@
         "thematic analysis"
       ],
       "appears_in_papers": [
-        "P18"
+        "P18",
+        "P91ccf274c9d8"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -1347,7 +1348,10 @@
         "半结构式访谈"
       ],
       "appears_in_papers": [
-        "P20"
+        "P20",
+        "Pab8f6542f0a6",
+        "Pab7b29056453",
+        "P99c2ec9e9c0e"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P20的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -1474,7 +1478,8 @@
       ],
       "appears_in_papers": [
         "P23",
-        "P24"
+        "P24",
+        "Pab7b29056453"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -1552,7 +1557,9 @@
       "appears_in_papers": [
         "P05",
         "P07",
-        "P23"
+        "P23",
+        "Pab7b29056453",
+        "P99c2ec9e9c0e"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -2190,7 +2197,9 @@
         "P05",
         "P13",
         "P16",
-        "P17"
+        "P17",
+        "P617c2275d969",
+        "P99c2ec9e9c0e"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -2482,7 +2491,8 @@
         "anthropomorphism"
       ],
       "appears_in_papers": [
-        "P08"
+        "P08",
+        "P305e0b7caac9"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P08的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -3168,7 +3178,8 @@
         "mixed methods"
       ],
       "appears_in_papers": [
-        "P13"
+        "P13",
+        "P91ccf274c9d8"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P13的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -3655,7 +3666,8 @@
         "scoping studies"
       ],
       "appears_in_papers": [
-        "P17"
+        "P17",
+        "Pab8f6542f0a6"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P17的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -4045,7 +4057,7 @@
         {
           "page": 3,
           "section": "Desired Characteristics for Explainers",
-          "quote": "it must at least be locally\nfaithful, i.e. it must correspond to how the model behaves in\nthe vicinity of the instance being predicted."
+          "quote_sha256": "be3ac43f055eb9632975c35ae1be072bbdad34d68a843c865cc8c3ae6cab7976"
         }
       ],
       "source_sha256": "365079753571d7d14180e9796cf5d8ae53c5ef157f0a585ef8030b2a126eeccb"
@@ -4069,7 +4081,7 @@
         {
           "page": 1,
           "section": "标题",
-          "quote": "“Why Should I Trust You?”\nExplaining the Predictions of Any Classiﬁer"
+          "quote_sha256": "e2e62e01279620f0c5e08772ed3003365d2a8ae3750fb467172bcd52ca9b4276"
         }
       ],
       "cites_papers": [
@@ -4095,12 +4107,12 @@
         {
           "page": 3,
           "section": "2.4 Classic Shapley Value Estimation",
-          "quote": "Since the effect of withholding a feature depends on other features\nin the model, the preceding differences are computed for all possible subsets S⊆ F\\{i}. The\nShapley values are then computed and used as feature attributions. They are a weighted average of all\npossible differences:"
+          "quote_sha256": "dc1affc70a3865d16be76620e4bbfadea34afdaed8cef9957585f86479a541c8"
         },
         {
           "page": 4,
           "section": "3 Simple Properties Uniquely Determine Additive Feature Attributions",
-          "quote": "Theorem 1 follows from combined cooperative game theory results, where the valuesφi are known\nas Shapley values [6]."
+          "quote_sha256": "97ae02d759f03ec7b73155f554f96ed083b845113e8c7bbf4818b50581f08e32"
         }
       ],
       "source_sha256": "01c7aa8f7d9edcf0cd185bf02e82363f743e441fcaf05b99e6054bfb470bf8ae"
@@ -4125,7 +4137,7 @@
         {
           "page": 1,
           "section": "标题",
-          "quote": "A Uniﬁed Approach to Interpreting Model\nPredictions"
+          "quote_sha256": "6a40817bf6fb45866ba4f272963c2c66ff1bfb1769ddbb12d9ff28e677df5dff"
         }
       ],
       "cites_papers": [
@@ -4166,6 +4178,442 @@
         }
       ],
       "creation_reason": "理解P09核心权重计算所需的稳定统计前置概念；不是论文自创方法"
+    },
+    {
+      "id": "C75be4532fd37",
+      "canonical_name": "辅助机器人",
+      "type": "概念",
+      "aliases": [
+        "Assistive robots"
+      ],
+      "appears_in_papers": [
+        "Pab8f6542f0a6"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C75be4532fd37.md",
+      "html_path": "concepts/C75be4532fd37.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Background",
+          "paper_id": "Pab8f6542f0a6",
+          "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+          "quote_sha256": "eb9d3b6d58c910e50b434e37771118800d712564a2824291cdf8892c97ef8df4"
+        }
+      ],
+      "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+      "source_sha256s": [
+        "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0"
+      ]
+    },
+    {
+      "id": "C8520cf29cbbf",
+      "canonical_name": "社会辅助机器人",
+      "type": "概念",
+      "aliases": [
+        "socially assistive robot",
+        "socially assistive robots"
+      ],
+      "appears_in_papers": [
+        "Pab8f6542f0a6",
+        "P91ccf274c9d8"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C8520cf29cbbf.md",
+      "html_path": "concepts/C8520cf29cbbf.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Background",
+          "paper_id": "Pab8f6542f0a6",
+          "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+          "quote_sha256": "35f1d9353c9fab4dc64d6860a4cb2b5442c8b77d46ba0c7d4adbb3a0f6ea682c"
+        },
+        {
+          "page": 2,
+          "section": "Introduction",
+          "paper_id": "P91ccf274c9d8",
+          "source_sha256": "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856",
+          "quote_sha256": "cfb094de248847bfd4af9bc6b71a2f7e0d5edce198f2433d1ca41519c3949e06"
+        }
+      ],
+      "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+      "source_sha256s": [
+        "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+        "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856"
+      ]
+    },
+    {
+      "id": "Pab8f6542f0a6",
+      "canonical_name": "Views of nurses and other health and social care workers on the use of assistive humanoid and animal-like robots in health and social care: a scoping review",
+      "type": "论文",
+      "aliases": [
+        "护士及其他卫生与社会照护工作者对照护中使用辅助性人形和动物形机器人之看法：范围综述"
+      ],
+      "appears_in_papers": [
+        "Pab8f6542f0a6"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/Pab8f6542f0a6.md",
+      "html_path": "papers/Pab8f6542f0a6.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "标题",
+          "paper_id": "Pab8f6542f0a6",
+          "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+          "quote_sha256": "0cf3978b0f98c93df8a7fa282adc088dc1d10b42c7cf774c4da2726085c85a96"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0",
+      "source_sha256s": [
+        "ab8f6542f0a60730d6358a2802a60f756edd9ee26871baaf6d04046dc95899b0"
+      ]
+    },
+    {
+      "id": "Cffbaba25583f",
+      "canonical_name": "情境意识",
+      "type": "概念",
+      "aliases": [
+        "situational awareness"
+      ],
+      "appears_in_papers": [
+        "P617c2275d969"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Cffbaba25583f.md",
+      "html_path": "concepts/Cffbaba25583f.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II-B-1. Information requirements for cooperation",
+          "paper_id": "P617c2275d969",
+          "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+          "quote_sha256": "2a0cbe30a1d48bf87f69da3216da4c8c2ccf36b5ebc8834d362ba2c70212c8a5"
+        }
+      ],
+      "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+      "source_sha256s": [
+        "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f"
+      ]
+    },
+    {
+      "id": "C48eef66e3989",
+      "canonical_name": "机器人自主程度",
+      "type": "概念",
+      "aliases": [
+        "level of robot autonomy",
+        "机器人自主性",
+        "degree of robot autonomy"
+      ],
+      "appears_in_papers": [
+        "P617c2275d969",
+        "P305e0b7caac9"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C48eef66e3989.md",
+      "html_path": "concepts/C48eef66e3989.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II-B-2. Task and Goal Interdependence During Cooperation",
+          "paper_id": "P617c2275d969",
+          "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+          "quote_sha256": "b006c85dff64985a3b95628fcfe3f1008b655e13e4426cb45aa871a7c5b4f4b0"
+        },
+        {
+          "page": 8,
+          "section": "3.2 The Robot Classification",
+          "paper_id": "P305e0b7caac9",
+          "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+          "quote_sha256": "e6224a03f06a451b5c26c8aa5a9b2b1ed8592645a574236d0a5c6fef9f7c7510"
+        }
+      ],
+      "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+      "source_sha256s": [
+        "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+        "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d"
+      ]
+    },
+    {
+      "id": "P617c2275d969",
+      "canonical_name": "A Taxonomy for Characterizing Modes of Interactions in Goal-driven, Human-robot Teams",
+      "type": "论文",
+      "aliases": [
+        "目标驱动的人机团队交互模式分类体系"
+      ],
+      "appears_in_papers": [
+        "P617c2275d969"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P617c2275d969.md",
+      "html_path": "papers/P617c2275d969.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "标题",
+          "paper_id": "P617c2275d969",
+          "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+          "quote_sha256": "a4e57a5d5fe97316b4ab2cabc7cf94a19bc31a90d3c8c738ad33daac9a047b7b"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f",
+      "source_sha256s": [
+        "617c2275d969b935f66f3c77d076549ae23dd640980a89705b2991b4c14c6b4f"
+      ]
+    },
+    {
+      "id": "C102811956deb",
+      "canonical_name": "技术接受与使用统一理论",
+      "type": "概念",
+      "aliases": [
+        "Unified Theory of Acceptance and Use of Technology"
+      ],
+      "appears_in_papers": [
+        "P91ccf274c9d8"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C102811956deb.md",
+      "html_path": "concepts/C102811956deb.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "paper_id": "P91ccf274c9d8",
+          "source_sha256": "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856",
+          "quote_sha256": "ee94b500ee1d456d375075bce26168ce432e16393bfda7539fbb0d3d706bdd26"
+        }
+      ],
+      "source_sha256": "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856",
+      "source_sha256s": [
+        "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856"
+      ]
+    },
+    {
+      "id": "P91ccf274c9d8",
+      "canonical_name": "Health Care Professionals’ Perspectives of Socially Assistive Robots in Health Care Settings: Systematic Review",
+      "type": "论文",
+      "aliases": [
+        "医疗卫生专业人员对医疗场景中社会辅助机器人的看法：系统综述"
+      ],
+      "appears_in_papers": [
+        "P91ccf274c9d8"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P91ccf274c9d8.md",
+      "html_path": "papers/P91ccf274c9d8.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "paper_id": "P91ccf274c9d8",
+          "source_sha256": "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856",
+          "quote_sha256": "9665e8411cc368194ad4a3439d8412edeef608a630b5f9cd55648bfc955fbe8c"
+        }
+      ],
+      "cites_papers": [
+        "Pab8f6542f0a6"
+      ],
+      "source_sha256": "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856",
+      "source_sha256s": [
+        "91ccf274c9d838df815aa3c6a450b8c6c2a182c6b0cb3569954c40c3c48a3856"
+      ]
+    },
+    {
+      "id": "Pab7b29056453",
+      "canonical_name": "Participatory design: a systematic review and insights for future practice",
+      "type": "论文",
+      "aliases": [
+        "参与式设计：系统综述与未来实践启示"
+      ],
+      "appears_in_papers": [
+        "Pab7b29056453"
+      ],
+      "field": "设计研究与方法",
+      "markdown_path": "papers/Pab7b29056453.md",
+      "html_path": "papers/Pab7b29056453.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "paper_id": "Pab7b29056453",
+          "source_sha256": "ab7b290564531f5ffe6288c8e3d515dc29bb029397f454c6c2b57db6b4c481e3",
+          "quote_sha256": "eb98e9538d96cd05f5c9cb00885410f27092d8dd845d7a00e34a0f77c4a338dd"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "ab7b290564531f5ffe6288c8e3d515dc29bb029397f454c6c2b57db6b4c481e3",
+      "source_sha256s": [
+        "ab7b290564531f5ffe6288c8e3d515dc29bb029397f454c6c2b57db6b4c481e3"
+      ]
+    },
+    {
+      "id": "P99c2ec9e9c0e",
+      "canonical_name": "Maximizing the Benefits of Participatory Design for Human–Robot Interaction Research With Older Adults",
+      "type": "论文",
+      "aliases": [
+        "充分发挥参与式设计在老年人与机器人交互研究中的益处"
+      ],
+      "appears_in_papers": [
+        "P99c2ec9e9c0e"
+      ],
+      "field": "设计研究与方法",
+      "markdown_path": "papers/P99c2ec9e9c0e.md",
+      "html_path": "papers/P99c2ec9e9c0e.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "paper_id": "P99c2ec9e9c0e",
+          "source_sha256": "99c2ec9e9c0e09daa880625d1e75cc5717f527bc9fa46b0880de836d184db52a",
+          "quote_sha256": "f035e793935a1058fe9fbbc2e21d872203285bdd8cb43dfb8d145fcef6590293"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "99c2ec9e9c0e09daa880625d1e75cc5717f527bc9fa46b0880de836d184db52a",
+      "source_sha256s": [
+        "99c2ec9e9c0e09daa880625d1e75cc5717f527bc9fa46b0880de836d184db52a"
+      ]
+    },
+    {
+      "id": "C156874a88ab6",
+      "canonical_name": "机器人形态",
+      "type": "概念",
+      "aliases": [
+        "robot morphology"
+      ],
+      "appears_in_papers": [
+        "P305e0b7caac9"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "concepts/C156874a88ab6.md",
+      "html_path": "concepts/C156874a88ab6.html",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2 The Robot Classification",
+          "paper_id": "P305e0b7caac9",
+          "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+          "quote_sha256": "980eb385c1e33edbbebba6c9ace198c6bd133947f0ffd9b2c9a7210398ebc8fd"
+        },
+        {
+          "page": 8,
+          "section": "3.2 The Robot Classification",
+          "paper_id": "P305e0b7caac9",
+          "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+          "quote_sha256": "97d1f99fb831da0e45743e5278d183e4e966ff82f02742e56afbcf018be06276"
+        }
+      ],
+      "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+      "source_sha256s": [
+        "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d"
+      ]
+    },
+    {
+      "id": "P305e0b7caac9",
+      "canonical_name": "A Taxonomy to Structure and Analyze Human–Robot Interaction",
+      "type": "论文",
+      "aliases": [
+        "用于组织与分析人类—机器人交互的分类体系"
+      ],
+      "appears_in_papers": [
+        "P305e0b7caac9"
+      ],
+      "field": "交互技术与评估",
+      "markdown_path": "papers/P305e0b7caac9.md",
+      "html_path": "papers/P305e0b7caac9.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "paper_id": "P305e0b7caac9",
+          "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+          "quote_sha256": "f7cf969f2ae4fc7a183a6b55a80c8f2ca12301628c22dcd93f4831c0fdfc177a"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d",
+      "source_sha256s": [
+        "305e0b7caac9ef98d63799a2595744c5a11e01fe4f46db88c38d66b261f2916d"
+      ]
+    },
+    {
+      "id": "C091a63bc87bf",
+      "canonical_name": "系统综述",
+      "type": "概念",
+      "aliases": [
+        "systematic review",
+        "systematic literature review",
+        "系统性综述"
+      ],
+      "appears_in_papers": [
+        "P91ccf274c9d8",
+        "Pab7b29056453"
+      ],
+      "field": "研究方法",
+      "markdown_path": "concepts/C091a63bc87bf.md",
+      "html_path": "concepts/C091a63bc87bf.html",
+      "evidence": [
+        {
+          "paper_id": "P91ccf274c9d8",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "Pab7b29056453",
+          "section": "Introduction / Methods / classification context"
+        }
+      ]
+    },
+    {
+      "id": "C5cb46451337d",
+      "canonical_name": "人类—机器人交互",
+      "type": "概念",
+      "aliases": [
+        "human-robot interaction",
+        "human–robot interaction",
+        "HRI",
+        "人—机器人交互",
+        "人类与机器人交互"
+      ],
+      "appears_in_papers": [
+        "Pab8f6542f0a6",
+        "P617c2275d969",
+        "P91ccf274c9d8",
+        "Pab7b29056453",
+        "P99c2ec9e9c0e",
+        "P305e0b7caac9"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C5cb46451337d.md",
+      "html_path": "concepts/C5cb46451337d.html",
+      "evidence": [
+        {
+          "paper_id": "Pab8f6542f0a6",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "P617c2275d969",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "P91ccf274c9d8",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "Pab7b29056453",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "P99c2ec9e9c0e",
+          "section": "Introduction / Methods / classification context"
+        },
+        {
+          "paper_id": "P305e0b7caac9",
+          "section": "Introduction / Methods / classification context"
+        }
+      ]
     }
   ],
   "concept_candidates": [

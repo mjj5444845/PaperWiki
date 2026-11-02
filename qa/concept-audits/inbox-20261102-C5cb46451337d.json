@@ -1,0 +1,219 @@
+{
+  "ids": [
+    "C5cb46451337d"
+  ],
+  "page_hashes": {
+    "concepts/C5cb46451337d.md": "0834831b3e2b3461ddeaca124fc46392174f60d7c4a134c8def716b62640fd88"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "HRI研究供人使用或与人共同活动的机器人系统，包括远程与近距离交互，并与HCI存在方法联系。",
+        "source": "重新搜索并打开Goodrich与Schultz（2007）作者PDF，第1、4、7.5节；亦对照所给逐页缓存。https://faculty.cs.byu.edu/~mike/mikeg/papers/HRISurvey.pdf",
+        "verdict": "supported",
+        "reason": "定义、交互范围和物理空间带来的研究问题有直接依据；没有以类人外形或对话能力作为必要条件。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "Onnasch与Roesler将HRI分为交互情境、机器人属性和团队属性，并区分监督者、操作者、协作者、合作者和旁观者。",
+        "source": "P305e0b7caac9印刷第838—842页，第3.1—3.3节。",
+        "verdict": "supported",
+        "reason": "三组变量、八类任务及五种角色均与正文对应。合作与协作的假设装配例子符合目标、分工和动作依赖的操作化定义。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "Onnasch与Roesler按信息获取、信息分析、动作选择和动作执行描述自主性；Parashar等讨论系统情境、局部动态及其对自主性和信息抽象的约束。",
+        "source": "P305e0b7caac9印刷第840—841页；P617c2275d969物理第5—9页，第V—VI节。",
+        "verdict": "supported",
+        "reason": "分别忠实描述四阶段模型与团队情境框架，没有把四阶段模型和sense–plan–act十级模型误写成一一对应尺度。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "Goodrich与Schultz记录1992年开始的RO-MAN会议及2006年创办的HRI专门会议，并将共同体形成置于90年代中期至21世纪初。",
+        "source": "重新打开Goodrich与Schultz（2007）PDF第3节。https://faculty.cs.byu.edu/~mike/mikeg/papers/HRISurvey.pdf",
+        "verdict": "supported",
+        "reason": "年代、会议及叙述主体准确，未将早期遥操作应用从领域历史中删去。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "社会辅助机器人通过社会互动提供帮助；外形、交流、动作和背景介绍不能直接等同于实际能力。",
+        "source": "Pab8f6542f0a6印刷第425页；P305e0b7caac9印刷第839—840页。",
+        "verdict": "supported",
+        "reason": "社会辅助机制及形态四维描述有明确依据；页面没有把物理帮助与社会互动当作完全互斥的机器人类别。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "照护范围综述的19篇文献中11篇涉及接触机器人、8篇主要询问意见；排除远程临场是该研究范围限定。",
+        "source": "Pab8f6542f0a6印刷第426—428、436—439页。",
+        "verdict": "supported",
+        "reason": "数量由结果正文直接支持；清洁、安全、隐私和工作空间均有对应讨论，未将局部排除标准扩大为HRI定义。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "Onnasch与Roesler比较物体操作中的动作预测和手势信息交换，指出两者不能视为相同互动；分类本身不能证明结果差异的因果来源。",
+        "source": "P305e0b7caac9印刷第845—847页，第4.2节。",
+        "verdict": "supported",
+        "reason": "准确转述分类应用，并保留原文的可能解释边界，无需将其改成对全部底层实验的独立重分析。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "HRI结果依赖参与者、任务、机器人和接触条件；分类不能替代长期观察、安全和效果研究。",
+        "source": "P305e0b7caac9第3.1、5节；Pab8f6542f0a6印刷第439页；P99c2ec9e9c0e印刷第445—447页。",
+        "verdict": "supported",
+        "reason": "适用边界与文献讨论一致；职业照护者意见和共同设计偏好没有被当作其他利益相关者意见或持续接受的替代证据。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "claim": "经核对的文字修订：儿童玩具Sprock-it",
+        "source": "Wacnik等，PDF物理第15页，表5续表Competitive benchmarking（对应第4.6节Participatory techniques）。",
+        "verdict": "supported",
+        "reason": "仅核对指定称谓：“儿童玩具Sprock-it”是对原文面向儿童、支持身体互动与心智游戏的“hand-sized robotic character”的概括，语体清楚中立，未增加能力或效果推论。但原文实际使用了“robotic character”，不能把此次修订解释为原文未赋予其机器人属性；删除该属性也不等于否认该属性。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "sections": [
+          "导言",
+          "直观原理与研究对象",
+          "任务、角色与自主性",
+          "发展与主要变体",
+          "在本站论文中的应用",
+          "适用边界",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均说明概念名称、类别与主要特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、范围和证据边界；HRI两段略有重复，但无额外无据结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖机制、变体、实例、发展、站内应用和局限，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕明确主题，历史阶段和方法关系清楚，没有将先后关系写成因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "综述报告、分类作者定义及研究限制均明确归属，未夸大证据。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "数字保留研究或文章口径，出版年与在线发表日期分开，术语总体一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、历史、数量与具体应用均有可核来源；未发现仍缺支持的实际事实。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "作者、题名、DOI、卷期页码及日期与原文和所给出版元数据相符，引注章节实际覆盖相关论点。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "两页未使用信息框，无字段一致性问题。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "无宣传结尾或大段复制；假设例子明确标示且符合所引机制。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念组织方式，未套用单篇实验论文的结果模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文明确证据与适用边界，没有隐瞒已知事实缺口或宣称获得优良条目资格；最终发布验收仍由后续证据合并决定。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "基本流程、综合方式、HRI分类与角色机制解释完整，未仅列名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "内容围绕概念关系展开，不是研究字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "论文、人数与方法均解释其作用，没有未解释的笔记式堆列。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "15、3166、88、14、26及19/11/8等数字均注明对象和研究语境。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接伴随具体模块、研究问题与方法差异分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景提供方法发展和领域形成的实际内容，没有仅用问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见无来源的革命性、显著优越或历史地位赞誉。"
+      }
+    ],
+    "review": [
+      "已依据用户提供的维基体规范审读；未访问文件系统、其他会话或作者自评。",
+      "外源已重新搜索并实际打开。Munn出版者全文及Goodrich作者PDF可读；PRISMA的PMC入口遇到验证、BMJ入口返回403，其内容依据已提供的真实完整逐字缓存核验，不因此降为未核。",
+      "Lee综述的3166是作者报告口径；其表1存在混合人群及职业分项的口径问题。本页明确写作“报告涉及”，未另行声称重新核算全部底层样本。",
+      "Lee附录1表S1列11个数据库，而正文方法称13个；候选概念页未提出数据库数量论断，不构成本页事实错误。",
+      "Papadopoulos原文提及补充材料，本轮输入未包含该附件；两页相关论断均由主文直接支持。",
+      "候选页没有依赖未见图像才能确定的具体数字；未将OCR图表内容额外推导为新事实。",
+      "HRI导言重复遥操作与社会互动范围，可精简；脚注前的“；”和正文括注定位可统一格式，属于编辑改进。",
+      "本次结论仅为两页事实与风格复核，不替代冻结读者测验、快照哈希及最终发布脚本验收。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": {
+    "change": {
+      "path": "concepts/C5cb46451337d.md",
+      "parent": "foundations/round5",
+      "before_sha256": "2e09447b95c6374e6eeba056125aeeb89ad184e0b264f8dcfbca3a3aa4281896",
+      "after_sha256": "0834831b3e2b3461ddeaca124fc46392174f60d7c4a134c8def716b62640fd88",
+      "old_phrase": "儿童互动机器人Sprock-it",
+      "new_phrase": "儿童玩具Sprock-it"
+    },
+    "verification": {
+      "path": "concepts/C5cb46451337d.md",
+      "source_supported": true,
+      "neutral_clear": true,
+      "source": "Wacnik等，PDF物理第15页，表5续表Competitive benchmarking（对应第4.6节Participatory techniques）。",
+      "reason": "仅核对指定称谓：“儿童玩具Sprock-it”是对原文面向儿童、支持身体互动与心智游戏的“hand-sized robotic character”的概括，语体清楚中立，未增加能力或效果推论。但原文实际使用了“robotic character”，不能把此次修订解释为原文未赋予其机器人属性；删除该属性也不等于否认该属性。"
+    }
+  }
+}

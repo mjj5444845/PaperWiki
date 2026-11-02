@@ -1,0 +1,267 @@
+{
+  "ids": [
+    "C024"
+  ],
+  "page_hashes": {
+    "concepts/C024.md": "fdf966b6789d97ff7b33e960d09591728e87f7183037554cb433d5ef85fb5601"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C024.md",
+        "claim": "参与式设计使受设计影响的人以经验参与构思、制作和评价，其作用不限于产品测试。",
+        "source": "P07第6页Participation；P23第2–3页；[IDS定义](https://www.participatorymethods.org/what-are-participatory-methods/)。",
+        "verdict": "supported",
+        "reason": "原文支持经验知识、持续对话及早期设计贡献；IDS支持知识与决策影响，但其对象是广义参与方法，页面未将其单独当作PD专属定义。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "Sanders与Stappers将共同设计界定为设计者和未受设计训练者共同创造，并视为共同创造的特定形式。",
+        "source": "[Co-creation and the new landscapes of design](https://helios.ntua.gr/pluginfile.php/264038/mod_folder/content/0/Sanders-Stappers_2008_Co-creation%20and%20the%20new%20landscapes%20of%20design.pdf?forcedownload=1)，第6页。",
+        "verdict": "supported",
+        "reason": "重新搜索并打开全文，术语关系与作者归属准确。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "斯堪的纳维亚工作场所传统结合系统设计者知识与工人情境经验；Bardzell以Utopia、AT说明多方工作知识的作用。",
+        "source": "P07第6页；[Sanders与Stappers全文](https://helios.ntua.gr/pluginfile.php/264038/mod_folder/content/0/Sanders-Stappers_2008_Co-creation%20and%20the%20new%20landscapes%20of%20design.pdf?forcedownload=1)，第7页。",
+        "verdict": "supported",
+        "reason": "1960年代末至1970年代的表述有Bardzell支持；Sanders与Stappers具体记载1970年代的系统开发传统，二者没有被误写成项目同年发生。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "Bardzell将参与列为六项品质之一，认为知识提供者不可任意替代，参与过程补充科学方法；倡议中的多方对话分担权威与责任。",
+        "source": "P07第5–6页，Qualities、Participation、Advocacy。",
+        "verdict": "supported",
+        "reason": "保留了观点主体、个人经验的适用语境及并非反对可用性测试的限定；博物馆、社区与牙科实例也均在第6页。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "技术探针让家庭较早影响技术方向，结合真实环境研究、工程测试与设计启发，并以部署经历连接低技术原型工作坊。",
+        "source": "P23第2–3、7页。",
+        "verdict": "supported",
+        "reason": "三个目标、主动改变使用情境、维护故障和家庭工作坊流程均有直接依据；家庭成员无需成为专业设计师也有明确原文支持。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "父母制作共享日历，祖父母制作钥匙挂钩与夹手戒指，孩子提出语音消息钥匙链和课后安排手表。",
+        "source": "P23第7页Family Coordination。",
+        "verdict": "supported",
+        "reason": "人物、方案与动机关系准确；页面将其限定为构想及后续原型方向，没有扩张为已验证的长期沟通效果。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "2025年综述分别比较参与阶段、频率、技术与过程策略，并未裁定排他性PD定义。",
+        "source": "Pab7b29056453第2、4–5、9–11页，表2、图3。",
+        "verdict": "supported",
+        "reason": "分类属性相互有别，表2将一次／迭代作为时机类别的附加区分，结果另设频率节；页面没有将多阶段、多方法和涌现过程混成单轴尺度。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "直接性谱包含五类，技术的实施方式影响其直接性。",
+        "source": "Pab7b29056453第18–19页，附图第18页图4。",
+        "verdict": "supported",
+        "reason": "五类名称、所含技术以及直接／间接定义与图文一致；原型、用户代表和情境活动属于实施方式多样的类别。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "五组过程变量涉及涌现／预定、直接／间接、早期／晚期、一次／迭代和单一／多种技术的机会与限制。",
+        "source": "Pab7b29056453第20–23页；附图第21–22页表6。",
+        "verdict": "supported",
+        "reason": "表格五行均与原表相符；访谈可能容纳不愿公开发言者、跨方法综合较难也来自表6。页面没有把这些讨论写成比较实验结果。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "参与不自动保证公平，可能出现招募失衡、安静声音被压过及需求过度概括。",
+        "source": "Pab7b29056453第17、22–23页。",
+        "verdict": "supported",
+        "reason": "来源明确讨论代表性与权力失衡；页面未把综述的规范性讨论变成参与必然改善公平的因果结论。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "《Tying Knots》以丹麦教育项目分析权力层级、工作坊之间的协调和跨组织网络。",
+        "source": "[Tying Knots接受稿](https://pure.au.dk/ws/files/123079783/Tying_Knots_Participatory_Infrastructuring_at_Work_Accepteret_Manuskript_2017.pdf)，稿内第5、19–21页。",
+        "verdict": "supported",
+        "reason": "重新打开原文，概念基础与讨论支持后台准备、协商和政治工作，以及行动能力在组织网络中的分布。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "Udoewa的RPD要求社区参与各阶段及活动之间的解释、规划与决定，由社区主导并保有成果所有权。",
+        "source": "[An introduction to radical participatory design](https://www.cambridge.org/core/journals/design-science/article/an-introduction-to-radical-participatory-design-decolonising-participatory-design-processes/63F70ECC408844D3CD6C1A5AC7D35F4D)，第5节。",
+        "verdict": "supported",
+        "reason": "重新阅读第5节，社区选择方法、元方法论及成果所有权均明确存在；页面正确限定为作者的规范性路线。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "手势研究由20名参与者对27种操作分别提出单手和双手动作，记录1080个，排除6个，最终形成48个动作。",
+        "source": "P05第2–6页。",
+        "verdict": "supported",
+        "reason": "样本、无触屏经验、任务结构、剔除原因、分组及冲突处理均准确。48来自第6页正文，不依赖缺失图像推算。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "手势系统记录触碰但不识别手势，参与者提出候选动作，研究者综合集合；新用户验证和识别器验证属于后续工作。",
+        "source": "P05第3、5–6、9页。",
+        "verdict": "supported",
+        "reason": "准确区分了参与者贡献、研究者决定与尚未完成的验证，没有将共识当作识别性能。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "2025年综述纳入截至2022年5月的88篇文献，其中65篇跨阶段参与、79篇使用多种技术。",
+        "source": "Pab7b29056453第4、9、11页；附图图1、图3。",
+        "verdict": "supported",
+        "reason": "数字与实际图文一致。原文初筛正文151与图1的154存在内部差异，但候选页没有写出该初筛数字，不能据此判候选页错误。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "老年HRI综述详审26篇文章，所有文章均采用多种方法；卡片、故事板、绘画及代画支持表达机器人设计知识。",
+        "source": "P99c2ec9e9c0e第2–5页／印刷442–445页；附图第443页图1。",
+        "verdict": "supported",
+        "reason": "纳入数与多方法说明直接出现于原文。Care-O-bot 3情境活动、辅助生活设施用餐提醒和代画机制均可在第444页核实。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "HRI工作坊需要适配能力差异，方法组合的有效性、冗余与疲劳仍待研究。",
+        "source": "P99c2ec9e9c0e第5–7页／印刷445–447页。",
+        "verdict": "supported",
+        "reason": "工作坊阶段、材料与场地适配、避免技术说明过于复杂及后续效能研究均有依据；页面没有宣称已比较证明某组合最佳。"
+      },
+      {
+        "path": "concepts/C024.md",
+        "claim": "参考文献列出的作者、年份、DOI、卷期页码及主要引注范围。",
+        "source": "所给五篇论文首页、正文和出版元数据；重新打开的Sanders、Tying Knots与Udoewa原文。",
+        "verdict": "supported",
+        "reason": "未发现错误书目；Human Factors的2021在线与2022卷期被正确区分。probes所称PDF第7页支持家庭协调及方向；review所列页码覆盖相关分类、数字及权衡。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C024.md",
+        "sections": [
+          "导言与定义",
+          "历史与知识立场",
+          "参与的形式与过程",
+          "直接与间接参与",
+          "过程配置的权衡及表格",
+          "资源、权力与组织条件",
+          "在本站论文中的应用：用户自定义手势",
+          "在本站论文中的应用：家庭技术探针",
+          "在本站论文中的应用：女性主义人机交互",
+          "在本站论文中的应用：跨情境的过程比较",
+          "在本站论文中的应用：老年人的机器人共同设计",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句交代名称、设计取向及受影响者经验参与这一特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括参与作用、共同设计关系与权力差异，均在正文展开。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "历史、机制、配置、组织条件和五项站内应用均有资料支撑，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，部署、讨论和原型方向的先后关系准确。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "Bardzell、综述作者和Udoewa的判断均注明主体，未混为普遍事实。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "样本、任务、动作数和文献数口径清楚，在线与卷期日期分开。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、精确数字、案例和限制均有可核验来源。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "脚注贴近论点，书目真实；相关原文页段能覆盖其支持范围。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；元数据与正文主题、日期无冲突。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有宣传结尾、大段复制或新增实验结论，适用边界属于主题内容。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念页的定义、过程、变体、局限和具体应用结构，未硬套实验论文模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文明确保留验证、效果比较及适用性边界，没有虚称优良条目或最终发布验收通过。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "解释直接性谱、五组配置变量及应用机制，没有只报框架名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "以知识贡献、过程与权力关系组织内容，非抽取字段逐句转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统名、样本和方案均嵌入具体工作过程，未成为无解释清单。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "1080、48、88、65、79和26均说明对象与统计语境，未作效果排名。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接承担具体概念及研究关系，没有套话式导读。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景提供工作场所传统、经验知识及早期参与不足的实际内容。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无空泛赞誉；潜力、规范性路线和待研究问题均归属于来源。"
+      }
+    ],
+    "review": [
+      "已对照所给完整逐页正文与附图核验候选页实际论断，并重新搜索、打开四项外部来源的相关原文章节。",
+      "未发现需标记error或unverified的实际正文事实；早期三项应用与新增两项综述应用均保留且作用有别。",
+      "候选页没有公式，也没有依赖未见图像才能确定的数字；未据原论文未写出的图表运算增添结论。",
+      "本报告提供事实与风格证据，不替代后续脚本合并证据及最终发布验收。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": null
+}

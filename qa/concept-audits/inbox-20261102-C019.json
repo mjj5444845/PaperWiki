@@ -1,0 +1,269 @@
+{
+  "ids": [
+    "C019"
+  ],
+  "page_hashes": {
+    "concepts/C019.md": "852a69d5cb3a9e2f40e386a9c3565e3ea96f61f2fdcb4c14ec7ae31bbcf12c0c"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C019.md",
+        "claim": "半结构访谈以预先确定的主题或问题为引导，允许调整次序、澄清和追问；早期发现可以进入后续提纲。",
+        "source": "重新搜索并打开的英国官方指南：Interview study，How to carry out；Evaluation methods，Interviews及Topic guide。https://www.gov.uk/guidance/interview-study-qualitative-studies；https://www.gov.uk/guidance/evaluation-in-health-and-wellbeing-methods",
+        "verdict": "supported",
+        "reason": "原章节明确说明灵活提纲、开放问题、跳过不适用问题和迭代调整。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "访谈材料需要分析，小规模访谈不能说明观点在人群中的普遍程度；远程访谈受到通信和建立关系条件的影响。",
+        "source": "重新打开的Evaluation methods：Qualitative research、Interviews、Analysing qualitative data；Interview study：Cons及How to carry out。上述两个官方网址。",
+        "verdict": "supported",
+        "reason": "相关章节支持编码与主题解释、总体频率限制及远程实施条件，正文未把访谈等同于总体调查。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades使用七项共同主题，每场约75分钟，围绕参与者的经验、实践和挑战展开。",
+        "source": "所给P20，PDF第4页，第3节Methodology。",
+        "verdict": "supported",
+        "reason": "七项主题、时长和研究重点逐项吻合；表格没有把招募和编码宣称为半结构访谈的唯一方式。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades于2020年5至7月访谈53人，地域、机构和性别人数如正文所列，使用目的与滚雪球取样，并以英语远程开展。",
+        "source": "所给P20，PDF第4—5页，Participant recruitment and moderation及表1。",
+        "verdict": "supported",
+        "reason": "人数、地区项目口径、招募渠道、语言和饱和报告均吻合，没有把样本比例写成人口比例。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades由两名成员反复阅读并修订类别，最终形成三个顶层类别及18个嵌套类别，未使用编码者间信度指标。",
+        "source": "所给P20，PDF第4页，Analysis and coding。",
+        "verdict": "supported",
+        "reason": "初始八类、迭代讨论、最终类别结构和不用IRR的作者理由均有直接依据。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades的百分比来自参与者自述经验的逐份访谈编码；干预与实践不是经验证的最佳实践。",
+        "source": "所给P20，PDF第4页，Analysis and coding末两段。",
+        "verdict": "supported",
+        "reason": "忠实保留作者明确披露的统计口径和实践归属，没有扩大为全球故障率。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "Data Cascades取得书面及口头同意、限制资料访问并匿名化；疫情使工作流跟踪观察和情境调查未能开展。",
+        "source": "所给P20，PDF第4—5页，Research ethics and anonymization及Limitations。",
+        "verdict": "supported",
+        "reason": "伦理程序、非洲地区泛化称谓和远程研究局限均与原文一致。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "半结构访谈具有多种媒介和个人或小组形式；DeJonckheere与Vaughn将设计实施组织为11个环节。",
+        "source": "所给真实逐字缓存：DeJonckheere与Vaughn（2019），Background、表3及Steps for designing and conducting semistructured interviews。https://pmc.ncbi.nlm.nih.gov/articles/PMC6910737/",
+        "verdict": "supported",
+        "reason": "形式清单、文章适用领域及11项内容完整吻合，未把该方法指导写成唯一协议。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "FeedVis研究通过前测追问、主访谈中的实际内容提示和两至六个月后的邮件追访研究算法认知；作者称主访谈为长篇开放式访谈。",
+        "source": "所给P13，PDF第2—4页，Study Design、Pre-Assessment、Main Interview及Post-Assessment。",
+        "verdict": "supported",
+        "reason": "准确保留作者术语，没有将该研究直接误标为明确命名的半结构访谈研究。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "FeedVis面对面访谈录音转录，两名研究者逐行开放编码；行为评估依赖自报，未以对照实验确立因果关系。",
+        "source": "所给P13，PDF第3—4页及第8页，Data Analysis与Limitations。",
+        "verdict": "supported",
+        "reason": "资料处理和因果证据边界与原文一致。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "照护机器人综述表2报告Robinson的5名员工、Moyle的20名员工和Bemelmans的16名护士访谈及其比较对象。",
+        "source": "所给Papadopoulos等（2018），PDF第5、8、10页，Results及表2。",
+        "verdict": "supported",
+        "reason": "样本、机器人、访谈类型和员工评价忠实于综述表格；没有合并为疗效样本或冒称综述作者进行了一手访谈。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "照护机器人综述提取样本、机器人、方法和发现，但未重现完整访谈提纲或报告统一重编码原始访谈。",
+        "source": "所给Papadopoulos等（2018），全文，尤其PDF第5页Extraction of the results及表2。",
+        "verdict": "supported",
+        "reason": "正文正确区分文献提取与原始访谈分析；表格不足以还原追问顺序。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "参与式设计综述的61篇、69%指88篇文献中的利益相关者访谈类别；电影机构案例并未被全部明确标为半结构访谈。",
+        "source": "所给Wacnik等（2025），PDF第2—4页及第12页表5。",
+        "verdict": "supported",
+        "reason": "类别范围、分母、案例过程和方法名称均准确，未混同半结构访谈单独使用率与访谈次数。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "老年人HRI综述讨论个别半结构访谈表达私密经验、纳入多类利益相关者，以及将新主题带入后续焦点小组。",
+        "source": "所给Rogers等，PDF第4页／印刷第444页Interviews及第7页／印刷第447页PD Potential。",
+        "verdict": "supported",
+        "reason": "应用机制与原章节一致；没有把综述讨论提升为已比较验证的效果或统一访谈协议。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "参考文献所列作者、标题、DOI、刊物、卷期页码及Rogers论文的在线与印刷年份。",
+        "source": "所给五篇原始论文、publisher_metadata，以及DeJonckheere与Vaughn逐字缓存和重新打开的英国官方页面。",
+        "verdict": "supported",
+        "reason": "书目与引注定位相符；2021年在线发表和2022年卷期出版是不同阶段。"
+      },
+      {
+        "path": "concepts/C019.md",
+        "claim": "经核对的文字修订：[[人类—机器人交互|老年人与机器人交互]]",
+        "source": "Rogers等，PDF物理第1页，摘要Objective与Method；物理第4页，Participatory Design Methods—Interviews。",
+        "verdict": "supported",
+        "reason": "仅核对指定短语：原文明确讨论有老年人参与的HRI研究及访谈活动。“老年人与机器人交互”忠实表达该范围，消除原表述的重复与拗口，没有新增事实或效果推论，语体清楚中立。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C019.md",
+        "sections": [
+          "导言",
+          "共同提纲与开放追问（含方法表）",
+          "招募、情境与资料覆盖",
+          "从记录到分析",
+          "伦理与解释边界",
+          "形式变体与方法指导",
+          "在本站论文中的应用／高风险人工智能中的数据工作",
+          "在本站论文中的应用／信息流中的算法认知",
+          "在本站论文中的应用／照护机器人研究中的使用经验",
+          "在本站论文中的应用／参与式设计中的利益相关者理解",
+          "在本站论文中的应用／老年人人类—机器人交互中的活动衔接",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句交代名称、类别及灵活提纲这一关键特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括机制、分析过程及解释边界，无额外结果。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "覆盖机制、招募、分析、伦理、形式和五项站内应用，标题有实质内容。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，过程和因果限制准确。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "方法指导、作者解释及综述报告均有明确归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "样本人数、百分比分母、访谈时长和出版阶段交代一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键陈述由实际原文、真实缓存或重新打开的官方章节支持。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "脚注支持范围清楚，书目和页码可核验。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；方法表与正文一致。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "无宣传结尾、大段复制或自行新增实证结论。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "按概念组织并解释具体应用，没有机械套用实验论文结构。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "明确说明自报、方法命名和提纲报告的边界，没有虚称优良条目或最终发布验收通过。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "共同提纲、开放追问、迭代及分析关系均得到解释。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "以机制和应用关系组织，非抽取字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "人数和方法名称置于研究对象与用途的解释中。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "数字保留对象、时间、分母和统计口径。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接配有概念在研究中的具体作用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景以提纲与追问的实际安排展开，没有只剩问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无缺乏比较和证据的效果赞誉。"
+      }
+    ],
+    "review": [
+      "未发现需要依赖缺失图像才能核实的正文数字；相关人数和比例均见原文正文或可读表格。",
+      "照护机器人部分按忠实转述综述核验，未重新分析其全部底层研究；页面已准确限定此证据层级。",
+      "方法文章配套示例提纲附件未提供，但正文没有引用其中的具体问题或数字，不构成本页事实缺口。",
+      "本结论限于事实与风格复核；冻结读者测验、页面快照哈希和最终发布验收由后续流程处理。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": {
+    "change": {
+      "path": "concepts/C019.md",
+      "parent": "merged/A1-v3",
+      "before_sha256": "d873455ff0ff56a03c38b9b6839b597ebd641b3da4228c9ceaa5dc53ba1a7848",
+      "after_sha256": "852a69d5cb3a9e2f40e386a9c3565e3ea96f61f2fdcb4c14ec7ae31bbcf12c0c",
+      "old_phrase": "老年人[[人类—机器人交互|人类—机器人交互]]",
+      "new_phrase": "[[人类—机器人交互|老年人与机器人交互]]"
+    },
+    "verification": {
+      "path": "concepts/C019.md",
+      "source_supported": true,
+      "neutral_clear": true,
+      "source": "Rogers等，PDF物理第1页，摘要Objective与Method；物理第4页，Participatory Design Methods—Interviews。",
+      "reason": "仅核对指定短语：原文明确讨论有老年人参与的HRI研究及访谈活动。“老年人与机器人交互”忠实表达该范围，消除原表述的重复与拗口，没有新增事实或效果推论，语体清楚中立。"
+    }
+  }
+}

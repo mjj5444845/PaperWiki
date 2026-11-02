@@ -803,5 +803,141 @@
     "after_sha256": "f19475266b1c609ec291ae863eea9015d434edfbc24ad4a4cffe9e238f811ee0",
     "unused_footnotes_removed": [],
     "visible_prose_unchanged": true
+  },
+  {
+    "id": "C045",
+    "path": "concepts/C045.md",
+    "before_sha256": "d68ab436de200a6ecc33b237cc883ee1baf4b04a612e325f6a70bee03b03e102",
+    "after_sha256": "287d10d71b0c0d679513ea97ec2124fd11ef115540111ee5cf514fbe33f56c10",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C076",
+    "path": "concepts/C076.md",
+    "before_sha256": "da478ba72522cbd2bab389a7d06cb282ebf4a9825546c778fb66b4083999af56",
+    "after_sha256": "c222009eb722eda524be9884dbba279f32b9cd97e9427aab445514142f69d477",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "P305e0b7caac9",
+    "path": "papers/P305e0b7caac9.md",
+    "before_sha256": "0f2bb043cc7d9c5029c68fba7198561688f5c94c7167c56f4b1b91323ebf49aa",
+    "after_sha256": "86c565a562d0ae3d93995c074d9453815b2ae1aa65c88160d16d144183a57c8a",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "P617c2275d969",
+    "path": "papers/P617c2275d969.md",
+    "before_sha256": "749a9f085c2b757402086e888fe6d6c69ba49e91077a6b4d81622c80715b5af6",
+    "after_sha256": "d699e43bffaef721f1732dee19a54891e0d2363b68be797cc269c37172948ab0",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "Pab7b29056453",
+    "path": "papers/Pab7b29056453.md",
+    "before_sha256": "086d536bc5d781b380ac2c12d44be3b9bb0ed6a60b4d03cfd7b4deed807ac605",
+    "after_sha256": "0f459214cb76c6da9bf2950d1035c91d7ad9c4d50aa2ba1698313a095975d3c7",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "Pab8f6542f0a6",
+    "path": "papers/Pab8f6542f0a6.md",
+    "before_sha256": "b213adb1bd652a9d2ea509c1e17faad0b018eba5778d8d98ea47e2ee4376f035",
+    "after_sha256": "509ccecb9544fb4630baf68945417c86e792283e745045c77e2f217b82611afd",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "P15",
+    "path": "papers/P15.md",
+    "before_sha256": "870559e4f5ba3e9e6936adde44f6c0b1c9844983c4426af363e2d3c780de8514",
+    "after_sha256": "d1c47dfaa15e9628d37d6dfe17f295735c9120fd1a1b391f914f2a6e3c5cd3d8",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "P17",
+    "path": "papers/P17.md",
+    "before_sha256": "0b6ea7c3ecffd2a28546663ae4bbea9a25ce8681a1857331a572dc25123e6659",
+    "after_sha256": "9cdff4c728ddc5986e31e417aa4855d80fae620dd3c3fd41dac5caba17798fdb",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C007",
+    "path": "concepts/C007.md",
+    "before_sha256": "f2d488cdc0fee728102bb6c335f0751bad4aee39a6e94079f1e2eebafebdd682",
+    "after_sha256": "6463fe5e209ce73993815752ceff0accfbf484e906fcce0ed4bc56df2984d043",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C037",
+    "path": "concepts/C037.md",
+    "before_sha256": "b466606c9964c66d0ed0ea1256a2a4d358431b67581dcea1edefd853b18c6432",
+    "after_sha256": "d9ec980aac660cb36dc15449291ffb3b55cafa9e53e3be87d09655c6b9f3115b",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C043",
+    "path": "concepts/C043.md",
+    "before_sha256": "f9e09254364a1f9b5c0420e6757e8b93bb50801681f87b3707ea204d17a3d6ad",
+    "after_sha256": "0a593d994b26e2be334633977b0b5f3da73c5629e1ec4127eab9719baa76c9aa",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C048",
+    "path": "concepts/C048.md",
+    "before_sha256": "f1d7f005a797da5b2f1379d30344deefee73d57f1e041b9638bd61ae4b263552",
+    "after_sha256": "42b4051095eb76e3faceea5484e22a3350a82453b324e111935245f8a90cc2bd",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C049",
+    "path": "concepts/C049.md",
+    "before_sha256": "34bac528ded31fade4f38d96570f82b30cbb41a8b5d450df8f843f6061763e02",
+    "after_sha256": "a4d0f854b3710b3fcd15f3bdd285a209776218c0df65e7a12e57f7d24c10dc1c",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C051",
+    "path": "concepts/C051.md",
+    "before_sha256": "59c60a5ddfc8ed9fb3a14355edb2ab07c77ec47aafc53f169bf0fa09874ddb6e",
+    "after_sha256": "726042dec568f011547adbad04caddecebbb267c472f72be662f33ea113aba2b",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C052",
+    "path": "concepts/C052.md",
+    "before_sha256": "89fd994c42542a1f98f7cb1051ddadcbe525bcda67e16f993f698db07980ade3",
+    "after_sha256": "6c6c1d8b4338e2f5b91010c55ef21989fad66503ef0258041ead4427c4f8af45",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C058",
+    "path": "concepts/C058.md",
+    "before_sha256": "8145f5e5656f41bb7a05f0a419dd0faab41b22257071b44c7fc054977ad65893",
+    "after_sha256": "7fd92f10b4dc31d29a07256fb0f544e13f500ad652cfce2c17bd81dfcedeca7e",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  {
+    "id": "C085",
+    "path": "concepts/C085.md",
+    "before_sha256": "eec09d5de3cbb6d43fadb669cafb3b3277c3b884793a31601f43fdcc4db7fcfe",
+    "after_sha256": "d7ff04be164639795d9b2793313d3600486572c03f4e489dd204eb90cf06d474",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
   }
 ]

@@ -1,0 +1,143 @@
+{
+  "papers": [
+    {
+      "id": "Pab8f6542f0a6",
+      "title": "Views of nurses and other health and social care workers on the use of assistive humanoid and animal-like robots in health and social care: a scoping review",
+      "quiz_score": 10,
+      "words": 5086,
+      "sections": 18,
+      "tables": 2,
+      "references": 27,
+      "source_urls": [
+        "https://arl.human.cornell.edu/879Readings/Feilseifer.pdf",
+        "https://doi.org/10.1080/10376178.2018.1519374",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8062829/"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    },
+    {
+      "id": "P617c2275d969",
+      "title": "A Taxonomy for Characterizing Modes of Interactions in Goal-driven, Human-robot Teams",
+      "quiz_score": 10,
+      "words": 5457,
+      "sections": 18,
+      "tables": 5,
+      "references": 23,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1109%2FIROS40897.2019.8967974",
+        "https://d-nb.info/1060773058/34",
+        "https://doi.org/10.1109/IROS40897.2019.8967974",
+        "https://link.springer.com/article/10.1186/s41235-021-00271-8",
+        "https://publications.ri.cmu.edu/a-comprehensive-taxonomy-for-multi-robot-task-allocation",
+        "https://scholarcommons.sc.edu/csce_facpub/145/",
+        "https://scispace.com/pdf/human-robot-interaction-a-survey-4q8yi606a9.pdf",
+        "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=50774"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    },
+    {
+      "id": "P91ccf274c9d8",
+      "title": "Health Care Professionals’ Perspectives of Socially Assistive Robots in Health Care Settings: Systematic Review",
+      "quiz_score": 10,
+      "words": 6583,
+      "sections": 18,
+      "tables": 4,
+      "references": 32,
+      "source_urls": [
+        "https://aisel.aisnet.org/misq/vol27/iss3/5/",
+        "https://arl.human.cornell.edu/879Readings/Feilseifer.pdf",
+        "https://doi.org/10.1080/10376178.2018.1519374",
+        "https://doi.org/10.2196/79634",
+        "https://jmir.org/api/download?alt_name=jmir_v27i1e79634_app1.docx&filename=5f53224a3ce9bfd3f5b9f5cdef99611f.docx",
+        "https://jmir.org/api/download?alt_name=jmir_v27i1e79634_app2.pdf&filename=e3c107c2d5ead9ed8bd03762d20fad72.pdf",
+        "https://medschool.cuanschutz.edu/docs/librariesprovider94/di-docs/methods-%28design%29-docx/mmat_2018_criteria-manual_2018-08-01_eng.pdf?sfvrsn=c02c06b9_2",
+        "https://mixedmethodsappraisaltoolpublic.pbworks.com/w/file/fetch/127916259/MMAT_2018_criteria.pdf",
+        "https://openup.uni-potsdam.de/pluginfile.php/210025/mod_folder/content/0/Venkateshetal2003.pdf?forcedownload=1",
+        "https://www.jmir.org/2025/1/e69881/",
+        "https://www.jmir.org/2025/1/e79634/"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    },
+    {
+      "id": "Pab7b29056453",
+      "title": "Participatory design: a systematic review and insights for future practice",
+      "quiz_score": 10,
+      "words": 6305,
+      "sections": 11,
+      "tables": 6,
+      "references": 26,
+      "source_urls": [
+        "https://doi.org/10.1017/dsj.2025.10009",
+        "https://pure.au.dk/ws/files/123079783/Tying_Knots_Participatory_Infrastructuring_at_Work_Accepteret_Manuskript_2017.pdf",
+        "https://www.cambridge.org/core/journals/design-science/article/an-introduction-to-radical-participatory-design-decolonising-participatory-design-processes/63F70ECC408844D3CD6C1A5AC7D35F4D"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    },
+    {
+      "id": "P99c2ec9e9c0e",
+      "title": "Maximizing the Benefits of Participatory Design for Human–Robot Interaction Research With Older Adults",
+      "quiz_score": 8,
+      "words": 4618,
+      "sections": 13,
+      "tables": 2,
+      "references": 17,
+      "source_urls": [
+        "https://doi.org/10.1177/00187208211037465",
+        "https://experts.illinois.edu/en/publications/domestic-robots-for-older-adults-attitudes-preferences-and-potent/",
+        "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1289414/full"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    },
+    {
+      "id": "P305e0b7caac9",
+      "title": "A Taxonomy to Structure and Analyze Human–Robot Interaction",
+      "quiz_score": 10,
+      "words": 5691,
+      "sections": 14,
+      "tables": 6,
+      "references": 22,
+      "source_urls": [
+        "https://doi.org/10.1007/s12369-020-00666-5",
+        "https://www.cs.uml.edu/~holly/91.550/papers/sheridan-autonomy.pdf",
+        "https://www.cs.uml.edu/~holly/teaching/91550/fall2013/GoetzKieslerPowers2003.pdf",
+        "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1800762/full"
+      ],
+      "fact_errors": 0,
+      "unverified_page_claims": 0
+    }
+  ],
+  "new_concepts": [
+    "辅助机器人",
+    "社会辅助机器人",
+    "情境意识",
+    "机器人自主程度",
+    "技术接受与使用统一理论",
+    "机器人形态",
+    "系统综述",
+    "人类—机器人交互"
+  ],
+  "updated_concepts": [
+    "主题分析",
+    "半结构访谈",
+    "原型设计",
+    "参与式设计",
+    "心智模型",
+    "拟人化",
+    "混合方法研究",
+    "范围综述"
+  ],
+  "scope": "six new papers; final independent evidence and deterministic navigation bindings",
+  "scores": {
+    "P305e0b7caac9": 10,
+    "P617c2275d969": 10,
+    "P91ccf274c9d8": 10,
+    "P99c2ec9e9c0e": 8,
+    "Pab7b29056453": 10,
+    "Pab8f6542f0a6": 10
+  }
+}

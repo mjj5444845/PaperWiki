@@ -115,7 +115,7 @@
     {
       "id": "P15",
       "title": "Guidelines for Human-AI Interaction",
-      "sha256": "870559e4f5ba3e9e6936adde44f6c0b1c9844983c4426af363e2d3c780de8514",
+      "sha256": "d1c47dfaa15e9628d37d6dfe17f295735c9120fd1a1b391f914f2a6e3c5cd3d8",
       "passed": true,
       "score": 10,
       "report": "qa/rewrite-audits/P15.json"
@@ -131,7 +131,7 @@
     {
       "id": "P17",
       "title": "What is AI Literacy? Competencies and Design Considerations",
-      "sha256": "0b6ea7c3ecffd2a28546663ae4bbea9a25ce8681a1857331a572dc25123e6659",
+      "sha256": "9cdff4c728ddc5986e31e417aa4855d80fae620dd3c3fd41dac5caba17798fdb",
       "passed": true,
       "score": 9,
       "report": "qa/rewrite-audits/P17.json"
@@ -226,9 +226,9 @@
     {
       "id": "C004",
       "title": "主题分析",
-      "sha256": "c0ff08f364c0266ac3be5dee3f41c5a5d2915a68c27d82c0e35ea18b0cd25f44",
+      "sha256": "b67465a7b2331358c9ff97151ce67818ae1abb46db5797675906616f0aa22c15",
       "passed": true,
-      "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+      "report": "qa/concept-audits/inbox-20261102-C004.json"
     },
     {
       "id": "C005",
@@ -247,7 +247,7 @@
     {
       "id": "C007",
       "title": "人工智能素养",
-      "sha256": "f2d488cdc0fee728102bb6c335f0751bad4aee39a6e94079f1e2eebafebdd682",
+      "sha256": "6463fe5e209ce73993815752ceff0accfbf484e906fcce0ed4bc56df2984d043",
       "passed": true,
       "report": "qa/concept-audits/C005-C006-C007-C008-C009-C010-C011-C012.json"
     },
@@ -331,9 +331,9 @@
     {
       "id": "C019",
       "title": "半结构访谈",
-      "sha256": "e42f3c768a6ca28db94a36473c841f144196aebdade5e46d4e27fdb112848c5f",
+      "sha256": "852a69d5cb3a9e2f40e386a9c3565e3ea96f61f2fdcb4c14ec7ae31bbcf12c0c",
       "passed": true,
-      "report": "qa/concept-audits/C013-C014-C015-C016-C017-C018-C019.json"
+      "report": "qa/concept-audits/inbox-20261102-C019.json"
     },
     {
       "id": "C020",
@@ -352,9 +352,9 @@
     {
       "id": "C022",
       "title": "原型设计",
-      "sha256": "e191d31391ad38d4667362c8a36aed2988d22c55d048045608479614c02d9c27",
+      "sha256": "a4cba34e370aee0468c92cf17f670269f9ce0377042cce7e5c6700abffc56fc2",
       "passed": true,
-      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+      "report": "qa/concept-audits/inbox-20261102-C022.json"
     },
     {
       "id": "C023",
@@ -366,9 +366,9 @@
     {
       "id": "C024",
       "title": "参与式设计",
-      "sha256": "d169c14094bbc95b09b8e3e2bd85c289930e886cbd13cc15f799cdc27ed31579",
+      "sha256": "fdf966b6789d97ff7b33e960d09591728e87f7183037554cb433d5ef85fb5601",
       "passed": true,
-      "report": "qa/concept-audits/C020-C021-C022-C023-C024-C025-C026.json"
+      "report": "qa/concept-audits/inbox-20261102-C024.json"
     },
     {
       "id": "C025",
@@ -457,16 +457,16 @@
     {
       "id": "C037",
       "title": "开放编码",
-      "sha256": "b466606c9964c66d0ed0ea1256a2a4d358431b67581dcea1edefd853b18c6432",
+      "sha256": "d9ec980aac660cb36dc15449291ffb3b55cafa9e53e3be87d09655c6b9f3115b",
       "passed": true,
       "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
     },
     {
       "id": "C038",
       "title": "心智模型",
-      "sha256": "77d4e81b1dda8904b6e3449db1d4d15a03f450bb2af9b120468ea281f92069d4",
+      "sha256": "eb7674cc8d3a4880c008ba93b55915b0b4a28f310b6e12b97d93fa4c1ad680c9",
       "passed": true,
-      "report": "qa/concept-audits/C034-C035-C036-C037-C038-C039-C040.json"
+      "report": "qa/concept-audits/inbox-20261102-C038.json"
     },
     {
       "id": "C039",
@@ -499,7 +499,7 @@
     {
       "id": "C043",
       "title": "技术债务",
-      "sha256": "f9e09254364a1f9b5c0420e6757e8b93bb50801681f87b3707ea204d17a3d6ad",
+      "sha256": "0a593d994b26e2be334633977b0b5f3da73c5629e1ec4127eab9719baa76c9aa",
       "passed": true,
       "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
     },
@@ -513,9 +513,9 @@
     {
       "id": "C045",
       "title": "拟人化",
-      "sha256": "c1f0bf5385d0d77d19f892b4b854b2939cbe002c94da4c77ebe83d55908adcfa",
+      "sha256": "287d10d71b0c0d679513ea97ec2124fd11ef115540111ee5cf514fbe33f56c10",
       "passed": true,
-      "report": "qa/concept-audits/C041-C042-C043-C044-C045-C046-C047.json"
+      "report": "qa/concept-audits/inbox-20261102-C045.json"
     },
     {
       "id": "C046",
@@ -534,14 +534,14 @@
     {
       "id": "C048",
       "title": "推荐解释",
-      "sha256": "f1d7f005a797da5b2f1379d30344deefee73d57f1e041b9638bd61ae4b263552",
+      "sha256": "42b4051095eb76e3faceea5484e22a3350a82453b324e111935245f8a90cc2bd",
       "passed": true,
       "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
     },
     {
       "id": "C049",
       "title": "数据素养",
-      "sha256": "34bac528ded31fade4f38d96570f82b30cbb41a8b5d450df8f843f6061763e02",
+      "sha256": "a4d0f854b3710b3fcd15f3bdd285a209776218c0df65e7a12e57f7d24c10dc1c",
       "passed": true,
       "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
     },
@@ -555,14 +555,14 @@
     {
       "id": "C051",
       "title": "数据集文档",
-      "sha256": "59c60a5ddfc8ed9fb3a14355edb2ab07c77ec47aafc53f169bf0fa09874ddb6e",
+      "sha256": "726042dec568f011547adbad04caddecebbb267c472f72be662f33ea113aba2b",
       "passed": true,
       "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
     },
     {
       "id": "C052",
       "title": "文化探针",
-      "sha256": "89fd994c42542a1f98f7cb1051ddadcbe525bcda67e16f993f698db07980ade3",
+      "sha256": "6c6c1d8b4338e2f5b91010c55ef21989fad66503ef0258041ead4427c4f8af45",
       "passed": true,
       "report": "qa/concept-audits/C048-C049-C050-C051-C052-C053-C054.json"
     },
@@ -604,7 +604,7 @@
     {
       "id": "C058",
       "title": "棘手问题",
-      "sha256": "8145f5e5656f41bb7a05f0a419dd0faab41b22257071b44c7fc054977ad65893",
+      "sha256": "7fd92f10b4dc31d29a07256fb0f544e13f500ad652cfce2c17bd81dfcedeca7e",
       "passed": true,
       "report": "qa/concept-audits/C058-C059.json"
     },
@@ -639,9 +639,9 @@
     {
       "id": "C063",
       "title": "混合方法研究",
-      "sha256": "2e1791a729feaf43d405fff0ed2b07d44aa8b19b5178507e121f5bf68874b604",
+      "sha256": "4d65d2068faca20a65d85a8a0c1ea13a32aaaad1f01acf0a1309fc132e35b5f1",
       "passed": true,
-      "report": "qa/concept-audits/C062-C063-C064-C065-C066.json"
+      "report": "qa/concept-audits/inbox-20261102-C063.json"
     },
     {
       "id": "C064",
@@ -730,9 +730,9 @@
     {
       "id": "C076",
       "title": "范围综述",
-      "sha256": "6637e2392251b7f377ad9f3e9712bba6bd498e9c0d7925c94c84cc99ae7647ef",
+      "sha256": "c222009eb722eda524be9884dbba279f32b9cd97e9427aab445514142f69d477",
       "passed": true,
-      "report": "qa/concept-audits/C074-C075-C076-C077-C078-C079-C080.json"
+      "report": "qa/concept-audits/inbox-20261102-C076.json"
     },
     {
       "id": "C077",
@@ -793,7 +793,7 @@
     {
       "id": "C085",
       "title": "通过设计开展研究",
-      "sha256": "eec09d5de3cbb6d43fadb669cafb3b3277c3b884793a31601f43fdcc4db7fcfe",
+      "sha256": "d7ff04be164639795d9b2793313d3600486572c03f4e489dd204eb90cf06d474",
       "passed": true,
       "report": "qa/concept-audits/C083-C084-C085.json"
     },
@@ -817,9 +817,65 @@
       "sha256": "ce142fba9ec8c204b7dcb9c5e8854440b8a4fb5a013398ed7ca1af8a2b045b18",
       "passed": true,
       "report": "qa/concept-audits/C001-C002-C003-C004-C086.json"
+    },
+    {
+      "id": "C75be4532fd37",
+      "title": "辅助机器人",
+      "sha256": "dac19fcce1204265d4ac0c8f150e9fd090d7074ba315343b2bb7ee89cfab9d93",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C75be4532fd37.json"
+    },
+    {
+      "id": "C8520cf29cbbf",
+      "title": "社会辅助机器人",
+      "sha256": "bcb9066eb9ac97c8e1f4333abe2b480cb992124bc6c1f7120414ef4d53ad86f5",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C8520cf29cbbf.json"
+    },
+    {
+      "id": "Cffbaba25583f",
+      "title": "情境意识",
+      "sha256": "969fe787c5a42a0ebc8d548b35b0652243aab81528e20e43c7f7c4693db52f16",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-Cffbaba25583f.json"
+    },
+    {
+      "id": "C48eef66e3989",
+      "title": "机器人自主程度",
+      "sha256": "53e55d5436a927a160aa000d1206a0ef14b7da4c649553060c8dec5374174623",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C48eef66e3989.json"
+    },
+    {
+      "id": "C102811956deb",
+      "title": "技术接受与使用统一理论",
+      "sha256": "9bea2986a92d8569d26860e3b45582774003db917d9912d888702e2bac42a42c",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C102811956deb.json"
+    },
+    {
+      "id": "C156874a88ab6",
+      "title": "机器人形态",
+      "sha256": "bafaf4af471dfb70157f822e1019d8ab3a43b4fc38300add61ee30f19237784a",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C156874a88ab6.json"
+    },
+    {
+      "id": "C091a63bc87bf",
+      "title": "系统综述",
+      "sha256": "5da3694cbbb9cdb06826995752b2781a7f49da59018e6df766e0beeb9bae6137",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C091a63bc87bf.json"
+    },
+    {
+      "id": "C5cb46451337d",
+      "title": "人类—机器人交互",
+      "sha256": "0834831b3e2b3461ddeaca124fc46392174f60d7c4a134c8def716b62640fd88",
+      "passed": true,
+      "report": "qa/concept-audits/inbox-20261102-C5cb46451337d.json"
     }
   ],
   "paper_passes": 25,
-  "concept_passes": 88,
+  "concept_passes": 96,
   "all_passed": true
 }

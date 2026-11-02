@@ -1,0 +1,265 @@
+{
+  "ids": [
+    "C038"
+  ],
+  "page_hashes": {
+    "concepts/C038.md": "eb7674cc8d3a4880c008ba93b55915b0b4a28f310b6e12b97d93fa4c1ad680c9"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C038.md",
+        "claim": "心智模型是人对系统或活动如何运作形成的内部理解，用来解释现象、预测结果并指导行动；它可能不完整或有误。",
+        "source": "实际重新搜索并打开的[Mental Models](https://www.nngroup.com/articles/mental-models/)，What Are Mental Models?、Mental-Model Inertia；P16第8–10页；P13第6、8页。",
+        "verdict": "supported",
+        "reason": "外部来源明确区分使用者信念与系统事实，并说明预测、行动及经验的作用；两篇论文支持错误理解对信任和人际归因的影响。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "熟悉浏览器的人可能预期返回按钮回到上一画面；信息流使用者可能以为朋友的公开帖子都会出现；数据科学家也可能把解释图当成模型合理的证据。",
+        "source": "[Mental Models](https://www.nngroup.com/articles/mental-models/)，Back Button；P13第3–4页；P16第5、8页。",
+        "verdict": "supported",
+        "reason": "三个例子分别有直接出处，页面没有把它们写成所有使用者共有的认识。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "能够从图中选出第三重要的特征，并不表示理解贡献分数的含义；区分高层图表理解与重要性分数的深入理解是研究的方法局限。",
+        "source": "P16第6页调查题目、第8–9页Mental Models of Interpretability Tools、第10页Limitations。",
+        "verdict": "supported",
+        "reason": "原文分别测量读取图表、坐标轴解释、能力认识与部署判断，并明确承认这两层理解难以区分。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "《Learning from Notes》的成员以个人软件经验理解Notes；产品介绍、培训、组织奖励、政策和工作规范共同影响其使用。",
+        "source": "P03第1–7页，Cognitive Elements、Structural Elements及Discussion。",
+        "verdict": "supported",
+        "reason": "原文直接记录电子表格、文字处理等类比，以及个人导向培训和既有应用对认识的强化；页面保留了认知与组织条件的共同作用。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "FeedVis与手势研究分别研究揭示信息后的理解变化，以及缺少识别反馈时的操作预期表达。",
+        "source": "P13第3–4、7–8页；P05第3–4、9页。",
+        "verdict": "supported",
+        "reason": "FeedVis的前测、内容对照和两至六个月自报随访均相符；手势研究明确不识别动作，以观察未经反馈修正的行为。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "心智模型、概念模型和技术框架描述的对象与分析层次不同，技术框架可以包含个人认识和共享成分。",
+        "source": "P16第8页；P03第3页Cognitive Elements。",
+        "verdict": "supported",
+        "reason": "概念模型的释义忠实于P16的具体用法；P03明确说框架由个人持有，其中一些假设和价值通过共同背景及互动共享。表格已限定适用语境。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "部分FeedVis参与者把漏看帖子归因于自己的浏览行为或朋友不再发帖、停用账户、关系不够亲近；知晓过滤后，有人觉得少回应不再那么像受到冷落。",
+        "source": "P13第4、6、8页。",
+        "verdict": "supported",
+        "reason": "均有参与者叙述直接支持，页面没有把个别反应概括为全部参与者的结果。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "FeedVis展示特定窗口的输出差异，受Facebook接口查询和返回限制，未揭示完整内部权重；行为资料为自报，因果关系仍需对照实验。",
+        "source": "P13第3页Content View、第8–9页Limitations及Discussion。",
+        "verdict": "supported",
+        "reason": "帖子集合的操作定义、时间窗口、API遗漏及自报限制均有原文依据；工具功能确实是对照输出而非恢复内部算法。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "手势研究通过出声思考与录像分析解释可逆动作、相似命令、手指数及桌面软件经验，并以此补充频数和一致度统计。",
+        "source": "P05第3–4、6、8–9页。",
+        "verdict": "supported",
+        "reason": "所述缩放与放大、对象与背景、力量与接触、虚构按钮和鼠标动作均来自原文；非技术背景美国成年人的适用范围也准确。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "可解释性工具研究包含11人的情境调查与197人的问卷，观察InterpretML中的GAM和解释LightGBM的SHAP，并发现部分参与者对工具能力与分数存在误解。",
+        "source": "P16第3–9页；所给Crossref出版元数据。",
+        "verdict": "supported",
+        "reason": "人数、工具与底层模型关系准确；图表信任、自动发现社会偏差的期待以及心智模型错位均在结果中报告。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "AI素养论文把理解AI运作与较准确的心智模型联系起来，提出高层概念、可视化、模拟、交互演示及逐步揭示组件等教育设计考量。",
+        "source": "P17第2–5、8、10页。",
+        "verdict": "supported",
+        "reason": "准确呈现探索性文献综合的性质，未将建议冒称为经统一测验验证的教学效果。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "人机团队分类论文以角色与专长推断接收方理解，借助Grice数量和关联准则调整信息抽象，并要求在线应用具备精确的角色情息画像。",
+        "source": "P617c2275d969物理第7页，第V-C2节；第5、8–9页。",
+        "verdict": "supported",
+        "reason": "角色、理性协作条件、远程认知与物理状态交换、任务依赖及粒度均对应原文；论文提出框架和建议，未实现内部心智模型的自动读取。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "老年人参与式设计综述区分卡片分类引出已有理解与辅助故事板支持理解，并报告Care-O-bot 3的多国、多利益相关者案例；综述涉及26篇文章。",
+        "source": "P99c2ec9e9c0e第1–4页，Card Sorting、Storyboarding；第7–10页及所给Crossref元数据。",
+        "verdict": "supported",
+        "reason": "页面忠实转述综述对分类任务和故事板案例的报告，没有扩大为普遍纠错效果；26篇的口径为文章数。2021年在线与2022年卷期日期均正确。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "参考文献列出的作者、标题、年份、DOI、卷期页码及相关章节定位。",
+        "source": "所给七篇原始论文全文、Crossref出版元数据；实际打开的[Mental Models](https://www.nngroup.com/articles/mental-models/)。",
+        "verdict": "supported",
+        "reason": "八项书目与材料一致；n7正确区分含封面的物理页码，n8区分在线发表与正式卷期；n1作者、发表日、复核日及章节标题均与现页一致。引注覆盖相应论断。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "claim": "经核对的文字修订：[[人类—机器人交互|老年人与机器人交互]]",
+        "source": "Rogers等，PDF物理第2—3页，Participatory Design Methods—Card Sorting；物理第3—4页，Storyboarding。",
+        "verdict": "supported",
+        "reason": "仅核对指定短语：原文讨论老年人对机器人交互的理解，并说明卡片分类与故事板的用途。改为“老年人与机器人交互”保留研究对象与范围，未新增无据推论，表达自然中立。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C038.md",
+        "sections": [
+          "导言",
+          "理解与预测的机制",
+          "形成与改变",
+          "与概念模型、技术框架的关系",
+          "例子：缺失的帖子与人际归因",
+          "研究中的证据边界",
+          "在本站论文中的应用：Learning from Notes",
+          "在本站论文中的应用：User-Defined Gestures",
+          "在本站论文中的应用：FeedVis",
+          "在本站论文中的应用：Interpreting Interpretability",
+          "在本站论文中的应用：AI Literacy",
+          "在本站论文中的应用：人机团队分类",
+          "在本站论文中的应用：老年人参与式设计",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "首句交代名称、类别及解释、预测和行动功能。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括使用者理解、模型错位和行为影响，正文均有展开。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节涵盖机制、形成变化、相关概念、完整案例、证据边界及七篇应用，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，反馈与理解变化未写成必然因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "研究者解释、参与者认识与实际机制分清，评价有明确归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "人数、文章数、随访时间和出版阶段准确；译名保持一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、案例、数字和限制均有可核验的就近来源。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "书目真实，章节与页码范围能够支持对应段落。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "未使用信息框；元数据与正文主题一致。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有无据推导、宣传结尾或大段复制；边界说明属于主题内容。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念条目的组织逻辑，应用段说明概念作用而非照搬论文总体方法。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "明确研究限制及教育建议的证据性质，未隐瞒已知缺口或宣称优良条目资格。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "解释理解形成、预测、反馈、错位及研究取证；没有只命名概念而省略运作。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "围绕机制与证据组织叙述，不是来源字段转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "系统、研究对象和方法均解释其作用，没有未解释的名称数字串列。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "11人、197人、26篇及随访时间均说明对象和用途，没有脱离口径的结果数字。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "概念间关系与各篇应用均具体说明，参见链接没有代替关系分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景通过既有软件经验、隐藏过滤和工具理解问题展开，没有只留下问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无革命性、显著优越等空泛赞誉。"
+      }
+    ],
+    "review": [
+      "已逐页核对所给七篇原始全文；外部定义来源已实际重新搜索并打开相关完整章节，未以搜索摘要或来源记录代替阅读。",
+      "本页没有依赖缺失图像才能核定的图表数字；人数与26篇文章数均见正文，无须从图形推算。",
+      "P16正文提及配套调查材料；本轮输入未含该附件。页面所写的题型、样本、工具及限制已由正文直接支持，此附件范围缺口不构成页面事实未核。",
+      "保留了1992年群件与2009年手势研究的早期应用；本页没有将不同自主性模型建立一一对应关系。",
+      "本轮仅提供独立事实及风格审校证据；冻结问答、快照哈希和最终发布验收由后续流程合并处理。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": {
+    "change": {
+      "path": "concepts/C038.md",
+      "parent": "merged/A3-v2",
+      "before_sha256": "ed6fdc6e2414f172074a70d5cb6873a242c591852ab9b4ee234fe3018ae9905e",
+      "after_sha256": "eb7674cc8d3a4880c008ba93b55915b0b4a28f310b6e12b97d93fa4c1ad680c9",
+      "old_phrase": "老年人[[人类—机器人交互|人类—机器人交互]]",
+      "new_phrase": "[[人类—机器人交互|老年人与机器人交互]]"
+    },
+    "verification": {
+      "path": "concepts/C038.md",
+      "source_supported": true,
+      "neutral_clear": true,
+      "source": "Rogers等，PDF物理第2—3页，Participatory Design Methods—Card Sorting；物理第3—4页，Storyboarding。",
+      "reason": "仅核对指定短语：原文讨论老年人对机器人交互的理解，并说明卡片分类与故事板的用途。改为“老年人与机器人交互”保留研究对象与范围，未新增无据推论，表达自然中立。"
+    }
+  }
+}

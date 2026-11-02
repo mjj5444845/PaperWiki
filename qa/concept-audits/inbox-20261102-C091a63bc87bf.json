@@ -1,0 +1,196 @@
+{
+  "ids": [
+    "C091a63bc87bf"
+  ],
+  "page_hashes": {
+    "concepts/C091a63bc87bf.md": "5da3694cbbb9cdb06826995752b2781a7f49da59018e6df766e0beeb9bae6137"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "系统综述采用显式、系统的方法回答明确问题；元分析是可能采用的统计综合步骤，PRISMA是报告指南。",
+        "source": "Page等（2021），术语框、Scope of the guideline及表1；所给逐字缓存。https://pmc.ncbi.nlm.nih.gov/articles/PMC8005924/",
+        "verdict": "supported",
+        "reason": "定义与原文一致；准确区分综述方法、统计综合和报告要求，没有将采用PRISMA写成质量认证。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "一项研究可能产生多份报告，同一报告可能产生多条数据库记录；去重后仍需识别同一研究。",
+        "source": "Page等（2021），Box 1及流程图说明；所给逐字缓存。",
+        "verdict": "supported",
+        "reason": "研究、报告、记录三种计数单位的解释准确，没有混用参与者和文献数量。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "医疗领域系统综述在20世纪70—80年代出现，90年代随Cochrane和JBI等组织发展扩大；范围综述的批判性评价通常不是必需环节。",
+        "source": "重新搜索并打开Munn等（2018）出版者全文，Background、Indications for systematic reviews及Deciding between a systematic review and a scoping review approach。https://link.springer.com/article/10.1186/s12874-018-0611-x",
+        "verdict": "supported",
+        "reason": "历史叙述及相邻方法的目的、评价要求均忠实于原文；保留了可以按研究目的开展评价的例外。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "Lee等分别分析质性与定量材料，通过主题分析、描述性汇总和叙述整合形成综合；因异质性未开展元分析。",
+        "source": "P91ccf274c9d8物理第3—4、14—15页，Data Synthesis and Interpretation及Strengths and Limitations。",
+        "verdict": "supported",
+        "reason": "准确说明各类证据如何进入综合，以及没有合并效应的理由。医护人员意见的假设例子符合该机制，未冒充实验结果。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "Lee等报告纳入15项研究，包括6项质性、5项定量、4项混合方法，涉及3166名医护专业人员；质量评价为1项高、12项中、2项低。",
+        "source": "P91ccf274c9d8物理第2—7、15页；附录1表S3—S4逐字缓存。",
+        "verdict": "supported",
+        "reason": "全部数字均为综述明确报告；页面正确归属于作者报告，并说明评分办法不是所有MMAT应用的通用规则。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "Wacnik等检索选定出版来源，分析截至2022年5月的88篇文章，两名研究者交换六篇交叉核对，识别14种技术和五组过程选择。",
+        "source": "Pab7b29056453物理第3—5、11—16、20—23页，第3节、表2、表5和第5.5—5.7节。",
+        "verdict": "supported",
+        "reason": "检索字段、截止时间、分析矩阵、交叉核对及分类数量与原文相符；没有将样本频数推广为必然的公平效果。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "Papadopoulos等是采用JBI与PCC的19篇文献范围综述；Rogers等是讨论26篇文章的定向综述，并将系统综述和元分析列为未来工作。",
+        "source": "Pab8f6542f0a6印刷第427—428、439页；P99c2ec9e9c0e印刷第441—442、447页。",
+        "verdict": "supported",
+        "reason": "两项早期应用均保留，综述类型归属准确；没有因存在检索与多人判断就擅自改称系统综述。"
+      },
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "claim": "系统综述不能补足原始研究缺少的长期观察、代表性或可靠测量；单项研究偏倚、整体证据可信程度与适用性应分开判断。",
+        "source": "Page等（2021）表1第11、15、22—23项；P91ccf274c9d8物理第14—15页。",
+        "verdict": "supported",
+        "reason": "所列限制与证据层次有来源支持，没有把透明报告等同于结论可靠。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C091a63bc87bf.md",
+        "sections": [
+          "导言",
+          "直观原理与基本步骤",
+          "综合方式与形式化含义",
+          "发展与相邻方法",
+          "在本站论文中的应用",
+          "适用条件与局限",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "两页首句均说明概念名称、类别与主要特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、范围和证据边界；HRI两段略有重复，但无额外无据结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖机制、变体、实例、发展、站内应用和局限，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕明确主题，历史阶段和方法关系清楚，没有将先后关系写成因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "综述报告、分类作者定义及研究限制均明确归属，未夸大证据。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "数字保留研究或文章口径，出版年与在线发表日期分开，术语总体一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键定义、历史、数量与具体应用均有可核来源；未发现仍缺支持的实际事实。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "作者、题名、DOI、卷期页码及日期与原文和所给出版元数据相符，引注章节实际覆盖相关论点。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "两页未使用信息框，无字段一致性问题。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "无宣传结尾或大段复制；假设例子明确标示且符合所引机制。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念组织方式，未套用单篇实验论文的结果模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文明确证据与适用边界，没有隐瞒已知事实缺口或宣称获得优良条目资格；最终发布验收仍由后续证据合并决定。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "基本流程、综合方式、HRI分类与角色机制解释完整，未仅列名称。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "内容围绕概念关系展开，不是研究字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "论文、人数与方法均解释其作用，没有未解释的笔记式堆列。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "15、3166、88、14、26及19/11/8等数字均注明对象和研究语境。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内链接伴随具体模块、研究问题与方法差异分析。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景提供方法发展和领域形成的实际内容，没有仅用问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "未见无来源的革命性、显著优越或历史地位赞誉。"
+      }
+    ],
+    "review": [
+      "已依据用户提供的维基体规范审读；未访问文件系统、其他会话或作者自评。",
+      "外源已重新搜索并实际打开。Munn出版者全文及Goodrich作者PDF可读；PRISMA的PMC入口遇到验证、BMJ入口返回403，其内容依据已提供的真实完整逐字缓存核验，不因此降为未核。",
+      "Lee综述的3166是作者报告口径；其表1存在混合人群及职业分项的口径问题。本页明确写作“报告涉及”，未另行声称重新核算全部底层样本。",
+      "Lee附录1表S1列11个数据库，而正文方法称13个；候选概念页未提出数据库数量论断，不构成本页事实错误。",
+      "Papadopoulos原文提及补充材料，本轮输入未包含该附件；两页相关论断均由主文直接支持。",
+      "候选页没有依赖未见图像才能确定的具体数字；未将OCR图表内容额外推导为新事实。",
+      "HRI导言重复遥操作与社会互动范围，可精简；脚注前的“；”和正文括注定位可统一格式，属于编辑改进。",
+      "本次结论仅为两页事实与风格复核，不替代冻结读者测验、快照哈希及最终发布脚本验收。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": null
+}

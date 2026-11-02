@@ -1,0 +1,53 @@
+{
+  "changes": [
+    {
+      "path": "concepts/C019.md",
+      "parent": "merged/A1-v3",
+      "before_sha256": "d873455ff0ff56a03c38b9b6839b597ebd641b3da4228c9ceaa5dc53ba1a7848",
+      "after_sha256": "852a69d5cb3a9e2f40e386a9c3565e3ea96f61f2fdcb4c14ec7ae31bbcf12c0c",
+      "old_phrase": "老年人[[人类—机器人交互|人类—机器人交互]]",
+      "new_phrase": "[[人类—机器人交互|老年人与机器人交互]]"
+    },
+    {
+      "path": "concepts/C038.md",
+      "parent": "merged/A3-v2",
+      "before_sha256": "ed6fdc6e2414f172074a70d5cb6873a242c591852ab9b4ee234fe3018ae9905e",
+      "after_sha256": "eb7674cc8d3a4880c008ba93b55915b0b4a28f310b6e12b97d93fa4c1ad680c9",
+      "old_phrase": "老年人[[人类—机器人交互|人类—机器人交互]]",
+      "new_phrase": "[[人类—机器人交互|老年人与机器人交互]]"
+    },
+    {
+      "path": "concepts/C5cb46451337d.md",
+      "parent": "foundations/round5",
+      "before_sha256": "2e09447b95c6374e6eeba056125aeeb89ad184e0b264f8dcfbca3a3aa4281896",
+      "after_sha256": "0834831b3e2b3461ddeaca124fc46392174f60d7c4a134c8def716b62640fd88",
+      "old_phrase": "儿童互动机器人Sprock-it",
+      "new_phrase": "儿童玩具Sprock-it"
+    }
+  ],
+  "audit": {
+    "checks": [
+      {
+        "path": "concepts/C019.md",
+        "source_supported": true,
+        "neutral_clear": true,
+        "source": "Rogers等，PDF物理第1页，摘要Objective与Method；物理第4页，Participatory Design Methods—Interviews。",
+        "reason": "仅核对指定短语：原文明确讨论有老年人参与的HRI研究及访谈活动。“老年人与机器人交互”忠实表达该范围，消除原表述的重复与拗口，没有新增事实或效果推论，语体清楚中立。"
+      },
+      {
+        "path": "concepts/C038.md",
+        "source_supported": true,
+        "neutral_clear": true,
+        "source": "Rogers等，PDF物理第2—3页，Participatory Design Methods—Card Sorting；物理第3—4页，Storyboarding。",
+        "reason": "仅核对指定短语：原文讨论老年人对机器人交互的理解，并说明卡片分类与故事板的用途。改为“老年人与机器人交互”保留研究对象与范围，未新增无据推论，表达自然中立。"
+      },
+      {
+        "path": "concepts/C5cb46451337d.md",
+        "source_supported": true,
+        "neutral_clear": true,
+        "source": "Wacnik等，PDF物理第15页，表5续表Competitive benchmarking（对应第4.6节Participatory techniques）。",
+        "reason": "仅核对指定称谓：“儿童玩具Sprock-it”是对原文面向儿童、支持身体互动与心智游戏的“hand-sized robotic character”的概括，语体清楚中立，未增加能力或效果推论。但原文实际使用了“robotic character”，不能把此次修订解释为原文未赋予其机器人属性；删除该属性也不等于否认该属性。"
+      }
+    ]
+  }
+}

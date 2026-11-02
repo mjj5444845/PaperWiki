@@ -1,0 +1,175 @@
+{
+  "ids": [
+    "C045"
+  ],
+  "page_hashes": {
+    "concepts/C045.md": "287d10d71b0c0d679513ea97ec2124fd11ef115540111ee5cf514fbe33f56c10"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C045.md",
+        "claim": "社会反应不要求明确相信机器有人格，礼貌实验包含33人及三种评价渠道。",
+        "source": "输入所附《Computers are Social Actors》物理第1—3页。",
+        "verdict": "supported",
+        "reason": "人数、条件和结果方向正确；异机与纸笔是未发现显著差异，候选页未将其写成严格等效证明。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "相同界面与录音者变化用于控制声音线索，五研究涉及礼貌、声音、性别和归因。",
+        "source": "输入所附《Computers are Social Actors》物理第2—6页。",
+        "verdict": "supported",
+        "reason": "方法与研究范围符合所给全文；本轮未取得该论文图表渲染，因此不宣称独立核过其图像细节。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "Waytz等人的摘要讨论个体差异及道德关切、责任、信任和社会影响。",
+        "source": "[APS官方摘要](https://www.psychologicalscience.org/journals/perspectives/1745691610369336/)。",
+        "verdict": "supported",
+        "reason": "实际打开官方摘要核对；候选页明确披露摘要范围，没有冒充阅读全文。"
+      },
+      {
+        "path": "concepts/C045.md",
+        "claim": "Epley等人讨论知识推断、社会联系与效能动机，并检验孤独与宠物、控制需要与不可预测动物的联系。",
+        "source": "[Epley等人全文](https://static1.squarespace.com/static/51e3f4ede4b053e5f0062efd/t/51f7e184e4b0f58fade40024/1375199620013/when-we-need-a-human.pdf)，摘要及印刷145—146页。",
+        "verdict": "supported",
+        "reason": "实际打开全文，理论说明和两项研究对象与候选页一致。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C045.md",
+        "sections": [
+          "定义与归因",
+          "礼貌实验",
+          "声音、角色与社会判断",
+          "个体差异与后续",
+          "认知与动机机制",
+          "本站两篇论文的具体应用",
+          "局限与设计考虑",
+          "参见与参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "四页首句均识别主题、类别及主要区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括正文重点，论文页同时交代描述性证据边界。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "核心框架、案例、局限及后续均有实质内容；没有套造实验章节。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落围绕具体机制或比较展开，未把事后解释写成确定因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "作者评价、既有实验和后续扩展均有主体归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "日期阶段、人数符号、类别数量及术语使用一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键陈述有对应原文或实际打开的外源，未发现捏造来源。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "页码与论点总体匹配；后续自主性细分脚注可补§5.1，部分外源书目可补作者。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "论文信息框与正文及所附出版元数据一致；概念页未使用空信息框。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "没有宣传结尾或大段复制；图文差异属于实质证据说明。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用论文与概念结构，未强套训练模型或性能评测模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "正文披露信息缺失、测量和验证边界，没有宣称优良条目或独立验收已通过；不能因早期流程未完成而认定正文虚报。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "九主变量及各主要类别完整展开，并有可走通的案例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "内容按解释关系组织，没有机械转写抽取字段。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "表格均配有定义、用途或比较说明，没有未解释的系统名数字堆积。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "类别数量、人数关系、自由度及33人实验均有对象和条件。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "概念链接对应实际分类模块和研究问题。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景说明已有框架及实际比较困难，没有仅以问句代替背景。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无无据赞誉，效果讨论保留任务条件和证据限制。"
+      }
+    ],
+    "review": [
+      "本轮未发现必须判为error的候选页事实。所给主论文17页图文已逐页对照，物理页p对应印刷页p+832；表1—2及图1—4均纳入核对。",
+      "主论文版本未附附录；交互式画布仅核到论文内结构与历史下载入口，没有取得独立交互PDF，也没有断言其当前可下载或功能正常。",
+      "《Computers are Social Actors》采用输入所附七页全文核对；未取得其独立PDF渲染图。候选页没有依赖未见图像坐标或曲线数值的论断，这属于本轮资料范围记录。",
+      "实际检索并打开Goetz、Parasuraman、Epley、APS摘要及2026年Frontiers全文；最初两个PDF直链抓取失败，随后通过检索结果入口成功打开全文，没有以搜索摘要替代阅读。",
+      "建议补全后续研究脚注作者Ehud Nahum、Yael Edan、Tal Oron-Gilad，以及自主性表格的§5.1定位；属于书目精度改进。",
+      "论文页对C-3PO图文差别的代表场景解释可改为更谨慎措辞：图示与正文范围不同，但作者未明确说明差异原因。",
+      "机器人自主性概念页应持续保留十点尺度是2021年论文的表述；2000年原模型没有为所有功能统一规定十个等级。",
+      "本报告仅提供独立事实与风格复核证据；未接触读者答卷，未计算读者得分，也不替代脚本后续合并验收。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": {
+    "id": "C045",
+    "path": "concepts/C045.md",
+    "before_sha256": "d68ab436de200a6ecc33b237cc883ee1baf4b04a612e325f6a70bee03b03e102",
+    "after_sha256": "287d10d71b0c0d679513ea97ec2124fd11ef115540111ee5cf514fbe33f56c10",
+    "visible_prose_unchanged": true,
+    "scope": "article body and references; excludes see-also navigation; only aliases/updated metadata may change"
+  },
+  "language_revision": null
+}

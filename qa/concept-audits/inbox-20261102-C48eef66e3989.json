@@ -1,0 +1,180 @@
+{
+  "ids": [
+    "C48eef66e3989"
+  ],
+  "page_hashes": {
+    "concepts/C48eef66e3989.md": "53e55d5436a927a160aa000d1206a0ef14b7da4c649553060c8dec5374174623"
+  },
+  "audit": {
+    "findings": [
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "自主程度依赖任务、环境及感知—规划—行动的职责分配；互动频率不能直接代替自主程度。",
+        "source": "所给[Beer等作者手稿逐字缓存](https://pmc.ncbi.nlm.nih.gov/articles/PMC5656240/)，Autonomy defined及Determining Robot Autonomy。",
+        "verdict": "supported",
+        "reason": "定义、扫地机器人任务边界实例、介入与互动区别均与原文一致。"
+      },
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "Beer作者手稿十级表中，第8级为监督控制，第9级为执行控制，并以发起权区分部分相同责任配置。",
+        "source": "所给PMC作者手稿表4完整逐字缓存及相邻说明。",
+        "verdict": "supported",
+        "reason": "逐行类别、符号和解释一致；页面明确版本，未误置编号或将定性等级当精确比例。"
+      },
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "Onnasch与Roesler采用四阶段及低、中、高描述，没有与Beer十级的一一对应。",
+        "source": "所给Onnasch与Roesler全文§3.2，第8—9页；Beer缓存中自动化模型说明。",
+        "verdict": "supported",
+        "reason": "四阶段来源与简化理由准确，原文未规定数值阈值或报告编码一致性验证。"
+      },
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "Parashar等将自主程度置于结果效应层，并扩展到任意两个队友或子团队，包括人类成员。",
+        "source": "所给Parashar等全文§III、§V-C及§VI，第4—9页。",
+        "verdict": "supported",
+        "reason": "扩展、操作者例子、搜救和装配案例及未量化边界准确；没有虚构风险与自主性的单向规律。"
+      },
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "虚构机器人和动作识别研究可以同为高自主，但人的角色、任务及形态仍不同。",
+        "source": "所给Onnasch与Roesler全文§4.1—4.2，第11—15页。",
+        "verdict": "supported",
+        "reason": "保留虚构性质、事后假说及参与者视角，未将表面自主推定为后台架构事实。"
+      },
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "claim": "2026年社会导航分类区分幕后操控、参与者控制、预定路径和完全自主。",
+        "source": "所给[研究全文真实逐字缓存](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1800762/full)，§2.2、4.1、5.1及表3。",
+        "verdict": "supported",
+        "reason": "四类及幕后操控的知情条件准确；未将任务分类换算为其他自主性尺度。"
+      }
+    ],
+    "coverage": [
+      {
+        "path": "concepts/C48eef66e3989.md",
+        "sections": [
+          "导言",
+          "自主程度与功能分工",
+          "Beer作者手稿中的十级分类",
+          "Onnasch与Roesler的四阶段描述",
+          "在本站论文中的应用：目标驱动团队中的责任分配",
+          "在本站论文中的应用：跨交互场景的分类比较",
+          "适用边界与后续细分",
+          "参见",
+          "参考文献"
+        ],
+        "unverified": []
+      }
+    ],
+    "style": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "三页首句均识别主题、类别和区分特征。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "导言概括定义、用途及证据边界，没有添加无依据结论。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "章节覆盖机制、变体、实例、应用和限制，无空标题。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "段落中心明确，历史先后没有被改写为因果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "工作人员评价、作者解释和事后假说均明确归属。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "人数与研究数口径明确，在线发表与卷期年份分开，自主程度译名一致。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "关键事实有可定位原文或真实缓存支持。"
+      },
+      {
+        "item": 8,
+        "pass": true,
+        "reason": "书目作者、题名、卷页、DOI及引注章节相符；引用范围对应实际论点。"
+      },
+      {
+        "item": 9,
+        "pass": true,
+        "reason": "三页均未使用信息框，不存在字段冲突。"
+      },
+      {
+        "item": 10,
+        "pass": true,
+        "reason": "未见原创因果结论、宣传结尾或大段复制；实例与证据解释相连。"
+      },
+      {
+        "item": 11,
+        "pass": true,
+        "reason": "采用概念结构，理论分类未套用实验准确率模板。"
+      },
+      {
+        "item": 12,
+        "pass": true,
+        "reason": "明确说明量表、推广和证据限制，没有虚称优良条目资格或完整验收。"
+      }
+    ],
+    "antipatterns": [
+      {
+        "item": 1,
+        "pass": true,
+        "reason": "十级自主分类、四阶段和四维形态均逐项展开，SAR辅助机制有实例。"
+      },
+      {
+        "item": 2,
+        "pass": true,
+        "reason": "正文围绕机制和比较组织，并非抽取字段逐项转写。"
+      },
+      {
+        "item": 3,
+        "pass": true,
+        "reason": "设备、人数和类别均解释其用途与证据角色，没有笔记式堆砌。"
+      },
+      {
+        "item": 4,
+        "pass": true,
+        "reason": "数字交代对象、研究条件和比较；未从图表额外推导效果。"
+      },
+      {
+        "item": 5,
+        "pass": true,
+        "reason": "站内应用说明概念在选择、综合及分类中的具体作用。"
+      },
+      {
+        "item": 6,
+        "pass": true,
+        "reason": "背景交代实际研究问题与已有框架差异，没有只剩问句。"
+      },
+      {
+        "item": 7,
+        "pass": true,
+        "reason": "无无来源的革命性或效果显著等空泛赞誉。"
+      }
+    ],
+    "review": [
+      "外源已重新搜索并实际打开Feil-Seifer及Goetz原始PDF；2026年Frontiers全文重开超时，PMC入口遭验证码，相关判断采用输入提供的真实完整逐字缓存，没有以搜索摘要代替正文。",
+      "2025年综述报告3166人及8／2／5项使用经验分类，候选页忠实转述；本轮没有重新计算底层样本或重分析所有纳入研究。",
+      "2018年原文提及补充材料，但输入未提供该附件；候选页相关事实均可由已给全文支持。",
+      "未发现依赖缺失原图才能核实的页面具体数字。Beer十级符号有完整HTML表格缓存，其他图示分类有正文说明支持。",
+      "本结果仅为事实、引注和风格复核，不代表冻结读者测验、快照哈希或最终发布脚本已完成。"
+    ]
+  },
+  "passed": true,
+  "navigation_verification": null,
+  "language_revision": null
+}
