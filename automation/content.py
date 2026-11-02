@@ -29,7 +29,7 @@ def numeric_source(text):
     months='January February March April May June July August September October November December'.split()
     for number,name in enumerate(months,1):
         # Avoid reading modal "may" as a month; require a real day/year date context.
-        if re.search(r'\b'+name+r'\s+\d{1,2}(?:,?\s+\d{4})?\b',text,re.I) or re.search(r'\b\d{1,2}\s+'+name+r'\s+\d{4}\b',text,re.I):values.append(str(number))
+        if re.search(r'\b'+name+r'\s+\d{1,2}(?:,?\s+\d{4})?\b',text,re.I) or re.search(r'\b\d{1,2}\s+'+name+r'\s+\d{4}\b',text,re.I) or re.search(r'\b'+name+r'\s+\d{4}\b',text,re.I):values.append(str(number))
     return text+'\n'+' '.join(values)
 
 def validate(data,pages):

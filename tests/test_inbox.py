@@ -45,7 +45,7 @@ class InboxTests(unittest.TestCase):
                   'checklist':[{'item':i,'status':'pass','reason':'index evidence only'} for i in range(1,13)],'publishable':True}
             data['metadata']['title']={'value':'Title','evidence':[dict(e,quote='Title')]}
             content.validate(data,[{'page':1,'text':'Title\n'+quote}])
-        for text,quote in [('纳入3项研究','Three studies were included.'),('日期2025年7月29日','July 29, 2025'),('P<.01','P<.01'),('P=0.84','P=.84'),('P=.84','P=0.84'),('21项','twenty-one studies')]:
+        for text,quote in [('纳入3项研究','Three studies were included.'),('日期2025年7月29日','July 29, 2025'),('截至2022年5月','May 2022'),('P<.01','P<.01'),('P=0.84','P=.84'),('P=.84','P=0.84'),('21项','twenty-one studies')]:
             with self.subTest(text=text):check(text,quote)
         for text,quote in [('2项','Three studies were included.'),('3项','thirty studies'),('5项','This may improve results.'),('1项','one hundred studies'),('20项','twenty-one studies')]:
             with self.subTest(text=text):
