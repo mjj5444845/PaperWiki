@@ -1,7 +1,9 @@
 {
-  "phase": "content accepted; release verification pending",
+  "phase": "published; online verification complete",
   "validation": "qa/final-validation.json",
-  "published": false,
-  "scheduler_resumed": false,
-  "notes": "25 paper and 88 concept snapshots independently accepted; current source hashes are authoritative."
+  "published": true,
+  "content_commit": "8eb08cb6c2947d7ab33959ede434fb183b1b3bed",
+  "workflow_run": 41367692422,
+  "online_public_files": 366,
+  "notes": "Runtime launchd state is local and should be inspected with automation.schedule status; do not infer it from this static release snapshot."
 }
