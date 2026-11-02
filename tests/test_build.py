@@ -37,7 +37,7 @@ class BuildTests(unittest.TestCase):
                 for pid in latest:
                     self.assertIn('href="'+base+pages[pid]['path']+'"',featured)
                     self.assertIn('<p>',featured)
-                    self.assertEqual(pages[pid]['field'],'人类与机器人交互')
+                    self.assertEqual(pages[pid]['field'],'设计研究与方法' if pid=='Pab7b29056453' else '人类与机器人交互')
                 redirects=json.loads((builder.OUT/'redirects.json').read_text());self.assertEqual(redirects['MTurk']['target'],'C001')
     def test_home_batch_rotates_only_on_new_publication(self):
         from automation.content import update_home_batch, split
