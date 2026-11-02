@@ -40,6 +40,7 @@ class DepthGateTests(unittest.TestCase):
             prepared = json.loads(json.dumps(prepared))
             def stage(name, schema, instruction, payload, web=False):
                 if name == 'full-reading': return prepared
+                if name == 'question-key-audit': return {'grades':[{'id':i,'correct':True,'reason':'source verified'} for i in range(1,11)]}
                 self.assertEqual(name, 'evidence-locators')
                 return {'anchor_'+str(x['index']): 0 for x in payload['invalid']}
             pipeline.stage = stage
@@ -62,6 +63,24 @@ class DepthGateTests(unittest.TestCase):
             with self.assertRaisesRegex(NeedsReview,'人工核对'):pipeline.prepare([{'page':1,'text':'literal original'}])
             self.assertEqual(prepared['questions'][0]['question'],'Frozen question')
             self.assertEqual(prepared['questions'][0]['expected'],'Frozen answer')
+
+    def test_bad_source_answer_key_stops_before_writing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline=object.__new__(Pipeline);pipeline.job=Path(tmp);pipeline.rules=''
+            prepared={'notes':[{'page':1,'section':'Table','note':'count','quote':'25 categories'}],
+                      'questions':[{'id':i,'question':'How many?','expected':'26','evidence':[{'page':1,'section':'Table','quote':'25 categories'}]} for i in range(1,11)],
+                      'omitted_sections':[],'review':[]}
+            seen=[]
+            def stage(name,schema,instruction,payload,web=False):
+                seen.append(name)
+                if name=='full-reading':return prepared
+                self.assertEqual(name,'question-key-audit')
+                self.assertNotIn('candidate_pages',payload)
+                return {'grades':[{'id':i,'correct':False,'reason':'Table has 25, not 26'} for i in range(1,11)]}
+            pipeline.stage=stage
+            with self.assertRaisesRegex(NeedsReview,'答案要点'):pipeline.prepare([{'page':1,'text':'25 categories'}])
+            self.assertEqual(seen,['full-reading','question-key-audit'])
+            self.assertEqual(prepared['questions'][0]['expected'],'26')
 
     def evidence(self):
         return ({'answers':[{'id':i,'answer':'页面中有依据'} for i in range(1,11)]},
