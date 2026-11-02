@@ -30,7 +30,7 @@ class BuildTests(unittest.TestCase):
                 home=(builder.OUT/'index.html').read_text()
                 self.assertNotIn('最近新增',home)
                 self.assertNotIn('[[',home)
-                self.assertIn('这里收录人机交互及相关领域的论文介绍',home)
+                self.assertIn('论文百科是一个收录人机交互及相关领域论文介绍的个人阅读库',home)
                 featured=home.split('<h2>本批新增论文</h2>',1)[1].split('</ul>',1)[0]
                 latest=builder.read_page(ROOT/'wiki/index.md')[0]['latest_papers']
                 self.assertIn('class="page-list"',featured)
