@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 34,
-    "concepts": 99,
-    "bibliographic_citation_edges": 13,
+    "papers": 35,
+    "concepts": 104,
+    "bibliographic_citation_edges": 14,
     "concept_candidates": 122
   },
   "entities": [
@@ -4704,6 +4704,141 @@
       ],
       "cites_papers": [],
       "source_sha256": "47b3934dc17e4cddcba246c6df8193fb7cef80a3ef5e4195c2f3be9c11f451fa"
+    },
+    {
+      "id": "C970cbb856ff0",
+      "canonical_name": "情感反馈",
+      "type": "概念",
+      "aliases": [
+        "affective feedback"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C970cbb856ff0.md",
+      "html_path": "concepts/C970cbb856ff0.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Affective and Cognitive Feedback for Human-attributed Failure Handling",
+          "quote": "Affective feedback offers encouragement and reassur-\nance that help protect psychological safety and interpersonal close-\nness, for example by expressing empathy, acknowledging effort, \nor downplaying blame."
+        }
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "Ccec37b68d06a",
+      "canonical_name": "认知反馈",
+      "type": "概念",
+      "aliases": [
+        "cognitive feedback"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Ccec37b68d06a.md",
+      "html_path": "concepts/Ccec37b68d06a.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Affective and Cognitive Feedback for Human-attributed Failure Handling",
+          "quote": "Cognitive feedback provides clarifications, \nprocedural cues, and corrective suggestions that help restore shared \nunderstanding of the task, align expectations, and improve task \naccuracy."
+        }
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "Ce75deb460489",
+      "canonical_name": "团队合作质量",
+      "type": "概念",
+      "aliases": [
+        "teamwork quality"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Ce75deb460489.md",
+      "html_path": "concepts/Ce75deb460489.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.4 Evaluation Components",
+          "quote": "Teamwork quality captures mutual support, responsiveness, and \ncoordination, providing insight into whether a robot contributes \nto fluid and effective collaboration [21]. It indicates whether the \ncollaborator contributes to well-aligned joint action rather than \nsimply executing isolated behaviors."
+        }
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "C6c1deed66e16",
+      "canonical_name": "感知对方共在感",
+      "type": "概念",
+      "aliases": [
+        "Perceived other’s copresence"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C6c1deed66e16.md",
+      "html_path": "concepts/C6c1deed66e16.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.4 Evaluation Components",
+          "quote": "Perceived other’s copresence refers to the subjective sense of \npsychological connection and mutual awareness during interac-\ntion [36]."
+        }
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "Cc2dc10697a13",
+      "canonical_name": "亲密感",
+      "type": "概念",
+      "aliases": [
+        "Intimacy"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cc2dc10697a13.md",
+      "html_path": "concepts/Cc2dc10697a13.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.4 Evaluation Components",
+          "quote": "Intimacy captures emotional closeness or bonding that users \nmay feel toward their collaborator [4, 20]."
+        }
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "P2f01c2cceeaf",
+      "canonical_name": "Affective and Cognitive Feedback from a Robot for Human-attributed Failure Handling",
+      "type": "论文",
+      "aliases": [
+        "机器人用于处理人类自我归责失败的情感与认知反馈"
+      ],
+      "appears_in_papers": [
+        "P2f01c2cceeaf"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P2f01c2cceeaf.md",
+      "html_path": "papers/P2f01c2cceeaf.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Affective and Cognitive Feedback from a Robot for \nHuman-attributed Failure Handling"
+        }
+      ],
+      "cites_papers": [
+        "P15"
+      ],
+      "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
     }
   ],
   "concept_candidates": [
