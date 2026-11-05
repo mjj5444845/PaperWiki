@@ -24,7 +24,8 @@ class BuildTests(unittest.TestCase):
                 self.assertIn('data-page="C080"',p16)
                 cf=(builder.OUT/'concepts/C021.html').read_text()
                 self.assertIn('katex',cf)
-                self.assertEqual(len(pages),len(json.loads((ROOT/'wiki/registry.json').read_text())['entities']))
+                registry={e['id']:e for e in json.loads((ROOT/'wiki/registry.json').read_text())['entities']}
+                self.assertEqual(len(pages),len(registry))
                 self.assertTrue(all(p['backlinks'] for p in pages.values()))
                 self.assertIn(base+'assets/style.css',(builder.OUT/'index.html').read_text())
                 home=(builder.OUT/'index.html').read_text()
@@ -37,7 +38,11 @@ class BuildTests(unittest.TestCase):
                 for pid in latest:
                     self.assertIn('href="'+base+pages[pid]['path']+'"',featured)
                     self.assertIn('<p>',featured)
-                    self.assertEqual(pages[pid]['field'],'设计研究与方法' if pid=='Pab7b29056453' else '人类与机器人交互')
+                    self.assertEqual(pages[pid]['field'],registry[pid]['field'])
+                # These established classifications are independent of the rotating featured batch.
+                for pid in ['Pab8f6542f0a6','P617c2275d969','P91ccf274c9d8','P99c2ec9e9c0e','P305e0b7caac9']:
+                    self.assertEqual(pages[pid]['field'],'人类与机器人交互')
+                self.assertEqual(pages['Pab7b29056453']['field'],'设计研究与方法')
                 redirects=json.loads((builder.OUT/'redirects.json').read_text());self.assertEqual(redirects['MTurk']['target'],'C001')
     def test_home_batch_rotates_only_on_new_publication(self):
         from automation.content import update_home_batch, split
