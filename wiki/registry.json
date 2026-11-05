@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 33,
-    "concepts": 96,
+    "papers": 34,
+    "concepts": 99,
     "bibliographic_citation_edges": 13,
     "concept_candidates": 122
   },
@@ -4614,6 +4614,96 @@
           "section": "Introduction / Methods / classification context"
         }
       ]
+    },
+    {
+      "id": "Caf2486f12c95",
+      "canonical_name": "学习情境模型",
+      "type": "概念",
+      "aliases": [
+        "Contextual Model of Learning"
+      ],
+      "appears_in_papers": [
+        "P47b3934dc17e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Caf2486f12c95.md",
+      "html_path": "concepts/Caf2486f12c95.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4.1.1",
+          "quote": "Contextual Model\nof Learning [22], which frames museum experience through the\ninteraction of Personal, Sociocultural, and Physical contexts across\nthe phases before, during, and after a visit"
+        }
+      ],
+      "source_sha256": "47b3934dc17e4cddcba246c6df8193fb7cef80a3ef5e4195c2f3be9c11f451fa"
+    },
+    {
+      "id": "Cfb95d9022a58",
+      "canonical_name": "身份相关动机",
+      "type": "概念",
+      "aliases": [
+        "Identity-related motivation"
+      ],
+      "appears_in_papers": [
+        "P47b3934dc17e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Cfb95d9022a58.md",
+      "html_path": "concepts/Cfb95d9022a58.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4.1.1",
+          "quote": "Identity-related motivation : To reflect the diverse primary\nreasons for visiting in a structured way"
+        }
+      ],
+      "source_sha256": "47b3934dc17e4cddcba246c6df8193fb7cef80a3ef5e4195c2f3be9c11f451fa"
+    },
+    {
+      "id": "Cf483eb4ee735",
+      "canonical_name": "文化分群",
+      "type": "概念",
+      "aliases": [
+        "Cultural segment"
+      ],
+      "appears_in_papers": [
+        "P47b3934dc17e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Cf483eb4ee735.md",
+      "html_path": "concepts/Cf483eb4ee735.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4.1.1",
+          "quote": "Cultural segment : An audience segmentation system widely\nused in culture and heritage organizations, characterized by cul-\ntural background and social identity"
+        }
+      ],
+      "source_sha256": "47b3934dc17e4cddcba246c6df8193fb7cef80a3ef5e4195c2f3be9c11f451fa"
+    },
+    {
+      "id": "P47b3934dc17e",
+      "canonical_name": "SiMUSation: An Interactive Visitor Experience Simulation Framework to Support Museum Exhibition Design",
+      "type": "论文",
+      "aliases": [
+        "SiMUSation：支持博物馆展览设计的交互式观众体验模拟框架",
+        "SiMUSation"
+      ],
+      "appears_in_papers": [
+        "P47b3934dc17e"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P47b3934dc17e.md",
+      "html_path": "papers/P47b3934dc17e.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "SiMUSation: An Interactive Visitor Experience Simulation\nFramework to Support Museum Exhibition Design"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "47b3934dc17e4cddcba246c6df8193fb7cef80a3ef5e4195c2f3be9c11f451fa"
     }
   ],
   "concept_candidates": [

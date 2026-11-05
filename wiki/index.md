@@ -1,14 +1,9 @@
 ---
 title: 论文百科
-updated: '2026-11-02'
-latest_batch: inbox-20261102
+updated: '2026-11-05'
+latest_batch: 20261105T183532-c412e0
 latest_papers:
-- Pab8f6542f0a6
-- P617c2275d969
-- P91ccf274c9d8
-- Pab7b29056453
-- P99c2ec9e9c0e
-- P305e0b7caac9
+- P47b3934dc17e
 ---
 
 论文百科是一个收录人机交互及相关领域论文介绍的个人阅读库，通过论文条目与基础概念条目整理研究方法、主要发现及相关知识。
