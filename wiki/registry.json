@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 35,
-    "concepts": 104,
-    "bibliographic_citation_edges": 14,
+    "papers": 36,
+    "concepts": 108,
+    "bibliographic_citation_edges": 15,
     "concept_candidates": 122
   },
   "entities": [
@@ -780,7 +780,8 @@
       ],
       "appears_in_papers": [
         "P18",
-        "P91ccf274c9d8"
+        "P91ccf274c9d8",
+        "P05f28c931eb7"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -4839,6 +4840,120 @@
         "P15"
       ],
       "source_sha256": "2f01c2cceeaf85a40cb315b15a9cc5515e505e26a0a595dbeabb32e3c3b999a7"
+    },
+    {
+      "id": "C78e54e003859",
+      "canonical_name": "终端用户编程",
+      "type": "概念",
+      "aliases": [
+        "end-user programming"
+      ],
+      "appears_in_papers": [
+        "P05f28c931eb7"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C78e54e003859.md",
+      "html_path": "concepts/C78e54e003859.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.2 Robot End-User Programming",
+          "quote": "Broadly, end-user programming (EUP) enables non-roboticists to\ncreate robot applications"
+        }
+      ],
+      "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
+    },
+    {
+      "id": "C74d26156d06a",
+      "canonical_name": "自动任务规划",
+      "type": "概念",
+      "aliases": [
+        "automated task planning"
+      ],
+      "appears_in_papers": [
+        "P05f28c931eb7"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C74d26156d06a.md",
+      "html_path": "concepts/C74d26156d06a.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Automated Task Planning",
+          "quote": "automated task\nplanning(henceforth referred to simply asplanning) is a mechanism\nbehind which a robot can autonomously decide how to execute the\ntask. Classically, planning problems consist of three components:\n(1) a set of actions that the robot can perform; (2) a set of entities\nin the robot’s environment and the relations between them; and\n(3) a goal"
+        }
+      ],
+      "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
+    },
+    {
+      "id": "C5839b29655a1",
+      "canonical_name": "执行轨迹",
+      "type": "概念",
+      "aliases": [
+        "traces"
+      ],
+      "appears_in_papers": [
+        "P05f28c931eb7"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C5839b29655a1.md",
+      "html_path": "concepts/C5839b29655a1.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Robot End-User Programming",
+          "quote": "linear sequences of steps on a timeline with no opportunity for\nbranching or looping, which we refer to astraces(short forexecu-\ntion traces)"
+        }
+      ],
+      "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
+    },
+    {
+      "id": "C497fb6eb8d14",
+      "canonical_name": "目标谓词",
+      "type": "概念",
+      "aliases": [
+        "goal predicates"
+      ],
+      "appears_in_papers": [
+        "P05f28c931eb7"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C497fb6eb8d14.md",
+      "html_path": "concepts/C497fb6eb8d14.html",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3 Phase 4: Abstract",
+          "quote": "Outcomes are represented as goal predicates."
+        }
+      ],
+      "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
+    },
+    {
+      "id": "P05f28c931eb7",
+      "canonical_name": "Distill: Uncovering the True Intent behind Human-Robot Communication",
+      "type": "论文",
+      "aliases": [
+        "Distill：揭示人类与机器人沟通背后的真实意图",
+        "Distill"
+      ],
+      "appears_in_papers": [
+        "P05f28c931eb7"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P05f28c931eb7.md",
+      "html_path": "papers/P05f28c931eb7.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Distill: Uncovering the True Intent behind Human-Robot\nCommunication"
+        }
+      ],
+      "cites_papers": [
+        "P15"
+      ],
+      "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
     }
   ],
   "concept_candidates": [

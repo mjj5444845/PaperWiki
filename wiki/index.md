@@ -3,6 +3,8 @@ title: 论文百科
 updated: '2026-11-05'
 latest_batch: 20261105T183532-c412e0
 latest_papers:
+- P05f28c931eb7
+- P47b3934dc17e
 - P2f01c2cceeaf
 ---
 
