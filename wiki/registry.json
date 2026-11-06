@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 42,
-    "concepts": 130,
+    "papers": 43,
+    "concepts": 133,
     "bibliographic_citation_edges": 18,
     "concept_candidates": 122
   },
@@ -782,7 +782,8 @@
         "P18",
         "P91ccf274c9d8",
         "P05f28c931eb7",
-        "Pea25d70e1a5f"
+        "Pea25d70e1a5f",
+        "P4e5a93573a03"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -5598,6 +5599,96 @@
         "P305e0b7caac9"
       ],
       "source_sha256": "29aac1dbe6765ae7ffdfdca2268779fc3fbe1237c6365b87e510b17f2eea602e"
+    },
+    {
+      "id": "C6516d39790d0",
+      "canonical_name": "外在认知负荷",
+      "type": "概念",
+      "aliases": [
+        "extraneous cognitive load"
+      ],
+      "appears_in_papers": [
+        "P4e5a93573a03"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C6516d39790d0.md",
+      "html_path": "concepts/C6516d39790d0.html",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "6.1 Quantitative Results",
+          "quote": "extraneous cognitive load: the avoidable effort de-\nmanded by the presentation of learning materials"
+        }
+      ],
+      "source_sha256": "4e5a93573a03bcff2b37297f82fc27f1d8557d5f55e193c7dd1d6f894dff3d3c"
+    },
+    {
+      "id": "Cc370095d205e",
+      "canonical_name": "原位投影",
+      "type": "概念",
+      "aliases": [
+        "in-situ projection"
+      ],
+      "appears_in_papers": [
+        "P4e5a93573a03"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cc370095d205e.md",
+      "html_path": "concepts/Cc370095d205e.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.3",
+          "quote": "In-situ projection is proven to support fixed-location tasks via in-\nformation overlays onto the area of operation."
+        }
+      ],
+      "source_sha256": "4e5a93573a03bcff2b37297f82fc27f1d8557d5f55e193c7dd1d6f894dff3d3c"
+    },
+    {
+      "id": "C4c93090abf88",
+      "canonical_name": "指示手势",
+      "type": "概念",
+      "aliases": [
+        "Deictic"
+      ],
+      "appears_in_papers": [
+        "P4e5a93573a03"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C4c93090abf88.md",
+      "html_path": "concepts/C4c93090abf88.html",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1 Participants and Procedure",
+          "quote": "Deictic (pointing to entities or locations)"
+        }
+      ],
+      "source_sha256": "4e5a93573a03bcff2b37297f82fc27f1d8557d5f55e193c7dd1d6f894dff3d3c"
+    },
+    {
+      "id": "P4e5a93573a03",
+      "canonical_name": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with In-Situ Projection for Guided Tours",
+      "type": "论文",
+      "aliases": [
+        "ProjecTA：用于导览的具备原位投影功能的半人形机器人教学助理",
+        "ProjecTA"
+      ],
+      "appears_in_papers": [
+        "P4e5a93573a03"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P4e5a93573a03.md",
+      "html_path": "papers/P4e5a93573a03.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "ProjecTA: A Semi-Humanoid Robotic Teaching Assistant with \nIn-Situ Projection for Guided Tours"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "4e5a93573a03bcff2b37297f82fc27f1d8557d5f55e193c7dd1d6f894dff3d3c"
     }
   ],
   "concept_candidates": [
