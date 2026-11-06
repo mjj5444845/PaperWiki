@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 37,
-    "concepts": 113,
+    "papers": 38,
+    "concepts": 116,
     "bibliographic_citation_edges": 15,
     "concept_candidates": 122
   },
@@ -3880,7 +3880,8 @@
         "P16",
         "P18",
         "P19",
-        "P20"
+        "P20",
+        "P2997cee1de11"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -5088,6 +5089,96 @@
       ],
       "cites_papers": [],
       "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "Cd79efae9db82",
+      "canonical_name": "礼貌性忽视",
+      "type": "概念",
+      "aliases": [
+        "civil inattention"
+      ],
+      "appears_in_papers": [
+        "P2997cee1de11"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cd79efae9db82.md",
+      "html_path": "concepts/Cd79efae9db82.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 Introduction",
+          "quote": "“civil inat-\ntention” [31]: we acknowledge others’ presence while carefully \navoiding any act that might be read as intrusive."
+        }
+      ],
+      "source_sha256": "2997cee1de1193faf270a33e26f3808d1cbb6c8c9142e616334168bc706834ec"
+    },
+    {
+      "id": "Cbe55a76433a8",
+      "canonical_name": "共同注意",
+      "type": "概念",
+      "aliases": [
+        "Shared attention"
+      ],
+      "appears_in_papers": [
+        "P2997cee1de11"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cbe55a76433a8.md",
+      "html_path": "concepts/Cbe55a76433a8.html",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4.6.3 H3",
+          "quote": "Shared attention, capturing episodes where both \nparticipants oriented toward the same target (e.g., robot, mirrors, \nphone, or room feature) at the same time, as evidenced by aligned \ngaze and posture"
+        }
+      ],
+      "source_sha256": "2997cee1de1193faf270a33e26f3808d1cbb6c8c9142e616334168bc706834ec"
+    },
+    {
+      "id": "C81d2ffde4d29",
+      "canonical_name": "社会空间界面",
+      "type": "概念",
+      "aliases": [
+        "socio-spatial interface"
+      ],
+      "appears_in_papers": [
+        "P2997cee1de11"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C81d2ffde4d29.md",
+      "html_path": "concepts/C81d2ffde4d29.html",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "6.1.4 From Robots to Socio-Spatial Interfaces",
+          "quote": "a socio-spatial \ninterface [36, 56]: a system that reshapes how people perceive and \ninhabit a shared environment rather than a stand-alone social agent. \nSocio-spatial interfaces work by modulating spatial relations, here \nlines of sight, reflective views, and the timing of visibility, to mediate \nsocial interaction."
+        }
+      ],
+      "source_sha256": "2997cee1de1193faf270a33e26f3808d1cbb6c8c9142e616334168bc706834ec"
+    },
+    {
+      "id": "P2997cee1de11",
+      "canonical_name": "\"When We’re Looking at the Robot, We See Each Other\": A Comparison of Robotic, Mirror-Based, and Hybrid Interventions for Stranger Interaction",
+      "type": "论文",
+      "aliases": [
+        "“当我们看着机器人时，我们看见彼此”：促进陌生人互动的机器人、镜面与混合干预比较",
+        "MirrorBot"
+      ],
+      "appears_in_papers": [
+        "P2997cee1de11"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P2997cee1de11.md",
+      "html_path": "papers/P2997cee1de11.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "\"When We’re Looking at the Robot, We See Each Other\": A \nComparison of Robotic, Mirror-Based, and Hybrid Interventions \nfor Stranger Interaction"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "2997cee1de1193faf270a33e26f3808d1cbb6c8c9142e616334168bc706834ec"
     }
   ],
   "concept_candidates": [
