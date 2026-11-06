@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 44,
-    "concepts": 137,
+    "papers": 45,
+    "concepts": 138,
     "bibliographic_citation_edges": 18,
     "concept_candidates": 122
   },
@@ -3890,7 +3890,8 @@
         "P18",
         "P19",
         "P20",
-        "P2997cee1de11"
+        "P2997cee1de11",
+        "Pf02df370ca3e"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -4321,7 +4322,8 @@
       ],
       "appears_in_papers": [
         "P617c2275d969",
-        "P305e0b7caac9"
+        "P305e0b7caac9",
+        "Pf02df370ca3e"
       ],
       "field": "人机智能交互",
       "markdown_path": "concepts/C48eef66e3989.md",
@@ -4497,7 +4499,8 @@
         "robot morphology"
       ],
       "appears_in_papers": [
-        "P305e0b7caac9"
+        "P305e0b7caac9",
+        "Pf02df370ca3e"
       ],
       "field": "交互技术与评估",
       "markdown_path": "concepts/C156874a88ab6.md",
@@ -4562,7 +4565,8 @@
       ],
       "appears_in_papers": [
         "P91ccf274c9d8",
-        "Pab7b29056453"
+        "Pab7b29056453",
+        "Pf02df370ca3e"
       ],
       "field": "研究方法",
       "markdown_path": "concepts/C091a63bc87bf.md",
@@ -4595,7 +4599,8 @@
         "P91ccf274c9d8",
         "Pab7b29056453",
         "P99c2ec9e9c0e",
-        "P305e0b7caac9"
+        "P305e0b7caac9",
+        "Pf02df370ca3e"
       ],
       "field": "人机智能交互",
       "markdown_path": "concepts/C5cb46451337d.md",
@@ -5807,6 +5812,57 @@
       ],
       "cites_papers": [],
       "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
+    },
+    {
+      "id": "C94b8d2ab625d",
+      "canonical_name": "大语言模型",
+      "type": "概念",
+      "aliases": [
+        "Large Language Model"
+      ],
+      "appears_in_papers": [
+        "Pf02df370ca3e"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C94b8d2ab625d.md",
+      "html_path": "concepts/C94b8d2ab625d.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.3 Large Language Model",
+          "quote": "Large language models are natural \nlanguage models that refer to Transformer-based architectures \ncomprising billions of parameters"
+        },
+        {
+          "page": 3,
+          "section": "2.1.3 Large Language Model",
+          "quote": "we adopt a broad \ndefinition of LLMs that encompasses pre-trained language models \n(PLMs) [52, 118, 194], as well as cutting-edge VLMs [132, 186], and \nMLLMs [84, 195]."
+        }
+      ],
+      "source_sha256": "f02df370ca3e8c76d339cdc8af8c3031305141d705d0686abc188136133a864d"
+    },
+    {
+      "id": "Pf02df370ca3e",
+      "canonical_name": "How Do We Research Human-Robot Interaction in the Age of Large Language Models? A Systematic Review",
+      "type": "论文",
+      "aliases": [
+        "大语言模型时代如何研究人类—机器人交互？一项系统综述",
+        "Sense-Interaction-Alignment"
+      ],
+      "appears_in_papers": [
+        "Pf02df370ca3e"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/Pf02df370ca3e.md",
+      "html_path": "papers/Pf02df370ca3e.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "How Do We Research Human-Robot Interaction in the Age of \nLarge Language Models? A Systematic Review"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "f02df370ca3e8c76d339cdc8af8c3031305141d705d0686abc188136133a864d"
     }
   ],
   "concept_candidates": [
