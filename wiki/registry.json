@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 39,
-    "concepts": 120,
-    "bibliographic_citation_edges": 15,
+    "papers": 40,
+    "concepts": 123,
+    "bibliographic_citation_edges": 16,
     "concept_candidates": 122
   },
   "entities": [
@@ -1917,7 +1917,8 @@
         "augmented reality"
       ],
       "appears_in_papers": [
-        "P12"
+        "P12",
+        "Pe1a21fcf0771"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P12的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -5291,6 +5292,102 @@
       ],
       "cites_papers": [],
       "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
+    },
+    {
+      "id": "Cf7a4228855d9",
+      "canonical_name": "从示范中学习",
+      "type": "概念",
+      "aliases": [
+        "Learning from Demonstration"
+      ],
+      "appears_in_papers": [
+        "Pe1a21fcf0771"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cf7a4228855d9.md",
+      "html_path": "concepts/Cf7a4228855d9.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Learning from Demonstration (LfD) allows novice users to teach \nrobots through demonstrations without coding"
+        }
+      ],
+      "source_sha256": "e1a21fcf077141153493db8c852748befdb75b4ba58e8ceb005a0193f1ac18fb"
+    },
+    {
+      "id": "Cdad8e4ab5cc9",
+      "canonical_name": "动觉示教",
+      "type": "概念",
+      "aliases": [
+        "kinesthetic teaching"
+      ],
+      "appears_in_papers": [
+        "Pe1a21fcf0771"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cdad8e4ab5cc9.md",
+      "html_path": "concepts/Cdad8e4ab5cc9.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1 Introduction",
+          "quote": "In kinesthetic teaching, a common \nmodality within LfD, users teach a robotic system by physically \nguiding its motion—moving its joints to show how a task should \nbe performed."
+        }
+      ],
+      "source_sha256": "e1a21fcf077141153493db8c852748befdb75b4ba58e8ceb005a0193f1ac18fb"
+    },
+    {
+      "id": "Cc34a22977b12",
+      "canonical_name": "机器人可操作性",
+      "type": "概念",
+      "aliases": [
+        "manipulability"
+      ],
+      "appears_in_papers": [
+        "Pe1a21fcf0771"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cc34a22977b12.md",
+      "html_path": "concepts/Cc34a22977b12.html",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.8 Measures",
+          "quote": "we used the manipu-\nlability measure [90], which reflects proximity to kinematic singu-\nlarities"
+        },
+        {
+          "page": 10,
+          "section": "4.8 Measures",
+          "quote": "Higher manipulability val-\nues indicate more dexterous and higher-quality demonstrations, \nwhereas lower values reflect reduced motion flexibility."
+        }
+      ],
+      "source_sha256": "e1a21fcf077141153493db8c852748befdb75b4ba58e8ceb005a0193f1ac18fb"
+    },
+    {
+      "id": "Pe1a21fcf0771",
+      "canonical_name": "Design and Evaluation of AR-Based Real-Time Feedback System for Kinesthetic Robot Teaching",
+      "type": "论文",
+      "aliases": [
+        "用于动觉机器人示教的增强现实实时反馈系统的设计与评估"
+      ],
+      "appears_in_papers": [
+        "Pe1a21fcf0771"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/Pe1a21fcf0771.md",
+      "html_path": "papers/Pe1a21fcf0771.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Design and Evaluation of AR-Based Real-Time Feedback System \nfor Kinesthetic Robot Teaching"
+        }
+      ],
+      "cites_papers": [
+        "P15"
+      ],
+      "source_sha256": "e1a21fcf077141153493db8c852748befdb75b4ba58e8ceb005a0193f1ac18fb"
     }
   ],
   "concept_candidates": [
