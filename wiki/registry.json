@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 38,
-    "concepts": 116,
+    "papers": 39,
+    "concepts": 120,
     "bibliographic_citation_edges": 15,
     "concept_candidates": 122
   },
@@ -2120,7 +2120,8 @@
         "P13",
         "P14",
         "P16",
-        "P18"
+        "P18",
+        "P4968d4dc02bd"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -5179,6 +5180,117 @@
       ],
       "cites_papers": [],
       "source_sha256": "2997cee1de1193faf270a33e26f3808d1cbb6c8c9142e616334168bc706834ec"
+    },
+    {
+      "id": "C3a3ad214dd70",
+      "canonical_name": "偶戏",
+      "type": "概念",
+      "aliases": [
+        "puppetry"
+      ],
+      "appears_in_papers": [
+        "P4968d4dc02bd"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C3a3ad214dd70.md",
+      "html_path": "concepts/C3a3ad214dd70.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Puppetry",
+          "quote": "it involves the manipulation of an inanimate object to simulate \nlife"
+        }
+      ],
+      "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
+    },
+    {
+      "id": "C6434b471a900",
+      "canonical_name": "具身原型设计",
+      "type": "概念",
+      "aliases": [
+        "Embodied prototyping"
+      ],
+      "appears_in_papers": [
+        "P4968d4dc02bd"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C6434b471a900.md",
+      "html_path": "concepts/C6434b471a900.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 HCI embodied design approaches",
+          "quote": "Embodied \nprototyping extends this approach through the use of low fdelity \nprops, mock-ups, or skeletal forms, allowing designers to explore \nafordances, movement, and interactional possibilities before com-\nmitting to technical implementation"
+        }
+      ],
+      "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
+    },
+    {
+      "id": "C486f97089fe0",
+      "canonical_name": "绿野仙踪法",
+      "type": "概念",
+      "aliases": [
+        "Wizard of Oz (WOz)"
+      ],
+      "appears_in_papers": [
+        "P4968d4dc02bd"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C486f97089fe0.md",
+      "html_path": "concepts/C486f97089fe0.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 HCI embodied design approaches",
+          "quote": "Wizard of Oz (WOz) methods fulfl this role, presenting users with \na system that appears complete, whilst its behaviour is covertly \ncontrolled by a human operator"
+        }
+      ],
+      "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
+    },
+    {
+      "id": "C0615a003c77b",
+      "canonical_name": "马辅助干预",
+      "type": "概念",
+      "aliases": [
+        "equine-assisted interventions (EAIs)"
+      ],
+      "appears_in_papers": [
+        "P4968d4dc02bd"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C0615a003c77b.md",
+      "html_path": "concepts/C0615a003c77b.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Research Context",
+          "quote": "inter-\nventions that involve a live horse, for humans of any age, and for any \ntherapeutic purpose"
+        }
+      ],
+      "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
+    },
+    {
+      "id": "P4968d4dc02bd",
+      "canonical_name": "Puppet Prototyping: Exploring Puppetry as a Design Method for Relational Robots",
+      "type": "论文",
+      "aliases": [
+        "偶戏原型设计：探索将偶戏用于关系型机器人的设计方法"
+      ],
+      "appears_in_papers": [
+        "P4968d4dc02bd"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P4968d4dc02bd.md",
+      "html_path": "papers/P4968d4dc02bd.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Puppet Prototyping: Exploring Puppetry as a Design Method for \nRelational Robots"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "4968d4dc02bd4c32418994f4287c6da80c428c8d10a612069f1e1757c962f4cb"
     }
   ],
   "concept_candidates": [
