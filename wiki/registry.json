@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 40,
-    "concepts": 123,
-    "bibliographic_citation_edges": 16,
+    "papers": 41,
+    "concepts": 128,
+    "bibliographic_citation_edges": 17,
     "concept_candidates": 122
   },
   "entities": [
@@ -2203,7 +2203,8 @@
         "P16",
         "P17",
         "P617c2275d969",
-        "P99c2ec9e9c0e"
+        "P99c2ec9e9c0e",
+        "P30f03f8d7536"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -2496,7 +2497,8 @@
       ],
       "appears_in_papers": [
         "P08",
-        "P305e0b7caac9"
+        "P305e0b7caac9",
+        "P30f03f8d7536"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P08的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -2831,7 +2833,8 @@
       ],
       "appears_in_papers": [
         "P14",
-        "P19"
+        "P19",
+        "P30f03f8d7536"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -5388,6 +5391,142 @@
         "P15"
       ],
       "source_sha256": "e1a21fcf077141153493db8c852748befdb75b4ba58e8ceb005a0193f1ac18fb"
+    },
+    {
+      "id": "Cd921f83efd57",
+      "canonical_name": "人工智能体",
+      "type": "概念",
+      "aliases": [
+        "artificial agent"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cd921f83efd57.md",
+      "html_path": "concepts/Cd921f83efd57.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Artificial Agents",
+          "quote": "An artificial agent is a non-human, technological system that can act \nas an interaction partner. This includes machines, robots, chatbots, \nconversational agents, virtual agents, and interactive, conversa-\ntional, and affective AIs"
+        }
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "Cbc81ddaf9ba3",
+      "canonical_name": "人工身份",
+      "type": "概念",
+      "aliases": [
+        "artificial identity"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cbc81ddaf9ba3.md",
+      "html_path": "concepts/Cbc81ddaf9ba3.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 What is Artificial Identity?",
+          "quote": "Here, we define artificial identity \nas subsuming persona: it encompasses the intended (by designers \nand engineers), projected (by users), and perceived (by humans and \nnon-human interactants) aspects of an agent, all of which evolve \nover time"
+        }
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "Cae57333ee672",
+      "canonical_name": "多具身",
+      "type": "概念",
+      "aliases": [
+        "multi-embodiment"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cae57333ee672.md",
+      "html_path": "concepts/Cae57333ee672.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Multi-Embodiment",
+          "quote": "This capac-\nity, termed multi-embodiment, allows agents to transition between \nphysical and virtual embodiments or even occupy multiple forms \nsimultaneously"
+        }
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "Cf898b7006f9a",
+      "canonical_name": "身份线索",
+      "type": "概念",
+      "aliases": [
+        "identity cues"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cf898b7006f9a.md",
+      "html_path": "concepts/Cf898b7006f9a.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Multi-Embodiment",
+          "quote": "Martin et al. [139] introduced the concept of identity cues; stable \ncharacteristics that aid recognition across embodiments and help \nusers maintain a sense of continuity. Identity cues include features \nsuch as form, appearance, name, voice, and behaviours."
+        }
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "Ca9f7e0022cd0",
+      "canonical_name": "群体实体性",
+      "type": "概念",
+      "aliases": [
+        "Entitativity"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Ca9f7e0022cd0.md",
+      "html_path": "concepts/Ca9f7e0022cd0.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Multi-Embodiment",
+          "quote": "Entitativity or \"groupness\" is also relevant for identity design \nand multi-embodiment, referring to the extent to which a group ap-\npears to be a unified whole"
+        }
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "P30f03f8d7536",
+      "canonical_name": "Designing Artificial Identity: The Identity Design Framework and Research Agenda",
+      "type": "论文",
+      "aliases": [
+        "设计人工身份：身份设计框架与研究议程",
+        "Identity Design Framework"
+      ],
+      "appears_in_papers": [
+        "P30f03f8d7536"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P30f03f8d7536.md",
+      "html_path": "papers/P30f03f8d7536.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Designing Artificial Identity: The Identity Design Framework and \nResearch Agenda"
+        }
+      ],
+      "cites_papers": [
+        "P08"
+      ],
+      "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
     }
   ],
   "concept_candidates": [
