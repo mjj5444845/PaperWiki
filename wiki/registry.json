@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 43,
-    "concepts": 133,
+    "papers": 44,
+    "concepts": 137,
     "bibliographic_citation_edges": 18,
     "concept_candidates": 122
   },
@@ -783,7 +783,8 @@
         "P91ccf274c9d8",
         "P05f28c931eb7",
         "Pea25d70e1a5f",
-        "P4e5a93573a03"
+        "P4e5a93573a03",
+        "P0a3d22fb960c"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -5689,6 +5690,123 @@
       ],
       "cites_papers": [],
       "source_sha256": "4e5a93573a03bcff2b37297f82fc27f1d8557d5f55e193c7dd1d6f894dff3d3c"
+    },
+    {
+      "id": "Ca9d785536c27",
+      "canonical_name": "数字孪生",
+      "type": "概念",
+      "aliases": [
+        "digital twins"
+      ],
+      "appears_in_papers": [
+        "P0a3d22fb960c"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Ca9d785536c27.md",
+      "html_path": "concepts/Ca9d785536c27.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Digital Twin Reconstruction for Real-World Objects",
+          "quote": "Digital twins simulating the physical-world objects"
+        }
+      ],
+      "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
+    },
+    {
+      "id": "C84ff0c10545f",
+      "canonical_name": "多模态大语言模型",
+      "type": "概念",
+      "aliases": [
+        "Multimodal Large Language Models (MLLMs)"
+      ],
+      "appears_in_papers": [
+        "P0a3d22fb960c"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C84ff0c10545f.md",
+      "html_path": "concepts/C84ff0c10545f.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.3 MLLM Grounding for the Physical World",
+          "quote": "By leveraging large-scale visual and textual corpora, MLLMs can \ngo beyond simple tasks such as object recognition, scene descrip-\ntion, and contextual queries"
+        },
+        {
+          "page": 4,
+          "section": "2.3 MLLM Grounding for the Physical World",
+          "quote": "They are also capable of \nextracting attributes of objects from an image"
+        }
+      ],
+      "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
+    },
+    {
+      "id": "C864217b0a8ca",
+      "canonical_name": "手部可供性",
+      "type": "概念",
+      "aliases": [
+        "Hand affordance"
+      ],
+      "appears_in_papers": [
+        "P0a3d22fb960c"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/C864217b0a8ca.md",
+      "html_path": "concepts/C864217b0a8ca.html",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.3.2 A3: Hand afordance generation",
+          "quote": "Hand afordance means how \nthe hand can interact with an object."
+        }
+      ],
+      "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
+    },
+    {
+      "id": "Cdb409e731fdb",
+      "canonical_name": "统一机器人描述格式",
+      "type": "概念",
+      "aliases": [
+        "URDF"
+      ],
+      "appears_in_papers": [
+        "P0a3d22fb960c"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "concepts/Cdb409e731fdb.md",
+      "html_path": "concepts/Cdb409e731fdb.html",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.2.2 Mechanical structure reconstruction",
+          "quote": "URDF describes \na joint connecting two meshes by defning a joint with its type, \nparent link (parent mesh segment that remains stationary or fxed \nin the object’s frame of reference), child link (child mesh segment \nthat moves relative to the parent link), joint position, and the range \nof motion constrained by the joint"
+        }
+      ],
+      "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
+    },
+    {
+      "id": "P0a3d22fb960c",
+      "canonical_name": "RealTwin: Concept Graph Representation and Grounding Framework for Reality-Preserving Digital Twin Reconstruction",
+      "type": "论文",
+      "aliases": [
+        "RealTwin：用于保真数字孪生重建的概念图表示与落地框架",
+        "RealTwin"
+      ],
+      "appears_in_papers": [
+        "P0a3d22fb960c"
+      ],
+      "field": "人机智能交互",
+      "markdown_path": "papers/P0a3d22fb960c.md",
+      "html_path": "papers/P0a3d22fb960c.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "RealTwin: Concept Graph Representation and Grounding \nFramework for Reality-Preserving Digital Twin Reconstruction"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "0a3d22fb960c88e0b6940ca7cdf7cfd0c24cad5835cc69bac15ca041cbe8e136"
     }
   ],
   "concept_candidates": [
