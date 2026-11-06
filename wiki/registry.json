@@ -11,9 +11,9 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 41,
-    "concepts": 128,
-    "bibliographic_citation_edges": 17,
+    "papers": 42,
+    "concepts": 130,
+    "bibliographic_citation_edges": 18,
     "concept_candidates": 122
   },
   "entities": [
@@ -1561,7 +1561,8 @@
         "P07",
         "P23",
         "Pab7b29056453",
-        "P99c2ec9e9c0e"
+        "P99c2ec9e9c0e",
+        "P29aac1dbe676"
       ],
       "inclusion_criterion": "multiple_papers",
       "inclusion_rationale": "跨论文共同概念；计数仅基于本轮明确摘录，不计同名参考文献。",
@@ -3674,7 +3675,8 @@
       ],
       "appears_in_papers": [
         "P17",
-        "Pab8f6542f0a6"
+        "Pab8f6542f0a6",
+        "P29aac1dbe676"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P17的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -5527,6 +5529,75 @@
         "P08"
       ],
       "source_sha256": "30f03f8d7536bac33752d0f5920ac7eba744a3e376c27299c53c2eb5b8bfb893"
+    },
+    {
+      "id": "Ced19d983db3f",
+      "canonical_name": "机器人运维人员",
+      "type": "概念",
+      "aliases": [
+        "robot wrangler"
+      ],
+      "appears_in_papers": [
+        "P29aac1dbe676"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Ced19d983db3f.md",
+      "html_path": "concepts/Ced19d983db3f.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "an individual who\nis responsible for setting up, overseeing, and troubleshooting the\nrobot."
+        }
+      ],
+      "source_sha256": "29aac1dbe6765ae7ffdfdca2268779fc3fbe1237c6365b87e510b17f2eea602e"
+    },
+    {
+      "id": "Caa88b8122d64",
+      "canonical_name": "服务蓝图",
+      "type": "概念",
+      "aliases": [
+        "service blueprinting"
+      ],
+      "appears_in_papers": [
+        "P29aac1dbe676"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Caa88b8122d64.md",
+      "html_path": "concepts/Caa88b8122d64.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Practicing Service Design in HCI and HRI",
+          "quote": "service blueprinting,\nin which the designer maps out the customer-facing, frontstage,\nand backstage interactions to understand the flow of interactions\nthat must occur therein"
+        }
+      ],
+      "source_sha256": "29aac1dbe6765ae7ffdfdca2268779fc3fbe1237c6365b87e510b17f2eea602e"
+    },
+    {
+      "id": "P29aac1dbe676",
+      "canonical_name": "Designing for Robot Wranglers: A Synthesis of Literature and Practice",
+      "type": "论文",
+      "aliases": [
+        "面向机器人运维人员的设计：文献与实践的综合"
+      ],
+      "appears_in_papers": [
+        "P29aac1dbe676"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/P29aac1dbe676.md",
+      "html_path": "papers/P29aac1dbe676.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Designing for Robot Wranglers: A Synthesis of Literature and\nPractice"
+        }
+      ],
+      "cites_papers": [
+        "P305e0b7caac9"
+      ],
+      "source_sha256": "29aac1dbe6765ae7ffdfdca2268779fc3fbe1237c6365b87e510b17f2eea602e"
     }
   ],
   "concept_candidates": [

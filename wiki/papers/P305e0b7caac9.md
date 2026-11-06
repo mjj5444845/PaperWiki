@@ -6,7 +6,7 @@ aliases:
 type: 论文
 field: 人类与机器人交互
 created: '2026-11-01'
-updated: '2026-11-01'
+updated: '2026-11-05'
 infobox:
   作者: Linda Onnasch、Eileen Roesler
   年份: '2021'
@@ -143,7 +143,7 @@ R2-D2的精密输入服务于导航，维修则直接处理环境；使用者给
 
 在解释喜爱度时，作者提出两条可能路径。R2-D2的宠物式交流、小于成人的身体以及需要监督的关系，可能引发照护倾向；C-3PO的成人式形态和共同完成任务的角色，则可能带来严肃、专业的期待及感知上的共享责任。它们是基于既有偏好报告和分类比较提出的事后假说，本文没有重新测量喜爱度，也没有隔离形态、角色或期待的因果贡献。[^p13]
 
-图3只突出C-3PO的同步选项，第4.1节正文还允许送信任务为异步。这一差异体现图中的代表场景与正文讨论的任务范围不同，不能把图示当成该角色全部活动的唯一编码。[^p11][^p12]
+在图3的C-3PO面板中，时间关系只突出同步选项；R2-D2面板同时突出同步与异步。第4.1节正文还允许C-3PO的送信任务为异步。这一差异体现图中的代表场景与正文讨论的任务范围不同，不能把图示当成该角色全部活动的唯一编码。[^p11][^p12]
 
 ## 应用二：拟人动作为何得到相反结果
 
@@ -178,13 +178,17 @@ Kuz场景使用虚拟单臂装配机器人，在黑白网格中放置物体，�
 
 后续研究对其使用可具体见于2026年的《Advancing a taxonomy of proxemics for socially aware robot navigation》。该研究在第4.1节及图5a分析本文三簇结构，并与其他HRI分类一起抽取、对齐变量，转用于社会导航中的空间关系分析。它同时指出，一般HRI分类不足以覆盖该领域所需的人体特征、环境限制和动态空间因素。这是针对特定任务的继承与扩展，不是证明原分类已覆盖所有HRI变量。[^later]
 
+2026年的《[[Designing for Robot Wranglers: A Synthesis of Literature and Practice]]》在服务生态背景中引用本文，讨论偶然在场并受到机器人影响的旁观者。该研究没有直接复用三簇画布作为分类码本，而是通过36篇文章的[[范围综述|范围综述]]形成人员、互动形式、目的、地点和时间五组照管分类。其分析进一步把旁观者帮助受困机器人时的干预，与维护、排障和清理等支持劳动放入同一讨论范围。[^wrangling]
+
+两项分类的区别也具体见于人的角色模块：本文将mechanic排除于实际人机互动角色之外，理由是它属于人对机器人的功能性维修；运维研究则将诊断修复缺陷列为八项目的之一，并用服务台和店员的日志排障过程加以展开。这一差别反映场景交互分类与部署支持劳动分析的范围不同，并非后续论文通过实验推翻了本文的角色划分。[^p9][^wrangling]
+
 ## 参见
 
 - [[拟人化]]
 - [[机器人形态]]
 - [[机器人自主程度|机器人自主性]]
-
 - [[A Taxonomy for Characterizing Modes of Interactions in Goal-driven, Human-robot Teams]]
+- [[Designing for Robot Wranglers: A Synthesis of Literature and Practice]]
 
 ## 参考文献
 
@@ -209,5 +213,5 @@ Kuz场景使用虚拟单臂装配机器人，在黑白网格中放置物体，�
 [^goetz]: Jennifer Goetz、Sara Kiesler、Aaron Powers（2003）。[Matching Robot Appearance and Behavior to Tasks to Improve Human-Robot Cooperation](https://www.cs.uml.edu/~holly/teaching/91550/fall2013/GoetzKieslerPowers2003.pdf)。ROMAN，55—60；§2、Study 1及讨论。
 [^parasuraman]: Raja Parasuraman、Thomas B. Sheridan、Christopher D. Wickens（2000）。[A Model for Types and Levels of Human Interaction with Automation](https://www.cs.uml.edu/~holly/91.550/papers/sheridan-autonomy.pdf)。IEEE Transactions on Systems, Man, and Cybernetics—Part A，30(3)：286—297；摘要、§III及图3。
 [^later]: [Advancing a taxonomy of proxemics for socially aware robot navigation](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1800762/full)（2026）。Frontiers in Robotics and AI；§4.1、图5a、§4.3及§7。
-
 [^history]: Linda Onnasch、Eileen Roesler（2021）。[A Taxonomy to Structure and Analyze Human–Robot Interaction](https://doi.org/10.1007/s12369-020-00666-5)，PDF物理第15页致谢、物理第17页参考文献[66]。该参考文献列出2016年前身短文，DOI：10.21934/baua:fokus20160630。
+[^wrangling]: David Porfirio、Ian McDermott、Hsin-Mei Chen、Satoru Satake、Takayuki Kanda、Thomas D. LaToza（2026）。[Designing for Robot Wranglers: A Synthesis of Literature and Practice](https://doi.org/10.1145/3800645.3813070)。PDF物理第2页§2.1、第4—6页§3.3—3.4与表1、第8—9页§4.1—4.3、第14页参考文献[50]。
