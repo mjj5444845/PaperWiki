@@ -11,8 +11,8 @@
     "redirects": "aliases redirect to canonical entity; concept takes priority over ambiguous paper short names; all aliases presently unique"
   },
   "counts": {
-    "papers": 36,
-    "concepts": 108,
+    "papers": 37,
+    "concepts": 113,
     "bibliographic_citation_edges": 15,
     "concept_candidates": 122
   },
@@ -781,7 +781,8 @@
       "appears_in_papers": [
         "P18",
         "P91ccf274c9d8",
-        "P05f28c931eb7"
+        "P05f28c931eb7",
+        "Pea25d70e1a5f"
       ],
       "inclusion_criterion": "essential_prerequisite",
       "inclusion_rationale": "理解P18的核心问题、方法或结果所需的稳定前置概念；不宣称由该论文首创。",
@@ -4954,6 +4955,139 @@
         "P15"
       ],
       "source_sha256": "05f28c931eb7b42a08ca934dae945208565a14159dd69c1de31f77ab22b9e38c"
+    },
+    {
+      "id": "Cbf71ab6b4554",
+      "canonical_name": "人—人—机器人交互",
+      "type": "概念",
+      "aliases": [
+        "Human–Human–Robot Interaction"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cbf71ab6b4554.md",
+      "html_path": "concepts/Cbf71ab6b4554.html",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Robots as Mediators of Human Group Interaction",
+          "quote": "Human–Human–Robot Interaction (HHRI) and Human–Robot– \nGroup Interaction (HRGI) research examines how robots shape \nsocial dynamics within human groups, not only by supporting tasks \nbut also by influencing how groups experience cohesion, alignment, \nand interpersonal relations."
+        }
+      ],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "Cafd4debcf8c7",
+      "canonical_name": "心理所有权",
+      "type": "概念",
+      "aliases": [
+        "psychological ownership"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/Cafd4debcf8c7.md",
+      "html_path": "concepts/Cafd4debcf8c7.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Ownership in HRI",
+          "quote": "psychological ownership, which has been \ndefined as a cognitive-affective state in which people feel a sense of \npossession and experience a target as “theirs” or as an extension of \nthe self, independent of legal ownership"
+        }
+      ],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "C047b5746def3",
+      "canonical_name": "集体心理所有权",
+      "type": "概念",
+      "aliases": [
+        "collective psychological ownership"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C047b5746def3.md",
+      "html_path": "concepts/C047b5746def3.html",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Ownership in HRI",
+          "quote": "Work on collective psychological ownership shows \nthat groups can experience a shared sense of “ours”, which is closely \ntied to social identity processes as well as self-categorization: claim-\ning something as “ours” presupposes an “us” and carries expecta-\ntions about entitlement and responsibility"
+        }
+      ],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "C1c1a8e879057",
+      "canonical_name": "群体凝聚力",
+      "type": "概念",
+      "aliases": [
+        "group cohesion"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C1c1a8e879057.md",
+      "html_path": "concepts/C1c1a8e879057.html",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.7 Hypotheses",
+          "quote": "perceived group cohesion \n(consisting of a felt sense of group belonging, group morale, \nand feelings of being included)."
+        }
+      ],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "C8bd773ddf4aa",
+      "canonical_name": "实验情境法",
+      "type": "概念",
+      "aliases": [
+        "experimental vignette method"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "concepts/C8bd773ddf4aa.md",
+      "html_path": "concepts/C8bd773ddf4aa.html",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.3 Experimental Design and Vignettes",
+          "quote": "we used the experimental vignette method (EVM). This method, \nwhich is frequently used in psychology, sociology, and educational \nresearch [2], is based on short scenarios that are presented in textual \nor audiovisual form and systematically manipulated."
+        }
+      ],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
+    },
+    {
+      "id": "Pea25d70e1a5f",
+      "canonical_name": "Who Owns the Robot Matters: How Robot Ownership Shapes Belonging and Social Roles in Human Groups",
+      "type": "论文",
+      "aliases": [
+        "谁拥有机器人很重要：机器人所有权如何塑造人类群体中的归属感与社会角色"
+      ],
+      "appears_in_papers": [
+        "Pea25d70e1a5f"
+      ],
+      "field": "人类与机器人交互",
+      "markdown_path": "papers/Pea25d70e1a5f.md",
+      "html_path": "papers/Pea25d70e1a5f.html",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "标题",
+          "quote": "Who Owns the Robot Matters: How Robot Ownership Shapes \nBelonging and Social Roles in Human Groups"
+        }
+      ],
+      "cites_papers": [],
+      "source_sha256": "ea25d70e1a5fe5c94e7503253642f0dd7d591f8d664a21d7f278c0afb6151286"
     }
   ],
   "concept_candidates": [
